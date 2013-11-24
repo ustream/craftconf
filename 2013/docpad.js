@@ -31,12 +31,12 @@ module.exports = {
         // you can also change order here and it will reflect on page
         sections: [
             'about',
-            'schedule',
+            /*'schedule',
             'speakers',
             'location',
             'tickets',
             'sponsors',
-            'organizers',
+            'organizers',*/
             'contact'
         ],
 
@@ -74,12 +74,12 @@ module.exports = {
         organizers: [
             {
                 name: "Prezi",
-                logo: "themes/stretchcon/img/prezi.jpg",
+                logo: "themes/craftconf/img/prezi.jpg",
                 url: "http://prezi.com"
             },
             {
                 name: "USTREAM",
-                logo: "themes/stretchcon/img/ustream.jpg",
+                logo: "themes/craftconf/img/ustream.jpg",
                 url: "http://ustream.com/"
             }
         ],
