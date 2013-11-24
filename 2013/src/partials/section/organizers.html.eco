@@ -1,0 +1,27 @@
+<h2 class="section-title"><%= @labels['organizers'] %></h2>
+
+<ul class="partners-list">
+<% for organizer in @organizers: %>
+  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="<%= organizer.url %>" class="partner-logo partner-link" itemprop="url">
+      <img src="<%= organizer.logo %>" alt="<%= organizer.name %>" class="photo" itemprop="image">
+    </a>
+  </li>
+<% end %>
+</ul>
+
+<ul class="speakers-list">
+<% for member in @eventorganizers: %>
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      <% if member.photo: %>
+        <span class="speaker-photo">
+          <img class="photo" src="<%= member.photo %>" alt="<%= member.name %>" itemprop="image">
+        </span>
+      <% end %>
+
+      <h3 class="speakers-name"><%= member.name %> <% if member.link: %><a href="<%= member.link.href %>" title="<%= member.link.text %>"><%= member.link.text %></a><% end %></h3>
+      <p class="speakers-company"><%= member.company %></p>
+      <p class="speakers-bio"><%= member.bio %></p>
+    </li>
+<% end %>
+</ul>

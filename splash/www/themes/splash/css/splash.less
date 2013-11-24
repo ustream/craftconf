@@ -1,0 +1,355 @@
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+html {
+	font-size: 100%;
+	height: 100%;
+}
+
+body {
+	background: #F6F6F6;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #2b2b2b;
+	height: 100%;
+}
+
+.content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.conf {
+	position: relative;
+	width: 25%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+
+	.transform(translateZ(0));
+}
+
+.conf .description {
+	opacity: 0;
+
+	-moz-transition: opacity .3s ease-out, -moz-transform .3s ease-out;
+	-webkit-transition: opacity .3s ease-out, -webkit-transform .3s ease-out;
+	transition: opacity .3s ease-out, transform .3s ease-out;
+
+	.transform(translateY(80px));
+}
+
+.conf p {
+	font-size: 13px;
+	line-height: 19px;
+	margin: 20px 40px 0 40px;
+}
+
+.conf p.head {
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.conf h2, .conf h3 {
+	line-height: 120%;
+}
+
+.conf h2 {
+	position: relative;
+	text-align: center;
+	font-weight: normal;
+	font-size: 36px;
+	margin: 0 0 0 0;
+}
+
+.conf h2 a {
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	width: 50%;
+	border-radius: 50%;
+	line-height: 0;
+	overflow: hidden;
+	background: #000000 no-repeat center center;
+	background-size: 50% 50%;
+	margin-bottom: 20px;
+	font-size: 0%;
+
+	-moz-transition: -moz-transform .3s ease-out, margin-bottom .3s ease-out;
+	-webkit-transition: -webkit-transform .3s ease-out, margin-bottom .3s ease-out;
+	transition: transform .3s ease-out, margin-bottom .3s ease-out;
+
+	.transform(scale(1));
+}
+
+.conf h2 a:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+.conf h3 {
+	position: relative;
+	text-align: center;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.stretch, .craft {
+	background: #fff;
+}
+
+.stretch h2 a {
+	background-image: url(../img/stretchLogo.png);
+	background-color: #8cc63e;
+}
+
+.stretch a {
+	color: #8cc63e;
+}
+
+.mlocjs h2 a {
+	background-image: url(../img/mlocLogo.png);
+}
+
+.mlocjs a {
+	color: #5880a9;
+}
+
+.craft h2 a {
+	background-image: url(../img/craftLogo.png);
+	background-color: #E85A32;
+}
+
+.craft a {
+	color: #E85A32;
+}
+
+.ramp h2 a {
+	background-image: url(../img/rampLogo.png);
+	background-color: #5880a9;
+}
+
+.ramp a {
+	color: #5880a9;
+}
+
+.clear {
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	overflow: hidden;
+}
+
+.conf.hover h2 a {
+	.transform(scale(.84));
+
+	margin-bottom: 8px;
+}
+
+.conf.hover .description {
+	opacity: 1;
+
+	.transform(translateY(0));
+}
+
+@media only screen and (min-width: 1281px) {
+	.conf p {
+		font-size: 15px;
+		line-height: 22px;
+	}
+
+	.conf h2 {
+		font-size: 42px;
+	}
+
+	.conf h2 a {
+		margin-bottom: 25px;
+	}
+
+	.conf.hover h2 a {
+		margin-bottom: 12px;
+	}
+
+	.conf h3 {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+
+	.conf .wrapper {
+		position: relative;
+		top: 50%;
+		margin-top: -110px;
+
+		.transition(margin-top .3s ease-out);
+	}
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.content {
+		height: auto;
+	}
+
+	.conf {
+		height: auto;
+		padding-bottom: 60px;
+	}
+
+	.conf .wrapper {
+		margin-top: 0;
+		top: 0;
+
+		.transition(none);
+	}
+
+	.conf .description {
+		.transform(translateY(0));
+
+		opacity: 1;
+
+		.transition(none);
+	}
+
+	.conf h2 {
+		margin-top: 40px;
+		font-size: 30px;
+	}
+
+	.conf h2 a {
+		.transition(none);
+	}
+
+	.conf h3 {
+		top: 0;
+		font-size: 13px;
+	}
+
+	.conf p.head {
+		margin-top: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 900px) {
+
+	.content {
+		height: auto;
+	}
+
+	.conf {
+		float: none;
+		width: auto;
+		padding-bottom: 40px;
+	}
+
+	.conf h2 {
+		font-size: 36px;
+		text-align: left;
+		margin: 40px 40px 0 40px;
+		padding-top: 15px;
+	}
+
+	.conf h2 a {
+		margin: 0 30px 0 0;
+		width: 100px;
+		float: left;
+		top: -15px;
+	}
+
+	.conf h3 {
+		text-align: left;
+		font-size: 15px;
+	}
+
+	.conf p {
+		margin: 20px 60px 0 170px;
+	}
+
+	.conf p.head {
+		margin-top: 40px;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	.content {
+		height: auto;
+	}
+
+	.conf {
+		padding-bottom: 30px;
+	}
+
+	.conf h2 {
+		font-size: 30px;
+		margin: 30px 30px 0 30px;
+		padding-top: 8px;
+	}
+
+	.conf h2 a {
+		margin: 0 15px 0 0;
+		width: 70px;
+		top: -8px;
+	}
+
+	.conf h3 {
+		font-size: 13px;
+	}
+
+	.conf p {
+		margin: 20px 30px 0 115px;
+	}
+
+	.conf p.head {
+		margin-top: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 568px) {
+
+	.content {
+		height: auto;
+	}
+
+	.conf {
+		padding-bottom: 30px;
+	}
+
+	.conf h2 {
+		font-size: 30px;
+		margin: 20px 20px 0 20px;
+		padding-top: 6px;
+	}
+
+	.conf h2 a {
+		margin: 0 15px 0 0;
+		width: 70px;
+		top: -6px;
+	}
+
+	.conf h3 {
+		font-size: 14px;
+	}
+
+	.conf p {
+		font-size: 14px;
+		line-height: 21px;
+		margin: 20px 30px 0 30px;
+	}
+
+	.conf p.head {
+		margin-top: 30px;
+	}
+
+}

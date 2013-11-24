@@ -1,0 +1,18 @@
+<!-- NAVIGATION -->
+<nav id="nav">
+  <ul class="wrapper">
+    <% for section in @sections : %>
+      <li class="nav-item">
+        <a href="index.html#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
+      </li>
+    <% end %>
+    <li class="nav-item">
+      <a href="code-of-conduct.html" class="nav-link">Code of Conduct</a>
+    </li>
+    <li class="nav-item"><a href="https://twitter.com/stretchcon" class="nav-link"><img src="themes/stretchcon/img/twitter.png" alt="Stretch on Twitter" /></a></li>
+    <li class="nav-item"><a href="https://facebook.com/stretchcon" class="nav-link"><img src="themes/stretchcon/img/facebook.png" alt="Stretch on Facebook" /></a></li>
+    <li class="nav-item"><a href="http://lanyrd.com/2013/stretchcon/" class="nav-link"><img src="themes/stretchcon/img/lanyrd.png" alt="Track Stretch on Lanyrd" /></a></li>
+  </ul>
+</nav>
+
+<hr>

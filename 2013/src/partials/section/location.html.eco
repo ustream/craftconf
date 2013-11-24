@@ -1,0 +1,21 @@
+<h2 class="section-title"><%= @labels['location'] %></h2>
+
+<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<a href="http://goo.gl/maps/HWmMn"><p>
+  <strong itemprop="name"><%= @conf.venue %></strong>
+  &mdash;
+  <span itemprop="streetAddress"><%= @conf.address %></span>,
+  <span itemprop="addressLocality"><%= @conf.city %></span>,
+  <span itemprop="addressRegion"> <%= @conf.state %></span>
+</p></a>
+<p>
+  <img class="photo" itemprop="image" src="img/urania-diszterem.jpg" alt="<%= @conf.venue %>">
+</p>
+</div>
+
+
+<p>Uránia Film Theather is located in the centre of Budapest. It was built in the 1880s as a music and dance hall. The building is a combination of Eastern Moorish and Venetian Gothic styles. It was first used as a movie theatre in 1899, when the Uránia Scientific Society hosted a presentation here, illustrated with moving pictures. The name Uránia has been used ever since.</p>
+
+<p>Uránia is not only a beautiful building but an important landmark too - this is where the first independent Hungarian feature film was shot in 1901, and where the first film screening was held after World War II. Today, Uránia is a showcase for Hungarian film, hosting several film festivals and cultural events.</p>
+
+<div id="map-canvas" class="location-area" data-address="<%= @conf.address %>, <%= @conf.city %>, <%= @conf.state %>"></div>

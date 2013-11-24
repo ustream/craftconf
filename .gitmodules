@@ -1,0 +1,3 @@
+[submodule "splash/src"]
+	path = splash/src
+	url = git@github.com:prezi/conf-splash-page.git

@@ -1,0 +1,9 @@
+desc "Deploy the site to S3"
+
+task :build do
+  system("docpad generate")
+end
+
+task :deploy do
+  system("s3cmd --config ~/.s3cfg-stretchcon sync www/* s3://stretchcon.com/2013/ --verbose")
+end

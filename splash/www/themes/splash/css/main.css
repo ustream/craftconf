@@ -1,0 +1,591 @@
+/* =============================================================================
+   RESET
+   ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0;
+  text-decoration: none;
+}
+img,
+input,
+label {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  line-height: 1em;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+blockquote {
+  margin: 1em 40px;
+}
+dfn {
+  font-style: italic;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+q {
+  quotes: none;
+}
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+small {
+  font-size: 85%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+dd {
+  margin: 0 0 0 40px;
+}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 0;
+}
+form {
+  margin: 0;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0;
+  white-space: normal;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button,
+input {
+  line-height: normal;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  *width: 13px;
+  *height: 13px;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+input:invalid,
+textarea:invalid {
+  background-color: #f0dddd;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+td {
+  vertical-align: middle;
+}
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: black;
+  padding: 0.2em 0;
+}
+header:after,
+footer:after,
+section:after,
+hgroup:after,
+aside:after,
+figure:after,
+div:after,
+ol:after,
+li:after,
+form:after,
+ul:after,
+dl:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+}
+hr {
+  display: none;
+}
+.clear {
+  clear: both;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+html {
+  font-size: 100%;
+  height: 100%;
+}
+body {
+  background: #F6F6F6;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #2b2b2b;
+  height: 100%;
+}
+.content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.conf {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.conf .description {
+  opacity: 0;
+  -moz-transition: opacity 0.3s ease-out, -moz-transform 0.3s ease-out;
+  -webkit-transition: opacity 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  -webkit-transform: translateY(80px);
+  -moz-transform: translateY(80px);
+  -ms-transform: translateY(80px);
+  -o-transform: translateY(80px);
+  transform: translateY(80px);
+}
+.conf p {
+  font-size: 13px;
+  line-height: 19px;
+  margin: 20px 40px 0 40px;
+}
+.conf p.head {
+  margin-top: 30px;
+  font-weight: bold;
+}
+.conf h2,
+.conf h3 {
+  line-height: 120%;
+}
+.conf h2 {
+  position: relative;
+  text-align: center;
+  font-weight: normal;
+  font-size: 36px;
+  margin: 0 0 0 0;
+}
+.conf h2 a {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  border-radius: 50%;
+  line-height: 0;
+  overflow: hidden;
+  background: #000000 no-repeat center center;
+  background-size: 50% 50%;
+  margin-bottom: 20px;
+  font-size: 0%;
+  -moz-transition: -moz-transform 0.3s ease-out, margin-bottom 0.3s ease-out;
+  -webkit-transition: -webkit-transform 0.3s ease-out, margin-bottom 0.3s ease-out;
+  transition: transform 0.3s ease-out, margin-bottom 0.3s ease-out;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.conf h2 a:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.conf h3 {
+  position: relative;
+  text-align: center;
+  font-weight: normal;
+  font-size: 15px;
+}
+.stretch,
+.craft {
+  background: #fff;
+}
+.stretch h2 a {
+  background-image: url(../img/stretchLogo.png);
+  background-color: #8cc63e;
+}
+.stretch a {
+  color: #8cc63e;
+}
+.mlocjs h2 a {
+  background-image: url(../img/mlocLogo.png);
+}
+.mlocjs a {
+  color: #5880a9;
+}
+.craft h2 a {
+  background-image: url(../img/craftLogo.png);
+  background-color: #E85A32;
+}
+.craft a {
+  color: #E85A32;
+}
+.ramp h2 a {
+  background-image: url(../img/rampLogo.png);
+  background-color: #5880a9;
+}
+.ramp a {
+  color: #5880a9;
+}
+.clear {
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+}
+.conf.hover h2 a {
+  -webkit-transform: scale(0.84);
+  -moz-transform: scale(0.84);
+  -ms-transform: scale(0.84);
+  -o-transform: scale(0.84);
+  transform: scale(0.84);
+  margin-bottom: 8px;
+}
+.conf.hover .description {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+@media only screen and (min-width: 1281px) {
+  .conf p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .conf h2 {
+    font-size: 42px;
+  }
+  .conf h2 a {
+    margin-bottom: 25px;
+  }
+  .conf.hover h2 a {
+    margin-bottom: 12px;
+  }
+  .conf h3 {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .conf .wrapper {
+    position: relative;
+    top: 50%;
+    margin-top: -110px;
+    -webkit-transition: margin-top 0.3s ease-out;
+    -moz-transition: margin-top 0.3s ease-out;
+    -ms-transition: margin-top 0.3s ease-out;
+    -o-transition: margin-top 0.3s ease-out;
+    transition: margin-top 0.3s ease-out;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .content {
+    height: auto;
+  }
+  .conf {
+    height: auto;
+    padding-bottom: 60px;
+  }
+  .conf .wrapper {
+    margin-top: 0;
+    top: 0;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+  .conf .description {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+  .conf h2 {
+    margin-top: 40px;
+    font-size: 30px;
+  }
+  .conf h2 a {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+  .conf h3 {
+    top: 0;
+    font-size: 13px;
+  }
+  .conf p.head {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .content {
+    height: auto;
+  }
+  .conf {
+    float: none;
+    width: auto;
+    padding-bottom: 40px;
+  }
+  .conf h2 {
+    font-size: 36px;
+    text-align: left;
+    margin: 40px 40px 0 40px;
+    padding-top: 15px;
+  }
+  .conf h2 a {
+    margin: 0 30px 0 0;
+    width: 100px;
+    float: left;
+    top: -15px;
+  }
+  .conf h3 {
+    text-align: left;
+    font-size: 15px;
+  }
+  .conf p {
+    margin: 20px 60px 0 170px;
+  }
+  .conf p.head {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .content {
+    height: auto;
+  }
+  .conf {
+    padding-bottom: 30px;
+  }
+  .conf h2 {
+    font-size: 30px;
+    margin: 30px 30px 0 30px;
+    padding-top: 8px;
+  }
+  .conf h2 a {
+    margin: 0 15px 0 0;
+    width: 70px;
+    top: -8px;
+  }
+  .conf h3 {
+    font-size: 13px;
+  }
+  .conf p {
+    margin: 20px 30px 0 115px;
+  }
+  .conf p.head {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .content {
+    height: auto;
+  }
+  .conf {
+    padding-bottom: 30px;
+  }
+  .conf h2 {
+    font-size: 30px;
+    margin: 20px 20px 0 20px;
+    padding-top: 6px;
+  }
+  .conf h2 a {
+    margin: 0 15px 0 0;
+    width: 70px;
+    top: -6px;
+  }
+  .conf h3 {
+    font-size: 14px;
+  }
+  .conf p {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 20px 30px 0 30px;
+  }
+  .conf p.head {
+    margin-top: 30px;
+  }
+}
