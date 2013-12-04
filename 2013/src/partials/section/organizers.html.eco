@@ -1,27 +1,30 @@
-<h2 class="section-title"><%= @labels['organizers'] %></h2>
+<div class="section-header inner">
+	<h1><%= @labels['organizers'] %></h1>
+	<div class="gear" data-gear="5"></div>
+</div>
 
-<ul class="partners-list">
-<% for organizer in @organizers: %>
-  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="<%= organizer.url %>" class="partner-logo partner-link" itemprop="url">
-      <img src="<%= organizer.logo %>" alt="<%= organizer.name %>" class="photo" itemprop="image">
-    </a>
-  </li>
-<% end %>
-</ul>
-
-<ul class="speakers-list">
-<% for member in @eventorganizers: %>
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      <% if member.photo: %>
-        <span class="speaker-photo">
-          <img class="photo" src="<%= member.photo %>" alt="<%= member.name %>" itemprop="image">
-        </span>
-      <% end %>
-
-      <h3 class="speakers-name"><%= member.name %> <% if member.link: %><a href="<%= member.link.href %>" title="<%= member.link.text %>"><%= member.link.text %></a><% end %></h3>
-      <p class="speakers-company"><%= member.company %></p>
-      <p class="speakers-bio"><%= member.bio %></p>
-    </li>
-<% end %>
-</ul>
+<div class="block organizers full-width">
+	<div class="inner">
+		<div class="logos">
+			<img src="./<%= @getTheme() %>/img/prezi.png" class="prezi-logo" width="130" height="59" />
+			<img src="./<%= @getTheme() %>/img/ustream.png" class="ustream-logo" width="130" height="59" />
+		</div>
+		<ul class="clr">
+		<% for member in @eventorganizers: %>
+			<li class="org-container speakers-item" itemprop="performer" itemscope="" itemtype="http://schema.org/Person" id="speakers/AndrewClayShafer">
+		      <% if member.photo: %>
+		        <span class="speaker-photo">
+					<img class="photo" width="100" height="100" src="<%= member.photo %>" alt="<%= member.name %>" itemprop="image">
+				</span>
+				<% end %>
+				<div class="head">
+					<h3 class="speakers-name"><%= member.name %></h3>
+					<span class="role"><%= member.company %></span>
+					<% if member.link: %><a href="<%= member.link.href %>" title="<%= member.link.text %>"><%= member.link.text %></a><% end %>
+				</div>
+				<div class="desc"><%= member.bio %></div>
+		    </li>
+		<% end %>
+		</ul>
+	</div>
+</div>

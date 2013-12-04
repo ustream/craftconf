@@ -1,7 +1,13 @@
-<h2 class="section-title"><%= @labels['contact'] %></h2>
-
-<p>Contact us if you have a question at <a href="mailto:hello@craftconf.com">hello@craftconf.com</a>.</p>
-
-<p>We are offerring child care for attendees coming with their kids to the conference. <a href="mailto:hello@craftconf.com">Please let us know</a> in advance if you would bring your kid.</p>
-
-<p><a href="code-of-conduct.html">We stand for a welcoming community.</a></p>
+<div class="section-header inner">
+	<h1>Contact</h1>
+	<div class="gear" data-gear="6"></div>
+</div>
+<div class="block full-width">
+	<div class="inner contact-us text">
+		Contact us if you have a question at
+		<a class="contact" href="#">hello@stretchcon.com</a>
+		We are offerring child care for attendees coming with their kids to the conference.<br/>
+		<a href="#">Please let us know</a> in advance if you would bring your kid.<br/><br/>
+		<span class="motto">We stand for a welcoming community.</span>
+	</div>
+</div>

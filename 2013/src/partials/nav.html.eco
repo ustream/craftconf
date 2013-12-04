@@ -1,16 +1,21 @@
-<!-- NAVIGATION -->
-<nav id="nav">
-  <ul class="wrapper">
-    <% for section in @sections : %>
-      <li class="nav-item">
-        <a href="index.html#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
-      </li>
-    <% end %>
-    <!-- <li class="nav-item">
-      <a href="code-of-conduct.html" class="nav-link">Code of Conduct</a>
-    </li> -->
-    <li class="nav-item"><a href="https://twitter.com/CraftConf" class="nav-link"><img src="<%= @getTheme() %>/img/twitter.png" alt="Craft on Twitter" /></a></li>
-  </ul>
-</nav>
-
-<hr>
+<div id="nav">
+	<div class="inner">
+		<a href="#about">
+			<img class="logo" src="./<%= @getTheme() %>/img/logo-small.png" width="24" height="24" />
+		</a>
+		<ul>
+			<% for section in @sections : %>
+				<% if section != 'about': %>
+				<li class="nav-item">
+					<a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
+				</li>
+				<% end %>
+			<% end %>
+		</ul>
+		<div class="share">
+			<a href="<%= @conf.twitter %>" class="twitter"></a>
+			<a href="<%= @conf.facebook %>" class="facebook"></a>
+			<a href="<%= @conf.lanyrd %>" class="lanyrd"></a>
+		</div>
+	</div>
+</div>

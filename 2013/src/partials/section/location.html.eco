@@ -1,1 +1,12 @@
-<h2 class="section-title"><%= @labels['location'] %></h2>
+<div class="section-header inner">
+	<h1><%= @labels['location'] %></h1>
+	<div class="gear" data-gear="4"></div>
+</div>
+<div class="block location inner no-padding">
+	<img src="./<%= @getTheme() %>/img/urania-diszterem.jpg" width="960" height="398" />
+	<div class="text">
+		<h1>Uránia Film Theather</h1>
+		Uránia Film Theather is located in the centre of Budapest. It was built in the 1880s as a music and dance hall. The building is a combination of Eastern Moorish and Venetian Gothic styles. It was first used as a movie theatre in 1899, when the Uránia Scientific Society hosted a presentation here, illustrated with moving pictures. The name Uránia has been used ever since.
+		Uránia is not only a beautiful building but an important landmark too - this is where the first independent Hungarian feature film was shot in 1901, and where the first film screening was held after World War II. Today, Uránia is a showcase for Hungarian film, hosting several film festivals and cultural events.
+	</div>
+</div>

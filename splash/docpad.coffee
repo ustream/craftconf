@@ -8,7 +8,7 @@ module.exports =
 
     # Conference info
     conf:
-      name: "Stretch Conference — First you grew. Now you lead."
+      name: "Craft Conference 2014 - Software Craftsmanship Matters"
       description: "Join us at Stretch in Budapest this December and get inspired by stories from leads and founders of great organisations as they talk about the challenges of leadership and management."
       date: "December 5-6, 2013"
       city: "Budapest"

@@ -1,1 +1,53 @@
-<h2 class="section-title"><%= @labels['schedule'] %></h2>
+<div class="section-header inner">
+	<h1>Schedule</h1>
+	<div class="gear" data-gear="2"></div>
+	<span>You can also track <a href="#">the conference on Lanyrd.</a></span>
+</div>
+<div class="schedule-tbl inner clr">
+	<% for @day in @schedule: %>
+	<div class="day">
+		<h1><%= @day.header %></h1>
+		<table>
+			<thead>
+				<tr>
+					<th class="schedule-time">Time</th>
+					<th class="schedule-slot">Session</th>
+				</tr>
+			</thead>
+			<tbody>
+			<% for slot, index in @day.slots: %>
+			<tr class="schedule-other">
+				<td class="schedule-time"><%- slot.time %></td>
+				<td class="schedule-slot">
+					<% if not slot.speaker: %>
+						<%- slot.title %>
+					<% else: %>
+						<%  @speaker = (speaker for speaker in @speakers when @day.header is speaker.presentation.day and speaker.presentation.time is slot.time) %>
+						<% if @speaker: %>
+							<% for speaker,index in @speaker: %>
+								<%- speaker.presentation.title %>
+								<span class="schedule-speaker">
+				                    <% if speaker.presentation.speakers: %>
+				                      <% for names, sindex in speaker.presentation.speakers: %>
+				                        <%- names %>
+				                        <% if sindex < speaker.presentation.speakers.length - 1: %>
+				                          &
+				                        <% end %>
+				                      <% end %>
+				                    <% else: %>
+				                      <%- speaker.name %>
+				                    <% end %>
+				                  (<%- speaker.company %>)
+								</span>
+							<% end %>
+						<% end %>
+					<% end %>
+				</td>
+			</tr>
+			<% end %>
+
+			</tbody>
+		</table>
+	</div>
+	<% end %>
+</div>

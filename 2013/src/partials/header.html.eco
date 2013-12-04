@@ -1,11 +1,11 @@
-<!-- HEADER -->
-<header class="header">
-  <div class="wrapper">
-    <h1 class="logo-name">
-      <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %></a>
-    </h1>
-    <h2 class="tagline"><%= @conf.date %>, <!--<%= @conf.venue %>, --><%= @conf.city %></h2>
-  </div>
-</header>
-<!--  / HEADER -->
-<hr>
+<div id="header" class="inner">
+	<div class="gear" data-gear="1"></div>
+	<div class="info">
+		<img class="logo" src="<%= @getTheme() %>/img/logo.png" width="357" height="90">
+		<div class="title">Software Craftsmanship Matters</div>
+		<div class="date">April 24-25, 2014 <span>//</span> BUDAPEST</div>
+		<a href="<%= @conf.twitter %>" id="follow">
+			@CraftConf
+		</a>
+	</div>
+</div>
