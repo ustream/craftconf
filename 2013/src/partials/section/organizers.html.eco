@@ -6,8 +6,9 @@
 <div class="block organizers full-width">
 	<div class="inner">
 		<div class="logos">
-			<img src="./<%= @getTheme() %>/img/prezi.png" class="prezi-logo" width="130" height="59" />
-			<img src="./<%= @getTheme() %>/img/ustream.png" class="ustream-logo" width="130" height="59" />
+			<% for org in @organizers: %>
+				<img src="<%= org.logo %>" class="<%= org.clss %>" alt="<%= org.name %>" width="130" height="59" />
+			<% end %>
 		</div>
 		<ul class="clr">
 		<% for member in @eventorganizers: %>
@@ -19,10 +20,10 @@
 				<% end %>
 				<div class="head">
 					<h3 class="speakers-name"><%= member.name %></h3>
-					<span class="role"><%= member.company %></span>
+					<span class="role"><%=member.role %><span class="slash">//</span><span class="company"><%= member.company %></span></span>
 					<% if member.link: %><a href="<%= member.link.href %>" title="<%= member.link.text %>"><%= member.link.text %></a><% end %>
+					<div class="desc"><%= member.bio %></div>
 				</div>
-				<div class="desc"><%= member.bio %></div>
 		    </li>
 		<% end %>
 		</ul>

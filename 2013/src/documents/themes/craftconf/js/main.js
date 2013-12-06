@@ -34,6 +34,7 @@
 
 			$(function () {
 				var gears = $(".gear"),
+					dropdown = $('#dropdown'),
 					speakers = $('.speakers-list'),
 					config = {
 						gear_1: -0.9,
@@ -43,6 +44,20 @@
 						gear_5: -1,
 						gear_6: 2
 					};
+
+				$(document.body).on('click', function (e) {
+					var target = $(e.target);
+
+					if (target.closest('#dropdown').length || target.closest('#menu').length) {
+						return;
+					}
+
+					dropdown.removeClass('opened');
+				});
+
+				$('#menu').on('click', function () {
+					dropdown.toggleClass('opened');
+				});
 
 				$(window).on('scroll', function (e) {
 					var deg = - window.scrollY * 360 / document.body.offsetHeight;

@@ -11,24 +11,28 @@
 		    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person"
 		        id="speakers/<%= speaker.anchor %>">
 
-			    <% if speaker.photo: %>
-			        <span class="speaker-photo">
-				        <img class="photo" width="100" height="100" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
-			        </span>
-			    <% end %>
+				    <% if speaker.photo: %>
+				        <span class="speaker-photo">
+					        <img class="photo" width="100" height="100" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
+				        </span>
+				    <% end %>
 
-				<h3 class="speakers-name"><%= speaker.name %> <% if speaker.link: %><a href="<%= speaker.link.href %>" title="<%= speaker.link.text %>"><%= speaker.link.text %></a><% end %></h3>
-			    <p class="speakers-company"><%= speaker.company %></p>
-				<h3 class="speech-title">
-					<% if speaker.presentation.time: %>
-						<span class="speech-time"><%= speaker.presentation.day %> &mdash; <%= speaker.presentation.time %></span>
-					<% end %>
-				<span class="title"> <%= speaker.presentation.title %></span>
-				</h3>
-			    <div class="plus-icon">
-				    <i class="vertical"></i>
-				    <i class="horizontal"></i>
-			    </div>
+					<h3 class="speakers-name"><%= speaker.name %> <% if speaker.link: %><a href="<%= speaker.link.href %>" title="<%= speaker.link.text %>"><%= speaker.link.text %></a><% end %></h3>
+				    <p class="speakers-company"><%= speaker.company %></p>
+
+				    <% if speaker.presentation.title || speaker.presentation.time: %>
+						<h3 class="speech-title">
+							<% if speaker.presentation.time: %>
+								<span class="speech-time"><%= speaker.presentation.day %> &mdash; <%= speaker.presentation.time %></span>
+							<% end %>
+						<span class="title"> <%= speaker.presentation.title %></span>
+						</h3>
+				    <% end %>
+
+				    <div class="plus-icon">
+					    <i class="vertical"></i>
+					    <i class="horizontal"></i>
+				    </div>
 				<div class="more">
 					<div class="details">
 						<h1><%= speaker.presentation.title %></h1>

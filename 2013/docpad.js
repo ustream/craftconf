@@ -34,7 +34,7 @@ module.exports = {
         // you can also change order here and it will reflect on page
         sections: [
             'about',
-            'schedule',
+            //'schedule',
             'speakers',
             //'location',
             //'tickets',
@@ -128,7 +128,6 @@ module.exports = {
 				    text: "@AndrewStellman"
 			    },
 			    presentation: {
-				    title: "Great teams start with great people, goals, and practices... but is that enough?",
 				    description: "What makes great teams great? What brings them together to build great products? Ask a product manager and a project manager, and you'll get two different answers. Ask a hardcore developer and a team lead and you'll get two more. Great teams start with great people, with leaders and visionaries who set challenging and elevating goals, and tough-minded organizers who choose the right practices to build quality software. But is this enough to make a great product? What does it take to make a team gel into a truly collaborative mindset? Find out how great teams are built in this engaging talk from the bestselling O'Reilly author of <i>Beautiful Teams</i>.",
 				    day: "Day 1 (Thursday)",
 				    time: "11:00 - 12:40"
@@ -149,7 +148,6 @@ module.exports = {
 				    title: "Great teams start with great people!",
 				    description: "What makes great teams great? What brings them together to build great products? Ask a product manager and a project manager, and you'll get two different answers. Ask a hardcore developer and a team lead and you'll get two more. Great teams start with great people, with leaders and visionaries who set challenging and elevating goals, and tough-minded organizers who choose the right practices to build quality software. But is this enough to make a great product? What does it take to make a team gel into a truly collaborative mindset? Find out how great teams are built in this engaging talk from the bestselling O'Reilly author of <i>Beautiful Teams</i>.",
 				    day: "Day 2 (Friday)",
-				    time: "10:00 - 10:40"
 			    }
 		    },
 
@@ -164,18 +162,17 @@ module.exports = {
 				    text: "@AndrewStellman"
 			    },
 			    presentation: {
-				    title: "Great teams start with great people!",
 				    description: "What makes great teams great? What brings them together to build great products? Ask a product manager and a project manager, and you'll get two different answers. Ask a hardcore developer and a team lead and you'll get two more. Great teams start with great people, with leaders and visionaries who set challenging and elevating goals, and tough-minded organizers who choose the right practices to build quality software. But is this enough to make a great product? What does it take to make a team gel into a truly collaborative mindset? Find out how great teams are built in this engaging talk from the bestselling O'Reilly author of <i>Beautiful Teams</i>.",
 				    day: "Day 2 (Friday)",
-				    time: "10:40 - 11:50"
 			    }
 		    }
 		],
 
 	    eventorganizers: [
 		    {
-			    name: "Medea Baccifava, event organizer",
+			    name: "Medea Baccifava",
 			    photo: "themes/craftconf/img/medeabaccifava.jpg",
+			    role: 'event organizer',
 			    bio: "I am an innovative professional working in advisory and international marketing positions in Europe and Asia. In current position at Prezi, I deliver small- and large-scale projects, from optimization to communication, handling international events like mloc.js, RAMP and Stretch.",
 			    company: "Prezi",
 			    link: {
@@ -184,7 +181,8 @@ module.exports = {
 			    },
 		    },
 		    {
-			    name: "Gábor Török, program chair, chief organizer",
+			    name: "Gábor Török",
+			    role: 'program chair, chief organizer',
 			    photo: "themes/craftconf/img/gabortorok.jpg",
 			    bio: "I'm engineer manager at Prezi. I work on creating company culture and scaling engineering. I enjoy working in agile teams. I'm passionate about process improvements, continuous delivery and acceptance test driven development, and people management. I strongly believe knowledge belongs to everyone hence I regularly organise tech meetups in Budapest to help people share ideas.",
 			    company: "Prezi",
@@ -194,7 +192,8 @@ module.exports = {
 			    },
 		    },
 		    {
-			    name: "Gergely Hodicska, program committee",
+			    name: "Gergely Hodicska",
+			    role: 'program committee',
 			    photo: "themes/craftconf/img/gergelyhodicska.jpg",
 			    bio: "I am the Senior Engineering Manager at Ustream and I oversee all site, streaming, and infrastructure teams. Early on, I specialized in building and operating large scale web applications, including the design and development of several Alexa Top 100 sites. Nowadays I focus on improving the way we develop at Ustream, creating effective processes and building a culture where our engineers can not just continuously deliver but also continuously improve. I strongly believe in teamwork, devops and lifelong learning.",
 			    company: "Ustream",
@@ -217,13 +216,15 @@ module.exports = {
         organizers: [
             {
                 name: "Prezi",
-                logo: "themes/craftconf/img/prezi.jpg",
-                url: "http://prezi.com"
+                logo: "themes/craftconf/img/org_Prezi_logo.svg",
+                url: "http://prezi.com",
+	            clss: "prezi-logo"
             },
             {
                 name: "USTREAM",
-                logo: "themes/craftconf/img/ustream.jpg",
-                url: "http://ustream.com/"
+                logo: "themes/craftconf/img/org_Ustream_logo.svg",
+                url: "http://ustream.tv/",
+	            clss: "ustream-logo"
             }
         ],
 
