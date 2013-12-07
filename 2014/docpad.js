@@ -11,7 +11,7 @@ module.exports = {
             name: "Craft Conference",
             tagline: "Craftsmanship conference",
             description: "CRAFT is about craftsmanship in software companies, which tools, methods, practices should be part of the toolbox of a modern developer and company. You can learn the most important topics from the best speakers and practitioners in our community.",
-            date: "April 24-25, 2014",
+            date: "April 23-25, 2014",
             price: "",
             venue: "",
             address: "",
