@@ -18,6 +18,7 @@ module.exports = {
             city: "Budapest",
             state: "Hungary",
 	        twitter: "https://twitter.com/CraftConf",
+	        twitter_account: "@CraftConf",
 	        facebook: "",
 	        lanyrd: ""
         },
