@@ -12,15 +12,21 @@
 				<% end %>
 			</ul>
 			<div class="share">
-				<a href="<%= @conf.twitter %>" class="twitter">
-					<img src="./<%= @getTheme() %>/img/header_twitter.svg">
-				</a>
-				<a href="<%= @conf.facebook %>" class="facebook">
-					<img src="./<%= @getTheme() %>/img/header_facebook.svg">
-				</a>
-				<a href="<%= @conf.lanyrd %>" class="lanyrd">
-					<img src="./<%= @getTheme() %>/img/header_lanyrd.svg">
-				</a>
+				<% if @conf.twitter: %>
+					<a href="<%= @conf.twitter %>" class="twitter">
+						<img src="./<%= @getTheme() %>/img/header_twitter.svg">
+					</a>
+				<% end %>
+				<% if @conf.facebook: %>
+					<a href="<%= @conf.facebook %>" class="facebook">
+						<img src="./<%= @getTheme() %>/img/header_facebook.svg">
+					</a>
+				<% end %>
+				<% if @conf.lanyrd: %>
+					<a href="<%= @conf.lanyrd %>" class="lanyrd">
+						<img src="./<%= @getTheme() %>/img/header_lanyrd.svg">
+					</a>
+				<% end %>
 			</div>
 		</div>
 		<div id="menu">
