@@ -87,16 +87,17 @@
 
 			speakers.on('click', 'li', function (e) {
 				var target = $(e.target).closest('li'),
-					more = target.find('.more');
+					more = target.find('.more'),
+					speechInfo = target.find('.speech-info');
 
 				target.siblings('.opened').removeClass('opened').find('.more').height(0);
 				target.toggleClass('opened');
 
 				if (target.hasClass('opened')) {
-					target.find('.speech-title').height(24);
+					speechInfo.height(24);
 					more.height(more.find('.details').outerHeight());
 				} else {
-					target.find('.speech-title').height((target.find('.title').outerHeight() || target.find('.speech-time').outerHeight()) + 10);
+					speechInfo.height(target.find('.speech-title').outerHeight());
 					more.height(0);
 				}
 			});

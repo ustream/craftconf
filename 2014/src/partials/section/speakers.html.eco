@@ -21,12 +21,14 @@
 				    <p class="speakers-company"><%= speaker.company %></p>
 
 				    <% if speaker.presentation.title || speaker.presentation.time: %>
-						<h3 class="speech-title">
-							<% if speaker.presentation.time: %>
-								<span class="speech-time"><%= speaker.presentation.day %> &mdash; <%= speaker.presentation.time %></span>
-							<% end %>
-						<span class="title"> <%= speaker.presentation.title %></span>
-						</h3>
+			            <div class="speech-info">
+							<h3 class="speech-title">
+								<% if speaker.presentation.time: %>
+									<span class="speech-time"><%= speaker.presentation.day %> &mdash; <%= speaker.presentation.time %></span>
+								<% end %>
+							<span class="title"> <%= speaker.presentation.title %></span>
+							</h3>
+			            </div>
 				    <% end %>
 
 				    <div class="plus-icon">
