@@ -10,6 +10,9 @@
 					</li>
 					<% end %>
 				<% end %>
+				<li class="nav-item">
+					<a href="#CodeOfConduct" title="Code of Conduct" class="nav-link">Code of Conduct</a>
+				</li>
 			</ul>
 			<div class="share">
 				<% if @conf.twitter: %>
