@@ -1,7 +1,7 @@
-// 21 Dez 2012, 4:42
 ;(function ($, window, document) {
-	'use strict';
-	({
+	var app = {
+		body: $(document.body),
+
 		animateScroll : function () {
 			$("#nav").on('click', 'a', function (event) {
 
@@ -30,15 +30,6 @@
 		},
 
 		setupGearAnimation: function () {
-			window.requestAnimFrame = (function(){
-				return  window.requestAnimationFrame       ||
-					window.webkitRequestAnimationFrame ||
-					window.mozRequestAnimationFrame    ||
-					function( callback ){
-						window.setTimeout(callback, 1000 / 60);
-					};
-			})();
-
 			var gears = $(".gear"),
 				config = {
 					gear_1: -0.9,
@@ -48,6 +39,15 @@
 					gear_5: -1,
 					gear_6: 2
 				};
+
+			window.requestAnimFrame = (function(){
+				return  window.requestAnimationFrame       ||
+					window.webkitRequestAnimationFrame ||
+					window.mozRequestAnimationFrame    ||
+					function( callback ){
+						window.setTimeout(callback, 1000 / 60);
+					};
+			})();
 
 			$(window).on('scroll', function (e) {
 				var deg = - window.scrollY * 360 / document.body.offsetHeight;
@@ -67,13 +67,15 @@
 		setupDropdown: function () {
 			var dropdown = $('#dropdown');
 
-			$(document.body).on('click', function (e) {
+			this.body.on('click', function (e) {
 				var target = $(e.target);
 
-				if (target.closest('#dropdown').length || target.closest('#menu').length) {
-					return;
+				if (!target.closest('#dropdown').length && !target.closest('#menu').length) {
+					dropdown.removeClass('opened');
 				}
+			});
 
+			$('.nav-item a').on('click', function () {
 				dropdown.removeClass('opened');
 			});
 
@@ -90,9 +92,14 @@
 					more = target.find('.more'),
 					speechInfo = target.find('.speech-info');
 
-				target.siblings('.opened').removeClass('opened').find('.more').height(0);
+				//Close opened speakers
+				target.siblings('.opened')
+					.removeClass('opened')
+					.find('.more').height(0);
+
 				target.toggleClass('opened');
 
+				//Open/Close our current one
 				if (target.hasClass('opened')) {
 					speechInfo.height(24);
 					more.height(more.find('.details').outerHeight());
@@ -104,15 +111,20 @@
 		},
 
 		init : function () {
-			var that = this;
+			//Skip scroll animation on touch devices
+			if(!(('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch)) {
+				this.setupGearAnimation();
+			} else {
+				this.body.addClass('touch');
+			}
 
-			$(function () {
-				that.setupGearAnimation();
-				that.setupDropdown();
-				that.setupSpeakerList();
-
-				that.animateScroll();
-			});
+			this.setupDropdown();
+			this.setupSpeakerList();
+			this.animateScroll();
 		}
-	}).init();
+	};
+
+	$(function () {
+		app.init();
+	});
 } (jQuery, window, document));

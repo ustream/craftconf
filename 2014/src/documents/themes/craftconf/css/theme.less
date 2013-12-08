@@ -577,6 +577,10 @@ ul {
 	opacity: 0;
 }
 
+.touch .speakers-item .plus-icon {
+	opacity: 1;
+}
+
 .speakers-item .speech-info {
 	overflow: hidden;
 	display: block;
@@ -686,7 +690,7 @@ ul {
 }
 
 .gear.dark {
-	background: url('../img/gear_dark.svg') no-repeat;
+	background-image: url('../img/gear_dark.svg');
 }
 
 #header .gear {
@@ -728,20 +732,21 @@ ul {
 	#dropdown {
 		position: absolute;
 		top: 100%;
-		right: -100%;
 		background: #303030;
 		width: 200px;
 		border-top: 1px solid #3b3b39;
 
-		-webkit-transform: translateZ(0);
-		-moz-transform: translateZ(0);
-		transform: translateZ(0);
+		-webkit-transform: translateX(100%);
+		-moz-transform: translateX(100%);
+		transform: translateX(100%);
 
 		.transition(all .3s ease-in-out);
 	}
 
 	#dropdown.opened {
-		right: 0;
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		transform: translateX(0);
 	}
 
 	.nav-item {
@@ -870,7 +875,7 @@ ul {
 		height: 618px;
 		margin-left: -309px;
 		margin-top: -309px;
-		background-size: 618px !important;
+		background-size: 618px;
 	}
 
 	.section-header {
