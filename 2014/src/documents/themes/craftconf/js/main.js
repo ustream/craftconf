@@ -108,12 +108,42 @@
 					more.height(0);
 				}
 			});
+
+			$('.featured a').on('click', $.proxy(function (e) {
+				var href = $(e.target).attr('href').replace('#', ''),
+					elem = $('[id="' + href + '"]');
+
+				e.preventDefault();
+
+				this.body.animate({
+					scrollTop: elem.offset().top - 80
+				});
+
+				window.location.hash = href;
+			}, this));
+		},
+
+		improveScrolling: function () {
+			var timer,
+				speakers = $('#speakers');
+
+			$(window).on('scroll', $.proxy(function () {
+				clearTimeout(timer);
+				if(!speakers.hasClass('disable-hover')) {
+					speakers.addClass('disable-hover')
+				}
+
+				timer = setTimeout($.proxy(function(){
+					speakers.removeClass('disable-hover')
+				} , this), 200);
+			}, this));
 		},
 
 		init : function () {
 			//Skip scroll animation on touch devices
 			if(!(('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch)) {
 				this.setupGearAnimation();
+				this.improveScrolling();
 			} else {
 				this.body.addClass('touch');
 			}

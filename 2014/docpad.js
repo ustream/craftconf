@@ -448,7 +448,7 @@ module.exports = {
 		    },
 		    {
 			    anchor: "MateNadasdi",
-			    name: "Máté Nádasdi",
+			    name: "Mate Nadasdi",
 			    photo: "themes/craftconf/img/speakers/MateNadasdi.png",
 			    bio: "<p>Mate is a Front-end Developer at Ustream in the Site Core team who lives in Budapest. Before joining the real fight of the web, he studied Computer Science at the Eötvös Lóránd University, and worked some years as a full stack developer coding in ObjC, PHP and JavaScript. In the past years he has focussed his attention mainly on large scale client side architecture and front-end performance. He is a passionate lover of JavaScript and a maniac of the innovative web.</p>",
 			    company: "Ustream",
