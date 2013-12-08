@@ -457,7 +457,7 @@ module.exports = {
 				    text: "@matenadasdi"
 			    },
 			    presentation: {
-				    title: "It is never too late to drop your legacy",
+				    title: "It's never too late to fight your legacy!",
 				    // description: "",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
