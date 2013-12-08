@@ -22,6 +22,7 @@
 	</div>
 	<div class="text">
 		<h1>CRAFT is about craftsmanship, which tools, methods, practices should be part of the toolbox of a modern developer and company, and it is compass on new technologies, trends. You can learn from the best speakers and practitioners in our community.</h1>
+		<h1>On April 24-25 we will have speaker sessions and April 23 will be a full day workshop day. The currently confirmed workshops: Dan North - <a href="http://dannorth.net/courses/accelerated-agile/">Accelerated Agile</a> and Gojko Adzic - <a href="http://neuri.co.uk/impact_mapping_workshop.html">Impact mapping</a>.</h1>
 		The ticket registration will start soon, it will be announced on <a href="<%= @conf.twitter %>"><%= @conf.twitter_account %></a>
 	</div>
 </div>
