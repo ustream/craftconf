@@ -121,7 +121,7 @@ module.exports = {
 			    anchor: "AlvaroVidela",
 			    name: "Alvaro Videla",
 			    photo: "themes/craftconf/img/speakers/AlvaroVidela.png",
-			    bio: "<p>Alvaro Videla works as Developer Advocate for RabbitMQ/Pivotal. Before moving to Europe he used to work in Shanghai where he helped building one of Germany biggest dating websites. He co-authored the book \"RabbitMQ in Action\" for Manning Publishing. Some of his open source projects can be found here: <a href=\"http://github.com/videlalvaro\">http://github.com/videlalvaro.</a> Apart from code related stuff he likes traveling with his wife, listening/playing music and reading books. You can find him on Twitter as @old_sound.</p>",
+			    bio: "<p>Alvaro Videla works as Developer Advocate for RabbitMQ/Pivotal. Before moving to Europe he used to work in Shanghai where he helped building one of Germany's biggest dating websites. He co-authored the book \"RabbitMQ in Action\" for Manning Publishing. Some of his open source projects can be found here: <a href=\"http://github.com/videlalvaro\">http://github.com/videlalvaro.</a> Apart from code related stuff he likes traveling with his wife, listening/playing music and reading books. You can find him on Twitter as @old_sound.</p>",
 			    company: "Pivotal Inc.",
 			    link: {
 				    href: "http://twitter.com/old_sound",
@@ -450,7 +450,7 @@ module.exports = {
 			    anchor: "MateNadasdi",
 			    name: "Mate Nadasdi",
 			    photo: "themes/craftconf/img/speakers/MateNadasdi.png",
-			    bio: "<p>Mate is a Front-end Developer at Ustream in the Site Core team who lives in Budapest. Before joining the real fight of the web, he studied Computer Science at the Eötvös Lóránd University, and worked some years as a full stack developer coding in ObjC, PHP and JavaScript. In the past years he has focussed his attention mainly on large scale client side architecture and front-end performance. He is a passionate lover of JavaScript and a maniac of the innovative web.</p>",
+			    bio: "<p>Mate is a Front-end Developer in the Site Core team at Ustream. Before joining the real fight of the web, he studied Computer Science at the Eötvös Lóránd University, and worked some years as a full stack developer coding in ObjC, PHP and JavaScript. In the past years he has focussed his attention mainly on large scale client side architecture and front-end performance. He is a passionate lover of JavaScript and a maniac of the innovative web.</p>",
 			    company: "Ustream",
 			    link: {
 				    href: "http://twitter.com/matenadasdi",
