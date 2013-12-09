@@ -248,8 +248,8 @@ module.exports = {
 			    }
 		    },
 		    {
-			    anchor: "Daniel Posch",
-			    name: "DanielPosch",
+			    anchor: "DanielPosch",
+			    name: "Daniel Posch",
 			    photo: "themes/craftconf/img/speakers/DanielPosch.png",
 			    bio: "<p>Daniel Posch is a programmer from California, originally from Vienna, Austria. While studying computer science at Stanford, he joined Addepar, a financial technology startup. Now graduated, he is still helping build the Addepar platform, and started Scramble.io, an open-source project to make encrypted email easy for everyone.</p>",
 			    company: "Addepar",
@@ -274,8 +274,8 @@ module.exports = {
 			    }
 		    },
 		    {
-			    anchor: "Dominic Tarr",
-			    name: "DominicTarr",
+			    anchor: "DominicTarr",
+			    name: "Dominic Tarr",
 			    photo: "themes/craftconf/img/speakers/DominicTarr.png",
 			    bio: "<p>Dominic is a self-styled \"Mad Scientist\" of javascript, most well known for his work on <a href=\"https://github.com/dominictarr/through\">streams</a> and real-time <a href=\"https://github.com/dominictarr/scuttlebutt\">distributed systems</a>, but is now getting into javascript database development with <a href=\"https://github.com/dominictarr/level-sublevel\">leveldb</a>. Dominic is happily being fed by irish development house / mad-science laboratory, nearform.</p>",
 			    company: "",
