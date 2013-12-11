@@ -431,6 +431,10 @@ module.exports = {
 				    text: "jeckstein.com"
 			    },
 			    presentation: {
+				    title: "Complex Projects aren't planable but controllable",
+				    // description: "",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -448,9 +452,9 @@ module.exports = {
 		    },
 		    {
 			    anchor: "MateNadasdi",
-			    name: "Mate Nadasdi",
+			    name: "Máté Nádasdi",
 			    photo: "themes/craftconf/img/speakers/MateNadasdi.png",
-			    bio: "<p>Mate is a Front-end Developer in the Site Core team at Ustream. Before joining the real fight of the web, he studied Computer Science at the Eötvös Lóránd University, and worked some years as a full stack developer coding in ObjC, PHP and JavaScript. In the past years he has focussed his attention mainly on large scale client side architecture and front-end performance. He is a passionate lover of JavaScript and a maniac of the innovative web.</p>",
+			    bio: "<p>Mate is a Front-end Developer at Ustream in the Site Core team who lives in Budapest. Before joining the real fight of the web, he studied Computer Science at the Eötvös Lóránd University, and worked some years as a full stack developer coding in ObjC, PHP and JavaScript. In the past years he has focussed his attention mainly on large scale client side architecture and front-end performance. He is a passionate lover of JavaScript and a maniac of the innovative web.</p>",
 			    company: "Ustream",
 			    link: {
 				    href: "http://twitter.com/matenadasdi",
@@ -556,9 +560,9 @@ module.exports = {
 		    },
 		    {
 			    anchor: "SzabolcsSzabolcsiToth",
-			    name: "Szabolcs Szabolcsi-Toth",
+			    name: "Szabolcs Szabolcsi-Tóth",
 			    photo: "themes/craftconf/img/speakers/tothszabolcs.png",
-			    bio: "<p></p>",
+			    bio: "<p>Szabolcs is a Senior Front-end Developer at Ustream in Budapest. Before joining Ustream, he got his degree in Engineering Information Technology at PTE PMMK, then worked for five years at one of the largest online media agencies in Hungary. At Ustream he works on core functionalities, frameworks, embedded viewers on desktop and mobile, and lately, converting the framework to an asynchronous operation, shifting user experience towards a single-page application.</p>",
 			    company: "Ustream",
 			    link: {
 				    href: "http://twitter.com/_nec",
@@ -612,6 +616,10 @@ module.exports = {
 				    text: "@girlie_mac"
 			    },
 			    presentation: {
+				    title: "The State of Mobile HTML5",
+				    // description: "",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
