@@ -128,6 +128,10 @@ module.exports = {
 				    text: "@old_sound"
 			    },
 			    presentation: {
+				    title: "Building a Distributed Data Ingestion System with RabbitMQ",
+				    // description: "",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -271,6 +275,10 @@ module.exports = {
 				    text: "@ongardie"
 			    },
 			    presentation: {
+				    title: "Using Raft for Small-Scale Coordination and Large-Scale Replication",
+				    // description: "",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
