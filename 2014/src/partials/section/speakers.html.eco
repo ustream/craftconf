@@ -39,7 +39,7 @@
 				<div class="more">
 					<div class="details">
 						<h1><%= speaker.presentation.title %></h1>
-						<p><%- speaker.presentation.description %></p>
+						<span><%- speaker.presentation.description %></span>
 						<div class="speakers-bio"><%- speaker.bio %></div>
 					</div>
 				</div>
