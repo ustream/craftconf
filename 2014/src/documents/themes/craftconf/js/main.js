@@ -108,6 +108,8 @@
 					speechInfo.height(target.find('.speech-title').outerHeight());
 					more.height(0);
 				}
+
+				window.location.hash = 'speakers/' + target.find('.speaker-link').attr('id');
 			});
 
 			$('.featured a').on('click', $.proxy(function (e) {
@@ -125,7 +127,6 @@
 				setTimeout($.proxy(function () {
 					this.navigateToSpeaker(id);
 				}, this), 0);
-
 
 				window.location.hash = href;
 			}, this));
@@ -151,7 +152,7 @@
 			var hash = window.location.hash,
 				matches = hash.match(/#speakers\/(.*)/);
 
-			if (matches[1]) {
+			if (matches && matches[1]) {
 				setTimeout($.proxy(function () {
 					this.navigateToSpeaker(matches[1]);
 				}, this), 10);
