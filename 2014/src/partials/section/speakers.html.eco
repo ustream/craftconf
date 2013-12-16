@@ -10,7 +10,7 @@
 		  <% if speaker.presentation: %>
 		    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
 
-			    <span class="speaker-link" id="speakers/<%= speaker.anchor %>"></span>
+			    <span class="speaker-link" id="<%= speaker.anchor %>"></span>
 
 			    <% if speaker.photo: %>
 			        <span class="speaker-photo">

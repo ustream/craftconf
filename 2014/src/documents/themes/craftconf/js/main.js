@@ -15,6 +15,7 @@
 				if (linkSplits.length < 2) {
 					return true;
 				}
+
 				linkTarget = '#' + linkSplits[1];
 
 				event.preventDefault();
@@ -110,14 +111,21 @@
 			});
 
 			$('.featured a').on('click', $.proxy(function (e) {
-				var href = $(e.target).attr('href').replace('#', ''),
-					elem = $('[id="' + href + '"]');
+				var href = $(e.target).attr('href'),
+					id = href.replace('#speakers/', '');
 
 				e.preventDefault();
 
-				this.body.animate({
-					scrollTop: elem.offset().top - 80
-				});
+				$('.speakers-list li')
+					.addClass('notransition')
+					.removeClass('opened')
+					.find('.more').height(0)
+					.removeClass('notransition');
+
+				setTimeout($.proxy(function () {
+					this.navigateToSpeaker(id);
+				}, this), 0);
+
 
 				window.location.hash = href;
 			}, this));
@@ -139,6 +147,27 @@
 			}, this));
 		},
 
+		handleHash: function () {
+			var hash = window.location.hash,
+				matches = hash.match(/#speakers\/(.*)/);
+
+			if (matches[1]) {
+				setTimeout($.proxy(function () {
+					this.navigateToSpeaker(matches[1]);
+				}, this), 10);
+			}
+		},
+
+		navigateToSpeaker: function (id) {
+			var speaker = $('#' + id);
+
+			this.body.animate({
+				scrollTop: speaker.offset().top - 80
+			});
+
+			speaker.trigger('click');
+		},
+
 		init : function () {
 			//Skip scroll animation on touch devices
 			if(!(('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch)) {
@@ -151,6 +180,7 @@
 			this.setupDropdown();
 			this.setupSpeakerList();
 			this.animateScroll();
+			this.handleHash();
 		}
 	};
 
