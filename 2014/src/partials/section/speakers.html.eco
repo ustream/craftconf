@@ -8,33 +8,34 @@
 		<ul class="speakers-list">
 		<% for speaker in @speakers: %>
 		  <% if speaker.presentation: %>
-		    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person"
-		        id="speakers/<%= speaker.anchor %>">
+		    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
 
-				    <% if speaker.photo: %>
-				        <span class="speaker-photo">
-					        <img class="photo" width="100" height="100" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
-				        </span>
-				    <% end %>
+			    <span class="speaker-link" id="speakers/<%= speaker.anchor %>"></span>
 
-					<h3 class="speakers-name"><%= speaker.name %> <% if speaker.link: %><a href="<%= speaker.link.href %>" title="<%= speaker.link.text %>"><%= speaker.link.text %></a><% end %></h3>
-				    <p class="speakers-company"><%= speaker.company %></p>
+			    <% if speaker.photo: %>
+			        <span class="speaker-photo">
+				        <img class="photo" width="100" height="100" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
+			        </span>
+			    <% end %>
 
-				    <% if speaker.presentation.title || speaker.presentation.time: %>
-			            <div class="speech-info">
-							<h3 class="speech-title">
-								<% if speaker.presentation.time: %>
-									<span class="speech-time"><%= speaker.presentation.day %> &mdash; <%= speaker.presentation.time %></span>
-								<% end %>
-							<span class="title"> <%= speaker.presentation.title %></span>
-							</h3>
-			            </div>
-				    <% end %>
+				<h3 class="speakers-name"><%= speaker.name %> <% if speaker.link: %><a href="<%= speaker.link.href %>" title="<%= speaker.link.text %>"><%= speaker.link.text %></a><% end %></h3>
+			    <p class="speakers-company"><%= speaker.company %></p>
 
-				    <div class="plus-icon">
-					    <i class="vertical"></i>
-					    <i class="horizontal"></i>
-				    </div>
+			    <% if speaker.presentation.title || speaker.presentation.time: %>
+		            <div class="speech-info">
+						<h3 class="speech-title">
+							<% if speaker.presentation.time: %>
+								<span class="speech-time"><%= speaker.presentation.day %> &mdash; <%= speaker.presentation.time %></span>
+							<% end %>
+						<span class="title"> <%= speaker.presentation.title %></span>
+						</h3>
+		            </div>
+			    <% end %>
+
+			    <div class="plus-icon">
+				    <i class="vertical"></i>
+				    <i class="horizontal"></i>
+			    </div>
 				<div class="more">
 					<div class="details">
 						<h1><%= speaker.presentation.title %></h1>
