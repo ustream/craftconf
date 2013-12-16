@@ -129,7 +129,7 @@ module.exports = {
 			    },
 			    presentation: {
 				    title: "Building a Distributed Data Ingestion System with RabbitMQ",
-				    // description: "",
+				    description: "Your company has servers distributed around the world and you need to process data in a centralised location. The data is produced by applications using different technology stacks and comes from various sources, from web servers to sensors. How could you solve this problem? Enter RabbitMQ.<br><br>In this talk we are going to show how to build a system that can ingest data produced at separate geo located areas (think AWS and it's many regions) and replicate it to a central cluster where it can be further processed and analysed.<br><br>We will present an example of how to build a system like this one by using RabbitMQ Federation to replicate data across AWS Regions and RabbitMQ support for many protocols to produce/consume data.<br><br>To help with scalability we are going to show an interesting way to implement sharded queues with RabbitMQ by using the Consistent Hash Exchange.<br><br>If you want to learn what else has RabbitMQ to offer beyond simple messaging and queueing, then this is the talk for you.<br><br><b>Talk objective:</b> Our goal is to show that over the years RabbitMQ has gone way beyond a \"simple\" AMQP server to be able to have federated brokers, HA queues and support for many protocols and languages.<br><br><b>Target Audience:</b><ul><li>Developers interested in building a data ingestion platform that span many locations across the world.<li>Developers that have built these kind of solutions already but are interested in learning about alternatives.<li>Developers interested in RabbitMQ and Messaging in general.</ul>",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
 			    }
@@ -171,6 +171,10 @@ module.exports = {
 				    text: "@ashedryden"
 			    },
 			    presentation: {
+				    title: "Open source isn't for everyone, but it could be",
+				    description: "The state of diversity in open source contributions is abysmal. With the number of female OSS contributors at a shockingly low 1.5% and other groups not even documented, we need to ask what we can be doing better as a community. We’ll discuss the barriers that people face contributing to our open source projects and what we can do to increase participation.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -223,6 +227,10 @@ module.exports = {
 				    text: "@istweetingcool"
 			    },
 			    presentation: {
+				    title: "Scaling Facebook for Android",
+				    description: "In the past year, Facebook for Android has moved from a primarily webview based app to an almost entirely native experience. It has transitioned from being built by a small team to a distributed development model where product teams are responsible for their features. And it has grown to be used by well over a hundred million users a day, distributed across devices with orders of magnitude differences in capabilities.<br><br>This talk describes the technical and cultural challenges associated with making these transitions while continuing to ship a fast and lightweight app. We will describe changes we made to each step of the process of committing code, building, testing and releasing our apps to make sure we avoided regressions and measured improvements. We will describe an analytics framework that lets us measure and optimize various performance metrics, and make the costs of features visible to product teams. And we will talk about how we applied these lessons to write a set of core libraries and abstractions that make it easier to distribute development without hurting overall performance of the app. The talk will draw on real examples from a broad set of performance metrics such as startup time, data usage, disk usage, app size, battery consumption etc.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -262,6 +270,10 @@ module.exports = {
 				    text: "@dcposch"
 			    },
 			    presentation: {
+				    title: "Browser Cryptography: Pros, Cons, and a way forward",
+				    // description: "",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -292,6 +304,10 @@ module.exports = {
 				    text: "@dominictarr"
 			    },
 			    presentation: {
+				    title: "There is no such thing as a general purpose database",
+				    // description: "",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -318,6 +334,10 @@ module.exports = {
 				    text: "@feross"
 			    },
 			    presentation: {
+				    title: "WebTorrent: Bringing BitTorrent to the Web with WebRTC and Mad Science",
+				    // description: "",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -331,6 +351,10 @@ module.exports = {
 				    text: "@garethr"
 			    },
 			    presentation: {
+				    title: "Continuous integration for Infrastructure",
+				    // description: "",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -383,6 +407,10 @@ module.exports = {
 				    text: "@jmhodges"
 			    },
 			    presentation: {
+				    title: "Distributed Systems in Production",
+				    description: "In the field, distributed systems are the new norm. This talk discusses tactics and strategy for productionizing distributed systems with a little bit about what the future will hold.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -423,7 +451,7 @@ module.exports = {
 			    },
 			    presentation: {
 				    title: "Going Reactive: Event-Driven, Scalable, Resilient & Responsive Systems",
-				    // description: "",
+				    description: "The demands and expectations for applications have changed dramatically in recent years. Applications today are deployed on a wide range of infrastructure; from mobile devices up to thousands of nodes running in the cloud—all powered by multi-core processors. They need to be rich and collaborative, have a real-time feel with millisecond response time and should never stop running. Additionally, modern applications are a mashup of external services that need﻿ to be consumed and composed to provide the features at hand.<br><br>We are seeing a new type of applications emerging to address these new challenges—these are being called Reactive Applications. In this talk we will discuss four key traits of Reactive; Event-Driven, Scalable, Resilient and Responsive—how they impact application design, how they interact, their supporting technologies and techniques, how to think when designing and building them—all to make it easier for you and your team to Go Reactive.",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
 			    }
@@ -440,7 +468,7 @@ module.exports = {
 			    },
 			    presentation: {
 				    title: "Complex Projects aren't planable but controllable",
-				    // description: "",
+				    description: "Science has finally approved it: Forecasting complex projects is a deception. Moreover, forecasts hinder innovations. Daniel Kahneman, Nobel Prize Winner in Economic Sciences and psychologist verified in many cases, that forecasting of complex projects is impossible. Yet still, we keep losing time trying to do exactly that. Beyond Budgeting came empirically to the same findings and offers a concept for controlling corporations without budgets. Additionally Beyond Budgeting provides advice for controlling even long-term complex projects. Agile methodologies generally recommend developing a long-term plan on a coarse-grained level only and coming up with detailed short-term plans iteratively. In this talk I want to provide insights in the latest scientific research and show as well how Beyond Budgeting and Agile principles can be combined so that even complex projects remain controllable.<br><br><b>Learning objectives:</b><ul><li>Understand why forecasting complex projects is impossible<li>Become acquainted with the core ideas of Beyond Budgeting<li>Understand how Beyond Budgeting can be applied on Agile projects</ul>",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
 			    }
@@ -499,6 +527,10 @@ module.exports = {
 				    text: "@mtnygard"
 			    },
 			    presentation: {
+				    title: "Cooperating when the fur flies",
+				    description: "There's nothing like a crisis to remove artificial barriers. In this session, Michael will present an experience report about development and operations coming together after a failed launch. Aside from the fun of sharing war stories and comparing scars, what can we learn about climbing out of a crater after the worst has already happened? Can we capture the special magic of a firefighting mission during more sedate times? Beyond all of that, come find out how to stay out of the crater to begin with.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -538,6 +570,10 @@ module.exports = {
 				    text: "@simonbrown"
 			    },
 			    presentation: {
+				    title: "Agility and the essence of software architecture",
+				    description: "On one hand the software development industry is pushing forward, reinventing the way that we build software, striving for agility and craftsmanship at every turn. On the other though, we're continually forgetting the good of the past and software teams are still failing on an alarmingly regular basis. Software architecture plays a pivotal role in the delivery of successful software yet it’s often neglected. Whether performed by one person or shared amongst the team, the software architecture role exists on even the most agile of teams yet the balance of up front and evolutionary thinking often reflects aspiration rather than reality. By steering away from big up front design and ivory tower architects, many teams now struggle to create a consistent, shared technical vision to work from. This can result in chaos, big balls of mud or software that still fails to meet its goals, despite continuous user involvement.<br><br>This talk will explore the importance of software architecture and the consequences of not thinking about it, before introducing some lightweight techniques to bring the essence of software architecture back into an agile environment. We'll look at creating a shared vision within the development team, effectively communicating that vision and managing technical risk. I'll also share the strategies that I've used to introduce these techniques into agile teams, even those that didn't think that they needed them. Expect collaboration, sketching and plenty of gamestorming.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -625,7 +661,7 @@ module.exports = {
 			    },
 			    presentation: {
 				    title: "The State of Mobile HTML5",
-				    // description: "",
+				    description: "\"Mobile web is dead\" - We have seen this sensational title on tech articles and blogs numerous times. And we, web developers have been trying to defend the web for past years without much success.<br><br>In the beginning of last year, I showcased the capabilities of the Web platform and the real-life use cases of HTML5 in mobile by writing a camera application using W3C HTML5 standards and JavaScript. Although some of the obscure APIs may have surprised web developers how much HTML5 can do, the web app was still nowhere close to be perfect, or cross-browser compatible. Now, one year has passed since, and how have browsers been improved? New proposals? What are still missing, and what do we need to do to stop the obnoxious tech writes from writing the obituaries of HTML5?",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
 			    }
@@ -641,6 +677,10 @@ module.exports = {
 				    text: "@LeHoff"
 			    },
 			    presentation: {
+				    title: "Erlang Patterns Matching Business Needs",
+				    description: "In this talk we will present a number of common patterns from Erlang systems and how these patterns relates to business needs.<br><br>Most of the patterns revolve around the notion of how failure is handled and we will discuss how active treatment of failure leads to better options for the product owner when it comes to prioritising fixes and new features.<br><br>By modelling the patterns using OPM (Object-Process Methodology) we get a new way of talking about Erlang systems and architectures, which will make our thoughts and insights easier to share.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -654,6 +694,10 @@ module.exports = {
 				    text: "@wimgtr"
 			    },
 			    presentation: {
+				    title: "When dynamic becomes static : the next step in web caching techniques",
+				    description: "Tools like Varnish can improve scalability for static sites, but when user-specific content is needed, a hit to the backend is still needed, causing scalability issues. We'll look at a new Nginx module which implements a fast and scalable solution to this problem, changing the way developers think about designing sites with user-specific content. We'll go into how the module works and we'll put the old and new setups head-to-head to showcase the performance and scalability differences.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		],
