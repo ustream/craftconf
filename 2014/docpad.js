@@ -398,6 +398,10 @@ module.exports = {
 				    text: "@iansrobinson"
 			    },
 			    presentation: {
+				    title: "Graph Search: The Power of Connected Data",
+				    description: "Today's complex data is big, variably-structured and densely connected. In this talk I'll look at how size, structure and connectedness have converged to change the way we work with data. I'll then look at some of the new opportunities for creating end-user value that have emerged in a world of connected data, illustrated with graph search examples implemented using the Neo4j graph database.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -441,6 +445,10 @@ module.exports = {
 				    text: "@botchagalupe"
 			    },
 			    presentation: {
+				    title: "Alice In Wonderland - Is the Network the Next Frontier for Devops? Devops and Networking",
+				    description: "Around 6 years ago I started working with some tools that focused on software engineering collaboration and automation for operations. At the time products like CFEngine and Puppet were the two main tools promoting this new way of doing operations and sharing within operations and software development. A year later Chef was born and I was fortunate enough to join Opscode as the 9th employee as an evangelist preaching this disruptive form of collaboration and automation. At the time a majority of IT infrastructure was managed by what I called the \"Bob’s\" of the world. Bob’s scripts, Bob’s directories and Bob to death do us part. Trying to explain to Bob the benefits of collaboration and software engineering principles was a hard fought battle over the years. One of the compelling events that helped propel these ideas (what we now call Devops) was cloud computing. Fast forward to 2013 and these infrastructure automation and collaboration battles still exist but the battles are far less bloody. Now a new war is emerging in the Network operations and engineering space. The same argument for network operations adopting these principles has always been the same as system ops; however, now the new compelling event is the virtualization of the network. Software Defined Networks is a lot of buzz, but the reality is that many network operations and engineering groups are dealing with an influx of highly virtualized tooling like OpenVswitch, Openflow, OpenDaylight and NSX. Configuration tools are starting to get more sophisticated on these virtualized systems doing things like automated VLAN to Port mapping and basic system hardening. Chef and Puppet both have introduced primitives supporting platforms like Arista, Juniper and Cumulus Networks. Help me start the discussion of what Devops and the Network really mean.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -565,6 +573,10 @@ module.exports = {
 				    text: "@rachellaycock"
 			    },
 			    presentation: {
+				    title: "Implementing Continuous Delivery: Adjusting your Architecture",
+				    // description: "",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
