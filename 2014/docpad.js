@@ -611,6 +611,10 @@ module.exports = {
 				    text: "@edlich"
 			    },
 			    presentation: {
+				    title: "Persistence: A view from Stratosphere",
+				    description: "This talk is on one hand a presentation of the latest big data systems and approaches as Google Spanner, Presto, etc. and on the other hand a venture prediction of the future of persistence and data analytics. It covers data formats - the next wave after JSON? -, and  general directions of the NoSQL / NewSQL space. It briefly includes the earlier diverge and todays convergence of the database world. This leads to public guidelines how to avoid drowning in tons of persistence solutions all promising adventures in Alice wonderland. But you should take a step back and have a look at architectures that are able to handle big data, fast data streaming, analytics, semistructured / unstructured data and many more requirements. Decent out of the box solutions are still missing. And finally it's no secret that big data analytic questions are often severe in terms of scaling. But the shapes of the next generation systems in this space are visible and will be illustrated.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
