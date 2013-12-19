@@ -711,7 +711,7 @@ module.exports = {
 			    anchor: "WimGodden",
 			    name: "Wim Godden",
 			    photo: "themes/craftconf/img/speakers/WimGodden.png",
-			    bio: "<p>Wim Godden is the owner and lead architect at Cu.be Solutions. He has been working with open source technologies since 1997 and has been involved in open source projects such as phpAdsNew/OpenX. Next to PHP, he’s worked with a wide range of technologies (from database clusters to Internet backbone design) and focuses a lot of his time on high-scalability projects and on coaching/training PHP engineers.</p>",
+			    bio: "<p>Wim Godden has been working with open source technologies since 1997 and has been involved in open source projects such as OpenX and PHPCompatibility. Next to web development, he's worked with a wide range of technologies (from database clusters to Internet backbone design) and focuses a lot of his time on high-scalability projects and on coaching/training web engineers.</p>",
 			    company: "Cu.be Solutions",
 			    link: {
 				    href: "http://twitter.com/wimgtr",
