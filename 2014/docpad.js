@@ -321,6 +321,10 @@ module.exports = {
 				    text: "crockford.com"
 			    },
 			    presentation: {
+				    title: "Managing Asynchronicity with RQ",
+				    description: "Turn based servers are now joining turn based browsers in providing race-free and deadlock-free interactivity. The event-driven model has long been popular in UI systems, but the nature of work in servers presents some new challenges. Functional programming provides solutions, including monads, arrows, promises, and various flavors of FRP. This is another such solution, intended to enhance ease of use with constructs that support parallel and sequential operations.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
