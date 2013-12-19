@@ -389,6 +389,8 @@ module.exports = {
 				    text: "@gojkoadzic"
 			    },
 			    presentation: {
+				    title: "How I Learned to Stop Worrying and Love Flexible Scope",
+				    description: "Not fixing scope too far in the future is one of the cornerstones of agile delivery, but it is at the same time the thing that enterprise stakeholders fear the most. Ironically, being able to change decisions after delivery starts is one of the biggest benefits that companies can get from agile delivery, so it's necessary to stop worrying and embrace flexible scope to get the full benefits of an iterative process. In this talk, Gojko Adzic will show you how to convince people to embrace flexible scope, not only for startup environments but for big enterprise projects as well."
 			    }
 		    },
 		    {
