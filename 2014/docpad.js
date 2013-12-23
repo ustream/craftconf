@@ -217,6 +217,23 @@ module.exports = {
 			    }
 		    },
 		    {
+			    anchor: "ChadFowler",
+			    name: "Chad Fowler",
+			    photo: "themes/craftconf/img/speakers/ChadFowler.png",
+			    bio: "<p>Chad Fowler is an internationally known software developer, trainer, manager, speaker, and musician. Over the past decade he has worked with some of the world’s largest companies and most admired software developers. Chad is CTO of 6Wunderkinder. He is the author or co-author of a number of popular software books, including Rails Recipes and The Passionate Programmer: Creating a Remarkable Career in Software Development.</p>",
+			    company: "6Wunderkinder",
+			    link: {
+				    href: "http://twitter.com/chadfowler",
+				    text: "@chadfowler"
+			    },
+			    presentation: {
+				    // title: "Scaling Facebook for Android",
+				    // description: "In the past year, Facebook for Android has moved from a primarily webview based app to an almost entirely native experience. It has transitioned from being built by a small team to a distributed development model where product teams are responsible for their features. And it has grown to be used by well over a hundred million users a day, distributed across devices with orders of magnitude differences in capabilities.<br><br>This talk describes the technical and cultural challenges associated with making these transitions while continuing to ship a fast and lightweight app. We will describe changes we made to each step of the process of committing code, building, testing and releasing our apps to make sure we avoided regressions and measured improvements. We will describe an analytics framework that lets us measure and optimize various performance metrics, and make the costs of features visible to product teams. And we will talk about how we applied these lessons to write a set of core libraries and abstractions that make it easier to distribute development without hurting overall performance of the app. The talk will draw on real examples from a broad set of performance metrics such as startup time, data usage, disk usage, app size, battery consumption etc.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
+			    }
+		    },
+		    {
 			    anchor: "ChaitanyaMishra",
 			    name: "Chaitanya Mishra",
 			    photo: "themes/craftconf/img/speakers/ChaitanyaMishra.png",
@@ -338,8 +355,8 @@ module.exports = {
 				    text: "@feross"
 			    },
 			    presentation: {
-				    title: "WebTorrent: Bringing BitTorrent to the Web with WebRTC and Mad Science",
-				    // description: "",
+				    title: "WebTorrent: Using WebRTC and Mad Science to Bring BitTorrent to the Web",
+				    description: "WebRTC changes everything! For the first time, we can do peer-to-peer, or client-to-client, communication in the browser without plugins, extensions, or a software installation. This enables an entirely new class of applications to be built for the web! This talk will look at WebTorrent, a BitTorrent client for the browser that fully-interoperates with the regular BitTorrent network. WebTorrent uses WebRTC Data Channels and special \"hybrid clients\" to connect to the wider BitTorrent network. By making BitTorrent easier, we're making it accessible to new swathes of users who were previously intimidated, confused, or unwilling to install a program on their computer to participate.",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
 			    }
@@ -382,7 +399,7 @@ module.exports = {
 			    anchor: "GojkoAdzic",
 			    name: "Gojko Adzic",
 			    photo: "themes/craftconf/img/speakers/GojkoAdzic.png",
-			    bio: "<p>Gojko Adzic is a strategic software delivery consultant who works with ambitious teams to improve the quality of their software products and processes. He specialises in agile and lean quality improvement, in particular agile testing, specification by example and behaviour driven development. Gojko is the author of the Impact Mapping book. His previous book, Specification by Example, was awarded the #2 spot on the top 100 agile books for 2012 and won the Jolt Award for the best book of 2012. In 2011, he was voted by peers as the most influential agile testing professional, and his blog won the UK agile award for the best online publication in 2010.</p>",
+			    bio: "<p>Gojko Adzic is a strategic software delivery consultant who works with ambitious teams to improve the quality of their software products and processes. He specialises in agile and lean quality improvement, in particular agile testing, specification by example and behaviour driven development. Gojko is the author of the <a href=\"http://impactmapping.org/book\">Impact Mapping</a> book. His previous book, <a href=\"http://specificationbyexample.com/\">Specification by Example</a>, was awarded the <a href=\"http://www.noop.nl/2012/08/top-100-agile-books-edition-2012.html\">#2 spot on the top 100 agile books for 2012</a> and won the <a href=\"http://www.drdobbs.com/joltawards/jolt-awards-the-best-books/240007480?pgno=7\">Jolt Award</a> for the best book of 2012. In 2011, he was voted by peers as the <a href=\"http://www.agiletestingdays.com/award.php\">most influential agile testing professional</a>, and his blog won the <a href=\"http://connectionsagileservices.co.uk/stylesheet.asp?file=617_winners_2010_uk_agile_awards\">UK agile award for the best online publication</a> in 2010.</p>",
 			    company: "Neuri Consulting LLP",
 			    link: {
 				    href: "http://twitter.com/gojkoadzic",
@@ -391,6 +408,21 @@ module.exports = {
 			    presentation: {
 				    title: "How I Learned to Stop Worrying and Love Flexible Scope",
 				    description: "Not fixing scope too far in the future is one of the cornerstones of agile delivery, but it is at the same time the thing that enterprise stakeholders fear the most. Ironically, being able to change decisions after delivery starts is one of the biggest benefits that companies can get from agile delivery, so it's necessary to stop worrying and embrace flexible scope to get the full benefits of an iterative process. In this talk, Gojko Adzic will show you how to convince people to embrace flexible scope, not only for startup environments but for big enterprise projects as well."
+			    }
+		    },
+		    {
+			    anchor: "GregYoung",
+			    name: "Greg Young",
+			    photo: "themes/craftconf/img/speakers/GregYoung.png",
+			    bio: "<p>Greg Young is an independent consultant and entrepreneur. He is always involved with many concurrent projects, currently these include building out a distributed event store and mighty moose (a continuous test runner). For periods of years Greg has been known to stop living anywhere and just travel.</p>",
+			    company: "",
+			    link: {
+				    href: "http://twitter.com/gregyoung",
+				    text: "@gregyoung"
+			    },
+			    presentation: {
+				    // title: "How I Learned to Stop Worrying and Love Flexible Scope",
+				    // description: "Not fixing scope too far in the future is one of the cornerstones of agile delivery, but it is at the same time the thing that enterprise stakeholders fear the most. Ironically, being able to change decisions after delivery starts is one of the biggest benefits that companies can get from agile delivery, so it's necessary to stop worrying and embrace flexible scope to get the full benefits of an iterative process. In this talk, Gojko Adzic will show you how to convince people to embrace flexible scope, not only for startup environments but for big enterprise projects as well."
 			    }
 		    },
 		    {
