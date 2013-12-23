@@ -158,6 +158,10 @@ module.exports = {
 				    text: ""
 			    },
 			    presentation: {
+				    title: "The SCRUM and the willpower: how to boost your productivity",
+				    description: "Willpower is the force that is between the brain activity (I want to do this or I need to do this) and the action itself (start coding). If there is not enough willpower, people find it difficult to start any activity (especially that involves concentration an decision making). The willpower is not endless (so-called muscle theory of willpower), it can be saved, it can be trained, there are approaches how to keep the willpower level high. To keep the willpower (and thus, productivity) on the high level, people should know and use different approaches that lay in the field on the social and cognitive science. There are a lot of evidences that SCRUM improves the developer’s productivity in terms of speed of development, code quality, and accuracy of design. Unfortunately mainly all recommendations from SCRUM coaches look like “believe me, if you do this, you will have better velocity”. Yes, it works. But why does it work? Sometimes SCRUM does not give such great results even when main elements are in place. The question “Why” and “What makes the difference” is here again. I will describe the model of relationship between the willpower related brain metabolism on very low level (specific amino acid cycle) and the SCRUM practices. I can prove that SCRUM addresses the productivity of the people’s brain using 3 different flows simultaneously. There are several tips that make these productivity flows working or not. You can make Agile productive, you can have non-productive Agile. I will show you where the difference is. Overall there are 10 productivity tips that can be put into 3 flows. As the outcome of this session, Agile coaches, and all people who can change the process (in fact that is any team member) will review their SCRUM: does the way they have it improve the productivity or they are losing all the power? The changes are cheap, the outcome can be huge.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -692,6 +696,10 @@ module.exports = {
 				    text: "@postwait"
 			    },
 			    presentation: {
+				    title: "Responsibly maximizing craftsmanship in software engineering",
+				    // description: "",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
