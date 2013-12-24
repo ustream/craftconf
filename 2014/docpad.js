@@ -145,6 +145,10 @@ module.exports = {
 				    text: "@caseorganic"
 			    },
 			    presentation: {
+				    title: "Getting Things Done at Scale",
+				    description: "Getting things done is different at scale. After Case's company Geoloqi joined Esri in 2012, she grew her division from 6-20 people, and successfully launched two major products in the course of a year. She also managed the transition of the company to Github from Enterprise and spearheaded an effort for more open source projects. This speech will cover what Case learned from managing a team of 6 to managing a team of 20 in an international company of 3,000. It will detail hiring, morale, culture, and translating what you need to do into a language the larger team can understand, and what changes from 2 people to 6, to 20 and more.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
