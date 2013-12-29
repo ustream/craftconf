@@ -179,7 +179,7 @@
 				this.body.addClass('touch');
 			}
 
-			$(window).on('hashchange', $.proxy(this.handleHash, this));
+			//$(window).on('hashchange', $.proxy(this.handleHash, this));
 
 			this.setupDropdown();
 			this.setupSpeakerList();
