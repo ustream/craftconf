@@ -25,7 +25,7 @@
 		<a href="#speakers/TomomiImura">Tomomi Imura</a>
 	</div>
 	<div class="text">
-		<h1>CRAFT is about software craftsmanship, which tools, methods, practices should be part of the toolbox of a modern developer and company, and it is a compass on new technologies, trends. You can learn from the best speakers and practitioners in our community.</h1>
+		<h1 class="grey">CRAFT is about software craftsmanship, which tools, methods, practices should be part of the toolbox of a modern developer and company, and it is a compass on new technologies, trends. You can learn from the best speakers and practitioners in our community.</h1>
 		<h1 class="grey">
 			April 23 will be a <a href="#workshops">workshop day</a>.
 			<br>On April 24-25 we will have <a href="#speakers">speaker sessions</a>.
