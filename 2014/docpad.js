@@ -574,31 +574,31 @@ module.exports = {
 			    }
 		    },
 		    {
-			    anchor: "MateNadasdi",
+			    anchor: "NatPryceSteveFreeman",
 			    coSpeakers: [
 				    {
-					    name: "Máté Nádasdi",
-					    company: "Ustream",
+					    name: "Nat Pryce",
+					    company: "Independent Consultant",
 					    link: {
-						    href: "http://twitter.com/matenadasdi",
-						    text: "@matenadasdi"
+						    href: "http://twitter.com/natpryce",
+						    text: "@natpryce"
 					    },
-					    bio: "<p>Mate is a Front-end Developer at Ustream in the Site Core team who lives in Budapest. Before joining the real fight of the web, he studied Computer Science at the Eötvös Lóránd University, and worked some years as a full stack developer coding in ObjC, PHP and JavaScript. In the past years he has focussed his attention mainly on large scale client side architecture and front-end performance. He is a passionate lover of JavaScript and a maniac of the innovative web.</p>"
+					    bio: "<p>After completing his PhD at Imperial College, Nat Pryce joined a dot-com just in time to ride the bust. Since then he has worked as a programmer, architect, trainer, and consultant in a variety of industries, including sports reportage, marketing communications, retail, telecoms, and finance. He has also worked on academic research projects and does occasional university teaching. An early adopter of XP, he has written or contributed to several open source libraries and tools that support TDD and was one of the founding organizers of the London XP Day conference. He also regularly presents at international conferences. Nat is based in London, UK.</p>"
 				    },
 				    {
-					    name: "Paul Irish",
-					    company: "Google",
+					    name: "Steve Freeman",
+					    company: "Higher Order Logic",
 					    link: {
-						    href: "http://twitter.com/matenadasdi",
-						    text: "@paulirish"
+						    href: "http://twitter.com/sf105",
+						    text: "@sf105"
 					    },
-					    bio: "Fooooo! Barrrr!"
+					    bio: "<p>Steve Freeman, author of Growing Object Oriented Software, Guided by Tests (Addison-Wesley), was a pioneer of Agile software development in the UK. He has developed software for a range of institutions, from small vendors to multinational investment banks. Steve trains and consults for software teams around the world. Previously, he has worked in research labs and software houses, earned a PhD (Cambridge), written shrink-wrap applications for IBM, and taught at University College London. Steve is a presenter and organiser at international industry conferences, and was chair of the first London XpDay.</p>"
 				    }
 			    ],
 			    photo: "themes/craftconf/img/speakers/SteveFreeman.png",
 			    presentation: {
-				    title: "It's never too late to fight your legacy!",
-				    description: "Science has finally approved it: Forecasting complex projects is a deception. Moreover, forecasts hinder innovations. Daniel Kahneman, Nobel Prize Winner in Economic Sciences and psychologist verified in many cases, that forecasting of complex projects is impossible. Yet still, we keep losing time trying to do exactly that. Beyond Budgeting came empirically to the same findings and offers a concept for controlling corporations without budgets. Additionally Beyond Budgeting provides advice for controlling even long-term complex projects. Agile methodologies generally recommend developing a long",
+				    title: "Building on SOLID Foundations",
+				    description: "Why can’t we just add a feature to our system without tearing the code apart or, worse, patching around it? It ought to take just a few lines. We know the code is supposed to be modular and coherent, but too often it just doesn’t turn out that way.<br><br>We don’t believe it should be this hard to change object-oriented systems. We’ve seen examples where it really is that easy to add a new feature. The difference seems to be in the intermediate level structure. The design principles that most programmers rely on don’t address the middle ground where the complexity lies. We know about principles and patterns at the small scale, such as SOLID, and the large scale, such as REST. We’re less familiar with the structures in the middle.<br><br>This talk is about design principles that we’ve learned help us develop mid-scale code structures that are easy to read and easy to change. At the lowest level, this means well-known patterns such as avoiding globals and following SOLID guidelines. At larger scales, this means assembling those SOLID objects to avoid hidden coupling so that the system as a whole is amenable to change. We focus on how objects fit together and communicate, and on being clear about how capabilities and information flow between objects in the running system.",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
 			    }
