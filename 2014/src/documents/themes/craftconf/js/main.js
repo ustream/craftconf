@@ -91,6 +91,7 @@
 			speakers.on('click', 'li', function (e) {
 				var target = $(e.target).closest('li'),
 					more = target.find('.more'),
+					link = target.find('.speaker-link'),
 					speechInfo = target.find('.speech-info');
 
 				//Close opened speakers
@@ -109,7 +110,7 @@
 					more.height(0);
 				}
 
-				window.location.hash = 'speakers/' + target.find('.speaker-link').attr('id');
+				window.location.hash = link.data('type') + '/' + link.attr('id');
 			});
 
 			$('.featured a').on('click', $.proxy(function (e) {
@@ -150,17 +151,17 @@
 
 		handleHash: function () {
 			var hash = window.location.hash,
-				matches = hash.match(/#speakers\/(.*)/);
+				matches = hash.match(/#(speakers|workshops)\/(.*)/);
 
 			if (matches && matches[1]) {
 				setTimeout($.proxy(function () {
-					this.navigateToSpeaker(matches[1]);
+					this.navigateToSpeaker(matches[1], matches[2]);
 				}, this), 10);
 			}
 		},
 
-		navigateToSpeaker: function (id) {
-			var speaker = $('#' + id);
+		navigateToSpeaker: function (type, id) {
+			var speaker = $('#' + id + '[data-type="' + type + '"]');
 
 			this.body.animate({
 				scrollTop: speaker.offset().top - 80
@@ -177,6 +178,8 @@
 			} else {
 				this.body.addClass('touch');
 			}
+
+			$(window).on('hashchange', $.proxy(this.handleHash, this));
 
 			this.setupDropdown();
 			this.setupSpeakerList();

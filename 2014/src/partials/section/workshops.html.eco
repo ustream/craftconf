@@ -1,6 +1,6 @@
 <div class="section-header inner speakers">
 	<h1>Workshops</h1>
-	<div class="gear dark" data-gear="3"></div>
+	<div class="gear dark" data-gear="1"></div>
 </div>
 
 <div class="block full-width">
@@ -10,7 +10,7 @@
 		  <% if speaker.workshop: %>
 		    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
 
-			    <span class="speaker-link" id="<%= speaker.anchor %>"></span>
+			    <span class="speaker-link" data-type="workshops" id="<%= speaker.anchor %>"></span>
 
 			    <% if speaker.photo: %>
 			        <span class="speaker-photo">
