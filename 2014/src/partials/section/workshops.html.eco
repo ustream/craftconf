@@ -1,0 +1,85 @@
+<div class="section-header inner speakers">
+	<h1>Workshops</h1>
+	<div class="gear dark" data-gear="3"></div>
+</div>
+
+<div class="block full-width">
+	<div class="inner">
+		<ul class="speakers-list">
+		<% for speaker in @workshops: %>
+		  <% if speaker.workshop: %>
+		    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+
+			    <span class="speaker-link" id="<%= speaker.anchor %>"></span>
+
+			    <% if speaker.photo: %>
+			        <span class="speaker-photo">
+				        <img class="photo" width="100" height="100" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
+			        </span>
+			    <% end %>
+
+			    <% if speaker.coSpeakers && speaker.coSpeakers.length: %>
+			        <h3 class="speakers-name">
+				        <% i=0; for coSpeaker in speaker.coSpeakers: %>
+				            <% i=i+1 %>
+						    <%= coSpeaker.name %>
+							    <% if coSpeaker.link: %>
+							        <a href="<%= coSpeaker.link.href %>" title="<%= coSpeaker.link.text %>"><%= coSpeaker.link.text %></a>
+				                    <% if i != speaker.coSpeakers.length: %>
+				                        //
+				                    <% end %>
+							    <% end %>
+				        <% end %>
+			        </h3>
+
+			        <p class="speakers-company">
+				        <% i=0; for coSpeaker in speaker.coSpeakers: %>
+				        <% i=i+1 %>
+				            <%= coSpeaker.company %>
+				            <% if i != speaker.coSpeakers.length: %>
+					            //
+					        <% end %>
+				        <% end %>
+			        </p>
+			    <% else: %>
+				    <h3 class="speakers-name"><%= speaker.name %> <% if speaker.link: %><a href="<%= speaker.link.href %>" title="<%= speaker.link.text %>"><%= speaker.link.text %></a><% end %></h3>
+				    <p class="speakers-company"><%= speaker.company %></p>
+			    <% end %>
+
+			    <% if speaker.workshop.title || speaker.workshop.time: %>
+		            <div class="speech-info">
+						<h3 class="speech-title">
+							<% if speaker.workshop.time: %>
+								<span class="speech-time"><%= speaker.workshop.day %> &mdash; <%= speaker.workshop.time %></span>
+							<% end %>
+						<span class="title"> <%= speaker.workshop.title %></span>
+						</h3>
+		            </div>
+			    <% end %>
+
+			    <div class="plus-icon">
+				    <i class="vertical"></i>
+				    <i class="horizontal"></i>
+			    </div>
+				<div class="more">
+					<div class="details">
+						<h1><%= speaker.workshop.title %></h1>
+						<span><%- speaker.workshop.description %></span>
+						<% if speaker.coSpeakers && speaker.coSpeakers.length: %>
+							<% for coSpeaker in speaker.coSpeakers: %>
+								<h5>
+									<%= coSpeaker.name %>
+								</h5>
+								<div class="speakers-bio"><%- coSpeaker.bio %></div>
+							<% end %>
+						<% else: %>
+							<div class="speakers-bio"><%- speaker.bio %></div>
+						<% end %>
+					</div>
+				</div>
+		    </li>
+		  <% end %>
+		<% end %>
+		</ul>
+	</div>
+</div>

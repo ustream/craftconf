@@ -37,7 +37,7 @@ module.exports = {
             'about',
             //'schedule',
             'speakers',
-            //'location',
+            'workshops',
             //'tickets',
             //'sponsors',
             'organizers',
@@ -49,6 +49,7 @@ module.exports = {
             about: "About",
             location: "Location",
             speakers: "Speakers",
+	        workshops: "Workshops",
             schedule: "Schedule",
             tickets: "Tickets",
             sponsors: "Sponsors",
@@ -813,6 +814,44 @@ module.exports = {
 			    }
 		    },
 		],
+
+	    workshops: [
+		    {
+			    anchor: "WimGodden",
+			    name: "Wim Godden",
+			    photo: "themes/craftconf/img/speakers/WimGodden.png",
+			    bio: "<p>Wim Godden has been working with open source technologies since 1997 and has been involved in open source projects such as OpenX and PHPCompatibility. Next to web development, he's worked with a wide range of technologies (from database clusters to Internet backbone design) and focuses a lot of his time on high-scalability projects and on coaching/training web engineers.</p>",
+			    company: "Cu.be Solutions",
+			    link: {
+				    href: "http://twitter.com/wimgtr",
+				    text: "@wimgtr"
+			    },
+			    workshop: {
+				    title: "When dynamic becomes static : the next step in web caching techniques",
+				    description: "Tools like Varnish can improve scalability for static sites, but when user-specific content is needed, a hit to the backend is still needed, causing scalability issues. We'll look at a new Nginx module which implements a fast and scalable solution to this problem, changing the way developers think about designing sites with user-specific content. We'll go into how the module works and we'll put the old and new setups head-to-head to showcase the performance and scalability differences.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
+			    }
+		    },
+
+		    {
+			    anchor: "WimGodden",
+			    name: "Wim Godden",
+			    photo: "themes/craftconf/img/speakers/WimGodden.png",
+			    bio: "<p>Wim Godden has been working with open source technologies since 1997 and has been involved in open source projects such as OpenX and PHPCompatibility. Next to web development, he's worked with a wide range of technologies (from database clusters to Internet backbone design) and focuses a lot of his time on high-scalability projects and on coaching/training web engineers.</p>",
+			    company: "Cu.be Solutions",
+			    link: {
+				    href: "http://twitter.com/wimgtr",
+				    text: "@wimgtr"
+			    },
+			    workshop: {
+				    title: "When dynamic becomes static : the next step in web caching techniques",
+				    description: "Tools like Varnish can improve scalability for static sites, but when user-specific content is needed, a hit to the backend is still needed, causing scalability issues. We'll look at a new Nginx module which implements a fast and scalable solution to this problem, changing the way developers think about designing sites with user-specific content. We'll go into how the module works and we'll put the old and new setups head-to-head to showcase the performance and scalability differences.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
+			    }
+		    }
+	    ],
 
 	    eventorganizers: [
 		    {
