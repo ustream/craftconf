@@ -36,8 +36,8 @@ module.exports = {
         sections: [
             'about',
             //'schedule',
-            'speakers',
             'workshops',
+            'speakers',
             //'tickets',
             //'sponsors',
             'organizers',
@@ -817,18 +817,18 @@ module.exports = {
 
 	    workshops: [
 		    {
-			    anchor: "WimGodden",
-			    name: "Wim Godden",
-			    photo: "themes/craftconf/img/speakers/WimGodden.png",
-			    bio: "<p>Wim Godden has been working with open source technologies since 1997 and has been involved in open source projects such as OpenX and PHPCompatibility. Next to web development, he's worked with a wide range of technologies (from database clusters to Internet backbone design) and focuses a lot of his time on high-scalability projects and on coaching/training web engineers.</p>",
-			    company: "Cu.be Solutions",
+			    anchor: "DanNorth",
+			    name: "Dan North",
+			    photo: "themes/craftconf/img/speakers/DanNorth.png",
+			    bio: "<p>Programmer and organizational change specialist Dan North applies principles from lean operations and agile software development to help organizations align their technology capabilities with their business objectives. With over twenty years of experience in IT, Dan is a frequent speaker at technology conferences worldwide, has published feature articles in numerous software and business publications, and contributed to The RSpec Book: Behaviour Driven Development with RSpec, Cucumber, and Friends and 97 Things Every Programmer Should Know: Collective Wisdom from the Experts. The originator of Behaviour-Driven Development (BDD) and Deliberate Discovery, Dan is currently working on his book, Accelerated Agile – from months to minutes, and helping organizations radically improve their delivery. He blogs at <a href=\"http://dannorth.net/blog\">http://dannorth.net/blog</a>.</p>",
+			    company: "Dan North & Associates",
 			    link: {
-				    href: "http://twitter.com/wimgtr",
-				    text: "@wimgtr"
+				    href: "http://twitter.com/tastapod",
+				    text: "@tastapod"
 			    },
 			    workshop: {
-				    title: "When dynamic becomes static : the next step in web caching techniques",
-				    description: "Tools like Varnish can improve scalability for static sites, but when user-specific content is needed, a hit to the backend is still needed, causing scalability issues. We'll look at a new Nginx module which implements a fast and scalable solution to this problem, changing the way developers think about designing sites with user-specific content. We'll go into how the module works and we'll put the old and new setups head-to-head to showcase the performance and scalability differences.",
+				    title: "Accelerated Agile: from Months to Minutes",
+				    description: "Great software professionals build better software faster. Agile methods, continuous delivery and software craftsmanship helped speed up delivery from years to months or even weeks, but then what?<br><br>Some teams are able to deliver software at a speed of change like you have never seen before, delivering quality software in days or even hours, again and again. So what is keeping the rest of us from doing so? Now is the time to go from months to minutes, to rethink the way we organize and improve our software development and delivery process.<br><br>Accelerated Agile is for people who believe it can be done. People who feel themselves limited by current Agile, CD and Craftsmanship thinking. People who want to go back to basics and uncover new, simpler ways to deliver great software. Are you a seasoned agile developer who is frustrated at how slow your “hyper-performing” process feels? Are you suffering with an unwieldy feature backlog, the pantomime of estimation, the card wall where cards go to die, the efforts to automate where it obviously isn’t adding anything? Are you fed up with the artificial commitment of sprints and the unwelcome surprises that still seem to derail your projects?<br><br>Accelerated Agile brings agile principles into the 21st century. You will learn new techniques that both enhance and replace existing agile practices, some of which are counter-intuitive and many which are completely counter to current “agile” doctrine. Using a mixture of discussion, instruction and exploration you will start to think differently about design, architecture, development and testing, operations, automation and team dynamics, as well as working with legacy systems and integrating with third parties.<br><br>What you will learn:<ul><li>How to challenge the received wisdom of established Agile methods<li>How to design and architect for rapid and sustainable delivery<li>Why understanding risk and embracing uncertainty are at the heart of faster delivery<li>How to manage build, release and operations<li>How systems thinking can help you plan effectively and estimate accurately<li>How to identify and reduce gaps in your testing strategy<li>How to engage with legacy systems and integrating with third parties<li>How to manage different levels of skill and experience within a team</ul>",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
 			    }
