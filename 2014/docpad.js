@@ -829,8 +829,8 @@ module.exports = {
 			    workshop: {
 				    title: "Accelerated Agile: from Months to Minutes",
 				    description: "Great software professionals build better software faster. Agile methods, continuous delivery and software craftsmanship helped speed up delivery from years to months or even weeks, but then what?<br><br>Some teams are able to deliver software at a speed of change like you have never seen before, delivering quality software in days or even hours, again and again. So what is keeping the rest of us from doing so? Now is the time to go from months to minutes, to rethink the way we organize and improve our software development and delivery process.<br><br>Accelerated Agile is for people who believe it can be done. People who feel themselves limited by current Agile, CD and Craftsmanship thinking. People who want to go back to basics and uncover new, simpler ways to deliver great software. Are you a seasoned agile developer who is frustrated at how slow your “hyper-performing” process feels? Are you suffering with an unwieldy feature backlog, the pantomime of estimation, the card wall where cards go to die, the efforts to automate where it obviously isn’t adding anything? Are you fed up with the artificial commitment of sprints and the unwelcome surprises that still seem to derail your projects?<br><br>Accelerated Agile brings agile principles into the 21st century. You will learn new techniques that both enhance and replace existing agile practices, some of which are counter-intuitive and many which are completely counter to current “agile” doctrine. Using a mixture of discussion, instruction and exploration you will start to think differently about design, architecture, development and testing, operations, automation and team dynamics, as well as working with legacy systems and integrating with third parties.<br><br>What you will learn:<ul><li>How to challenge the received wisdom of established Agile methods<li>How to design and architect for rapid and sustainable delivery<li>Why understanding risk and embracing uncertainty are at the heart of faster delivery<li>How to manage build, release and operations<li>How systems thinking can help you plan effectively and estimate accurately<li>How to identify and reduce gaps in your testing strategy<li>How to engage with legacy systems and integrating with third parties<li>How to manage different levels of skill and experience within a team</ul>",
-				    // day: "Day 1 (Thursday)",
-				    // time: "10:00 - 10:40"
+				    day: "Day 1 (Wednesday)",
+				    time: "9:00 - 17:00"
 			    }
 		    },
 		    {
@@ -846,8 +846,8 @@ module.exports = {
 			    workshop: {
 				    title: "Impact Mapping: How to Make a Big Impact with Software Products and Projects",
 				    description: "Impact Mapping is a strategic planning technique that prevents organisations from getting lost while building products and delivering projects, by clearly communicating assumptions, helping teams align their activities with overall business objectives and make better roadmap decisions. Impact mapping can help you build products and deliver projects that make an impact, not just ship software.<br><br>The participants of this interactive workshop learn about the basics of Impact Mapping, and try it out in practice on several realistic examples to understand the key facilitation techniques and learn how to run and apply Impact Mapping sessions in their organisations.<br><br><b>Key learning points:</b><ul><li>how to create good user stories<li>how to ensure that you're building the right product<li>how to align the activities of delivery teams and the organisation around them<li>how to make an impact with software products and projects<li>how to communicate overall goals and vision to delivery teams<li>how to facilitate impact mapping sessions<li>how to build a delivery roadmap and backlog with impact maps</ul><br><b>Intended audience</b><br>The workshop is aimed at product owners, business analysts, developers and testers working primarily in an agile or lean environment. It is based on Gojko Adzic's books Impact Mapping, Specification by Example and Bridging the Communication Gap. In order to attend the workshop, you should already have a basic knowledge of iterative delivery methods and a at least some experience of working in a Scrum, XP or Kanban-like delivery. To get the most out of this workshop, you should have a relatively senior role, from a technical or business perspective, in software delivery.",
-				    // day: "Day 1 (Thursday)",
-				    // time: "10:00 - 10:40"
+				    day: "Day 1 (Wednesday)",
+				    time: "9:00 - 17:00"
 			    }
 		    },
 		    {
@@ -863,8 +863,8 @@ module.exports = {
 			    workshop: {
 				    title: "Mastering continuous Inspection with SonarQube",
 				    description: "This one-day course, by one of the authors of SonarQube In Action, is the ideal hands-on workshop to learn the core concepts of source code quality and how to eventually adopt continuous inspection in any software development lifecycle, using SonarQube. It is intended to teach developers, testers and software architects how to use this open-source tool to continuously track and improve the quality of their source code<br><br>Here’s a short outline of what we’re going to deal with during this workshop:<ul><li>Understanding the importance of Technical debt<li>The 7 axes of quality<li>Picking a metric to improve<li>Strategies<li>Implementing with Continuous Inspection & code reviews</ul>",
-				    // day: "Day 1 (Thursday)",
-				    // time: "10:00 - 10:40"
+				    day: "Day 1 (Wednesday)",
+				    time: "9:00 - 17:00"
 			    }
 		    }
 	    ],
