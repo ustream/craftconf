@@ -833,20 +833,36 @@ module.exports = {
 				    // time: "10:00 - 10:40"
 			    }
 		    },
-
 		    {
-			    anchor: "WimGodden",
-			    name: "Wim Godden",
-			    photo: "themes/craftconf/img/speakers/WimGodden.png",
-			    bio: "<p>Wim Godden has been working with open source technologies since 1997 and has been involved in open source projects such as OpenX and PHPCompatibility. Next to web development, he's worked with a wide range of technologies (from database clusters to Internet backbone design) and focuses a lot of his time on high-scalability projects and on coaching/training web engineers.</p>",
-			    company: "Cu.be Solutions",
+			    anchor: "GojkoAdzic",
+			    name: "Gojko Adzic",
+			    photo: "themes/craftconf/img/speakers/GojkoAdzic.png",
+			    bio: "<p>Gojko Adzic is a strategic software delivery consultant who works with ambitious teams to improve the quality of their software products and processes. He specialises in agile and lean quality improvement, in particular agile testing, specification by example and behaviour driven development. Gojko is the author of the <a href=\"http://impactmapping.org/book\">Impact Mapping</a> book. His previous book, <a href=\"http://specificationbyexample.com/\">Specification by Example</a>, was awarded the <a href=\"http://www.noop.nl/2012/08/top-100-agile-books-edition-2012.html\">#2 spot on the top 100 agile books for 2012</a> and won the <a href=\"http://www.drdobbs.com/joltawards/jolt-awards-the-best-books/240007480?pgno=7\">Jolt Award</a> for the best book of 2012. In 2011, he was voted by peers as the <a href=\"http://www.agiletestingdays.com/award.php\">most influential agile testing professional</a>, and his blog won the <a href=\"http://connectionsagileservices.co.uk/stylesheet.asp?file=617_winners_2010_uk_agile_awards\">UK agile award for the best online publication</a> in 2010.</p>",
+			    company: "Neuri Consulting LLP",
 			    link: {
-				    href: "http://twitter.com/wimgtr",
-				    text: "@wimgtr"
+				    href: "http://twitter.com/gojkoadzic",
+				    text: "@gojkoadzic"
 			    },
 			    workshop: {
-				    title: "When dynamic becomes static : the next step in web caching techniques",
-				    description: "Tools like Varnish can improve scalability for static sites, but when user-specific content is needed, a hit to the backend is still needed, causing scalability issues. We'll look at a new Nginx module which implements a fast and scalable solution to this problem, changing the way developers think about designing sites with user-specific content. We'll go into how the module works and we'll put the old and new setups head-to-head to showcase the performance and scalability differences.",
+				    title: "Impact Mapping: How to Make a Big Impact with Software Products and Projects",
+				    description: "Impact Mapping is a strategic planning technique that prevents organisations from getting lost while building products and delivering projects, by clearly communicating assumptions, helping teams align their activities with overall business objectives and make better roadmap decisions. Impact mapping can help you build products and deliver projects that make an impact, not just ship software.<br><br>The participants of this interactive workshop learn about the basics of Impact Mapping, and try it out in practice on several realistic examples to understand the key facilitation techniques and learn how to run and apply Impact Mapping sessions in their organisations.<br><br><b>Key learning points:</b><ul><li>how to create good user stories<li>how to ensure that you're building the right product<li>how to align the activities of delivery teams and the organisation around them<li>how to make an impact with software products and projects<li>how to communicate overall goals and vision to delivery teams<li>how to facilitate impact mapping sessions<li>how to build a delivery roadmap and backlog with impact maps</ul><br><b>Intended audience</b><br>The workshop is aimed at product owners, business analysts, developers and testers working primarily in an agile or lean environment. It is based on Gojko Adzic's books Impact Mapping, Specification by Example and Bridging the Communication Gap. In order to attend the workshop, you should already have a basic knowledge of iterative delivery methods and a at least some experience of working in a Scrum, XP or Kanban-like delivery. To get the most out of this workshop, you should have a relatively senior role, from a technical or business perspective, in software delivery.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
+			    }
+		    },
+		    {
+			    anchor: "PatroklosPapapetrou",
+			    name: "Patroklos Papapetrou",
+			    photo: "themes/craftconf/img/speakers/PatroklosPapapetrou.png",
+			    bio: "<p>Patroklos Papapetrou is a Java architect, addicted to software quality and an agile team leader with more than 15 years of experience in software development. He believes and invests in people and team spirit seeking quality excellence. He's co-authoring Sonar in action book, he is an active Sonar community member and plugin contributor. He treats software systems as flowers that's why he prefers calling himself a software gardener.</p>",
+			    company: "FoodTec Solutions and KeepItCloud",
+			    link: {
+				    href: "http://twitter.com/ppapapetrou76",
+				    text: "@ppapapetrou76"
+			    },
+			    workshop: {
+				    title: "Mastering continuous Inspection with SonarQube",
+				    description: "This one-day course, by one of the authors of SonarQube In Action, is the ideal hands-on workshop to learn the core concepts of source code quality and how to eventually adopt continuous inspection in any software development lifecycle, using SonarQube. It is intended to teach developers, testers and software architects how to use this open-source tool to continuously track and improve the quality of their source code<br><br>Here’s a short outline of what we’re going to deal with during this workshop:<ul><li>Understanding the importance of Technical debt<li>The 7 axes of quality<li>Picking a metric to improve<li>Strategies<li>Implementing with Continuous Inspection & code reviews</ul>",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
 			    }
