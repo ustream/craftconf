@@ -22,7 +22,7 @@
 				            <% i=i+1 %>
 						    <%= coSpeaker.name %>
 							    <% if coSpeaker.link: %>
-							        <a href="<%= coSpeaker.link.href %>" title="<%= coSpeaker.link.text %>"><%= coSpeaker.link.text %></a>
+							        <a class="twitter-link" href="<%= coSpeaker.link.href %>" target="_blank" title="<%= coSpeaker.link.text %>"><%= coSpeaker.link.text %></a>
 				                    <% if i != speaker.coSpeakers.length: %>
 				                        //
 				                    <% end %>
@@ -40,7 +40,7 @@
 				        <% end %>
 			        </p>
 			    <% else: %>
-				    <h3 class="speakers-name"><%= speaker.name %> <% if speaker.link: %><a href="<%= speaker.link.href %>" title="<%= speaker.link.text %>"><%= speaker.link.text %></a><% end %></h3>
+				    <h3 class="speakers-name"><%= speaker.name %> <% if speaker.link: %><a class="twitter-link" target="_blank" href="<%= speaker.link.href %>" title="<%= speaker.link.text %>"><%= speaker.link.text %></a><% end %></h3>
 				    <p class="speakers-company"><%= speaker.company %></p>
 			    <% end %>
 

@@ -92,7 +92,7 @@
 			speakers.on('click', 'li', $.proxy(function (e) {
 				var target = $(e.target);
 
-				if (target.hasClass('plus-icon')) return;
+				if (target.hasClass('twitter-link')) return;
 
 				target = target.closest('li');
 
