@@ -574,6 +574,36 @@ module.exports = {
 			    }
 		    },
 		    {
+			    anchor: "MateNadasdi",
+			    coSpeakers: [
+				    {
+					    name: "Máté Nádasdi",
+					    company: "Ustream",
+					    link: {
+						    href: "http://twitter.com/matenadasdi",
+						    text: "@matenadasdi"
+					    },
+					    bio: "<p>Mate is a Front-end Developer at Ustream in the Site Core team who lives in Budapest. Before joining the real fight of the web, he studied Computer Science at the Eötvös Lóránd University, and worked some years as a full stack developer coding in ObjC, PHP and JavaScript. In the past years he has focussed his attention mainly on large scale client side architecture and front-end performance. He is a passionate lover of JavaScript and a maniac of the innovative web.</p>"
+				    },
+				    {
+					    name: "Paul Irish",
+					    company: "Google",
+					    link: {
+						    href: "http://twitter.com/matenadasdi",
+						    text: "@paulirish"
+					    },
+					    bio: "Fooooo! Barrrr!"
+				    }
+			    ],
+			    photo: "themes/craftconf/img/speakers/SteveFreeman.png",
+			    presentation: {
+				    title: "It's never too late to fight your legacy!",
+				    description: "Science has finally approved it: Forecasting complex projects is a deception. Moreover, forecasts hinder innovations. Daniel Kahneman, Nobel Prize Winner in Economic Sciences and psychologist verified in many cases, that forecasting of complex projects is impossible. Yet still, we keep losing time trying to do exactly that. Beyond Budgeting came empirically to the same findings and offers a concept for controlling corporations without budgets. Additionally Beyond Budgeting provides advice for controlling even long-term complex projects. Agile methodologies generally recommend developing a long",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
+			    }
+		    },
+		    {
 			    anchor: "MichaelFeathers",
 			    name: "Michael Feathers",
 			    photo: "themes/craftconf/img/speakers/MichaelFeathers.png",
