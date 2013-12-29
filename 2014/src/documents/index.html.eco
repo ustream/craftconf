@@ -5,7 +5,8 @@ layout: default
 <% for section in @sections : %>
   <!-- <%= section.toUpperCase() %> -->
 
-  <section class="<%= section %>" id="<%= section %>">
+  <section class="site-section">
+	  <span class="<%= section %> section-link" id="<%= section %>"></span>
     <%- @partial("section/#{section}.html.eco", @) %>
   </section>
 

@@ -8,9 +8,7 @@
 		<ul class="speakers-list">
 		<% for speaker in @speakers: %>
 		  <% if speaker.presentation: %>
-		    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-
-			    <span class="speaker-link" data-type="speakers" id="<%= speaker.anchor %>"></span>
+		    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person" data-type="speakers" id="<%= speaker.anchor %>">
 
 			    <% if speaker.photo: %>
 			        <span class="speaker-photo">

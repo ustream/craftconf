@@ -88,31 +88,18 @@
 		setupSpeakerList: function () {
 			var speakers = $('.speakers-list');
 
-			speakers.on('click', 'li', function (e) {
-				var target = $(e.target).closest('li'),
-					more = target.find('.more'),
-					link = target.find('.speaker-link'),
-					speechInfo = target.find('.speech-info');
+			//Speaker item click
+			speakers.on('click', 'li', $.proxy(function (e) {
+				var target = $(e.target);
 
-				//Close opened speakers
-				target.siblings('.opened')
-					.removeClass('opened')
-					.find('.more').height(0);
+				if (target.hasClass('plus-icon')) return;
 
-				target.toggleClass('opened');
+				target = target.closest('li');
 
-				//Open/Close our current one
-				if (target.hasClass('opened')) {
-					speechInfo.height(24);
-					more.height(more.find('.details').outerHeight());
-				} else {
-					speechInfo.height(target.find('.speech-title').outerHeight());
-					more.height(0);
-				}
+				this.openSpeaker(target.data('type'),  target.attr('id'));
+			}, this));
 
-				window.location.hash = link.data('type') + '/' + link.attr('id');
-			});
-
+			//Featured link click
 			$('.featured a').on('click', $.proxy(function (e) {
 				var href = $(e.target).attr('href'),
 					id = href.replace('#speakers/', '');
@@ -125,17 +112,13 @@
 					.find('.more').height(0)
 					.removeClass('notransition');
 
-				setTimeout($.proxy(function () {
-					this.navigateToSpeaker(id);
-				}, this), 0);
-
-				window.location.hash = href;
+				this.openSpeaker('speakers', id, true);
 			}, this));
 		},
 
 		improveScrolling: function () {
 			var timer,
-				speakers = $('#speakers');
+				speakers = $('.speakers-list');
 
 			$(window).on('scroll', $.proxy(function () {
 				clearTimeout(timer);
@@ -149,25 +132,44 @@
 			}, this));
 		},
 
-		handleHash: function () {
+		handleHash: function (navigate) {
 			var hash = window.location.hash,
 				matches = hash.match(/#(speakers|workshops)\/(.*)/);
 
 			if (matches && matches[1]) {
 				setTimeout($.proxy(function () {
-					this.navigateToSpeaker(matches[1], matches[2]);
+					this.openSpeaker(matches[1], matches[2], navigate);
 				}, this), 10);
 			}
 		},
 
-		navigateToSpeaker: function (type, id) {
-			var speaker = $('#' + id + '[data-type="' + type + '"]');
+		openSpeaker: function (type, id, navigate) {
+			var speaker = $('#' + id + '[data-type="' + type + '"]'),
+				more = speaker.find('.more'),
+				speechInfo = speaker.find('.speech-info');
 
-			this.body.animate({
-				scrollTop: speaker.offset().top - 80
-			});
+			if (navigate) {
+				this.body.animate({
+					scrollTop: speaker.offset().top - 80
+				});
+			}
 
-			speaker.trigger('click');
+			//Close opened speakers
+			speaker.siblings('.opened')
+				.removeClass('opened')
+				.find('.more').height(0);
+
+			speaker.toggleClass('opened');
+
+			//Open/Close our current one
+			if (speaker.hasClass('opened')) {
+				speechInfo.height(24);
+				more.height(more.find('.details').outerHeight());
+				window.location.hash = type + '/' + id;
+			} else {
+				speechInfo.height(speaker.find('.speech-title').outerHeight());
+				more.height(0);
+			}
 		},
 
 		init : function () {
@@ -179,12 +181,10 @@
 				this.body.addClass('touch');
 			}
 
-			//$(window).on('hashchange', $.proxy(this.handleHash, this));
-
 			this.setupDropdown();
 			this.setupSpeakerList();
 			this.animateScroll();
-			this.handleHash();
+			this.handleHash(true);
 		}
 	};
 
