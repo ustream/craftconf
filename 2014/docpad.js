@@ -861,7 +861,7 @@ module.exports = {
 				    text: "@ppapapetrou76"
 			    },
 			    workshop: {
-				    title: "Mastering continuous Inspection with SonarQube",
+				    title: "Mastering Continuous Inspection with SonarQube",
 				    description: "This one-day course, by one of the authors of <a href=\"http://www.manning.com/papapetrou/\">SonarQube In Action</a>, is the ideal hands-on workshop to learn the core concepts of source code quality and how to eventually adopt continuous inspection in any software development lifecycle, using SonarQube. It is intended to teach developers, testers and software architects how to use this open-source tool to continuously track and improve the quality of their source code<br><br>Here’s a short outline of what we’re going to deal with during this workshop:<ul><li>Understanding the importance of Technical debt<li>The 7 axes of quality<li>Picking a metric to improve<li>Strategies<li>Implementing with Continuous Inspection & code reviews</ul>",
 				    day: "Day 1 (Wednesday)",
 				    time: "9:00 - 17:00"
