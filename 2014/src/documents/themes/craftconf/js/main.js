@@ -131,16 +131,19 @@
 		 */
 		onFeaturedSpeakerClick: function (e) {
 			var href = $(e.target).attr('href'),
-				id = href.replace('#speakers/', '');
+				id = href.replace('#speakers/', ''),
+				speakers = $('.speakers-list li');
 
 			e.preventDefault();
 
-			$('.speakers-list li')
-				.addClass('notransition')
+
+			speakers.addClass('notransition')
 				.removeClass('opened')
-				.find('.more').height(0)
-				.end()
-				.removeClass('notransition');
+				.find('.more').height(0);
+
+			window.requestAnimFrame(function () {
+				speakers.removeClass('notransition');
+			});
 
 			this.openSpeaker('speakers', id, true);
 		},
@@ -156,12 +159,6 @@
 				more = speaker.find('.more'),
 				speechInfo = speaker.find('.speech-info');
 
-			if (navigate) {
-				this.htmlBody.animate({
-					scrollTop: speaker.offset().top - 80
-				});
-			}
-
 			//Close opened speakers
 			speaker.siblings('.opened')
 				.removeClass('opened')
@@ -174,9 +171,36 @@
 				speechInfo.height(24);
 				more.height(more.find('.details').outerHeight());
 				window.location.hash = type + '/' + id;
+
+				setTimeout($.proxy(function () {
+					this.fixScrollPositionToSpeaker(speaker);
+				}, this), 200);
+
 			} else {
 				speechInfo.height(speaker.find('.speech-title').outerHeight());
 				more.height(0);
+			}
+
+			this.fixScrollPositionToSpeaker(speaker, navigate);
+		},
+
+		/**
+		 * Fix scroll position if speaker is not fully visible
+		 * @param speakerItem
+		 * @param force
+		 */
+		fixScrollPositionToSpeaker: function (speakerItem, force) {
+			var scrollTop = document.body.scrollTop,
+				offsetTop = speakerItem.offset().top;
+
+			if(
+				force
+				|| offsetTop > scrollTop + 80 + window.innerHeight
+				|| offsetTop - scrollTop - 80 < 0
+			) {
+				this.htmlBody.animate({
+					scrollTop: speakerItem.offset().top - 80
+				});
 			}
 		},
 
