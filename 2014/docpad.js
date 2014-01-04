@@ -278,6 +278,10 @@ module.exports = {
 				    text: "@finiteattention"
 			    },
 			    presentation: {
+				    title: "Uncomfortable UX: making life difficult and improving your product",
+				    description: "In the past year, Facebook for Android has moved from a primarily webview based app to an almost entirely native experience. It has transitioned from being built by a small team to a distributed development model where product teams are responsible for their features. And it has grown to be used by well over a hundred million users a day, distributed across devices with orders of magnitude differences in capabilities.<br><br>This talk describes the technical and cultural challenges associated with making these transitions while continuing to ship a fast and lightweight app. We will describe changes we made to each step of the process of committing code, building, testing and releasing our apps to make sure we avoided regressions and measured improvements. We will describe an analytics framework that lets us measure and optimize various performance metrics, and make the costs of features visible to product teams. And we will talk about how we applied these lessons to write a set of core libraries and abstractions that make it easier to distribute development without hurting overall performance of the app. The talk will draw on real examples from a broad set of performance metrics such as startup time, data usage, disk usage, app size, battery consumption etc.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -390,7 +394,7 @@ module.exports = {
 			    },
 			    presentation: {
 				    title: "Continuous integration for Infrastructure",
-				    // description: "",
+				    description: "Continuous integration is the practice of merging code from individual working copies with a shared mainline on every commit. It's main aim is to prevent integration problems from many people working on the same codebase and it is now common practices amongst high performing software teams.<br><br>Continuous integration maps well to infrastructure practices too, where you generally have only one production infrastructure but many people working on it. But what does unit testing or integration testing mean in the context of infrastructure as code? And do other common software checks like linting, code coverage or static analysis have equivalents for infrastructure pipelines?<br><br>This talk will explore what is possible when you treat your infrastructure as code, looking across Infrastructure as a Service, Platform as a Service and container based deployments to identify useful patterns and practices.",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
 			    }
@@ -575,36 +579,6 @@ module.exports = {
 			    }
 		    },
 		    {
-			    anchor: "NatPryceSteveFreeman",
-			    coSpeakers: [
-				    {
-					    name: "Nat Pryce",
-					    company: "Independent Consultant",
-					    link: {
-						    href: "http://twitter.com/natpryce",
-						    text: "@natpryce"
-					    },
-					    bio: "<p>After completing his PhD at Imperial College, Nat Pryce joined a dot-com just in time to ride the bust. Since then he has worked as a programmer, architect, trainer, and consultant in a variety of industries, including sports reportage, marketing communications, retail, telecoms, and finance. He has also worked on academic research projects and does occasional university teaching. An early adopter of XP, he has written or contributed to several open source libraries and tools that support TDD and was one of the founding organizers of the London XP Day conference. He also regularly presents at international conferences. Nat is based in London, UK.</p>"
-				    },
-				    {
-					    name: "Steve Freeman",
-					    company: "Higher Order Logic",
-					    link: {
-						    href: "http://twitter.com/sf105",
-						    text: "@sf105"
-					    },
-					    bio: "<p>Steve Freeman, author of Growing Object Oriented Software, Guided by Tests (Addison-Wesley), was a pioneer of Agile software development in the UK. He has developed software for a range of institutions, from small vendors to multinational investment banks. Steve trains and consults for software teams around the world. Previously, he has worked in research labs and software houses, earned a PhD (Cambridge), written shrink-wrap applications for IBM, and taught at University College London. Steve is a presenter and organiser at international industry conferences, and was chair of the first London XpDay.</p>"
-				    }
-			    ],
-			    photo: "themes/craftconf/img/speakers/SteveFreeman.png",
-			    presentation: {
-				    title: "Building on SOLID Foundations",
-				    description: "Why can’t we just add a feature to our system without tearing the code apart or, worse, patching around it? It ought to take just a few lines. We know the code is supposed to be modular and coherent, but too often it just doesn’t turn out that way.<br><br>We don’t believe it should be this hard to change object-oriented systems. We’ve seen examples where it really is that easy to add a new feature. The difference seems to be in the intermediate level structure. The design principles that most programmers rely on don’t address the middle ground where the complexity lies. We know about principles and patterns at the small scale, such as SOLID, and the large scale, such as REST. We’re less familiar with the structures in the middle.<br><br>This talk is about design principles that we’ve learned help us develop mid-scale code structures that are easy to read and easy to change. At the lowest level, this means well-known patterns such as avoiding globals and following SOLID guidelines. At larger scales, this means assembling those SOLID objects to avoid hidden coupling so that the system as a whole is amenable to change. We focus on how objects fit together and communicate, and on being clear about how capabilities and information flow between objects in the running system.",
-				    // day: "Day 1 (Thursday)",
-				    // time: "10:00 - 10:40"
-			    }
-		    },
-		    {
 			    anchor: "MichaelFeathers",
 			    name: "Michael Feathers",
 			    photo: "themes/craftconf/img/speakers/MichaelFeathers.png",
@@ -645,6 +619,36 @@ module.exports = {
 				    text: "@mitchellh"
 			    },
 			    presentation: {
+			    }
+		    },
+		    {
+			    anchor: "NatPryceSteveFreeman",
+			    coSpeakers: [
+				    {
+					    name: "Nat Pryce",
+					    company: "Independent Consultant",
+					    link: {
+						    href: "http://twitter.com/natpryce",
+						    text: "@natpryce"
+					    },
+					    bio: "<p>After completing his PhD at Imperial College, Nat Pryce joined a dot-com just in time to ride the bust. Since then he has worked as a programmer, architect, trainer, and consultant in a variety of industries, including sports reportage, marketing communications, retail, telecoms, and finance. He has also worked on academic research projects and does occasional university teaching. An early adopter of XP, he has written or contributed to several open source libraries and tools that support TDD and was one of the founding organizers of the London XP Day conference. He also regularly presents at international conferences. Nat is based in London, UK.</p>"
+				    },
+				    {
+					    name: "Steve Freeman",
+					    company: "Higher Order Logic",
+					    link: {
+						    href: "http://twitter.com/sf105",
+						    text: "@sf105"
+					    },
+					    bio: "<p>Steve Freeman, author of Growing Object Oriented Software, Guided by Tests (Addison-Wesley), was a pioneer of Agile software development in the UK. He has developed software for a range of institutions, from small vendors to multinational investment banks. Steve trains and consults for software teams around the world. Previously, he has worked in research labs and software houses, earned a PhD (Cambridge), written shrink-wrap applications for IBM, and taught at University College London. Steve is a presenter and organiser at international industry conferences, and was chair of the first London XpDay.</p>"
+				    }
+			    ],
+			    photo: "themes/craftconf/img/speakers/SteveFreeman.png",
+			    presentation: {
+				    title: "Building on SOLID Foundations",
+				    description: "Why can’t we just add a feature to our system without tearing the code apart or, worse, patching around it? It ought to take just a few lines. We know the code is supposed to be modular and coherent, but too often it just doesn’t turn out that way.<br><br>We don’t believe it should be this hard to change object-oriented systems. We’ve seen examples where it really is that easy to add a new feature. The difference seems to be in the intermediate level structure. The design principles that most programmers rely on don’t address the middle ground where the complexity lies. We know about principles and patterns at the small scale, such as SOLID, and the large scale, such as REST. We’re less familiar with the structures in the middle.<br><br>This talk is about design principles that we’ve learned help us develop mid-scale code structures that are easy to read and easy to change. At the lowest level, this means well-known patterns such as avoiding globals and following SOLID guidelines. At larger scales, this means assembling those SOLID objects to avoid hidden coupling so that the system as a whole is amenable to change. We focus on how objects fit together and communicate, and on being clear about how capabilities and information flow between objects in the running system.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -807,7 +811,7 @@ module.exports = {
 				    text: "@wimgtr"
 			    },
 			    presentation: {
-				    title: "When dynamic becomes static : the next step in web caching techniques",
+				    title: "When dynamic becomes static: the next step in web caching techniques",
 				    description: "Tools like Varnish can improve scalability for static sites, but when user-specific content is needed, a hit to the backend is still needed, causing scalability issues. We'll look at a new Nginx module which implements a fast and scalable solution to this problem, changing the way developers think about designing sites with user-specific content. We'll go into how the module works and we'll put the old and new setups head-to-head to showcase the performance and scalability differences.",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
@@ -862,7 +866,7 @@ module.exports = {
 			    },
 			    workshop: {
 				    title: "Mastering Continuous Inspection with SonarQube",
-				    description: "This one-day course, by one of the authors of <a href=\"http://www.manning.com/papapetrou/\">SonarQube In Action</a>, is the ideal hands-on workshop to learn the core concepts of source code quality and how to eventually adopt continuous inspection in any software development lifecycle, using SonarQube. It is intended to teach developers, testers and software architects how to use this open-source tool to continuously track and improve the quality of their source code<br><br>Here’s a short outline of what we’re going to deal with during this workshop:<ul><li>Understanding the importance of Technical debt<li>The 7 axes of quality<li>Picking a metric to improve<li>Strategies<li>Implementing with Continuous Inspection & code reviews</ul>",
+				    description: "This one-day course, by one of the authors of <a href=\"http://www.manning.com/papapetrou/\">SonarQube In Action</a>, is the ideal hands-on workshop to learn the core concepts of source code quality and how to eventually adopt continuous inspection in any software development lifecycle, using SonarQube. It is intended to teach developers, testers and software architects how to use this open-source tool to continuously track and improve the quality of their source code.<br><br>Here’s a short outline of what we’re going to deal with during this workshop:<ul><li>Understanding the importance of Technical debt<li>The 7 axes of quality<li>Picking a metric to improve<li>Strategies<li>Implementing with Continuous Inspection & code reviews</ul>",
 				    day: "Day 1 (Wednesday)",
 				    time: "9:00 - 17:00"
 			    }
