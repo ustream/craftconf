@@ -1,9 +1,3 @@
 <h2 class="section-title"><%= @labels['tickets'] %></h2>
 
-<div style="width:100%; text-align:left;" >
-
-<p>Are you planning to buy tickets for the conference as a <strong>group or organization</strong>? <a href="mailto:hello@craftconf.com">Contact us for discount!</a></p>
-
-<p><strong>Student tickets</strong> are also available. <a href="mailto:hello@craftconf.com">Contact us directly!</a></p>
-
-<p>We will offer <strong>child care</strong> for attendees coming with their kids to the conference. <a href="mailto:hello@craftconf.com">Please let us know</a> if you would bring your kid.</p>
+<iframe src="http://www.eventbrite.com/tickets-external?eid=10028683061&ref=etckt&v=2" frameborder="0" height="398" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
