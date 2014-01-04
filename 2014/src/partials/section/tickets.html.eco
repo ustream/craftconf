@@ -1,3 +1,9 @@
-<h2 class="section-title"><%= @labels['tickets'] %></h2>
+<div class="section-header inner">
+	<h1><%= @labels['tickets'] %></h1>
+	<div class="gear dark" data-gear="2"></div>
+</div>
 
-<iframe src="http://www.eventbrite.com/tickets-external?eid=10028683061&ref=etckt&v=2" frameborder="0" height="398" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+
+<div class="block">
+	<iframe src="http://www.eventbrite.com/tickets-external?eid=10028683061&ref=etckt&v=2" frameborder="0" height="530" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+</div>

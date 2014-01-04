@@ -30,6 +30,5 @@
 			April 23 will be a <a href="#workshops">workshop day</a>.
 			<br>On April 24-25 we will have <a href="#speakers">speaker sessions</a>.
 		</h1>
-		The ticket registration will start soon, it will be announced on <a href="<%= @conf.twitter %>"><%= @conf.twitter_account %></a>
 	</div>
 </div>
