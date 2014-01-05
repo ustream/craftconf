@@ -663,7 +663,7 @@ module.exports = {
 			    },
 			    presentation: {
 				    title: "Implementing Continuous Delivery: Adjusting your Architecture",
-				    // description: "",
+				    description: "There are several factors to implementing Continuous Delivery: organisational, process and architectural. Each one could require significant changes in your organisation.<br><br>This talk will focus on the architecture of your application. How do you design a system you intend to rapidly deploy? How do you avoid common pitfalls or anti-patterns, which will hinder your ability to deliver? How do you refactor your existing code base to suit rapid delivery? I will address patterns such as micro-services and evolutionary architecture, which can speed up your delivery.<br><br>I will also look at how to tackle the dreaded ball-of-mud, that may be currently holding you back, without re-writing your entire architecture.",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
 			    }
