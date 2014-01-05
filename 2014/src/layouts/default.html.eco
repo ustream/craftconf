@@ -11,13 +11,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <!-- FACEBOOK -->
-  <meta property="fb:app_id" content="372862979453673">
   <meta property="og:type" content="website">
   <meta property="og:url" content="<%= @site.url %>">
   <meta property="og:title" content="<%= @conf.name %>">
   <meta property="og:description" content="<%= @conf.description %>">
-  <meta property="og:image" content="<%= @site.url %><%= @getTheme() %>/img/stretch_badge_200.jpg">
-  <meta property="og:image" content="<%= @site.url %><%= @getTheme() %>/img/stretch_badge_360.jpg">
+  <meta property="og:image" content="<%= @site.url %><%= @getTheme() %>/img/social-logo.jpg">
   <!-- / FACEBOOK -->
 
   <link rel="shortcut icon" href="<%= @getTheme() %>/img/favicon.ico" type="image/x-icon">

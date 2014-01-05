@@ -26,7 +26,7 @@ module.exports = {
         // Site info
         site: {
             theme: "craftconf",
-            url: "http://craft-conf.com",
+            url: "http://craft-conf.com/2014/",
             googleanalytics: ""
         },
 
