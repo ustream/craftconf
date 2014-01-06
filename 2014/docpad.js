@@ -197,6 +197,10 @@ module.exports = {
 				    text: "@bjorn_fb"
 			    },
 			    presentation: {
+				    title: "Software Psychology: The Art of Listening to Code",
+				    description: "Writing code is fun, it's necessary, it's hard, and it's incredibly satisfying both as a hobby and a profession. But once your project gets too large to hold entirely in your head, its elegance and simplicity starts to deteriorate - and that's where software psychology comes in. When we listen to the code, and the design, and the devops, we can hear the code calling for help and it can lead us to the right place to refactor, to redesign, and to robust-ize. A simple case of listening is mapping defect rates to modules and then refactor the modules with the worst rates. A more challenging case of listening is when a complex multi-service architecture'd app suffers a performance brown-out: what do you listen for and how do you counsel the code through it's difficulties?<br><br>I'll present a number of situations where listening to the code (or the design or the devops) is a good idea and various strategies (and tools) you can use to do so. I've got a wealth of examples from my years as a practicing software psychologist, so sit back and prepare to learn the art of listening.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
