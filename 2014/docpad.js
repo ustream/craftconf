@@ -509,15 +509,15 @@ module.exports = {
 			    anchor: "JevgeniKabanov",
 			    name: "Jevgeni Kabanov",
 			    photo: "themes/craftconf/img/speakers/JevgeniKabanov.png",
-			    bio: "<p>Jevgeni Kabanov is the founder and CTO of <a href=\"http://www.zeroturnaround.com/\">ZeroTurnaround</a>, a development tools company that focuses on productivity. He wrote the first version of the ZeroTurnaround flagship product, JRebel, a class-reloading JVM plugin. Jevgeni has been speaking at international conferences for over 5 years, including JavaOne, Devoxx/JavaPolis, JavaZone, JAOO, QCon, TSSJS, JFokus and others. Jevgeni also started the first Java conference in Estonia, Geekout. He has an active research interest in programming languages, types and virtual machines, publishing several papers on topics ranging from category theoretical notions to typesafe Java DSLs. Jevgeni is on the Expert Group for the JSR 342 (Java EE 7). He has started two open-source projects -- Aranea and Squill.<br><br>You can follow Jevgeni on Twitter as <a href=\"http://twitter.com/ekabanov\">@ekabanov</a>. See <a href=\"http://lanyrd.com/people/ekabanov/\">http://lanyrd.com/people/ekabanov/</a> for conference history and schedule. ojects.</p>",
+			    bio: "<p>Dr Jevgeni Kabanov is the founder and CEO of ZeroTurnaround, a development tools company that focuses on productivity. He wrote the first version of the <a href=\"http://www.zeroturnaround.com/\">ZeroTurnaround</a> flagship product, JRebel, a class-reloading JVM plugin. Jevgeni has been speaking at international conferences since 2005, including Devoxx, JavaZone, JAOO, QCon, TSSJS, JFokus and JavaOne, where he was named Rock Star in 2011 and 2012. Jevgeni also started the first Java conference in Estonia, Geekout. He has done research in programming languages, types and virtual machines, publishing several papers on topics ranging from category theoretical notions to typesafe Java DSLs. </p>",
 			    company: "ZeroTurnaround",
 			    link: {
 				    href: "http://twitter.com/ekabanov",
 				    text: "@ekabanov"
 			    },
 			    presentation: {
-				    // title: "Distributed Systems in Production",
-				    // description: "In the field, distributed systems are the new norm. This talk discusses tactics and strategy for productionizing distributed systems with a little bit about what the future will hold.",
+				    title: "Data-Driven Software Engineering",
+				    description: "Did you know that only about 60% of releases are delivered on time and only half of those are without critical bugs? Delivering quality software on time is an enormous challenge due to all the inherent complexities. There are multiple practices, tools and methodologies that promise improvement, but do they deliver?<br>It is time to stop basing our decisions on anecdotes. We need a simple and solid model of software delivery and a measurement system that allows to test their validity. We started such a model and surveyed a 1000 organisations against it. We will show you quantified results on the improvements you can expect with particular tools and practices as well as discuss the model itself and how it can be applied in your environment.<br><br>You will walk out with a quantified data on how to answer questions like \"Should we use pair programming?\", \"How much automated tests is enough?\" and \"What can we do to improve?\"",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
 			    }
