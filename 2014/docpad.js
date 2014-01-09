@@ -299,6 +299,10 @@ module.exports = {
 				    text: "@tastapod"
 			    },
 			    presentation: {
+				    title: "Jackstones: the journey to mastery",
+				    description: "It takes time to become really good at something. Time, commitment and a genuine passion. If you're not having fun the learning is a chore, if you are then it hardly feels like learning at all, at least not like the thing they made you do in school. Craftsmanship is about making that commitment and then figuring out how to see it through.<br><br>Using examples of mastery from various fields and a thirty year paper-folding habit, Dan describes some of the many facets of craftsmanship and tries to figure out exactly what the craft is that we programmers do.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -367,6 +371,23 @@ module.exports = {
 				    description: "Turn based servers are now joining turn based browsers in providing race-free and deadlock-free interactivity. The event-driven model has long been popular in UI systems, but the nature of work in servers presents some new challenges. Functional programming provides solutions, including monads, arrows, promises, and various flavors of FRP. This is another such solution, intended to enhance ease of use with constructs that support parallel and sequential operations.",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
+			    }
+		    },
+		    {
+			    anchor: "EvanCzaplicki",
+			    name: "Evan Czaplicki",
+			    photo: "themes/craftconf/img/speakers/EvanCzaplicki.png",
+			    bio: "<p>I am a functional programmer at heart, and my broad goal is to provide the tools and learning resources to make functional languages common in industry. At Prezi, my focus is developing <a href=\"http://elm-lang.org/\">Elm</a>’s compiler, tools, and community to make it a great for web programming, both within Prezi and in industry in general.</p>",
+			    company: "Prezi",
+			    link: {
+				    href: "https://twitter.com/czaplic",
+				    text: "@czaplic"
+			    },
+			    presentation: {
+				    // title: "Managing Asynchronicity with RQ",
+				    // description: "Turn based servers are now joining turn based browsers in providing race-free and deadlock-free interactivity. The event-driven model has long been popular in UI systems, but the nature of work in servers presents some new challenges. Functional programming provides solutions, including monads, arrows, promises, and various flavors of FRP. This is another such solution, intended to enhance ease of use with constructs that support parallel and sequential operations.",
+				    // // day: "Day 1 (Thursday)",
+				    // // time: "10:00 - 10:40"
 			    }
 		    },
 		    {
@@ -871,6 +892,23 @@ module.exports = {
 			    workshop: {
 				    title: "Mastering Continuous Inspection with SonarQube",
 				    description: "This one-day course, by one of the authors of <a href=\"http://www.manning.com/papapetrou/\">SonarQube In Action</a>, is the ideal hands-on workshop to learn the core concepts of source code quality and how to eventually adopt continuous inspection in any software development lifecycle, using SonarQube. It is intended to teach developers, testers and software architects how to use this open-source tool to continuously track and improve the quality of their source code.<br><br>Here’s a short outline of what we’re going to deal with during this workshop:<ul><li>Understanding the importance of Technical debt<li>The 7 axes of quality<li>Picking a metric to improve<li>Strategies<li>Implementing with Continuous Inspection & code reviews</ul>",
+				    day: "Day 1 (Wednesday)",
+				    time: "9:00 - 17:00"
+			    }
+		    },
+		    {
+			    anchor: "TiberiuCovaci",
+			    name: "Tiberiu Covaci",
+			    photo: "themes/craftconf/img/speakers/TiberiuCovaci.png",
+			    bio: "<p>Before moving back to Romania in 2012, Tiberiu 'Tibi' Covaci lived with his family in Sweden and Bermuda for 16 years. In 2003 he founded Many-core, a company that trained and mentored developers and architects around the world to understand the .NET Framework and the technologies built on top of .NET. He works closely with Microsoft as member of the Developer Guidance Council, course Author, and Technology Reviewer for the Microsoft .NET Official Curriculum courses. He is a member of the ASP Insider and Telerik Insider groups, IASA Speaker & Trainer, INETA Speaker and Country Lead, founding member of IASA Sweden and IASA Romania, and former member of the MCT Advisory Council. For his passion and contributions Microsoft and Telerik awarded Tibi the MVP title. </p>",
+			    company: "IT Advisor, Mentor and Trainer",
+			    link: {
+				    href: "http://twitter.com/tibor19",
+				    text: "@tibor19"
+			    },
+			    workshop: {
+				    title: "Build a Single Page Application in Just One Day",
+				    description: "Most web technologies developed in the past had only one purpose: to offer the users a great experience, mimicking the one you normally get from desktop applications. One way of developing those kind of applications that emerged last year is Single Page Application where everything fits in more or less on one single web page. In this workshop we will develop a SPA from scratch using technologies like <a href=\"http://asp.net/\">ASP.NET</a> Web.Api, Breeze.js, Angular.js. The resulting application will be yours to take home and to continue work with it, and learn from it. For best experience I recommend that you bring your own device with Visual Studio 2012+ installed on it, although any text editor (vi included) will do.",
 				    day: "Day 1 (Wednesday)",
 				    time: "9:00 - 17:00"
 			    }
