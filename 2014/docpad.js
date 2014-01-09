@@ -153,6 +153,23 @@ module.exports = {
 			    }
 		    },
 		    {
+			    anchor: "AndyPiper",
+			    name: "Andy Piper",
+			    photo: "themes/craftconf/img/speakers/AndyPiper.png",
+			    bio: "<p>Andy Piper is widely known as a Social Bridgebuilder and speaker, and works as Developer Advocate for Cloud Foundry, the Open Source Platform-as-a-Service. His passions span a wide variety of areas: cloud, devops, mobile devices, the Internet of Things, Arduino and similar technologies, social computing, and photography. He is project lead and developer on the Eclipse Paho lightweight messaging project. He works for Pivotal. Andy was previously with IBM Software Group for more than 10 years, as a consultant, strategist, and WebSphere Messaging Community Lead. He holds a Master of Arts (Oxf) in Modern History from Brasenose College, Oxford University.</p>",
+			    company: "Pivotal",
+			    link: {
+				    href: "http://twitter.com/andypiper",
+				    text: "@andypiper"
+			    },
+			    presentation: {
+				    title: "Next-Generation Development Platforms: why data, code and mobile converge in the open cloud",
+				    // description: "Getting things done is different at scale. After Case's company Geoloqi joined Esri in 2012, she grew her division from 6-20 people, and successfully launched two major products in the course of a year. She also managed the transition of the company to Github from Enterprise and spearheaded an effort for more open source projects. This speech will cover what Case learned from managing a team of 6 to managing a team of 20 in an international company of 3,000. It will detail hiring, morale, culture, and translating what you need to do into a language the larger team can understand, and what changes from 2 people to 6, to 20 and more.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
+			    }
+		    },
+		    {
 			    anchor: "AnnaObukhova",
 			    name: "Anna Obukhova",
 			    photo: "themes/craftconf/img/speakers/AnnaObukhova.png",
