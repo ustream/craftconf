@@ -506,6 +506,23 @@ module.exports = {
 			    }
 		    },
 		    {
+			    anchor: "JevgeniKabanov",
+			    name: "Jevgeni Kabanov",
+			    photo: "themes/craftconf/img/speakers/JevgeniKabanov.png",
+			    bio: "<p>Jevgeni Kabanov is the founder and CTO of <a href=\"http://www.zeroturnaround.com/\">ZeroTurnaround</a>, a development tools company that focuses on productivity. He wrote the first version of the ZeroTurnaround flagship product, JRebel, a class-reloading JVM plugin. Jevgeni has been speaking at international conferences for over 5 years, including JavaOne, Devoxx/JavaPolis, JavaZone, JAOO, QCon, TSSJS, JFokus and others. Jevgeni also started the first Java conference in Estonia, Geekout. He has an active research interest in programming languages, types and virtual machines, publishing several papers on topics ranging from category theoretical notions to typesafe Java DSLs. Jevgeni is on the Expert Group for the JSR 342 (Java EE 7). He has started two open-source projects -- Aranea and Squill.<br><br>You can follow Jevgeni on Twitter as <a href=\"http://twitter.com/ekabanov\">@ekabanov</a>. See <a href=\"http://lanyrd.com/people/ekabanov/\">http://lanyrd.com/people/ekabanov/</a> for conference history and schedule. ojects.</p>",
+			    company: "ZeroTurnaround",
+			    link: {
+				    href: "http://twitter.com/ekabanov",
+				    text: "@ekabanov"
+			    },
+			    presentation: {
+				    // title: "Distributed Systems in Production",
+				    // description: "In the field, distributed systems are the new norm. This talk discusses tactics and strategy for productionizing distributed systems with a little bit about what the future will hold.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
+			    }
+		    },
+		    {
 			    anchor: "JohnHughes",
 			    name: "John Hughes",
 			    photo: "themes/craftconf/img/speakers/JohnHughes.png",
