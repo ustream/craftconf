@@ -174,7 +174,7 @@ module.exports = {
 			    name: "Ashe Dryden",
 			    photo: "themes/craftconf/img/speakers/AsheDryden.png",
 			    bio: "<p>Ashe Dryden is an indie ruby developer living in Madison, WI. She's been involved with the web in some form or another over the course of the past 13 years. Ashe is an outspoken educator for diversity, inclusiveness, and empathy. She's currently writing a book on increasing diversity within companies, as well as working on a video series and site to serve as a resource to people who want to get involved. When she isn't discussing technology or it’s intersection with culture, she's cycling, tweeting, playing board games, debating the social implications of Star Trek episodes, being that awkward girl at the party, and waiting for her next burrito fix.</p>",
-			    company: "",
+			    company: "Web Developer, Community Organizer",
 			    link: {
 				    href: "http://twitter.com/ashedryden",
 				    text: "@ashedryden"
@@ -344,7 +344,7 @@ module.exports = {
 			    name: "Dominic Tarr",
 			    photo: "themes/craftconf/img/speakers/DominicTarr.png",
 			    bio: "<p>Dominic is a self-styled \"Mad Scientist\" of javascript, most well known for his work on <a href=\"https://github.com/dominictarr/through\">streams</a> and real-time <a href=\"https://github.com/dominictarr/scuttlebutt\">distributed systems</a>, but is now getting into javascript database development with <a href=\"https://github.com/dominictarr/level-sublevel\">leveldb</a>. Dominic is happily being fed by irish development house / mad-science laboratory, nearform.</p>",
-			    company: "",
+			    company: "Independent Computer Software Professional",
 			    link: {
 				    href: "http://twitter.com/dominictarr",
 				    text: "@dominictarr"
@@ -429,7 +429,7 @@ module.exports = {
 			    name: "Gerard Meszaros",
 			    photo: "themes/craftconf/img/speakers/GerardMeszaros.png",
 			    bio: "<p>Gerard Meszaros is an independent software development consultant and trainer with 30+ years experience in software and over a decade of experience in agile methods. He started doing eXtreme Programming in 2000 and quickly discovered that close attention to test craftsmanship was essential to keep the cost of change low. He described his key learnings in his book xUnit Test Patterns – Refactoring Test Code which was published in May 2007 by Addison Wesley in the Martin Fowler Signature Series and it won a Jolt Productivity Award in the Best Technical Book category. Since then he has turned his attention to applying the same concepts to organizing the automated acceptance tests as executable examples. He is based near Calgary Canada and has coached teams and taught courses as far afield as China, India and Europe.</p>",
-			    company: "",
+			    company: "Agile Software Development Guru & CSP",
 			    link: {
 				    href: "http://twitter.com/gerardmes",
 				    text: "@gerardmes"
@@ -461,7 +461,7 @@ module.exports = {
 			    name: "Greg Young",
 			    photo: "themes/craftconf/img/speakers/GregYoung.png",
 			    bio: "<p>Greg Young is an independent consultant and entrepreneur. He is always involved with many concurrent projects, currently these include building out a distributed event store and mighty moose (a continuous test runner). For periods of years Greg has been known to stop living anywhere and just travel.</p>",
-			    company: "",
+			    company: "Independent Consultant and Entrepreneur",
 			    link: {
 				    href: "http://twitter.com/gregyoung",
 				    text: "@gregyoung"
@@ -574,7 +574,7 @@ module.exports = {
 			    name: "Jutta Eckstein",
 			    photo: "themes/craftconf/img/speakers/JuttaEckstein.png",
 			    bio: "<p>Jutta Eckstein is an independent coach, consultant and trainer from Braunschweig, Germany. Her know-how in agile processes is based on over fifteen years experience in project and product development. She has helped many teams and organizations all over the world to make the transition to an agile approach. She has a unique experience in applying agile processes within medium-sized to large distributed mission-critical projects. This is also the topic of her books 'Agile Software Development in the Large' and 'Agile Software Development with Distributed Teams'. She is a member of the AgileAlliance and a member of the program committee of many different European and American conferences in the area of agile development, object-orientation and patterns.</p>",
-			    company: "",
+			    company: "Independent Coach, Consultant and Trainer",
 			    link: {
 				    href: "http://www.jeckstein.com/",
 				    text: "jeckstein.com"
@@ -591,7 +591,7 @@ module.exports = {
 			    name: "Markus Völter",
 			    photo: "themes/craftconf/img/speakers/MarkusVolter.png",
 			    bio: "<p>Markus Völter works as an independent researcher, consultant and coach for itemis AG in Stuttgart, Germany. His focus is on software architecture, model-driven software development and domain specific languages as well as on product line engineering. Markus also regularly writes (articles, patterns, books) and speaks (trainings, conferences) on those subjects. Contact him via <a href=\"http://voelter.de/\">voelter.de</a></p>",
-			    company: "",
+			    company: "Independent Researcher, Consultant and Coach",
 			    link: {
 				    href: "http://twitter.com/markusvoelter",
 				    text: "@markusvoelter"
@@ -625,7 +625,7 @@ module.exports = {
 			    name: "Michael Feathers",
 			    photo: "themes/craftconf/img/speakers/MichaelFeathers.png",
 			    bio: "<p>Michael Feathers is an independent consultant in the area of software design, prior to that he was Member of the Technical Staff at Groupon. Prior to joining Groupon, Michael was the Chief Scientist of Obtiva, and a Senior Consultant with Object Mentor International. Over the years, Michael has spent a great deal of time helping teams after design over time in code bases. Michael is also the author of the book Working Effectively with Legacy Code (Prentice Hall, 2004).</p>",
-			    company: "",
+			    company: "Independent Consultant",
 			    link: {
 				    href: "http://twitter.com/mfeathers",
 				    text: "@mfeathers"
@@ -715,7 +715,7 @@ module.exports = {
 			    name: "Simon Brown",
 			    photo: "themes/craftconf/img/speakers/SimonBrown.png",
 			    bio: "<p>Simon lives in Jersey (the largest of the Channel Islands) and works as an independent consultant, helping teams to build better software. His client list spans over 20 countries and includes organisations ranging from small technology startups through to global household names. Simon is an <a href=\"http://www.codingthearchitecture.com/2013/05/17/saturn_2013.html\">award-winning speaker</a> and the author of <a href=\"http://leanpub.com/software-architecture-for-developers\">Software Architecture for Developers</a> - a developer-friendly guide to software architecture, technical leadership and the balance with agility. He still codes too.</p>",
-			    company: "",
+			    company: "Independent Consultant",
 			    link: {
 				    href: "http://twitter.com/simonbrown",
 				    text: "@simonbrown"
