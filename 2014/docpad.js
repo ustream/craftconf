@@ -632,7 +632,7 @@ module.exports = {
 			    },
 			    presentation: {
 				    title: "It's never too late to fight your legacy!",
-				    // description: "",
+				    description: "Everyone reaches the point where continuous feature development and rapid changes makes it hard to maintain a codebase in large scale, and the complexity starts to climb up to the sky. Instability and slower development is not an option for us, so we had to experiment with new methods and technologies. Unit testing was not a common technique on client-side in recent years, but over a certain amount of complexity it's essential. <br /><br />At Ustream we feel the need of full coverage including unit testing and end-to-end testing and bringing our structured framework into play with continuous integration. My presentation provides insight into our long planning process, tells where we are on this bumpy road, and what is our plan to maintain this state in the future.",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
 			    }
