@@ -265,7 +265,7 @@ module.exports = {
 				    text: "@chadfowler"
 			    },
 			    presentation: {
-				    // title: "Scaling Facebook for Android",
+				    title: "McDonalds, Six Sigma, and Offshore Outsourcing: Unexpected Sources of Insight",
 				    // description: "In the past year, Facebook for Android has moved from a primarily webview based app to an almost entirely native experience. It has transitioned from being built by a small team to a distributed development model where product teams are responsible for their features. And it has grown to be used by well over a hundred million users a day, distributed across devices with orders of magnitude differences in capabilities.<br><br>This talk describes the technical and cultural challenges associated with making these transitions while continuing to ship a fast and lightweight app. We will describe changes we made to each step of the process of committing code, building, testing and releasing our apps to make sure we avoided regressions and measured improvements. We will describe an analytics framework that lets us measure and optimize various performance metrics, and make the costs of features visible to product teams. And we will talk about how we applied these lessons to write a set of core libraries and abstractions that make it easier to distribute development without hurting overall performance of the app. The talk will draw on real examples from a broad set of performance metrics such as startup time, data usage, disk usage, app size, battery consumption etc.",
 				    // day: "Day 1 (Thursday)",
 				    // time: "10:00 - 10:40"
