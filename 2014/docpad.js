@@ -391,6 +391,23 @@ module.exports = {
 			    }
 		    },
 		    {
+			    anchor: "EricEvans",
+			    name: "Eric Evans",
+			    photo: "themes/craftconf/img/speakers/EricEvans.png",
+			    bio: "<p>Eric Evans is a specialist in domain modeling and design in large business systems. Since the early 1990s, he has worked on many projects developing large business systems with objects and has been deeply involved in applying Agile processes on real projects.<br><br>Out of this range of experiences emerged the synthesis of principles and techniques shared in the book <a href=\"http://www.domainlanguage.com/ddd/\">Domain-Driven Design\"</a> Addison-Wesley 2003.<br><br>Eric now leads Domain Language, Inc., a consulting group which coaches and trains teams to make their development more productive and relevant through effective application of domain modeling and design.<br><br>Website: <a href=\"http://www.domainlanguage.com/\">http://www.domainlanguage.com/</a><br><br>Books: <a href=\"http://www.domainlanguage.com/ddd/\">Domain-Driven Design: Tackling Complexity in the Heart of Software</a></p>",
+			    company: "Domain Language Inc.",
+			    link: {
+				    href: "https://twitter.com/ericevans0",
+				    text: "@ericevans0"
+			    },
+			    presentation: {
+				    // title: "Managing Asynchronicity with RQ",
+				    // description: "Turn based servers are now joining turn based browsers in providing race-free and deadlock-free interactivity. The event-driven model has long been popular in UI systems, but the nature of work in servers presents some new challenges. Functional programming provides solutions, including monads, arrows, promises, and various flavors of FRP. This is another such solution, intended to enhance ease of use with constructs that support parallel and sequential operations.",
+				    // // day: "Day 1 (Thursday)",
+				    // // time: "10:00 - 10:40"
+			    }
+		    },
+		    {
 			    anchor: "EvanCzaplicki",
 			    name: "Evan Czaplicki",
 			    photo: "themes/craftconf/img/speakers/EvanCzaplicki.png",
@@ -648,6 +665,7 @@ module.exports = {
 				    text: "@mfeathers"
 			    },
 			    presentation: {
+				    title: "Conway's Law and You: How to Organize your Organization for Optimal Development",
 			    }
 		    },
 		    {
