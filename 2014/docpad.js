@@ -418,7 +418,7 @@ module.exports = {
 				    text: "@czaplic"
 			    },
 			    presentation: {
-				    // title: "Managing Asynchronicity with RQ",
+				    title: "Functional Reactive Programming in Elm and JS.",
 				    // description: "Turn based servers are now joining turn based browsers in providing race-free and deadlock-free interactivity. The event-driven model has long been popular in UI systems, but the nature of work in servers presents some new challenges. Functional programming provides solutions, including monads, arrows, promises, and various flavors of FRP. This is another such solution, intended to enhance ease of use with constructs that support parallel and sequential operations.",
 				    // // day: "Day 1 (Thursday)",
 				    // // time: "10:00 - 10:40"
@@ -501,8 +501,8 @@ module.exports = {
 				    text: "@gregyoung"
 			    },
 			    presentation: {
-				    // title: "How I Learned to Stop Worrying and Love Flexible Scope",
-				    // description: "Not fixing scope too far in the future is one of the cornerstones of agile delivery, but it is at the same time the thing that enterprise stakeholders fear the most. Ironically, being able to change decisions after delivery starts is one of the biggest benefits that companies can get from agile delivery, so it's necessary to stop worrying and embrace flexible scope to get the full benefits of an iterative process. In this talk, Gojko Adzic will show you how to convince people to embrace flexible scope, not only for startup environments but for big enterprise projects as well."
+				    title: "Polyglot Data",
+				    description: "Never heard of it? I am not very surprised. We have many problems that we are forced to solve. Many concepts work in our current models, many do not. Picking the wrong model can lead to massive amounts of accidental complexity. This talk will look at how to reach the point where you stop thinking about how to force your problem into your predefined thinking and how to reach a place where you focus on how to choose the right model for the problem!"
 			    }
 		    },
 		    {
@@ -696,6 +696,8 @@ module.exports = {
 				    text: "@mitchellh"
 			    },
 			    presentation: {
+				    title: "Vagrant, Packer, Serf: Maximum Potency DevOps",
+				    description: "In 2013, we saw the introduction of many new DevOps tools and existing tools such as Vagrant saw some huge improvements and features added. With all this change, its hard to keep up with not only what has changed, but how to use these changes and what benefits they have.<br><br>This talk begins by briefly introducing a handful of my own tools: Vagrant, Packer, and Serf. I talk about what their purpose is, some of their latest features, and who is using these tools. I then continue to show how these tools can be used along with other software such as Docker to create some truly amazing development and production stacks. For production stacks, I discuss the benefits of using some of these tools over existing options, and for development stacks, I show how Vagrant improves process and workflow to help streamline the entire process from development through to production.",
 			    }
 		    },
 		    {
@@ -790,6 +792,8 @@ module.exports = {
 				    text: "@stilkov"
 			    },
 			    presentation: {
+				    title: "Architecture War Stories",
+				    description: "In this session, I will talk about entertaining examples of architectural disasters in software projects. We will see how excellent ideas can turn into nightmares, how one can slowly but thoroughly introduce incredible complexity, and how a merge between organizational and technical failures can grind productivity to a halt. Names and irrelevant details have been changed to protect the somewhat innocent, but everything is based on actual things I had to experience – and sometimes helped create – in the real world.",
 			    }
 		    },
 		    {
