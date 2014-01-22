@@ -7,47 +7,50 @@
 	<% for @day in @schedule: %>
 	<div class="day">
 		<h1><%= @day.header %></h1>
-		<table>
-			<thead>
-				<tr>
-					<th class="schedule-time">Time</th>
-					<th class="schedule-slot">Session</th>
-				</tr>
-			</thead>
-			<tbody>
-			<% for slot, index in @day.slots: %>
-			<tr class="schedule-other">
-				<td class="schedule-time"><%- slot.time %></td>
-				<td class="schedule-slot">
-					<% if not slot.speaker: %>
-						<%- slot.title %>
-					<% else: %>
-						<%  @speaker = (speaker for speaker in @speakers when @day.header is speaker.presentation.day and speaker.presentation.time is slot.time) %>
-						<% if @speaker: %>
-							<% for speaker,index in @speaker: %>
-								<%- speaker.presentation.title %>
-								<span class="schedule-speaker">
-				                    <% if speaker.presentation.speakers: %>
-				                      <% for names, sindex in speaker.presentation.speakers: %>
-				                        <%- names %>
-				                        <% if sindex < speaker.presentation.speakers.length - 1: %>
-				                          &
-				                        <% end %>
-				                      <% end %>
-				                    <% else: %>
-				                      <%- speaker.name %>
-				                    <% end %>
-				                  (<%- speaker.company %>)
-								</span>
+		<% for @stage, stageNr in @day.stages: %>
+			<div class="stage-title"><%= @stage.name %></div>
+			<table>
+				<thead>
+					<tr>
+						<th class="schedule-time">Time</th>
+						<th class="schedule-slot">Session</th>
+					</tr>
+				</thead>
+				<tbody>
+				<% for slot, index in @stage.slots: %>
+				<tr class="schedule-other">
+					<td class="schedule-time"><%- slot.time %></td>
+					<td class="schedule-slot">
+						<% if not slot.speaker: %>
+							<%- slot.title %>
+						<% else: %>
+							<%  @speaker = (speaker for speaker in @speakers when @day.header is speaker.presentation.day and speaker.presentation.time is slot.time and speaker.presentation.stage == stageNr + 1) %>
+							<% if @speaker: %>
+								<% for speaker,index in @speaker: %>
+									<%- speaker.presentation.title %>
+									<span class="schedule-speaker">
+					                    <% if speaker.presentation.speakers: %>
+					                      <% for names, sindex in speaker.presentation.speakers: %>
+					                        <%- names %>
+					                        <% if sindex < speaker.presentation.speakers.length - 1: %>
+					                          &
+					                        <% end %>
+					                      <% end %>
+					                    <% else: %>
+					                      <%- speaker.name %>
+					                    <% end %>
+					                  (<%- speaker.company %>)
+									</span>
+								<% end %>
 							<% end %>
 						<% end %>
-					<% end %>
-				</td>
-			</tr>
-			<% end %>
+					</td>
+				</tr>
+				<% end %>
 
-			</tbody>
-		</table>
+				</tbody>
+			</table>
+		<% end %>
 	</div>
 	<% end %>
 </div>
