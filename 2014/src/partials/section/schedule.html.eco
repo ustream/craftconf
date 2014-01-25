@@ -6,7 +6,10 @@
 <div class="schedule-tbl inner clr">
 	<div class="days clr">
 		<% for @day, ind in @schedule: %>
-			<h1 class="<% if ind==0: %> active <% end %>"><%= @day.header %></h1>
+			<div class="day-header <% if ind==0: %> active <% end %>">
+				<h2><%= @day.header %></h2>
+				<span><%= @day.name %></span>
+			</div>
 		<% end %>
 	</div>
 

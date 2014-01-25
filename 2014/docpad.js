@@ -59,7 +59,8 @@ module.exports = {
 
 		schedule: [
 			{
-				header: "Day 1 (Thursday)",
+				header: "Day 1",
+				name: 'Thursday',
 				stages: [
 					{
 						name: 'Main room',
@@ -94,7 +95,8 @@ module.exports = {
 				]
 			},
 			{
-				header: "Day 2 (Friday)",
+				header: "Day 2",
+				name: 'Friday',
 				stages: [
 					{
 						name: 'Main room',
@@ -137,7 +139,7 @@ module.exports = {
 				presentation: {
 					title: "Functional Examples from Category Theory",
 					// description: "",
-					day: "Day 1 (Thursday)",
+					day: "Day 1",
 					time: "10:00 - 10:40",
 					stage: 1
 				}
@@ -155,7 +157,7 @@ module.exports = {
 				presentation: {
 					title: "Building a Distributed Data Ingestion System with RabbitMQ",
 					description: "Your company has servers distributed around the world and you need to process data in a centralised location. The data is produced by applications using different technology stacks and comes from various sources, from web servers to sensors. How could you solve this problem? Enter RabbitMQ.<br/><br/>In this talk we are going to show how to build a system that can ingest data produced at separate geo located areas (think AWS and it's many regions) and replicate it to a central cluster where it can be further processed and analysed.<br/><br/>We will present an example of how to build a system like this one by using RabbitMQ Federation to replicate data across AWS Regions and RabbitMQ support for many protocols to produce/consume data.<br/><br/>To help with scalability we are going to show an interesting way to implement sharded queues with RabbitMQ by using the Consistent Hash Exchange.<br/><br/>If you want to learn what else has RabbitMQ to offer beyond simple messaging and queueing, then this is the talk for you. <h4>Talk objective:</h4> Our goal is to show that over the years RabbitMQ has gone way beyond a \"simple\" AMQP server to be able to have federated brokers, HA queues and support for many protocols and languages. <h4>Target Audience:</h4><ul><li>Developers interested in building a data ingestion platform that span many locations across the world.</li><li>Developers that have built these kind of solutions already but are interested in learning about alternatives.</li><li>Developers interested in RabbitMQ and Messaging in general.</li></ul>",
-					day: "Day 1 (Thursday)",
+					day: "Day 1",
 					time: "10:00 - 10:40",
 					stage: 2
 				}
@@ -173,7 +175,7 @@ module.exports = {
 				presentation: {
 					title: "Getting Things Done at Scale",
 					description: "Getting things done is different at scale. After Case's company Geoloqi joined Esri in 2012, she grew her division from 6-20 people, and successfully launched two major products in the course of a year. She also managed the transition of the company to Github from Enterprise and spearheaded an effort for more open source projects. This speech will cover what Case learned from managing a team of 6 to managing a team of 20 in an international company of 3,000. It will detail hiring, morale, culture, and translating what you need to do into a language the larger team can understand, and what changes from 2 people to 6, to 20 and more.",
-					day: "Day 1 (Thursday)",
+					day: "Day 1",
 					time: "11:00 - 12:40",
 					stage: 1
 				}
@@ -191,7 +193,7 @@ module.exports = {
 				presentation: {
 					title: "Next-Generation Development Platforms: why data, code and mobile converge in the open cloud",
 					// description: "Getting things done is different at scale. After Case's company Geoloqi joined Esri in 2012, she grew her division from 6-20 people, and successfully launched two major products in the course of a year. She also managed the transition of the company to Github from Enterprise and spearheaded an effort for more open source projects. This speech will cover what Case learned from managing a team of 6 to managing a team of 20 in an international company of 3,000. It will detail hiring, morale, culture, and translating what you need to do into a language the larger team can understand, and what changes from 2 people to 6, to 20 and more.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -208,7 +210,7 @@ module.exports = {
 				presentation: {
 					title: "The SCRUM and the willpower: how to boost your productivity",
 					description: "Willpower is the force that is between the brain activity (I want to do this or I need to do this) and the action itself (start coding). If there is not enough willpower, people find it difficult to start any activity (especially that involves concentration an decision making). The willpower is not endless (so-called muscle theory of willpower), it can be saved, it can be trained, there are approaches how to keep the willpower level high. To keep the willpower (and thus, productivity) on the high level, people should know and use different approaches that lay in the field on the social and cognitive science. There are a lot of evidences that SCRUM improves the developer’s productivity in terms of speed of development, code quality, and accuracy of design. Unfortunately mainly all recommendations from SCRUM coaches look like “believe me, if you do this, you will have better velocity”. Yes, it works. But why does it work? Sometimes SCRUM does not give such great results even when main elements are in place. The question “Why” and “What makes the difference” is here again. I will describe the model of relationship between the willpower related brain metabolism on very low level (specific amino acid cycle) and the SCRUM practices. I can prove that SCRUM addresses the productivity of the people’s brain using 3 different flows simultaneously. There are several tips that make these productivity flows working or not. You can make Agile productive, you can have non-productive Agile. I will show you where the difference is. Overall there are 10 productivity tips that can be put into 3 flows. As the outcome of this session, Agile coaches, and all people who can change the process (in fact that is any team member) will review their SCRUM: does the way they have it improve the productivity or they are losing all the power? The changes are cheap, the outcome can be huge.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -225,7 +227,7 @@ module.exports = {
 				presentation: {
 					title: "Open source isn't for everyone, but it could be",
 					description: "The state of diversity in open source contributions is abysmal. With the number of female OSS contributors at a shockingly low 1.5% and other groups not even documented, we need to ask what we can be doing better as a community. We’ll discuss the barriers that people face contributing to our open source projects and what we can do to increase participation.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -242,7 +244,7 @@ module.exports = {
 				presentation: {
 					title: "Software Psychology: The Art of Listening to Code",
 					description: "Writing code is fun, it's necessary, it's hard, and it's incredibly satisfying both as a hobby and a profession. But once your project gets too large to hold entirely in your head, its elegance and simplicity starts to deteriorate - and that's where software psychology comes in. When we listen to the code, and the design, and the devops, we can hear the code calling for help and it can lead us to the right place to refactor, to redesign, and to robust-ize. A simple case of listening is mapping defect rates to modules and then refactor the modules with the worst rates. A more challenging case of listening is when a complex multi-service architecture'd app suffers a performance brown-out: what do you listen for and how do you counsel the code through it's difficulties?<br><br>I'll present a number of situations where listening to the code (or the design or the devops) is a good idea and various strategies (and tools) you can use to do so. I've got a wealth of examples from my years as a practicing software psychologist, so sit back and prepare to learn the art of listening.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -259,7 +261,7 @@ module.exports = {
 				presentation: {
 					title: "Programming, Only Better",
 					description: "The programming paradigms that served us so well through the 80s and 90s are failing us. Building systems the way we're used to building them always seems to end in the inevitable death march towards exponential complexity. But once you stop to ask the right question- \"what's really causing all this complexity?\" - you realise the answers have really been staring you in the face all along. Debugging is only hard when you can't reason about your code. Concurrency is only hard when you can't predict the state of your code. Reusability is only hard when your components aren't naturally composable.<br><br>Fortunately, languages addressing these issues specifically are popping up all over the place. In many cases, it turns out we've had the solutions to our problems for a long time, we've just forgotten about them, or never really bothered to look. Let's take a moment to explore some of these languages, not as exercises in syntactic details, but looking at the inherent properties in their design that enable us to defy decades of OO tradition and write honest-to-Dijkstra bug free, fault tolerant software without even trying. After half a century in the wilderness, functional programming seems to finally be gaining some ground on the barbarians. Let's examine why.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -276,7 +278,7 @@ module.exports = {
 				presentation: {
 					title: "What Makes a Good Development Process?",
 					// description: "",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -293,7 +295,7 @@ module.exports = {
 				presentation: {
 					title: "McDonalds, Six Sigma, and Offshore Outsourcing: Unexpected Sources of Insight",
 					// description: "In the past year, Facebook for Android has moved from a primarily webview based app to an almost entirely native experience. It has transitioned from being built by a small team to a distributed development model where product teams are responsible for their features. And it has grown to be used by well over a hundred million users a day, distributed across devices with orders of magnitude differences in capabilities.<br><br>This talk describes the technical and cultural challenges associated with making these transitions while continuing to ship a fast and lightweight app. We will describe changes we made to each step of the process of committing code, building, testing and releasing our apps to make sure we avoided regressions and measured improvements. We will describe an analytics framework that lets us measure and optimize various performance metrics, and make the costs of features visible to product teams. And we will talk about how we applied these lessons to write a set of core libraries and abstractions that make it easier to distribute development without hurting overall performance of the app. The talk will draw on real examples from a broad set of performance metrics such as startup time, data usage, disk usage, app size, battery consumption etc.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -310,7 +312,7 @@ module.exports = {
 				presentation: {
 					title: "Scaling Facebook for Android",
 					description: "In the past year, Facebook for Android has moved from a primarily webview based app to an almost entirely native experience. It has transitioned from being built by a small team to a distributed development model where product teams are responsible for their features. And it has grown to be used by well over a hundred million users a day, distributed across devices with orders of magnitude differences in capabilities.<br><br>This talk describes the technical and cultural challenges associated with making these transitions while continuing to ship a fast and lightweight app. We will describe changes we made to each step of the process of committing code, building, testing and releasing our apps to make sure we avoided regressions and measured improvements. We will describe an analytics framework that lets us measure and optimize various performance metrics, and make the costs of features visible to product teams. And we will talk about how we applied these lessons to write a set of core libraries and abstractions that make it easier to distribute development without hurting overall performance of the app. The talk will draw on real examples from a broad set of performance metrics such as startup time, data usage, disk usage, app size, battery consumption etc.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -327,7 +329,7 @@ module.exports = {
 				presentation: {
 					title: "Uncomfortable UX: making life difficult and improving your product",
 					description: "No wireframe survives contact with the user. This is great for UX people, because it means our lives are never dull — but it also makes things complicated for developers who just want to get on and build something. While it can be uncomfortable to challenge a team’s assumptions about what you are building and who it’s for, it is absolutely worthwhile.<br><br>In this session I will talk about:<ul><li>getting over the fear of putting something half-finished in front of users<li>how to get fast feedback from your users<li>different ways to involve your team in research<li>quick methods for communicating research findings<li>some surprising ways that continuous feedback from users benefits everyone</ul>",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -344,7 +346,7 @@ module.exports = {
 				presentation: {
 					title: "Jackstones: the journey to mastery",
 					description: "It takes time to become really good at something. Time, commitment and a genuine passion. If you're not having fun the learning is a chore, if you are then it hardly feels like learning at all, at least not like the thing they made you do in school. Craftsmanship is about making that commitment and then figuring out how to see it through.<br><br>Using examples of mastery from various fields and a thirty year paper-folding habit, Dan describes some of the many facets of craftsmanship and tries to figure out exactly what the craft is that we programmers do.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -361,7 +363,7 @@ module.exports = {
 				presentation: {
 					title: "Browser Cryptography: Pros, Cons, and a way forward",
 					// description: "",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -378,7 +380,7 @@ module.exports = {
 				presentation: {
 					title: "Using Raft for Small-Scale Coordination and Large-Scale Replication",
 					// description: "",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -395,7 +397,7 @@ module.exports = {
 				presentation: {
 					title: "There is no such thing as a general purpose database",
 					// description: "",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -412,7 +414,7 @@ module.exports = {
 				presentation: {
 					title: "Managing Asynchronicity with RQ",
 					description: "Turn based servers are now joining turn based browsers in providing race-free and deadlock-free interactivity. The event-driven model has long been popular in UI systems, but the nature of work in servers presents some new challenges. Functional programming provides solutions, including monads, arrows, promises, and various flavors of FRP. This is another such solution, intended to enhance ease of use with constructs that support parallel and sequential operations.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -429,7 +431,7 @@ module.exports = {
 				presentation: {
 					// title: "Managing Asynchronicity with RQ",
 					// description: "Turn based servers are now joining turn based browsers in providing race-free and deadlock-free interactivity. The event-driven model has long been popular in UI systems, but the nature of work in servers presents some new challenges. Functional programming provides solutions, including monads, arrows, promises, and various flavors of FRP. This is another such solution, intended to enhance ease of use with constructs that support parallel and sequential operations.",
-					// // day: "Day 1 (Thursday)",
+					// // day: "Day 1",
 					// // time: "10:00 - 10:40"
 				}
 			},
@@ -446,7 +448,7 @@ module.exports = {
 				presentation: {
 					title: "Functional Reactive Programming in Elm and JS.",
 					// description: "Turn based servers are now joining turn based browsers in providing race-free and deadlock-free interactivity. The event-driven model has long been popular in UI systems, but the nature of work in servers presents some new challenges. Functional programming provides solutions, including monads, arrows, promises, and various flavors of FRP. This is another such solution, intended to enhance ease of use with constructs that support parallel and sequential operations.",
-					// // day: "Day 1 (Thursday)",
+					// // day: "Day 1",
 					// // time: "10:00 - 10:40"
 				}
 			},
@@ -463,7 +465,7 @@ module.exports = {
 				presentation: {
 					title: "WebTorrent: Using WebRTC and Mad Science to Bring BitTorrent to the Web",
 					description: "WebRTC changes everything! For the first time, we can do peer-to-peer, or client-to-client, communication in the browser without plugins, extensions, or a software installation. This enables an entirely new class of applications to be built for the web! This talk will look at WebTorrent, a BitTorrent client for the browser that fully-interoperates with the regular BitTorrent network. WebTorrent uses WebRTC Data Channels and special \"hybrid clients\" to connect to the wider BitTorrent network. By making BitTorrent easier, we're making it accessible to new swathes of users who were previously intimidated, confused, or unwilling to install a program on their computer to participate.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -480,7 +482,7 @@ module.exports = {
 				presentation: {
 					title: "Continuous integration for Infrastructure",
 					description: "Continuous integration is the practice of merging code from individual working copies with a shared mainline on every commit. It's main aim is to prevent integration problems from many people working on the same codebase and it is now common practices amongst high performing software teams.<br><br>Continuous integration maps well to infrastructure practices too, where you generally have only one production infrastructure but many people working on it. But what does unit testing or integration testing mean in the context of infrastructure as code? And do other common software checks like linting, code coverage or static analysis have equivalents for infrastructure pipelines?<br><br>This talk will explore what is possible when you treat your infrastructure as code, looking across Infrastructure as a Service, Platform as a Service and container based deployments to identify useful patterns and practices.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -497,7 +499,7 @@ module.exports = {
 				presentation: {
 					title: "Find the Right Abstraction Level for Your Tests",
 					description: "For automated tests to provide true return on investment, they must do more than verify that the desired behavior has been achieved; they must also provide a clear and concise human-readable description of that behaviour. Furthermore, they must be reliable and robust in the face of constantly evolving system functionality. Achieving all of these goals requires close attention to the craftsmanship of our test code as well as finding the right vocabulary (and therefore abstraction level) for describing the functionality. Gerard will demonstrate how to apply these ideas to both unit tests and component or even system-level tests using a variety of test automation tools.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -544,7 +546,7 @@ module.exports = {
 				presentation: {
 					title: "Graph Search: The Power of Connected Data",
 					description: "Today's complex data is big, variably-structured and densely connected. In this talk I'll look at how size, structure and connectedness have converged to change the way we work with data. I'll then look at some of the new opportunities for creating end-user value that have emerged in a world of connected data, illustrated with graph search examples implemented using the Neo4j graph database.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -561,7 +563,7 @@ module.exports = {
 				presentation: {
 					title: "Distributed Systems in Production",
 					description: "In the field, distributed systems are the new norm. This talk discusses tactics and strategy for productionizing distributed systems with a little bit about what the future will hold.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -578,7 +580,7 @@ module.exports = {
 				presentation: {
 					title: "Data-Driven Software Engineering",
 					description: "Did you know that only about 60% of releases are delivered on time and only half of those are without critical bugs? Delivering quality software on time is an enormous challenge due to all the inherent complexities. There are multiple practices, tools and methodologies that promise improvement, but do they deliver?<br>It is time to stop basing our decisions on anecdotes. We need a simple and solid model of software delivery and a measurement system that allows to test their validity. We started such a model and surveyed a 1000 organisations against it. We will show you quantified results on the improvements you can expect with particular tools and practices as well as discuss the model itself and how it can be applied in your environment.<br><br>You will walk out with a quantified data on how to answer questions like \"Should we use pair programming?\", \"How much automated tests is enough?\" and \"What can we do to improve?\"",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -608,7 +610,7 @@ module.exports = {
 				presentation: {
 					title: "Alice In Wonderland - Is the Network the Next Frontier for Devops? Devops and Networking",
 					description: "Around 6 years ago I started working with some tools that focused on software engineering collaboration and automation for operations. At the time products like CFEngine and Puppet were the two main tools promoting this new way of doing operations and sharing within operations and software development. A year later Chef was born and I was fortunate enough to join Opscode as the 9th employee as an evangelist preaching this disruptive form of collaboration and automation. At the time a majority of IT infrastructure was managed by what I called the \"Bob’s\" of the world. Bob’s scripts, Bob’s directories and Bob to death do us part. Trying to explain to Bob the benefits of collaboration and software engineering principles was a hard fought battle over the years. One of the compelling events that helped propel these ideas (what we now call Devops) was cloud computing. Fast forward to 2013 and these infrastructure automation and collaboration battles still exist but the battles are far less bloody. Now a new war is emerging in the Network operations and engineering space. The same argument for network operations adopting these principles has always been the same as system ops; however, now the new compelling event is the virtualization of the network. Software Defined Networks is a lot of buzz, but the reality is that many network operations and engineering groups are dealing with an influx of highly virtualized tooling like OpenVswitch, Openflow, OpenDaylight and NSX. Configuration tools are starting to get more sophisticated on these virtualized systems doing things like automated VLAN to Port mapping and basic system hardening. Chef and Puppet both have introduced primitives supporting platforms like Arista, Juniper and Cumulus Networks. Help me start the discussion of what Devops and the Network really mean.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -625,7 +627,7 @@ module.exports = {
 				presentation: {
 					title: "Going Reactive: Event-Driven, Scalable, Resilient & Responsive Systems",
 					description: "The demands and expectations for applications have changed dramatically in recent years. Applications today are deployed on a wide range of infrastructure; from mobile devices up to thousands of nodes running in the cloud—all powered by multi-core processors. They need to be rich and collaborative, have a real-time feel with millisecond response time and should never stop running. Additionally, modern applications are a mashup of external services that need﻿ to be consumed and composed to provide the features at hand.<br><br>We are seeing a new type of applications emerging to address these new challenges—these are being called Reactive Applications. In this talk we will discuss four key traits of Reactive; Event-Driven, Scalable, Resilient and Responsive—how they impact application design, how they interact, their supporting technologies and techniques, how to think when designing and building them—all to make it easier for you and your team to Go Reactive.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -642,7 +644,7 @@ module.exports = {
 				presentation: {
 					title: "Complex Projects aren't planable but controllable",
 					description: "Science has finally approved it: Forecasting complex projects is a deception. Moreover, forecasts hinder innovations. Daniel Kahneman, Nobel Prize Winner in Economic Sciences and psychologist verified in many cases, that forecasting of complex projects is impossible. Yet still, we keep losing time trying to do exactly that. Beyond Budgeting came empirically to the same findings and offers a concept for controlling corporations without budgets. Additionally Beyond Budgeting provides advice for controlling even long-term complex projects. Agile methodologies generally recommend developing a long-term plan on a coarse-grained level only and coming up with detailed short-term plans iteratively. In this talk I want to provide insights in the latest scientific research and show as well how Beyond Budgeting and Agile principles can be combined so that even complex projects remain controllable.<h4>Learning objectives:</h4><ul><li>Understand why forecasting complex projects is impossible</li><li>Become acquainted with the core ideas of Beyond Budgeting</li><li>Understand how Beyond Budgeting can be applied on Agile projects</li></ul>",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -659,7 +661,7 @@ module.exports = {
 				presentation: {
 					title: "The art of building tools - A language engineering perspective",
 					description: "Developing software often requires using a number of tools and languages. In embedded software, for example, it is common to use C and its IDE, Matlab/Simulink, a number of custom XML files, a requirements management tool such as DOORS and possibly a UML tool and a variant management tool. The integration of such a zoo of tools is often a major source of (accidental) complexity in development projects.<br><br>Contrast that with the \"good old days\" when everything was text files and command line executables running on the unix shell. This approach had two important properties: the infrastructure was extremely generic (unix shell, pipes, text editors) and the actual contents were easily extensible and composable (new text file formats/languages and new command line tools); a productive environment for a given project or domain could easily be built from the generic infrastructure plus a few custom extensions.<br><br>In this talk I want to propose that creating (domain-specific) development environments based on language workbenches results in many of the same advantages that we all valued in the unix shell-world. A language workbench is an extremely generic infrastructure that is easily extensible with new languages. It is easy to create domain-specific development tools that can address different aspects of the system with suitable abstractions, but are nonetheless very well integrated in terms of syntax, semantics and tooling.<br><br>In the talk, I illustrate the approach with examples from two domains. One is mbeddr, an open source environment optimized for embedded software development. A second example is taken from the business/insurance domain.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -676,7 +678,7 @@ module.exports = {
 				presentation: {
 					title: "It's never too late to fight your legacy!",
 					description: "Everyone reaches the point where continuous feature development and rapid changes makes it hard to maintain a codebase in large scale, and the complexity starts to climb up to the sky. Instability and slower development is not an option for us, so we had to experiment with new methods and technologies. Unit testing was not a common technique on client-side in recent years, but over a certain amount of complexity it's essential. <br /><br />At Ustream we feel the need of full coverage including unit testing and end-to-end testing and bringing our structured framework into play with continuous integration. My presentation provides insight into our long planning process, tells where we are on this bumpy road, and what is our plan to maintain this state in the future.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -707,7 +709,7 @@ module.exports = {
 				presentation: {
 					title: "Cooperating when the fur flies",
 					description: "There's nothing like a crisis to remove artificial barriers. In this session, Michael will present an experience report about development and operations coming together after a failed launch. Aside from the fun of sharing war stories and comparing scars, what can we learn about climbing out of a crater after the worst has already happened? Can we capture the special magic of a firefighting mission during more sedate times? Beyond all of that, come find out how to stay out of the crater to begin with.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -752,7 +754,7 @@ module.exports = {
 				presentation: {
 					title: "Building on SOLID Foundations",
 					description: "Why can’t we just add a feature to our system without tearing the code apart or, worse, patching around it? It ought to take just a few lines. We know the code is supposed to be modular and coherent, but too often it just doesn’t turn out that way.<br><br>We don’t believe it should be this hard to change object-oriented systems. We’ve seen examples where it really is that easy to add a new feature. The difference seems to be in the intermediate level structure. The design principles that most programmers rely on don’t address the middle ground where the complexity lies. We know about principles and patterns at the small scale, such as SOLID, and the large scale, such as REST. We’re less familiar with the structures in the middle.<br><br>This talk is about design principles that we’ve learned help us develop mid-scale code structures that are easy to read and easy to change. At the lowest level, this means well-known patterns such as avoiding globals and following SOLID guidelines. At larger scales, this means assembling those SOLID objects to avoid hidden coupling so that the system as a whole is amenable to change. We focus on how objects fit together and communicate, and on being clear about how capabilities and information flow between objects in the running system.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -769,7 +771,7 @@ module.exports = {
 				presentation: {
 					title: "Implementing Continuous Delivery: Adjusting your Architecture",
 					description: "There are several factors to implementing Continuous Delivery: organisational, process and architectural. Each one could require significant changes in your organisation.<br><br>This talk will focus on the architecture of your application. How do you design a system you intend to rapidly deploy? How do you avoid common pitfalls or anti-patterns, which will hinder your ability to deliver? How do you refactor your existing code base to suit rapid delivery? I will address patterns such as micro-services and evolutionary architecture, which can speed up your delivery.<br><br>I will also look at how to tackle the dreaded ball-of-mud, that may be currently holding you back, without re-writing your entire architecture.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -786,7 +788,7 @@ module.exports = {
 				presentation: {
 					title: "Agility and the essence of software architecture",
 					description: "On one hand the software development industry is pushing forward, reinventing the way that we build software, striving for agility and craftsmanship at every turn. On the other though, we're continually forgetting the good of the past and software teams are still failing on an alarmingly regular basis. Software architecture plays a pivotal role in the delivery of successful software yet it’s often neglected. Whether performed by one person or shared amongst the team, the software architecture role exists on even the most agile of teams yet the balance of up front and evolutionary thinking often reflects aspiration rather than reality. By steering away from big up front design and ivory tower architects, many teams now struggle to create a consistent, shared technical vision to work from. This can result in chaos, big balls of mud or software that still fails to meet its goals, despite continuous user involvement.<br><br>This talk will explore the importance of software architecture and the consequences of not thinking about it, before introducing some lightweight techniques to bring the essence of software architecture back into an agile environment. We'll look at creating a shared vision within the development team, effectively communicating that vision and managing technical risk. I'll also share the strategies that I've used to introduce these techniques into agile teams, even those that didn't think that they needed them. Expect collaboration, sketching and plenty of gamestorming.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -803,7 +805,7 @@ module.exports = {
 				presentation: {
 					title: "Persistence: A view from Stratosphere",
 					description: "This talk is on one hand a presentation of the latest big data systems and approaches as Google Spanner, Presto, etc. and on the other hand a venture prediction of the future of persistence and data analytics. It covers data formats - the next wave after JSON? -, and  general directions of the NoSQL / NewSQL space. It briefly includes the earlier diverge and todays convergence of the database world. This leads to public guidelines how to avoid drowning in tons of persistence solutions all promising adventures in Alice wonderland. But you should take a step back and have a look at architectures that are able to handle big data, fast data streaming, analytics, semistructured / unstructured data and many more requirements. Decent out of the box solutions are still missing. And finally it's no secret that big data analytic questions are often severe in terms of scaling. But the shapes of the next generation systems in this space are visible and will be illustrated.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -835,7 +837,7 @@ module.exports = {
 				presentation: {
 					title: "JavaScript Module Server",
 					// description: "",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -852,7 +854,7 @@ module.exports = {
 				presentation: {
 					title: "Responsibly maximizing craftsmanship in software engineering",
 					// description: "",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -869,7 +871,7 @@ module.exports = {
 				presentation: {
 					title: "Babelsberg - Modularizing Constraint Satisfaction in Imperative Programs",
 					description: "Constraints are relations between objects that we want to hold. This could be that all parts in an electrical circuit simulation obey the laws of physics, that the rows in a Sudoku add up to 9, or that a streamed video play smoothly in the presence of changing CPU or network load.<br><br>Babelsberg presents an integration of constraint satisfaction with objects and their methods in Ruby and JavaScript, building on earlier work on constraint-imperative programming. In Babelsberg, constraints are assertions that the system tries to satisfy automatically. In my talk, I will discuss the motivations for creating a new language in general and for Babelsberg in particular, and present examples of how we applied Babelsberg to existing problems.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -886,7 +888,7 @@ module.exports = {
 				presentation: {
 					title: "The State of Mobile HTML5",
 					description: "\"Mobile web is dead\" - We have seen this sensational title on tech articles and blogs numerous times. And we, web developers have been trying to defend the web for past years without much success.<br><br>In the beginning of last year, I showcased the capabilities of the Web platform and the real-life use cases of HTML5 in mobile by writing a camera application using W3C HTML5 standards and JavaScript. Although some of the obscure APIs may have surprised web developers how much HTML5 can do, the web app was still nowhere close to be perfect, or cross-browser compatible. Now, one year has passed since, and how have browsers been improved? New proposals? What are still missing, and what do we need to do to stop the obnoxious tech writes from writing the obituaries of HTML5?",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -903,7 +905,7 @@ module.exports = {
 				presentation: {
 					title: "Erlang Patterns Matching Business Needs",
 					description: "In this talk we will present a number of common patterns from Erlang systems and how these patterns relates to business needs.<br><br>Most of the patterns revolve around the notion of how failure is handled and we will discuss how active treatment of failure leads to better options for the product owner when it comes to prioritising fixes and new features.<br><br>By modelling the patterns using OPM (Object-Process Methodology) we get a new way of talking about Erlang systems and architectures, which will make our thoughts and insights easier to share.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},
@@ -920,7 +922,7 @@ module.exports = {
 				presentation: {
 					title: "When dynamic becomes static: the next step in web caching techniques",
 					description: "Tools like Varnish can improve scalability for static sites, but when user-specific content is needed, a hit to the backend is still needed, causing scalability issues. We'll look at a new Nginx module which implements a fast and scalable solution to this problem, changing the way developers think about designing sites with user-specific content. We'll go into how the module works and we'll put the old and new setups head-to-head to showcase the performance and scalability differences.",
-					// day: "Day 1 (Thursday)",
+					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
 			},

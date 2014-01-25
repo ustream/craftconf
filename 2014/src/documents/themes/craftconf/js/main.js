@@ -267,7 +267,7 @@
 			$("#nav").on('click', 'a', $.proxy(this.onNavClick, this));
 
 			//Quick handler for schedule day change
-			$('.schedule-tbl .days h1').on('click', function () {
+			$('.schedule-tbl .day-header').on('click', function () {
 				var dayHeader = $(this);
 
 				dayHeader

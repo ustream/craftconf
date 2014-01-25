@@ -386,14 +386,17 @@ ul {
 	line-height: 21px;
 }
 
-.schedule-tbl .days h1 {
+.schedule-tbl .day-header {
 	width: 50%;
+	padding: 25px 0;
 	float: left;
 	background: #faf9f1;
 	color: #a29977;
 	cursor: pointer;
+	text-align: center;
 
 	border-left: 1px solid #ebeacb;
+	border-bottom: 1px solid #F0EFD8;
 	box-sizing: border-box;
 
 	-webkit-transition: background .05s ease-in-out;
@@ -401,17 +404,28 @@ ul {
 	transition: background .05s ease-in-out;
 }
 
-.schedule-tbl .days h1:hover {
+.schedule-tbl .day-header:hover {
 	background: #f9f8f3;
 }
 
-.schedule-tbl .days h1:first-child {
+.schedule-tbl .day-header:first-child {
 	border-left: 0;
 }
 
-.schedule-tbl .days h1.active {
+.schedule-tbl .day-header.active {
 	background: #fff;
 	color: @orange;
+}
+
+.schedule-tbl .day-header h2 {
+	line-height: 26px;
+	font-size: 21px;
+}
+
+.schedule-tbl .day-header span {
+	font-size: 17px;
+	line-height: 24px;
+	font-weight: 200;
 }
 
 .schedule-tbl .day.active {
