@@ -373,15 +373,49 @@ ul {
 
 /* SCHEDULE */
 
+.schedule-tbl {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);
+}
+
 .schedule-tbl .day {
-	display: block;
-	width: 49%;
+	display: none;
+	width: 100%;
 	background: #fff;
-	margin-left: 1%;
 	float: left;
 	font-size: 12px;
 	line-height: 21px;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);
+}
+
+.schedule-tbl .days h1 {
+	width: 50%;
+	float: left;
+	background: #faf9f1;
+	color: #a29977;
+	cursor: pointer;
+
+	border-left: 1px solid #ebeacb;
+	box-sizing: border-box;
+
+	-webkit-transition: background .05s ease-in-out;
+	-moz-transition: background .05s ease-in-out;
+	transition: background .05s ease-in-out;
+}
+
+.schedule-tbl .days h1:hover {
+	background: #f9f8f3;
+}
+
+.schedule-tbl .days h1:first-child {
+	border-left: 0;
+}
+
+.schedule-tbl .days h1.active {
+	background: #fff;
+	color: @orange;
+}
+
+.schedule-tbl .day.active {
+	display: block;
 }
 
 .schedule-tbl .day:first-child {
@@ -426,6 +460,7 @@ ul {
 .schedule-tbl td.schedule-time {
 	color: @orange;
 	min-width: 80px;
+	width: 12%;
 }
 
 .schedule-tbl table {

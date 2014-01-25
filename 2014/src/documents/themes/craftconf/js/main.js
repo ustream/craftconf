@@ -253,6 +253,8 @@
 		 * @constructor
 		 */
 		init : function () {
+			var dayContainers = $('.day-containers');
+
 			//Skip scroll animation on touch devices
 			if(!this.isTouchDevice()) {
 				this.setupGearAnimation();
@@ -263,6 +265,22 @@
 
 			//Navigation
 			$("#nav").on('click', 'a', $.proxy(this.onNavClick, this));
+
+			//Quick handler for schedule day change
+			$('.schedule-tbl .days h1').on('click', function () {
+				var dayHeader = $(this);
+
+				dayHeader
+					.addClass('active')
+					.siblings().removeClass('active');
+
+
+				dayContainers.find('.day')
+					.removeClass('active')
+					.eq(dayHeader.index())
+						.addClass('active');
+			});
+
 			this.setupDropDown();
 
 			//Speakers
