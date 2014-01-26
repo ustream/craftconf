@@ -18,6 +18,7 @@ var schedule = {
 	break_title:        "Break",
 	lunch_title:        "Lunch",
 	welcome_title:      "Welcome",
+	breakfast_title:    "Breakfast",
 	sponsorpitch_title: "Sponsor pitch",
 	registration_title: "Registration & Breakfast"
 }
@@ -59,7 +60,7 @@ module.exports = {
 		// you can also change order here and it will reflect on page
 		sections: [
 			'about',
-			//'schedule',
+			// 'schedule',
 			'workshops',
 			'speakers',
 			'tickets',
@@ -155,8 +156,7 @@ module.exports = {
 					{
 						name: 'Main room',
 						slots: [
-							{ time: schedule.registration, title: schedule.registration_title },
-							{ time: schedule.welcome,      title: schedule.welcome_title },
+							{ time: schedule.breakfast,    title: schedule.breakfast_title },
 							{ time: schedule.keynote,      speaker: 'ChadFowler', keynote: true },
 							{ time: schedule.talk1,        speaker: 'GojkoAdzic' },
 							{ time: schedule.break1,       title: schedule.break_title},
@@ -175,8 +175,7 @@ module.exports = {
 					{
 						name: 'Room1',
 						slots: [
-							{ time: schedule.registration, title: schedule.registration_title },
-							{ time: schedule.welcome,      title: schedule.welcome_title },
+							{ time: schedule.breakfast,    title: schedule.breakfast_title },
 							{ time: schedule.keynote,      title: 'Keynote in the Main room' },
 							{ time: schedule.talk1,        speaker: 'MarkusVolter' },
 							{ time: schedule.break1,       title: schedule.break_title},
@@ -195,8 +194,7 @@ module.exports = {
 					{
 						name: 'Room2',
 						slots: [
-							{ time: schedule.registration, title: schedule.registration_title },
-							{ time: schedule.welcome,      title: schedule.welcome_title },
+							{ time: schedule.breakfast,    title: schedule.breakfast_title },
 							{ time: schedule.keynote,      title: 'Keynote in the Main room' },
 							{ time: schedule.talk1,        speaker: 'TorbenHoffmann' },
 							{ time: schedule.break1,       title: schedule.break_title},
@@ -215,7 +213,6 @@ module.exports = {
 				]
 			}
 		],
-
 
 		// Speakers and talks
 		speakers: [
