@@ -35,7 +35,7 @@ module.exports = {
 		// you can also change order here and it will reflect on page
 		sections: [
 			'about',
-			'schedule',
+			//'schedule',
 			'workshops',
 			'speakers',
 			'tickets',
@@ -180,6 +180,23 @@ module.exports = {
 					stage: 1
 				}
 			},
+		    {
+			    anchor: "AndrewGodwin",
+			    name: "Andrew Godwin",
+			    photo: "themes/craftconf/img/speakers/AndrewGodwin.png",
+			    bio: "<p>Andrew is a Senior Software Engineer on Eventbrite's Architecture team, and a Core Developer of the Django web framework, specialising in Django's ORM and schema migrations framework. He has spent the last eight years developing schema migration solutions against four major relational databases, and when he's not working on software architecture or data storage problems he enjoys archery and being a private pilot.</p>",
+			    company: "Eventbrite",
+			    link: {
+				    href: "http://twitter.com/andrewgodwin",
+				    text: "@andrewgodwin"
+			    },
+			    presentation: {
+				    title: "Databases & Schemas in an Agile World",
+				    description: "Strict database schemas are a wonderful thing for data integrity, but they can get in the way of new features and fast, iterative development. Learn how you can change your database schema in a fast and downtime-free way, how PostgreSQL is enabling more and more lock-free schema changes, how the Django web framework and its community are adapting to support better schema workflows, and how, sometimes, you can use schemaless data in a relational database and get the best of both worlds - flexible storage, and fast query times.",
+				    // day: "Day 1 (Thursday)",
+				    // time: "10:00 - 10:40"
+			    }
+		    },
 			{
 				anchor: "AndyPiper",
 				name: "Andy Piper",
