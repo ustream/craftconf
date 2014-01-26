@@ -33,7 +33,7 @@
 							<% if not slot.speaker: %>
 								<%- slot.title %>
 							<% else: %>
-								<%  @speaker = (speaker for speaker in @speakers when @day.header is speaker.presentation.day and speaker.presentation.time is slot.time and speaker.presentation.stage == stageNr + 1) %>
+								<%  @speaker = (speaker for speaker in @speakers when speaker.anchor == slot.speaker) %>
 								<% if @speaker: %>
 									<% for speaker,index in @speaker: %>
 										<%- speaker.presentation.title %>

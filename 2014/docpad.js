@@ -35,7 +35,7 @@ module.exports = {
 		// you can also change order here and it will reflect on page
 		sections: [
 			'about',
-			//'schedule',
+			'schedule',
 			'workshops',
 			'speakers',
 			'tickets',
@@ -75,11 +75,11 @@ module.exports = {
 							},
 							{
 								time: "10:00 - 10:40",
-								speaker: true
+								speaker: 'AlissaPajer'
 							},
 							{
 								time: "11:00 - 12:40",
-								speaker: true
+								speaker: 'AlvaroVidela'
 							}
 						]
 					},
@@ -88,7 +88,7 @@ module.exports = {
 						slots: [
 							{
 								time: "10:00 - 10:40",
-								speaker: true
+								speaker: 'AmberCase'
 							}
 						]
 					}
@@ -111,11 +111,11 @@ module.exports = {
 							},
 							{
 								time: "10:00 - 10:40",
-								speaker: true
+								speaker: 'AndrewGodwin'
 							},
 							{
 								time: "11:00 - 12:40",
-								speaker: true
+								speaker: 'AndyPiper'
 							}
 						]
 					}
@@ -138,10 +138,6 @@ module.exports = {
 				},
 				presentation: {
 					title: "Functional Examples from Category Theory",
-					// description: "",
-					day: "Day 1",
-					time: "10:00 - 10:40",
-					stage: 1
 				}
 			},
 			{
@@ -157,9 +153,6 @@ module.exports = {
 				presentation: {
 					title: "Building a Distributed Data Ingestion System with RabbitMQ",
 					description: "Your company has servers distributed around the world and you need to process data in a centralised location. The data is produced by applications using different technology stacks and comes from various sources, from web servers to sensors. How could you solve this problem? Enter RabbitMQ.<br/><br/>In this talk we are going to show how to build a system that can ingest data produced at separate geo located areas (think AWS and it's many regions) and replicate it to a central cluster where it can be further processed and analysed.<br/><br/>We will present an example of how to build a system like this one by using RabbitMQ Federation to replicate data across AWS Regions and RabbitMQ support for many protocols to produce/consume data.<br/><br/>To help with scalability we are going to show an interesting way to implement sharded queues with RabbitMQ by using the Consistent Hash Exchange.<br/><br/>If you want to learn what else has RabbitMQ to offer beyond simple messaging and queueing, then this is the talk for you. <h4>Talk objective:</h4> Our goal is to show that over the years RabbitMQ has gone way beyond a \"simple\" AMQP server to be able to have federated brokers, HA queues and support for many protocols and languages. <h4>Target Audience:</h4><ul><li>Developers interested in building a data ingestion platform that span many locations across the world.</li><li>Developers that have built these kind of solutions already but are interested in learning about alternatives.</li><li>Developers interested in RabbitMQ and Messaging in general.</li></ul>",
-					day: "Day 1",
-					time: "10:00 - 10:40",
-					stage: 2
 				}
 			},
 			{
@@ -175,9 +168,6 @@ module.exports = {
 				presentation: {
 					title: "Getting Things Done at Scale",
 					description: "Getting things done is different at scale. After Case's company Geoloqi joined Esri in 2012, she grew her division from 6-20 people, and successfully launched two major products in the course of a year. She also managed the transition of the company to Github from Enterprise and spearheaded an effort for more open source projects. This speech will cover what Case learned from managing a team of 6 to managing a team of 20 in an international company of 3,000. It will detail hiring, morale, culture, and translating what you need to do into a language the larger team can understand, and what changes from 2 people to 6, to 20 and more.",
-					day: "Day 1",
-					time: "11:00 - 12:40",
-					stage: 1
 				}
 			},
 		    {
