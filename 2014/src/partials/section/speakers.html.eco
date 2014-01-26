@@ -42,13 +42,26 @@
 			    <% else: %>
 				    <h3 class="speakers-name"><%= speaker.name %> <% if speaker.link: %><a class="twitter-link" target="_blank" href="<%= speaker.link.href %>" title="<%= speaker.link.text %>"><%= speaker.link.text %></a><% end %></h3>
 				    <p class="speakers-company"><%= speaker.company %></p>
+				<% end %>
+
+				<% dayTitle = ''; %>
+				<% time = ''; %>
+				<% for day in @schedule: %>
+					<% for stage in day.stages: %>
+						<% for slot in stage.slots: %>
+							<% if (slot.speaker and slot.speaker == speaker.anchor): %>
+								<% dayTitle  = day.header + ' (' + day.name + ')' %>
+								<% time = slot.time %>
+			                <% end %>
+						<% end %>
+					<% end %>
 			    <% end %>
 
 			    <% if speaker.presentation.title || speaker.presentation.time: %>
 		            <div class="speech-info">
 						<h3 class="speech-title">
-							<% if speaker.presentation.time: %>
-								<span class="speech-time"><%= speaker.presentation.day %> &mdash; <%= speaker.presentation.time %></span>
+							<% if time: %>
+								<span class="speech-time"><%= dayTitle %> &mdash; <%= time %></span>
 							<% end %>
 						<span class="title"> <%= speaker.presentation.title %></span>
 						</h3>

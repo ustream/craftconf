@@ -36,6 +36,9 @@
 								<%  @speaker = (speaker for speaker in @speakers when speaker.anchor == slot.speaker) %>
 								<% if @speaker: %>
 									<% for speaker,index in @speaker: %>
+										<% if (slot.keynote): %>
+											Keynote:
+										<% end %>
 										<%- speaker.presentation.title %>
 										<span class="schedule-speaker">
 						                    <% if speaker.presentation.speakers: %>
