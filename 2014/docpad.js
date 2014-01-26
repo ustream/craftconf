@@ -436,7 +436,7 @@ module.exports = {
 					text: "@ericevans0"
 				},
 				presentation: {
-					// title: "Managing Asynchronicity with RQ",
+					title: "Domain Driven Design",
 					// description: "Turn based servers are now joining turn based browsers in providing race-free and deadlock-free interactivity. The event-driven model has long been popular in UI systems, but the nature of work in servers presents some new challenges. Functional programming provides solutions, including monads, arrows, promises, and various flavors of FRP. This is another such solution, intended to enhance ease of use with constructs that support parallel and sequential operations.",
 					// // day: "Day 1",
 					// // time: "10:00 - 10:40"
@@ -602,6 +602,10 @@ module.exports = {
 					text: "@rjmh"
 				},
 				presentation: {
+					title: "QuickCheck",
+					// description: "Did you know that only about 60% of releases are delivered on time and only half of those are without critical bugs? Delivering quality software on time is an enormous challenge due to all the inherent complexities. There are multiple practices, tools and methodologies that promise improvement, but do they deliver?<br>It is time to stop basing our decisions on anecdotes. We need a simple and solid model of software delivery and a measurement system that allows to test their validity. We started such a model and surveyed a 1000 organisations against it. We will show you quantified results on the improvements you can expect with particular tools and practices as well as discuss the model itself and how it can be applied in your environment.<br><br>You will walk out with a quantified data on how to answer questions like \"Should we use pair programming?\", \"How much automated tests is enough?\" and \"What can we do to improve?\"",
+					// day: "Day 1",
+					// time: "10:00 - 10:40"
 				}
 			},
 			{
