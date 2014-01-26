@@ -35,7 +35,7 @@ module.exports = {
 		// you can also change order here and it will reflect on page
 		sections: [
 			'about',
-			'schedule',
+			// 'schedule',
 			'workshops',
 			'speakers',
 			'tickets',
@@ -145,7 +145,7 @@ module.exports = {
 				name: "Alvaro Videla",
 				photo: "themes/craftconf/img/speakers/AlvaroVidela.png",
 				bio: "<p>Alvaro Videla works as Developer Advocate for RabbitMQ/Pivotal. Before moving to Europe he used to work in Shanghai where he helped building one of Germany's biggest dating websites. He co-authored the book \"RabbitMQ in Action\" for Manning Publishing. Some of his open source projects can be found here: <a href=\"http://github.com/videlalvaro\">http://github.com/videlalvaro.</a> Apart from code related stuff he likes traveling with his wife, listening/playing music and reading books. You can find him on Twitter as @old_sound.</p>",
-				company: "Pivotal Inc.",
+				company: "Pivotal",
 				link: {
 					href: "http://twitter.com/old_sound",
 					text: "@old_sound"
@@ -622,6 +622,23 @@ module.exports = {
 				}
 			},
 			{
+				anchor: "JoshLong",
+				name: "Josh Long",
+				photo: "themes/craftconf/img/speakers/JoshLong.png",
+				bio: "<p>Josh Long is the Spring developer advocate. Josh is the author of books from Apress, O'Reilly and Manning, and a SpringSource committer and contributor. When he's not hacking on code, he can be found at the local Java User Group or at the local coffee shop. Josh likes solutions that push the boundaries of the technologies that enable them. His interests include scalability, BPM, grid processing, mobile computing and so-called \"smart\" systems. He blogs at <a href=\"http://blog.springsource.org\">blog.springsource.org</a> or <a href=\"http://joshlong.com\">joshlong.com</a> or on Twitter at <a href=\"https://twitter.com/starbuxman\">@starbuxman</a>.</p>",
+				company: "Pivotal",
+				link: {
+					href: "http://twitter.com/starbuxman",
+					text: "@starbuxman"
+				},
+				presentation: {
+					title: "Spring Boot",
+					// description: "Around 6 years ago I started working with some tools that focused on software engineering collaboration and automation for operations. At the time products like CFEngine and Puppet were the two main tools promoting this new way of doing operations and sharing within operations and software development. A year later Chef was born and I was fortunate enough to join Opscode as the 9th employee as an evangelist preaching this disruptive form of collaboration and automation. At the time a majority of IT infrastructure was managed by what I called the \"Bob’s\" of the world. Bob’s scripts, Bob’s directories and Bob to death do us part. Trying to explain to Bob the benefits of collaboration and software engineering principles was a hard fought battle over the years. One of the compelling events that helped propel these ideas (what we now call Devops) was cloud computing. Fast forward to 2013 and these infrastructure automation and collaboration battles still exist but the battles are far less bloody. Now a new war is emerging in the Network operations and engineering space. The same argument for network operations adopting these principles has always been the same as system ops; however, now the new compelling event is the virtualization of the network. Software Defined Networks is a lot of buzz, but the reality is that many network operations and engineering groups are dealing with an influx of highly virtualized tooling like OpenVswitch, Openflow, OpenDaylight and NSX. Configuration tools are starting to get more sophisticated on these virtualized systems doing things like automated VLAN to Port mapping and basic system hardening. Chef and Puppet both have introduced primitives supporting platforms like Arista, Juniper and Cumulus Networks. Help me start the discussion of what Devops and the Network really mean.",
+					// day: "Day 1",
+					// time: "10:00 - 10:40"
+				}
+			},
+			{
 				anchor: "JonasBoner",
 				name: "Jonas Bonér",
 				photo: "themes/craftconf/img/speakers/JonasBoner.png",
@@ -795,6 +812,23 @@ module.exports = {
 				presentation: {
 					title: "Agility and the essence of software architecture",
 					description: "On one hand the software development industry is pushing forward, reinventing the way that we build software, striving for agility and craftsmanship at every turn. On the other though, we're continually forgetting the good of the past and software teams are still failing on an alarmingly regular basis. Software architecture plays a pivotal role in the delivery of successful software yet it’s often neglected. Whether performed by one person or shared amongst the team, the software architecture role exists on even the most agile of teams yet the balance of up front and evolutionary thinking often reflects aspiration rather than reality. By steering away from big up front design and ivory tower architects, many teams now struggle to create a consistent, shared technical vision to work from. This can result in chaos, big balls of mud or software that still fails to meet its goals, despite continuous user involvement.<br><br>This talk will explore the importance of software architecture and the consequences of not thinking about it, before introducing some lightweight techniques to bring the essence of software architecture back into an agile environment. We'll look at creating a shared vision within the development team, effectively communicating that vision and managing technical risk. I'll also share the strategies that I've used to introduce these techniques into agile teams, even those that didn't think that they needed them. Expect collaboration, sketching and plenty of gamestorming.",
+					// day: "Day 1",
+					// time: "10:00 - 10:40"
+				}
+			},
+			{
+				anchor: "StasZvinyatskovsky",
+				name: "Stas Zvinyatskovsky",
+				photo: "themes/craftconf/img/speakers/StasZvinyatskovsky.png",
+				bio: "<p>Stas is senior principal architect at Yahoo! He works on system architecture, technical excellence and Continuous Delivery for Yahoo! advertising and data platforms.</p>",
+				company: "Yahoo!",
+				link: {
+					href: "http://twitter.com/staszv",
+					text: "@staszv"
+				},
+				presentation: {
+					title: "Continuous Delivery recipes at Yahoo!",
+					// description: "This talk is on one hand a presentation of the latest big data systems and approaches as Google Spanner, Presto, etc. and on the other hand a venture prediction of the future of persistence and data analytics. It covers data formats - the next wave after JSON? -, and  general directions of the NoSQL / NewSQL space. It briefly includes the earlier diverge and todays convergence of the database world. This leads to public guidelines how to avoid drowning in tons of persistence solutions all promising adventures in Alice wonderland. But you should take a step back and have a look at architectures that are able to handle big data, fast data streaming, analytics, semistructured / unstructured data and many more requirements. Decent out of the box solutions are still missing. And finally it's no secret that big data analytic questions are often severe in terms of scaling. But the shapes of the next generation systems in this space are visible and will be illustrated.",
 					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
