@@ -201,7 +201,7 @@ module.exports = {
 							{ time: schedule.talk1,        speaker: 'TorbenHoffmann' },
 							{ time: schedule.break1,       title: schedule.break_title},
 							{ time: schedule.talk2,        speaker: 'JohnWillis' },
-							{ time: schedule.talk3,        speaker: 'NatPryce_SteveFreeman' },
+							{ time: schedule.talk3,        speaker: 'NatPryceSteveFreeman' },
 							{ time: schedule.lunch,        title: schedule.lunch_title },
 							{ time: schedule.sponsorpitch, title: schedule.sponsorpitch_title },
 							{ time: schedule.talk4,        speaker: 'GregYoung' },
