@@ -60,7 +60,7 @@ module.exports = {
 		// you can also change order here and it will reflect on page
 		sections: [
 			'about',
-			// 'schedule',
+			'schedule',
 			'workshops',
 			'speakers',
 			'tickets',
@@ -1197,6 +1197,20 @@ module.exports = {
 		// Theme path
 		getTheme: function () {
 			return "themes/" + this.site.theme;
+		},
+
+		getFormattedShcedule: function () {
+			var newSchedule = {},
+				currentDay,
+				currentStage;
+
+			for (var day in this.schedule) {
+				currentDay = this.schedule[day];
+
+				for (var stage in currentDay.stages) {
+					currentStage = currentDay;
+				}
+			}
 		}
 	}
 };

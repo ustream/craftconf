@@ -16,53 +16,68 @@
 	<div class="day-containers">
 		<% for @day, ind in @schedule: %>
 		<div class="day <% if ind==0: %> active <% end %>">
-			<% for @stage, stageNr in @day.stages: %>
-				<div class="stage-title"><%= @stage.name %></div>
-				<table>
-					<thead>
-						<tr>
-							<th class="schedule-time">Time</th>
-							<th class="schedule-slot">Session</th>
-						</tr>
-					</thead>
-					<tbody>
-					<% for slot, index in @stage.slots: %>
-					<tr class="schedule-other">
-						<td class="schedule-time"><%- slot.time %></td>
-						<td class="schedule-slot">
-							<% if not slot.speaker: %>
-								<%- slot.title %>
-							<% else: %>
-								<%  @speaker = (speaker for speaker in @speakers when speaker.anchor == slot.speaker) %>
-								<% if @speaker: %>
-									<% for speaker,index in @speaker: %>
-										<% if (slot.keynote): %>
-											Keynote:
-										<% end %>
-										<%- speaker.presentation.title %>
-										<span class="schedule-speaker">
-						                    <% if speaker.presentation.speakers: %>
-						                      <% for names, sindex in speaker.presentation.speakers: %>
-						                        <%- names %>
-						                        <% if sindex < speaker.presentation.speakers.length - 1: %>
-						                          &
-						                        <% end %>
-						                      <% end %>
-						                    <% else: %>
-						                      <%- speaker.name %>
-						                    <% end %>
-						                  (<%- speaker.company %>)
-										</span>
-									<% end %>
-								<% end %>
-							<% end %>
-						</td>
-					</tr>
+			<table>
+				<colgroup>
+					<col width="50">
+					<col width="100">
+					<col width="100">
+					<col width="100">
+				</colgroup>
+				<tr>
+					<th></th>
+					<% for i in [0..2]: %>
+						<th class="stage"><%= @day.stages[i].name %></th>
 					<% end %>
+				</tr>
+				<tr class="table-heading">
+					<th class="schedule-time">Time</th>
+					<th class="schedule-slot session" colspan="3">Session</th>
+				</tr>
+				<% for i in [0..14]: %>
+					<tr>
+						<% for j in [0..2]: %>
+							<% slot = @day.stages[j].slots[i] %>
 
-					</tbody>
-				</table>
-			<% end %>
+							<% if slot: %>
+								<% if j ==0: %>
+									<td class="schedule-time"><%= slot.time %></td>
+								<% end %>
+								<td class="schedule-slot">
+									<% if not slot.speaker: %>
+										<%- slot.title %>
+									<% else: %>
+										<%  @speaker = (speaker for speaker in @speakers when speaker.anchor == slot.speaker) %>
+										<% if @speaker: %>
+											<% for speaker,index in @speaker: %>
+												<% if (slot.keynote): %>
+													Keynote:
+												<% end %>
+												<%- speaker.presentation.title %>
+													<span class="schedule-speaker">
+									                    <% if speaker.presentation.speakers: %>
+									                      <% for names, sindex in speaker.presentation.speakers: %>
+									                        <%- names %>
+									                        <% if sindex < speaker.presentation.speakers.length - 1: %>
+									                          &
+									                        <% end %>
+									                      <% end %>
+									                    <% else: %>
+									                      <%- speaker.name %>
+									                    <% end %>
+									                  (<%- speaker.company %>)
+													</span>
+											<% end %>
+										<% end %>
+									<% end %>
+								</td>
+							<% else: %>
+								<td></td>
+							<% end %>
+
+						<% end %>
+					</tr>
+				<% end %>
+			</table>
 		</div>
 		<% end %>
 	</div>
