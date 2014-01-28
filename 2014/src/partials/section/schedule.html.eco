@@ -23,17 +23,15 @@
 					<col width="100">
 					<col width="100">
 				</colgroup>
-				<tr>
-					<th></th>
-					<% for i in [0..2]: %>
-						<th class="stage"><%= @day.stages[i].name %></th>
-					<% end %>
-				</tr>
-				<tr class="table-heading">
-					<th class="schedule-time">Time</th>
-					<th class="schedule-slot session" colspan="3">Session</th>
-				</tr>
 				<% for i in [0..14]: %>
+					<% if i == 3 : %>
+						<tr>
+							<th></th>
+							<% for i in [0..2]: %>
+							<th class="stage"><%= @day.stages[i].name %></th>
+							<% end %>
+						</tr>
+					<% end %>
 					<tr>
 						<% for j in [0..2]: %>
 							<% slot = @day.stages[j].slots[i] %>
