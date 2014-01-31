@@ -85,17 +85,28 @@
 											<% for speaker,index in @speaker: %>
 												<%- speaker.presentation.title %>
 													<span class="schedule-speaker">
-									                    <% if speaker.presentation.speakers: %>
-									                      <% for names, sindex in speaker.presentation.speakers: %>
-									                        <%- names %>
-									                        <% if sindex < speaker.presentation.speakers.length - 1: %>
-									                          &
+														<% if speaker.coSpeakers: %>
+															<% for coSpeaker, coInd in speaker.coSpeakers: %>
+																<% if coInd != 0: %>
+																	-
+																<% end %>
+																<%- coSpeaker.name %>
+																(<%- coSpeaker.company %>)
+															<% end %>
+															<br/>
+														<% else: %>
+															<% if speaker.presentation.speakers: %>
+																<% for names, sindex in speaker.presentation.speakers: %>
+																<%- names %>
+																<% if sindex < speaker.presentation.speakers.length - 1: %>
+									                            &
+																<% end %>
 									                        <% end %>
-									                      <% end %>
-									                    <% else: %>
-									                      <%- speaker.name %>
-									                    <% end %>
-									                  (<%- speaker.company %>)
+									                        <% else: %>
+									                            <%- speaker.name %>
+									                        <% end %>
+									                        (<%- speaker.company %>)
+														<% end %>
 													</span>
 												<% end %>
 											<% end %>
@@ -103,6 +114,9 @@
 									<% end %>
 								<% end %>
 							<% else: %>
+								<% if j == 0: %>
+									<td></td>
+								<% end %>
 								<td></td>
 							<% end %>
 
