@@ -144,6 +144,10 @@ ul {
 	height: 415px;
 }
 
+td[colspan] {
+	text-align: center;
+}
+
 #header .info {
 	text-align: center;
 	z-index: 2;
@@ -504,7 +508,8 @@ ul {
 	vertical-align: top;
 }
 
-.schedule-tbl tbody tr:nth-child(2n+1) td {
+.schedule-tbl .day-0 tbody tr:nth-child(2n+1) td,
+.schedule-tbl .day-1 tbody tr:nth-child(2n) td {
 	background: #faf9f1;
 	border-top: 1px solid #f0efd8;
 	border-bottom: 1px solid #f0efd8;

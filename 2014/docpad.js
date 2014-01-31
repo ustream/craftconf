@@ -113,7 +113,7 @@ module.exports = {
 						slots: [
 							{ time: schedule.registration, title: schedule.registration_title },
 							{ time: schedule.welcome,      title: schedule.welcome_title },
-							{ time: schedule.keynote,      title: 'Keynote in the Main room' },
+							{ time: schedule.keynote,      title: 'Keynote in the Main room', speaker: true },
 							{ time: schedule.sponsorpitch, title: schedule.sponsorpitch_title },
 							{ time: schedule.break1,       title: schedule.break_title},
 							{ time: schedule.talk1,        speaker: 'ChaitanyaMishra' },
@@ -133,7 +133,7 @@ module.exports = {
 						slots: [
 							{ time: schedule.registration, title: schedule.registration_title },
 							{ time: schedule.welcome,      title: schedule.welcome_title },
-							{ time: schedule.keynote,      title: 'Keynote in the Main room' },
+							{ time: schedule.keynote,      title: 'Keynote in the Main room', speaker: true },
 							{ time: schedule.sponsorpitch, title: schedule.sponsorpitch_title },
 							{ time: schedule.break1,       title: schedule.break_title},
 							{ time: schedule.talk1,        speaker: 'RachelLaycock' },
@@ -177,7 +177,7 @@ module.exports = {
 						name: 'Room1',
 						slots: [
 							{ time: schedule.breakfast,    title: schedule.breakfast_title },
-							{ time: schedule.keynote,      title: 'Keynote in the Main room' },
+							{ time: schedule.keynote,      title: 'Keynote in the Main room', speaker: true },
 							{ time: schedule.sponsorpitch, title: schedule.sponsorpitch_title },
 							{ time: schedule.break1,       title: schedule.break_title},
 							{ time: schedule.talk1,        speaker: 'MarkusVolter' },
@@ -196,7 +196,7 @@ module.exports = {
 						name: 'Room2',
 						slots: [
 							{ time: schedule.breakfast,    title: schedule.breakfast_title },
-							{ time: schedule.keynote,      title: 'Keynote in the Main room' },
+							{ time: schedule.keynote,      title: 'Keynote in the Main room', speaker: true },
 							{ time: schedule.sponsorpitch, title: schedule.sponsorpitch_title },
 							{ time: schedule.break1,       title: schedule.break_title},
 							{ time: schedule.talk1,        speaker: 'TorbenHoffmann' },
