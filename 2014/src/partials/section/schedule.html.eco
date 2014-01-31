@@ -42,39 +42,65 @@
 								<% end %>
 
 								<% if not slot.speaker: %>
-									<% if j == 0 : %>
+									<% if j == 0 and not slot.keynote: %>
 										<td class="schedule-slot" colspan="3">
 											<%- slot.title %>
 										</td>
 									<% end %>
 								<% else: %>
-									<td class="schedule-slot">
-									<%  @speaker = (speaker for speaker in @speakers when speaker.anchor == slot.speaker) %>
-									<% if @speaker: %>
+									<% if slot.keynote: %>
+										<% if j==0: %>
+											<td class="schedule-slot" colspan="3">
+												<%  @speaker = (speaker for speaker in @speakers when speaker.anchor == slot.speaker) %>
+												<% if @speaker: %>
 
-										<%- slot.title %>
+												<%- slot.title %>
 
-										<% for speaker,index in @speaker: %>
-											<% if (slot.keynote): %>
-												Keynote:
-											<% end %>
-											<%- speaker.presentation.title %>
-											<span class="schedule-speaker">
-							                    <% if speaker.presentation.speakers: %>
-							                      <% for names, sindex in speaker.presentation.speakers: %>
-							                        <%- names %>
-							                        <% if sindex < speaker.presentation.speakers.length - 1: %>
-							                          &
-							                        <% end %>
-							                      <% end %>
-							                    <% else: %>
-							                      <%- speaker.name %>
-							                    <% end %>
-							                  (<%- speaker.company %>)
-											</span>
+												<% for speaker,index in @speaker: %>
+													Keynote:
+													<%- speaker.presentation.title %>
+														<span class="schedule-speaker">
+										                    <% if speaker.presentation.speakers: %>
+										                      <% for names, sindex in speaker.presentation.speakers: %>
+										                        <%- names %>
+										                        <% if sindex < speaker.presentation.speakers.length - 1: %>
+										                          &
+										                        <% end %>
+										                      <% end %>
+										                    <% else: %>
+										                      <%- speaker.name %>
+										                    <% end %>
+										                  (<%- speaker.company %>)
+														</span>
+													<% end %>
+												<% end %>
+											</td>
 										<% end %>
+									<% else: %>
+										<td class="schedule-slot">
+											<%  @speaker = (speaker for speaker in @speakers when speaker.anchor == slot.speaker) %>
+											<% if @speaker: %>
+											<%- slot.title %>
+
+											<% for speaker,index in @speaker: %>
+												<%- speaker.presentation.title %>
+													<span class="schedule-speaker">
+									                    <% if speaker.presentation.speakers: %>
+									                      <% for names, sindex in speaker.presentation.speakers: %>
+									                        <%- names %>
+									                        <% if sindex < speaker.presentation.speakers.length - 1: %>
+									                          &
+									                        <% end %>
+									                      <% end %>
+									                    <% else: %>
+									                      <%- speaker.name %>
+									                    <% end %>
+									                  (<%- speaker.company %>)
+													</span>
+												<% end %>
+											<% end %>
+										</td>
 									<% end %>
-									</td>
 								<% end %>
 							<% else: %>
 								<td></td>
