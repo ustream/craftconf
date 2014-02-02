@@ -206,7 +206,7 @@ module.exports = {
 							{ time: schedule.talk4,        speaker: 'GregYoung' },
 							{ time: schedule.talk5,        speaker: 'StefanEdlich' },
 							{ time: schedule.break2,       title: schedule.break_title},
-							{ time: schedule.talk6,        speaker: 'JoshLong' },
+							{ time: schedule.talk6,        speaker: 'EndreVarga' },
 							{ time: schedule.talk7,        speaker: 'DiegoOngaro' },
 							{ time: schedule.talk8,        speaker: 'SzabolcsSzabolcsiToth' }
 						]
@@ -534,6 +534,23 @@ module.exports = {
 				}
 			},
 			{
+				anchor: "EndreVarga",
+				name: "Endre Varga",
+				photo: "themes/craftconf/img/speakers/EndreVarga.png",
+				bio: "<p>Endre is a developer at Typesafe, working on the open source Akka project and bringing the world of actors to the JVM. Coming from an academic background and working with distributed, concurrent systems on a daily basis he continuously investigates the tools to make distributed systems safer and understandable for the rest of the world...</p>",
+				company: "Typesafe",
+				link: {
+					href: "https://twitter.com/drewhk",
+					text: "@drewhk"
+				},
+				presentation: {
+					title: "Without Present or Past: How to Think Distributed - The Hard Way",
+					// description: "Turn based servers are now joining turn based browsers in providing race-free and deadlock-free interactivity. The event-driven model has long been popular in UI systems, but the nature of work in servers presents some new challenges. Functional programming provides solutions, including monads, arrows, promises, and various flavors of FRP. This is another such solution, intended to enhance ease of use with constructs that support parallel and sequential operations.",
+					// // day: "Day 1",
+					// // time: "10:00 - 10:40"
+				}
+			},
+			{
 				anchor: "EvanCzaplicki",
 				name: "Evan Czaplicki",
 				photo: "themes/craftconf/img/speakers/EvanCzaplicki.png",
@@ -712,23 +729,6 @@ module.exports = {
 				presentation: {
 					title: "Alice In Wonderland - Is the Network the Next Frontier for Devops? Devops and Networking",
 					description: "Around 6 years ago I started working with some tools that focused on software engineering collaboration and automation for operations. At the time products like CFEngine and Puppet were the two main tools promoting this new way of doing operations and sharing within operations and software development. A year later Chef was born and I was fortunate enough to join Opscode as the 9th employee as an evangelist preaching this disruptive form of collaboration and automation. At the time a majority of IT infrastructure was managed by what I called the \"Bob’s\" of the world. Bob’s scripts, Bob’s directories and Bob to death do us part. Trying to explain to Bob the benefits of collaboration and software engineering principles was a hard fought battle over the years. One of the compelling events that helped propel these ideas (what we now call Devops) was cloud computing. Fast forward to 2013 and these infrastructure automation and collaboration battles still exist but the battles are far less bloody. Now a new war is emerging in the Network operations and engineering space. The same argument for network operations adopting these principles has always been the same as system ops; however, now the new compelling event is the virtualization of the network. Software Defined Networks is a lot of buzz, but the reality is that many network operations and engineering groups are dealing with an influx of highly virtualized tooling like OpenVswitch, Openflow, OpenDaylight and NSX. Configuration tools are starting to get more sophisticated on these virtualized systems doing things like automated VLAN to Port mapping and basic system hardening. Chef and Puppet both have introduced primitives supporting platforms like Arista, Juniper and Cumulus Networks. Help me start the discussion of what Devops and the Network really mean.",
-					// day: "Day 1",
-					// time: "10:00 - 10:40"
-				}
-			},
-			{
-				anchor: "JoshLong",
-				name: "Josh Long",
-				photo: "themes/craftconf/img/speakers/JoshLong.png",
-				bio: "<p>Josh Long is the Spring developer advocate. Josh is the author of books from Apress, O'Reilly and Manning, and a SpringSource committer and contributor. When he's not hacking on code, he can be found at the local Java User Group or at the local coffee shop. Josh likes solutions that push the boundaries of the technologies that enable them. His interests include scalability, BPM, grid processing, mobile computing and so-called \"smart\" systems. He blogs at <a href=\"http://blog.springsource.org\">blog.springsource.org</a> or <a href=\"http://joshlong.com\">joshlong.com</a> or on Twitter at <a href=\"https://twitter.com/starbuxman\">@starbuxman</a>.</p>",
-				company: "Pivotal",
-				link: {
-					href: "http://twitter.com/starbuxman",
-					text: "@starbuxman"
-				},
-				presentation: {
-					title: "Spring Boot",
-					// description: "Around 6 years ago I started working with some tools that focused on software engineering collaboration and automation for operations. At the time products like CFEngine and Puppet were the two main tools promoting this new way of doing operations and sharing within operations and software development. A year later Chef was born and I was fortunate enough to join Opscode as the 9th employee as an evangelist preaching this disruptive form of collaboration and automation. At the time a majority of IT infrastructure was managed by what I called the \"Bob’s\" of the world. Bob’s scripts, Bob’s directories and Bob to death do us part. Trying to explain to Bob the benefits of collaboration and software engineering principles was a hard fought battle over the years. One of the compelling events that helped propel these ideas (what we now call Devops) was cloud computing. Fast forward to 2013 and these infrastructure automation and collaboration battles still exist but the battles are far less bloody. Now a new war is emerging in the Network operations and engineering space. The same argument for network operations adopting these principles has always been the same as system ops; however, now the new compelling event is the virtualization of the network. Software Defined Networks is a lot of buzz, but the reality is that many network operations and engineering groups are dealing with an influx of highly virtualized tooling like OpenVswitch, Openflow, OpenDaylight and NSX. Configuration tools are starting to get more sophisticated on these virtualized systems doing things like automated VLAN to Port mapping and basic system hardening. Chef and Puppet both have introduced primitives supporting platforms like Arista, Juniper and Cumulus Networks. Help me start the discussion of what Devops and the Network really mean.",
 					// day: "Day 1",
 					// time: "10:00 - 10:40"
 				}
