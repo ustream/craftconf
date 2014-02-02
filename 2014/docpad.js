@@ -61,10 +61,10 @@ module.exports = {
 		// you can also change order here and it will reflect on page
 		sections: [
 			'about',
-			'schedule',
 			'workshops',
 			'speakers',
 			'tickets',
+			'schedule',
 			//'sponsors',
 			'organizers',
 			'contact'
@@ -535,7 +535,7 @@ module.exports = {
 			},
 			{
 				anchor: "EndreVarga",
-				name: "Endre Varga",
+				name: "Endre Sándor Varga",
 				photo: "themes/craftconf/img/speakers/EndreVarga.png",
 				bio: "<p>Endre is a developer at Typesafe, working on the open source Akka project and bringing the world of actors to the JVM. Coming from an academic background and working with distributed, concurrent systems on a daily basis he continuously investigates the tools to make distributed systems safer and understandable for the rest of the world...</p>",
 				company: "Typesafe",
