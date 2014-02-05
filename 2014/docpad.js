@@ -46,7 +46,7 @@ module.exports = {
 			twitter: "https://twitter.com/CraftConf",
 			twitter_account: "@CraftConf",
 			facebook: "",
-			lanyrd: ""
+			lanyrd: "http://lanyrd.com/2014/craftconf/"
 		},
 
 		// Site info
