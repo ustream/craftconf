@@ -100,7 +100,7 @@ module.exports = {
 							{ time: schedule.talk2,        speaker: 'GerardMeszaros' },
 							{ time: schedule.lunch,        title: schedule.lunch_title },
 							{ time: schedule.talk3,        speaker: 'AsheDryden' },
-							{ time: schedule.talk4,        speaker: 'JuttaEckstein' },
+							{ time: schedule.talk4,        speaker: 'MateNadasdi' },
 							{ time: schedule.talk5,        speaker: 'AlissaPajer' },
 							{ time: schedule.break2,       title: schedule.break_title},
 							{ time: schedule.talk6,        speaker: 'AlvaroVidela' },
@@ -120,7 +120,7 @@ module.exports = {
 							{ time: schedule.talk2,        speaker: 'WimGodden' },
 							{ time: schedule.lunch,        title: schedule.lunch_title },
 							{ time: schedule.talk3,        speaker: 'MitchellHashimoto' },
-							{ time: schedule.talk4,        speaker: 'IanRobinson' },
+							{ time: schedule.talk4,        speaker: 'DanielPosch' },
 							{ time: schedule.talk5,        speaker: 'SimonBrown' },
 							{ time: schedule.break2,       title: schedule.break_title},
 							{ time: schedule.talk6,        speaker: 'DanNorth' },
@@ -140,7 +140,7 @@ module.exports = {
 							{ time: schedule.talk2,        speaker: 'MichaelNygard' },
 							{ time: schedule.lunch,        title: schedule.lunch_title },
 							{ time: schedule.talk3,        speaker: 'AndrewGodwin' },
-							{ time: schedule.talk4,        speaker: 'StasZvinyatskovsky' },
+							{ time: schedule.talk4,        speaker: 'GregYoung' },
 							{ time: schedule.talk5,        speaker: 'EricEvans' },
 							{ time: schedule.break2,       title: schedule.break_title},
 							{ time: schedule.talk6,        speaker: 'TimFelgentreff' },
@@ -165,7 +165,7 @@ module.exports = {
 							{ time: schedule.talk2,        speaker: 'JonasBoner' },
 							{ time: schedule.lunch,        title: schedule.lunch_title },
 							{ time: schedule.talk3,        speaker: 'JevgeniKabanov' },
-							{ time: schedule.talk4,        speaker: 'MateNadasdi' },
+							{ time: schedule.talk4,        speaker: 'JuttaEckstein' },
 							{ time: schedule.talk5,        speaker: 'StefanTilkov' },
 							{ time: schedule.break2,       title: schedule.break_title},
 							{ time: schedule.talk6,        speaker: 'GarethRushgrove' },
@@ -184,7 +184,7 @@ module.exports = {
 							{ time: schedule.talk2,        speaker: 'AnnaObukhova' },
 							{ time: schedule.lunch,        title: schedule.lunch_title },
 							{ time: schedule.talk3,        speaker: 'ChrisAtherton' },
-							{ time: schedule.talk4,        speaker: 'DanielPosch' },
+							{ time: schedule.talk4,        speaker: 'IanRobinson' },
 							{ time: schedule.talk5,        speaker: 'DominicTarr' },
 							{ time: schedule.break2,       title: schedule.break_title},
 							{ time: schedule.talk6,        speaker: 'FerossAboukhadijeh' },
@@ -203,7 +203,7 @@ module.exports = {
 							{ time: schedule.talk2,        speaker: 'JohnWillis' },
 							{ time: schedule.lunch,        title: schedule.lunch_title },
 							{ time: schedule.talk3,        speaker: 'NatPryceSteveFreeman' },
-							{ time: schedule.talk4,        speaker: 'GregYoung' },
+							{ time: schedule.talk4,        speaker: 'StasZvinyatskovsky' },
 							{ time: schedule.talk5,        speaker: 'StefanEdlich' },
 							{ time: schedule.break2,       title: schedule.break_title},
 							{ time: schedule.talk6,        speaker: 'EndreVarga' },
@@ -229,6 +229,7 @@ module.exports = {
 				},
 				presentation: {
 					title: "Functional Examples from Category Theory",
+					description: "Many concepts from Category Theory appear in functional programming languages, for example the functor, monoid, monad, and natural transformation. Although each of these concepts carries with it a distinct structure, each provides us with a way to unite the similarities in a piece of code, or even across and entire project, while still maintaining the crucial differences. Category Theory gives us the means to abstract over concepts such as types, type constructors, and operations, to name a few. In other words, Category Theory is the programmer's library of abstractions.<br><br>Functional languages, by their very nature, often direct the programmer to think abstractly in terms of categories. From a meta perspective, learning Category Theory helps us to become aware of the types of thoughts we have when we program in a functional language, versus say an imperative one. Programming in a different language inherently changes how we approach a problem, given the tools available in that language. By becoming aware of those differences in approach, we can make more informed choices in our programs.<br><br>In this talk we will discuss via example how we can understand various functional programs using a categorical approach. Additionally, we will discuss how we can use Category Theory to write cleaner and more maintainable code.",
 				}
 			},
 			{
@@ -545,7 +546,7 @@ module.exports = {
 				},
 				presentation: {
 					title: "Without Present or Past: How to Think Distributed - The Hard Way",
-					// description: "Turn based servers are now joining turn based browsers in providing race-free and deadlock-free interactivity. The event-driven model has long been popular in UI systems, but the nature of work in servers presents some new challenges. Functional programming provides solutions, including monads, arrows, promises, and various flavors of FRP. This is another such solution, intended to enhance ease of use with constructs that support parallel and sequential operations.",
+					description: "With the rise of distributed databases, cluster management tools, consensus servers in our daily use developers needs to face an alien world radically different from previous experiences. While there is a wide collection of solutions to hide the complexity of dealing with the distributed nature of these systems, at the end there is no magic. Under the veil of abstractions exists a world of puzzles and fundamental limitations.<br><br>In this presentation I will try to lift the veil to offer a peek at the underlying concepts and demonstrate them through classical examples - while trying to keep the sanity of the audience.",
 					// // day: "Day 1",
 					// // time: "10:00 - 10:40"
 				}
