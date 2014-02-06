@@ -66,6 +66,7 @@ module.exports = {
 			'tickets',
 			'schedule',
 			//'sponsors',
+			'location',
 			'organizers',
 			'contact'
 		],

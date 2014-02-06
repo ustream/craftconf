@@ -515,6 +515,10 @@ td[colspan] {
 	border-bottom: 1px solid #f0efd8;
 }
 
+.schedule-tbl .day-containers .mobile-schedule {
+	display: none;
+}
+
 .schedule-tbl .speakers-name {
 	text-transform: uppercase;
 	font-weight: bold;
@@ -815,6 +819,18 @@ td[colspan] {
 	margin-top: -930px;
 	margin-left: -520px;
 	background-size: 1080px;
+}
+
+#map iframe {
+	vertical-align: top;
+}
+
+#address {
+	position: absolute;
+	padding: 10px 20px;
+	background: @orange;
+	color: #fff;
+	bottom: 0;
 }
 
 @media (max-width: 1000px) {
@@ -1130,10 +1146,17 @@ td[colspan] {
 		height: 44px;
 	}
 
-
 	.contact-us .contact {
 		font-size: 24px;
 		line-height: 24px;
 		font-weight: 300;
+	}
+
+	.schedule-tbl .day-containers table.desktop {
+		display: none;
+	}
+
+	.schedule-tbl .day-containers .mobile-schedule {
+		display: block;
 	}
 }

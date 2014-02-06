@@ -14,9 +14,11 @@
 	</div>
 
 	<div class="day-containers">
+
 		<% for @day, ind in @schedule: %>
 		<div class="day day-<%- ind %> <% if ind == 0: %> active <% end %>">
-			<table>
+			<!-- DESKTOP -->
+			<table class="desktop">
 				<colgroup>
 					<col width="50">
 					<col width="100">
@@ -124,6 +126,68 @@
 					</tr>
 				<% end %>
 			</table>
+
+			<!-- MOBILE -->
+			<% for @stage, stageNr in @day.stages: %>
+				<div class="mobile-schedule">
+					<div class="stage-title"><%= @stage.name %></div>
+					<table>
+						<thead>
+						<tr>
+							<th class="schedule-time">Time</th>
+							<th class="schedule-slot">Session</th>
+						</tr>
+						</thead>
+						<tbody>
+						<% for slot, index in @stage.slots: %>
+						<tr class="schedule-other">
+							<td class="schedule-time"><%- slot.time %></td>
+							<td class="schedule-slot">
+								<% if not slot.speaker: %>
+									<%- slot.title %>
+								<% else: %>
+									<%  @speaker = (speaker for speaker in @speakers when speaker.anchor == slot.speaker) %>
+									<% if @speaker: %>
+										<% for speaker,index in @speaker: %>
+										<% if (slot.keynote): %>
+											Keynote:
+										<% end %>
+										<%- speaker.presentation.title %>
+										<span class="schedule-speaker">
+						                   <% if speaker.coSpeakers: %>
+												<% for coSpeaker, coInd in speaker.coSpeakers: %>
+													<% if coInd != 0: %>
+														-
+													<% end %>
+													<%- coSpeaker.name %>
+													(<%- coSpeaker.company %>)
+												<% end %>
+												<br/>
+											<% else: %>
+												<% if speaker.presentation.speakers: %>
+													<% for names, sindex in speaker.presentation.speakers: %>
+													<%- names %>
+													<% if sindex < speaker.presentation.speakers.length - 1: %>
+						                            &
+													<% end %>
+						                        <% end %>
+						                        <% else: %>
+						                            <%- speaker.name %>
+						                        <% end %>
+						                        (<%- speaker.company %>)
+											<% end %>
+										</span>
+										<% end %>
+									<% end %>
+								<% end %>
+							</td>
+						</tr>
+						<% end %>
+
+						</tbody>
+					</table>
+				</div>
+			<% end %>
 		</div>
 		<% end %>
 	</div>
