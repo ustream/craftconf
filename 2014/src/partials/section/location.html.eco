@@ -14,4 +14,44 @@
 			<b>Address:</b> 1093 Budapest, Fővám tér 11-12.
 		</div>
 	</div>
+	<ul class="clr">
+		<li class="hotel-container org-container speakers-item" itemtype="http://schema.org/Hotel">
+			<a href="https://book.danubiushotels.com/OWSB/en/book/hotel.DHHU03/block.PRE230414/ms.1/start.20140422/end.20140428/" target="_blank">
+				<span class="speaker-photo">
+					<img class="photo" width="100" height="100" src="themes/craftconf/img/hotels/hotel_gellert.png" alt="Gábor Vészi" itemprop="image">
+				</span>
+
+				<div class="head">
+					<h3 class="speakers-name">Danubius Hotel Gellért</h3>
+					<span>1111 Budapest, Szent Gellért tér 1.</span>
+				</div>
+			</a>
+		</li>
+
+		<li class="hotel-container org-container speakers-item" itemtype="http://schema.org/Hotel">
+			<a href="http://www.budapesthotelreservation.hu/hotels/mercure_budapest_duna.EN.php" target="_blank">
+				<span class="speaker-photo">
+					<img class="photo" width="100" height="100" src="themes/craftconf/img/hotels/hotel_mercure.png" alt="Medea Baccifava" itemprop="image">
+				</span>
+
+				<div class="head">
+					<h3 class="speakers-name">Mercure Budapest Duna</h3>
+					<span>1092 Budapest, Ráday u. 6.</span>
+				</div>
+			</a>
+		</li>
+
+		<li class="hotel-container org-container speakers-item" itemtype="http://schema.org/Hotel">
+			<a href="http://www.budapesthotelreservation.hu/hotels/ibis_budapest_centrum.EN.php" target="_blank">
+				<span class="speaker-photo">
+					<img class="photo" width="100" height="100" src="themes/craftconf/img/hotels/hotel_ibis.png" alt="Gergely Hodicska" itemprop="image">
+				</span>
+
+				<div class="head">
+					<h3 class="speakers-name">Ibis Budapest Centrum</h3>
+					<span>1092 Budapest, Ráday u. 6.</span>
+				</div>
+			</a>
+		</li>
+	</ul>
 </div>
