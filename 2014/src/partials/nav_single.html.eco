@@ -1,6 +1,6 @@
 <div id="nav">
 	<div class="inner">
-		<a href="#about" class="logo"></a>
+		<a href="/#about" class="logo"></a>
 		<div id="dropdown">
 			<ul>
 				<li class="nav-item">
@@ -9,12 +9,12 @@
 				<% for section in @sections : %>
 					<% if section != 'about': %>
 					<li class="nav-item">
-						<a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
+						<a href="/2014/#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
 					</li>
 					<% end %>
 				<% end %>
 				<li class="nav-item">
-					<a href="#CodeOfConduct" title="Code of Conduct" class="nav-link">Code of Conduct</a>
+					<a href="/2014/#CodeOfConduct" title="Code of Conduct" class="nav-link">Code of Conduct</a>
 				</li>
 			</ul>
 			<div class="share">
