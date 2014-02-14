@@ -18,7 +18,7 @@
 		<li class="hotel-container org-container speakers-item" itemtype="http://schema.org/Hotel">
 			<a href="https://book.danubiushotels.com/OWSB/en/book/hotel.DHHU03/block.PRE230414/ms.1/start.20140422/end.20140428/" target="_blank">
 				<span class="speaker-photo">
-					<img class="photo" width="100" height="100" src="themes/craftconf/img/hotels/hotel_gellert.png" alt="Gábor Vészi" itemprop="image">
+					<img class="photo" width="100" height="100" src="themes/craftconf/img/hotels/hotel_gellert.png" alt="Hotel Gellert" itemprop="image">
 				</span>
 
 				<div class="head">
@@ -31,7 +31,7 @@
 		<li class="hotel-container org-container speakers-item" itemtype="http://schema.org/Hotel">
 			<a href="http://www.budapesthotelreservation.hu/hotels/mercure_budapest_duna.EN.php" target="_blank">
 				<span class="speaker-photo">
-					<img class="photo" width="100" height="100" src="themes/craftconf/img/hotels/hotel_mercure.png" alt="Medea Baccifava" itemprop="image">
+					<img class="photo" width="100" height="100" src="themes/craftconf/img/hotels/hotel_mercure.png" alt="Hotel Mercure" itemprop="image">
 				</span>
 
 				<div class="head">
@@ -44,12 +44,25 @@
 		<li class="hotel-container org-container speakers-item" itemtype="http://schema.org/Hotel">
 			<a href="http://www.budapesthotelreservation.hu/hotels/ibis_budapest_centrum.EN.php" target="_blank">
 				<span class="speaker-photo">
-					<img class="photo" width="100" height="100" src="themes/craftconf/img/hotels/hotel_ibis.png" alt="Gergely Hodicska" itemprop="image">
+					<img class="photo" width="100" height="100" src="themes/craftconf/img/hotels/hotel_ibis.png" alt="Hotel Ibis" itemprop="image">
 				</span>
 
 				<div class="head">
 					<h3 class="speakers-name">Ibis Budapest Centrum</h3>
 					<span>1092 Budapest, Ráday u. 6.</span>
+				</div>
+			</a>
+		</li>
+
+		<li class="hotel-container org-container speakers-item" itemtype="http://schema.org/Hotel">
+			<a href="http://www.budapesthotelreservation.hu/hotels/tulip_inn_budapest_millennium.EN.php" target="_blank">
+				<span class="speaker-photo">
+					<img class="photo" width="100" height="100" src="themes/craftconf/img/hotels/hotel_tulip.png" alt="Hotel Tulip" itemprop="image">
+				</span>
+
+				<div class="head">
+					<h3 class="speakers-name" style="font-size: 22px;">Tulip Inn Budapest Millenium</h3>
+					<span>Budapest, Üllői út 94-98.</span>
 				</div>
 			</a>
 		</li>
