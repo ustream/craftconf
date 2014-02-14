@@ -86,7 +86,7 @@ module.exports = {
 
 		schedule: [
 			{
-				header: "Day 1",
+				header: "Day 2",
 				name: 'Thursday',
 				stages: [
 					{
@@ -152,7 +152,7 @@ module.exports = {
 				]
 			},
 			{
-				header: "Day 2",
+				header: "Day 3",
 				name: 'Friday',
 				stages: [
 					{
