@@ -42,6 +42,10 @@
 
 			linkTarget = '#' + linkSplits[1];
 
+			if (!$(linkTarget).length) {
+				return;
+			}
+
 			e.preventDefault();
 
 			// Get distance of top
