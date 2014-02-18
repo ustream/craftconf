@@ -1118,6 +1118,7 @@ module.exports = {
 		meetups: [
 			{
 				name: 'Meetup name',
+				url: '/test',
 				date: '2014.05.12',
 				speakers: [
 					{
@@ -1154,6 +1155,7 @@ module.exports = {
 			},
 			{
 				name: 'Meetup name',
+				url: '/test',
 				date: '2014.05.12',
 				speakers: [
 					{

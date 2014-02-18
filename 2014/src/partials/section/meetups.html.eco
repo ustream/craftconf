@@ -10,7 +10,7 @@
 			<ul class="clr">
 				<% for meetup in @meetups: %>
 					<li class="meetup">
-						<h2><%= meetup.name %></h2>
+						<h2><a href="<%= meetup.url %>"><%= meetup.name %></a></h2>
 						<span class="date"><%= meetup.date %></span>
 						<ul class="clr speakers">
 							<% for speaker in meetup.speakers: %>
