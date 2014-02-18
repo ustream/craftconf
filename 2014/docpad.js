@@ -68,6 +68,7 @@ module.exports = {
 			//'sponsors',
 			'location',
 			'organizers',
+			'meetups',
 			'contact'
 		],
 
@@ -81,6 +82,7 @@ module.exports = {
 			tickets: "Tickets",
 			sponsors: "Sponsors",
 			organizers: "Organizers",
+			meetups: "Meetups",
 			contact: "Contact"
 		},
 
@@ -1110,6 +1112,81 @@ module.exports = {
 				logo: "themes/craftconf/img/org_Ustream_logo.svg",
 				url: "http://ustream.tv/",
 				clss: "ustream-logo"
+			}
+		],
+
+		meetups: [
+			{
+				name: 'Meetup name',
+				date: '2014.05.12',
+				speakers: [
+					{
+						name: 'Hodicska Gergely',
+						title: 'event organizer',
+						photo: "themes/craftconf/img/gergelyhodicska.jpg"
+					},
+					{
+						name: 'Hodicska Gergely',
+						title: 'event organizer',
+						photo: "themes/craftconf/img/gergelyhodicska.jpg"
+					},
+					{
+						name: 'Hodicska Gergely',
+						title: 'event organizer',
+						photo: "themes/craftconf/img/gergelyhodicska.jpg"
+					},
+					{
+						name: 'Hodicska Gergely',
+						title: 'event organizer',
+						photo: "themes/craftconf/img/gergelyhodicska.jpg"
+					},
+					{
+						name: 'Hodicska Gergely',
+						title: 'event organizer',
+						photo: "themes/craftconf/img/gergelyhodicska.jpg"
+					},
+					{
+						name: 'Hodicska Gergely',
+						title: 'event organizer',
+						photo: "themes/craftconf/img/gergelyhodicska.jpg"
+					}
+				]
+			},
+			{
+				name: 'Meetup name',
+				date: '2014.05.12',
+				speakers: [
+					{
+						name: 'Hodicska Gergely',
+						title: 'event organizer',
+						photo: "themes/craftconf/img/gergelyhodicska.jpg"
+					},
+					{
+						name: 'Hodicska Gergely',
+						title: 'event organizer',
+						photo: "themes/craftconf/img/gergelyhodicska.jpg"
+					},
+					{
+						name: 'Hodicska Gergely',
+						title: 'event organizer',
+						photo: "themes/craftconf/img/gergelyhodicska.jpg"
+					},
+					{
+						name: 'Hodicska Gergely',
+						title: 'event organizer',
+						photo: "themes/craftconf/img/gergelyhodicska.jpg"
+					},
+					{
+						name: 'Hodicska Gergely',
+						title: 'event organizer',
+						photo: "themes/craftconf/img/gergelyhodicska.jpg"
+					},
+					{
+						name: 'Hodicska Gergely',
+						title: 'event organizer',
+						photo: "themes/craftconf/img/gergelyhodicska.jpg"
+					}
+				]
 			}
 		],
 
