@@ -68,7 +68,7 @@ module.exports = {
 			//'sponsors',
 			'location',
 			'organizers',
-			'meetups',
+			// 'meetups',
 			'contact'
 		],
 
@@ -851,15 +851,15 @@ module.exports = {
 				anchor: "StasZvinyatskovsky",
 				name: "Stas Zvinyatskovsky",
 				photo: "themes/craftconf/img/speakers/StasZvinyatskovsky.png",
-				bio: "<p>Stas is senior principal architect at Yahoo! He works on system architecture, technical excellence and Continuous Delivery for Yahoo! advertising and data platforms.</p>",
+				bio: "<p>Stas is senior principal architect at Yahoo. He works on system architecture, technical excellence, and continuous delivery for Yahoo advertising and data platforms.</p>",
 				company: "Yahoo!",
 				link: {
 					href: "http://twitter.com/staszv",
 					text: "@staszv"
 				},
 				presentation: {
-					title: "Continuous Delivery recipes at Yahoo!",
-					// description: "This talk is on one hand a presentation of the latest big data systems and approaches as Google Spanner, Presto, etc. and on the other hand a venture prediction of the future of persistence and data analytics. It covers data formats - the next wave after JSON? -, and  general directions of the NoSQL / NewSQL space. It briefly includes the earlier diverge and todays convergence of the database world. This leads to public guidelines how to avoid drowning in tons of persistence solutions all promising adventures in Alice wonderland. But you should take a step back and have a look at architectures that are able to handle big data, fast data streaming, analytics, semistructured / unstructured data and many more requirements. Decent out of the box solutions are still missing. And finally it's no secret that big data analytic questions are often severe in terms of scaling. But the shapes of the next generation systems in this space are visible and will be illustrated.",
+					title: "Continuous Delivery Cookbook: practical recipes",
+					description: "In today’s world commit to production latency is measured in minutes. Companies have to implement Continuous Delivery to stay competitive. As we implemented Continuous Delivery at Yahoo, we have tried many approaches. In this talk I will share some of the best practices covering such topics as:<ul><li>UI testing<li>CD Pipeline design and implementation<li>CD for databases<li>Certifying distributed systems<li>Massively multi-programmer software systems</ul>",
 				}
 			},
 			{
