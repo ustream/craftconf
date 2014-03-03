@@ -66,5 +66,31 @@
 				</div>
 			</a>
 		</li>
+
+		<li class="hotel-container org-container speakers-item" itemtype="http://schema.org/Hotel">
+			<a href="https://book.danubiushotels.com/OWSB/en/book/hotel.DHHU05/block.PRE230414_001/start.20140423/end.20140425/" target="_blank">
+				<span class="speaker-photo">
+					<img class="photo" width="100" height="100" src="themes/craftconf/img/hotels/hotel_astoria.png" alt="Hotel Ibis" itemprop="image">
+				</span>
+
+				<div class="head">
+					<h3 class="speakers-name">Danubius Hotel Astoria</h3>
+					<span>1053 Budapest, Kossuth Lajos utca 19.</span>
+				</div>
+			</a>
+		</li>
+
+		<li class="hotel-container org-container speakers-item" itemtype="http://schema.org/Hotel">
+			<a href="https://book.danubiushotels.com/OWSB/en/book/hotel.DMHU11/block.PRE230414_002/start.20140423/end.20140425/" target="_blank">
+				<span class="speaker-photo">
+					<img class="photo" width="100" height="100" src="themes/craftconf/img/hotels/hotel_erzsebet.png" alt="Hotel Tulip" itemprop="image">
+				</span>
+
+				<div class="head">
+					<h3 class="speakers-name" style="font-size: 22px;">Hotel Erzsébet City Center</h3>
+					<span>1053 Budapest, Károlyi Mihály utca 11.</span>
+				</div>
+			</a>
+		</li>
 	</ul>
 </div>
