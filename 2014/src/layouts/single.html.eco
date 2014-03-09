@@ -39,7 +39,7 @@
 </head>
 <body class="single">
 
-  <div class="global">
+  <div class="container">
 
     <%-@partial('nav_single.html.eco', @)%>
     <%-@partial('header.html.eco', @)%>

@@ -63,7 +63,7 @@
 		 */
 		setupGearAnimation: function () {
 			$(window).on('scroll', $.proxy(function () {
-				var deg = - window.scrollY * 360 / document.body.offsetHeight;
+				var deg = - window.scrollY * 360 / 10000;
 
 				window.requestAnimationFrame($.proxy(function () {
 					this.gears.each($.proxy(function (i, e) {
