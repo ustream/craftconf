@@ -1123,11 +1123,6 @@ module.exports = {
 					url: "http://www.telekom.com/startseite"
 				},
 				{
-					name: 'Google',
-					logo: "themes/craftconf/img/sponsors/google.jpg",
-					url: "http://google.com"
-				},
-				{
 					name: 'Basho',
 					logo: "themes/craftconf/img/sponsors/basho.jpg",
 					url: "http://basho.com/"
@@ -1167,7 +1162,12 @@ module.exports = {
 					name: 'Github',
 					logo: "themes/craftconf/img/sponsors/github.jpg",
 					url: "http://github.com"
-				}
+				},
+				{
+					name: 'Google',
+					logo: "themes/craftconf/img/sponsors/google.jpg",
+					url: "http://google.com"
+				},
 			],
 
 			Special: [
