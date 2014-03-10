@@ -1,33 +1,18 @@
-<h2 class="section-title"><%= @labels['sponsors'] %></h2>
-
-<p>Stretch is a non-profit conference. We are looking for sponsors who help us make this conference happen. Take a look at our <a href="/2013/sponsor_packages.pdf">sponsor packages</a>, watch our video of our previous <a href="http://www.youtube.com/watch?v=wAd4fefPKww">successful international conferences</a>, and contact us at <a href="mailto:hello@craftconf.com">hello@craftconf.com</a>.</p>
-
-<div class="sponsors-banner-container">
-<div class="sponsors-banner">
+<div class="section-header inner">
+	<h1><%= @labels['sponsors'] %></h1>
+	<div class="gear dark" data-gear="2"></div>
 </div>
 
-<ul class="sponsors-list">
 
-<% for sponsor in @sponsors: %>
-  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url">
-      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
-    </a>
-  </li>
-<% end %>
-</ul>
-
-<h3 class="section-subtitle">Media Sponsors</h3>
-
-<ul class="partners-list">
-
-<% for partner in @partners: %>
-  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="<%= partner.url %>" class="partner-logo partner-link" itemprop="url">
-      <img src="<%= partner.logo %>" alt="<%= partner.name %>" class="photo" itemprop="image">
-    </a>
-  </li>
-<% end %>
-</ul>
-
+<div class="block sponsors">
+	<% for level, sponsor of @sponsors: %>
+		<h1><%= level %></h1>
+		<ul class="<%= level %> clear">
+			<% for company in sponsor: %>
+				<li>
+					<a href="<%= company.url %>"><img src="<%= company.logo %>" alt="<%= company.name %>" /></a>
+				</li>
+			<% end %>
+		</ul>
+	<% end %>
 </div>

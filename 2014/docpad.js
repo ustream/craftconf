@@ -65,7 +65,7 @@ module.exports = {
 			'speakers',
 			'tickets',
 			'schedule',
-			//'sponsors',
+			'sponsors',
 			'location',
 			'organizers',
 			// 'meetups',
@@ -1088,12 +1088,109 @@ module.exports = {
 					href: "http://twitter.com/veszig",
 					text: "@veszig"
 				},
-			},
+			}
 		],
 
 		// List of Sponsors
-		sponsors: [
-		],
+		sponsors: {
+			Diamond: [
+				{
+					name: 'Ericsson',
+					logo: "themes/craftconf/img/sponsors/ericsson.jpg",
+					url: "http://ericsson.com"
+				}
+			],
+
+			HR: [
+				{
+					name: 'Google',
+					logo: "themes/craftconf/img/sponsors/google.jpg",
+					url: "http://google.com"
+				}
+			],
+
+			Gold: [
+				{
+					name: 'Basho',
+					logo: "themes/craftconf/img/sponsors/basho.jpg",
+					url: "http://basho.com/"
+				},
+				{
+					name: 'Deutsche Telekom',
+					logo: "themes/craftconf/img/sponsors/telekom.jpg",
+					url: "http://www.telekom.com/startseite"
+				},
+				{
+					name: 'EPAM',
+					logo: "themes/craftconf/img/sponsors/epam.jpg",
+					url: "http://epam.com"
+				},
+				{
+					name: 'JetBrains',
+					logo: "themes/craftconf/img/sponsors/jetbrains.jpg",
+					url: "http://jetbrains.com"
+				},
+				{
+					name: 'Yahoo',
+					logo: "themes/craftconf/img/sponsors/yahoo.jpg",
+					url: "http://yahoo.com"
+				}
+			],
+
+			Silver: [
+				{
+					name: 'Balabit',
+					logo: "themes/craftconf/img/sponsors/balabit.jpg",
+					url: "http://balabit.com"
+				},
+				{
+					name: 'Compuware',
+					logo: "themes/craftconf/img/sponsors/compuware.jpg",
+					url: "http://www.compuware.com/en_us.html"
+				},
+				{
+					name: 'Starshema',
+					logo: "themes/craftconf/img/sponsors/starshema.jpg",
+					url: "http://starschema.net/"
+				},
+				{
+					name: 'LogMeIn',
+					logo: "themes/craftconf/img/sponsors/logmein.jpg",
+					url: "http://logmein.com"
+				}
+			],
+
+			Bronze: [
+				{
+					name: 'Arkon',
+					logo: "themes/craftconf/img/sponsors/arkon.jpg",
+					url: "http://arkon.hu/"
+				},
+				{
+					name: 'Github',
+					logo: "themes/craftconf/img/sponsors/github.jpg",
+					url: "http://github.com"
+				}
+			],
+
+			Others: [
+				{
+					name: 'Erlang Solutions',
+					logo: "themes/craftconf/img/sponsors/erlang.jpg",
+					url: "https://www.erlang-solutions.com/"
+				},
+				{
+					name: 'OReilly',
+					logo: "themes/craftconf/img/sponsors/oreilly.jpg",
+					url: "http://www.oreilly.com/"
+				},
+				{
+					name: 'Telekom Hungary',
+					logo: "themes/craftconf/img/sponsors/telekomhu.jpg",
+					url: "http://www.telekom.hu/"
+				}
+			]
+		},
 
 		// List of Partners
 		partners: [
