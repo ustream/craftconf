@@ -65,8 +65,8 @@ module.exports = {
 			'speakers',
 			'tickets',
 			'schedule',
-			'sponsors',
 			'location',
+			'sponsors',
 			'organizers',
 			// 'meetups',
 			'contact'
@@ -1093,7 +1093,7 @@ module.exports = {
 
 		// List of Sponsors
 		sponsors: {
-			Diamond: [
+			Platinum: [
 				{
 					name: 'Ericsson',
 					logo: "themes/craftconf/img/sponsors/ericsson.jpg",
@@ -1101,24 +1101,11 @@ module.exports = {
 				}
 			],
 
-			HR: [
-				{
-					name: 'Google',
-					logo: "themes/craftconf/img/sponsors/google.jpg",
-					url: "http://google.com"
-				}
-			],
-
 			Gold: [
 				{
-					name: 'Basho',
-					logo: "themes/craftconf/img/sponsors/basho.jpg",
-					url: "http://basho.com/"
-				},
-				{
-					name: 'Deutsche Telekom',
-					logo: "themes/craftconf/img/sponsors/telekom.jpg",
-					url: "http://www.telekom.com/startseite"
+					name: 'Yahoo',
+					logo: "themes/craftconf/img/sponsors/yahoo.jpg",
+					url: "http://yahoo.com"
 				},
 				{
 					name: 'EPAM',
@@ -1131,10 +1118,20 @@ module.exports = {
 					url: "http://jetbrains.com"
 				},
 				{
-					name: 'Yahoo',
-					logo: "themes/craftconf/img/sponsors/yahoo.jpg",
-					url: "http://yahoo.com"
-				}
+					name: 'Deutsche Telekom',
+					logo: "themes/craftconf/img/sponsors/telekom.jpg",
+					url: "http://www.telekom.com/startseite"
+				},
+				{
+					name: 'Google',
+					logo: "themes/craftconf/img/sponsors/google.jpg",
+					url: "http://google.com"
+				},
+				{
+					name: 'Basho',
+					logo: "themes/craftconf/img/sponsors/basho.jpg",
+					url: "http://basho.com/"
+				},
 			],
 
 			Silver: [
@@ -1173,7 +1170,7 @@ module.exports = {
 				}
 			],
 
-			Others: [
+			Special: [
 				{
 					name: 'Erlang Solutions',
 					logo: "themes/craftconf/img/sponsors/erlang.jpg",
