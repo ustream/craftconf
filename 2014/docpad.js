@@ -1136,11 +1136,6 @@ module.exports = {
 					url: "http://balabit.com"
 				},
 				{
-					name: 'Compuware',
-					logo: "themes/craftconf/img/sponsors/compuware.jpg",
-					url: "http://www.compuware.com/en_us.html"
-				},
-				{
 					name: 'Starshema',
 					logo: "themes/craftconf/img/sponsors/starshema.jpg",
 					url: "http://starschema.net/"
@@ -1149,7 +1144,17 @@ module.exports = {
 					name: 'LogMeIn',
 					logo: "themes/craftconf/img/sponsors/logmein.jpg",
 					url: "http://logmein.com"
-				}
+				},
+				{
+					name: 'Compuware',
+					logo: "themes/craftconf/img/sponsors/compuware.jpg",
+					url: "http://www.compuware.com/en_us.html"
+				},
+				{
+					name: 'Oracle',
+					logo: "themes/craftconf/img/sponsors/oracle.jpg",
+					url: "http://www.oracle.com"
+				},
 			],
 
 			Bronze: [
