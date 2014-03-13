@@ -666,8 +666,8 @@ module.exports = {
 					text: "@rjmh"
 				},
 				presentation: {
-					title: "QuickCheck",
-					// description: "Did you know that only about 60% of releases are delivered on time and only half of those are without critical bugs? Delivering quality software on time is an enormous challenge due to all the inherent complexities. There are multiple practices, tools and methodologies that promise improvement, but do they deliver?<br>It is time to stop basing our decisions on anecdotes. We need a simple and solid model of software delivery and a measurement system that allows to test their validity. We started such a model and surveyed a 1000 organisations against it. We will show you quantified results on the improvements you can expect with particular tools and practices as well as discuss the model itself and how it can be applied in your environment.<br><br>You will walk out with a quantified data on how to answer questions like \"Should we use pair programming?\", \"How much automated tests is enough?\" and \"What can we do to improve?\"",
+					title: "Testing the Hard Stuff and Staying Sane",
+					description: "Even the best test suites can't entirely prevent nasty surprises: race conditions, unexpected interactions, faults in distributed protocols and so on, still slip past them into production. Yet writing even more tests of the same kind quickly runs into diminishing returns. I'll talk about new automated techniques that can dramatically improve your testing, letting you focus on what your code should do, rather than which cases should be tested--with plenty of war stories from the likes of Ericsson, Klarna and Volvo Cars, to show how these new techniques really enable us to nail the hard stuff.",
 				}
 			},
 			{
@@ -858,7 +858,7 @@ module.exports = {
 					text: "@staszv"
 				},
 				presentation: {
-					title: "Continuous Delivery Cookbook: practical recipes",
+					title: "Continuous Delivery Cookbook: practical recipes from Yahoo",
 					description: "In today’s world commit to production latency is measured in minutes. Companies have to implement Continuous Delivery to stay competitive. As we implemented Continuous Delivery at Yahoo, we have tried many approaches. In this talk I will share some of the best practices covering such topics as:<ul><li>UI testing<li>CD Pipeline design and implementation<li>CD for databases<li>Certifying distributed systems<li>Massively multi-programmer software systems</ul>",
 				}
 			},
