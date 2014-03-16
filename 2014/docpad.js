@@ -749,7 +749,7 @@ module.exports = {
 				anchor: "MichaelFeathers",
 				name: "Michael Feathers",
 				photo: "themes/craftconf/img/speakers/MichaelFeathers.png",
-				bio: "<p>Michael Feathers is an independent consultant in the area of software design, prior to that he was Member of the Technical Staff at Groupon. Prior to joining Groupon, Michael was the Chief Scientist of Obtiva, and a Senior Consultant with Object Mentor International. Over the years, Michael has spent a great deal of time helping teams after design over time in code bases. Michael is also the author of the book Working Effectively with Legacy Code (Prentice Hall, 2004).</p>",
+				bio: "<p>Michael Feathers is the founder and Director of R7K Research & Conveyance, a company specializing in software and organization design. Prior to forming R7K, Michael was the Chief Scientist of Obtiva and a consultant with Object Mentor International. Over the years, Michael has spent a great deal of time helping teams after design over time in code bases. Michael is also the author of the book Working Effectively with Legacy Code (Prentice Hall, 2004).</p>",
 				company: "Independent Consultant",
 				link: {
 					href: "http://twitter.com/mfeathers",
