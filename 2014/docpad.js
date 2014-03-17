@@ -919,7 +919,7 @@ module.exports = {
 				},
 				presentation: {
 					title: "Responsibly maximizing craftsmanship in software engineering",
-					// description: "",
+					description: "Craftsmanship in software tends to erode as team sizes increase.  This can be due to a large variety of reasons, but is often dependent on code base size, team size, and autonomy.  In this session I'll talk about some of the challenges companies face as these things change and how to manipulate teams, architectures and how people work to maintain software craftsmanship will still delivering product.",
 				}
 			},
 			{
