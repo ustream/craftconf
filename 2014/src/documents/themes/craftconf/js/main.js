@@ -244,6 +244,26 @@
 			}
 		},
 
+		handleDiscountCode: function () {
+			var discount = window.location.search.match(/discount=([^&]*)/),
+				sessionStorage = window.sessionStorage,
+				iframe = $('#TicketIframe'),
+				src = iframe.attr('data-src');
+
+			if (discount && discount[1]) {
+				discount = discount[1];
+				sessionStorage.setItem('discount', discount)
+			} else if (sessionStorage) {
+				discount = sessionStorage.getItem('discount');
+			}
+
+			if (discount) {
+				src += ('&discount=' + discount);
+			}
+
+			iframe.attr('src', src);
+		},
+
 		/**
 		 * Touch device check
 		 * @method isTouchDevice
@@ -290,6 +310,7 @@
 			//Speakers
 			this.setupSpeakerList();
 			this.handleInitialHash();
+			this.handleDiscountCode();
 		}
 	};
 
