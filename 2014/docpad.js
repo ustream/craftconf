@@ -1291,6 +1291,14 @@ module.exports = {
 			}
 		],
 
+		quizQuestions: [
+			{
+				name: 'Task 1 - Art',
+				embedUrl: 'https://docs.google.com/forms/d/16uW9Eou1CqsE5ZfgEE_vnY3NjqmaCEkaE33yY6evLGs/viewform?embedded=true',
+				height: 700
+			}
+		],
+
 		// Theme path
 		getTheme: function () {
 			return "themes/" + this.site.theme;

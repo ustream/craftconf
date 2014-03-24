@@ -1,0 +1,16 @@
+---
+layout: quizlayout
+---
+
+<div class="block about inner align-left">
+	<h1 class="first big">How crafted are you?</h1>
+	<h1>Show us and win one of the 3 tickets for the CRAFT conference.</h1>
+	<p>
+		If you think you are a crafted hacker, take part in our online Hackhaton between 24th March and 1st April, and win one of the 3 tickets to the CRAFT conference so you can meet and learn from the best practioners of Software Craftmanship.
+		<a class="center" href="about-quiz.html">For more info go to the quiz about page.</a>
+	</p>
+
+	<% for question in @quizQuestions: %>
+		<span class="quiz" data-src="<%= question.embedUrl %>" data-height="<%= question.height %>"></span>
+	<% end %>
+</div>

@@ -37,17 +37,16 @@
 	</script>
 
 </head>
-<body class="single">
+<body class="single simple">
 
   <div class="container">
 
-	<%-@partial('header.html.eco', @)%>
     <%-@partial('nav_single.html.eco', @)%>
 
     <!-- CONTENT -->
     <div class="content" id="content">
       <div class="wrapper">
-        <%- @content %>
+	    <%-@content%>
         <!-- FOOTER -->
         <footer class="footer">
         </footer>

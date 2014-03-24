@@ -32,4 +32,11 @@ layout: single
 	<p>Those three most crafted hackers will win, who re-tweet all the 9 daily assigments, solve them and send the correct answers, while also being the fastest with the last 3 assigments – so keep your eyes on <a href="https://twitter.com/CraftConf">CRAFT’s Twitter</a> channel!</p>
 	<br>
     <h1>We’ll announce the 3 winners the latest until 3rd April on Twitter.</h1>
+	<br><br>
+	<h1 class="big">Released tasks:</h1>
+	<ul class="task-list">
+		<% for question, key in @quizQuestions: %>
+			<li><a href="quiz.html?task=<%= key + 1 %>"><%= question.name %></a></li>
+		<% end %>
+	</ul>
 </div>

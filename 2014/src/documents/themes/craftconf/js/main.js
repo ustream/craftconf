@@ -264,6 +264,21 @@
 			iframe.attr('src', src);
 		},
 
+		handleCurrentQuiz: function () {
+			var iframe = '<iframe class="form-iframe" src="#src#" width="100%" height="#height#" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>',
+				quizNr = window.location.href.match(/task=([^&]*)/),
+				container;
+
+			if (quizNr && quizNr[1]) {
+				container = $('.quiz').eq(parseInt(quizNr[1]) - 1);
+
+				iframe = iframe.replace('#src#', container.data('src'));
+				iframe = iframe.replace('#height#', container.data('height'));
+
+				container.replaceWith(iframe);
+			}
+		},
+
 		/**
 		 * Touch device check
 		 * @method isTouchDevice
@@ -311,6 +326,7 @@
 			this.setupSpeakerList();
 			this.handleInitialHash();
 			this.handleDiscountCode();
+			this.handleCurrentQuiz();
 		}
 	};
 
