@@ -1296,6 +1296,16 @@ module.exports = {
 				name: 'Task 1 - Art',
 				embedUrl: 'https://docs.google.com/forms/d/16uW9Eou1CqsE5ZfgEE_vnY3NjqmaCEkaE33yY6evLGs/viewform?embedded=true',
 				height: 700
+			},
+			{
+				name: 'Task 2 - Investigation',
+				embedUrl: 'https://docs.google.com/forms/d/1CJfqcveX5GlT2lBS7OKXkddTKZM4a8eBoQDbsGKSRj0/viewform?embedded=true',
+				height: 950
+			},
+			{
+				name: 'Task 3 - Music',
+				embedUrl: 'https://docs.google.com/forms/d/1GkB4Nz5T_57_K0MnYx1PVEizmkhZ5k9ElVCoZ-RoQVo/viewform?embedded=true',
+				height: 950
 			}
 		],
 
