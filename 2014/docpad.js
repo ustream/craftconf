@@ -942,7 +942,7 @@ module.exports = {
 				name: "Tomomi Imura",
 				photo: "themes/craftconf/img/speakers/TomomiImura.png",
 				bio: "<p>Tomomi (@girlie_mac) is a San Francisco-based open web advocate and front-end engineer with mobile focus who has been in active in the mobile-space since before it was cool. She has been developing mobile web, platform UI/UX, and frameworks for various projects and companies including, Yahoo! Mobile and webOS at Palm before joining Nokia, to work with the W3C and evangelize HTML5.</p>",
-				company: "Nokia",
+				company: "",
 				link: {
 					href: "http://twitter.com/girlie_mac",
 					text: "@girlie_mac"
