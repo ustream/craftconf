@@ -859,7 +859,7 @@ module.exports = {
 				},
 				presentation: {
 					title: "Continuous Delivery Cookbook: practical recipes from Yahoo",
-					description: "In today’s world commit to production latency is measured in minutes. Companies have to implement Continuous Delivery to stay competitive. As we implemented Continuous Delivery at Yahoo, we have tried many approaches. In this talk I will share some of the best practices covering such topics as:<ul><li>UI testing<li>CD Pipeline design and implementation<li>CD for databases<li>Certifying distributed systems<li>Massively multi-programmer software systems</ul>",
+					description: "In today’s world commit to production latency is measured in minutes. Companies have to implement Continuous Delivery to stay competitive. As we implemented Continuous Delivery at Yahoo, we have tried many approaches. In this talk I will share some of the best practices covering such topics as:<ul><li>CD Pipeline design and implementation<li>UI testing<li>Certifying distributed systems<li>Production roll outs<li>Massively multi-programmer software systems</ul>",
 				}
 			},
 			{
