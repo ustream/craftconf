@@ -1306,6 +1306,16 @@ module.exports = {
 				name: 'Task 3 - Music',
 				embedUrl: 'https://docs.google.com/forms/d/1GkB4Nz5T_57_K0MnYx1PVEizmkhZ5k9ElVCoZ-RoQVo/viewform?embedded=true',
 				height: 950
+			},
+			{
+				name: 'Task 4 - Olympics',
+				embedUrl: 'https://docs.google.com/forms/d/12LQMGpLDM7GsJLpeqEm7PsbJA7CPjN3cBp0huLbOVus/viewform?embedded=true',
+				height: 950
+			},
+			{
+				name: 'Task 5 - Geography',
+				embedUrl: 'https://docs.google.com/forms/d/1rHd_9Din962YGk6x9knQRINlxNffowj4CX9Cq9EUOHw/viewform?embedded=true',
+				height: 1000
 			}
 		],
 
