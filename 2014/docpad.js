@@ -464,7 +464,7 @@ module.exports = {
 				anchor: "DominicTarr",
 				name: "Dominic Tarr",
 				photo: "themes/craftconf/img/speakers/DominicTarr.png",
-				bio: "<p>Dominic is a self-styled \"Mad Scientist\" of javascript, most well known for his work on <a href=\"https://github.com/dominictarr/through\">streams</a> and real-time <a href=\"https://github.com/dominictarr/scuttlebutt\">distributed systems</a>, but is now getting into javascript database development with <a href=\"https://github.com/dominictarr/level-sublevel\">leveldb</a>. Dominic is happily being fed by irish development house / mad-science laboratory, nearform.</p>",
+				bio: "<p>After a couple of years exploring dynamic forrest, Dominic has been been scaling the mountains of systems programming, and has recently begun spelunking the crypto-caves. Available for interesting side quests. Chaotic Good.</p>",
 				company: "Independent Computer Software Professional",
 				link: {
 					href: "http://twitter.com/dominictarr",
@@ -472,7 +472,7 @@ module.exports = {
 				},
 				presentation: {
 					title: "There is no such thing as a general purpose database",
-					// description: "",
+					description: "Lets compare databases with datastructures. Databases are built by companies and have marketing FUD and competing benchmarks. Compare this with data structures! There arn't any linked list salesmen spreading rumors about hash-tables.<br><br>Everyone understands that you must pick the right data structure and the right algorithm, or your program will be slow. We need to apply this style of thinking to systems and databases. We must understand the \"physics\" of our data. our \"data-physics\". If we hope to build programs that scale (along any dimension).",
 				}
 			},
 			{
