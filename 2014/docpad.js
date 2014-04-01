@@ -1321,6 +1321,11 @@ module.exports = {
 				name: 'Task 6 - Music again',
 				embedUrl: 'https://docs.google.com/forms/d/1kUqzmJ0tdl3mAAx19OXVW48k44fc53i9CS7prpEfOMU/viewform?embedded=true',
 				height: 900
+			},
+			{
+				name: 'Task 7 - Sport',
+				embedUrl: 'https://docs.google.com/forms/d/1A6dJU8_rKUofIqmoso6xhuU3av6Hj3t9A8SvFdumQCA/viewform?embedded=true',
+				height: 900
 			}
 		],
 
