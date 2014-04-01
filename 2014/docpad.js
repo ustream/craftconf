@@ -1316,6 +1316,11 @@ module.exports = {
 				name: 'Task 5 - Geography',
 				embedUrl: 'https://docs.google.com/forms/d/1rHd_9Din962YGk6x9knQRINlxNffowj4CX9Cq9EUOHw/viewform?embedded=true',
 				height: 1000
+			},
+			{
+				name: 'Task 6 - Music again',
+				embedUrl: 'https://docs.google.com/forms/d/1kUqzmJ0tdl3mAAx19OXVW48k44fc53i9CS7prpEfOMU/viewform?embedded=true',
+				height: 900
 			}
 		],
 
