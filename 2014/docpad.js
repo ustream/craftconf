@@ -184,14 +184,14 @@ module.exports = {
 							{ time: schedule.sponsorpitch, title: schedule.sponsorpitch_title },
 							{ time: schedule.break1,       title: schedule.break_title},
 							{ time: schedule.talk1,        speaker: 'MarkusVolter' },
-							{ time: schedule.talk2,        speaker: 'WimGodden' },
+							{ time: schedule.talk2,        speaker: 'TomomiImura' },
 							{ time: schedule.lunch,        title: schedule.lunch_title },
 							{ time: schedule.talk3,        speaker: 'IanRobinson' },
 							{ time: schedule.talk4,        speaker: 'ChrisAtherton' },
 							{ time: schedule.talk5,        speaker: 'DominicTarr' },
 							{ time: schedule.break2,       title: schedule.break_title},
 							{ time: schedule.talk6,        speaker: 'FerossAboukhadijeh' },
-							{ time: schedule.talk7,        speaker: 'TomomiImura' },
+							{ time: schedule.talk7,        speaker: 'WimGodden' },
 							{ time: schedule.talk8,        speaker: 'JeffHodges' }
 						]
 					},
