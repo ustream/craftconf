@@ -1326,6 +1326,11 @@ module.exports = {
 				name: 'Task 7 - Sport',
 				embedUrl: 'https://docs.google.com/forms/d/1A6dJU8_rKUofIqmoso6xhuU3av6Hj3t9A8SvFdumQCA/viewform?embedded=true',
 				height: 900
+			},
+			{
+				name: 'Task 8 - Literature',
+				embedUrl: 'https://docs.google.com/forms/d/1M85kbdlMhImhMBlTZ6GzWas5gviu8XbjTPRSKD1hwRs/viewform?embedded=true',
+				height: 900
 			}
 		],
 
