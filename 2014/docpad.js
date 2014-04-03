@@ -799,11 +799,11 @@ module.exports = {
 							href: "http://twitter.com/natpryce",
 							text: "@natpryce"
 						},
-						bio: "<p>After completing his PhD at Imperial College, Nat Pryce joined a dot-com just in time to ride the bust. Since then he has worked as a programmer, architect, trainer, and consultant in a variety of industries, including sports reportage, marketing communications, retail, telecoms, and finance. He has also worked on academic research projects and does occasional university teaching. An early adopter of XP, he has written or contributed to several open source libraries and tools that support TDD and was one of the founding organizers of the London XP Day conference. He also regularly presents at international conferences. Nat is based in London, UK.</p>"
+						bio: "<p>Nat Pryce is a co-author of Growing Object­-Oriented Software Guided by Tests. An early adopter of XP, he has written or contributed to several open source libraries and tools that support TDD and was one of the founding organizers of the London XP Day conference. He has worked as a programmer, architect, trainer, and consultant in a variety of industries, including sports reportage, marketing communications, retail, media, telecoms and finance, and has delivered business-critical systems that range from embedded devices to large compute farms supporting global business.</p>"
 					},
 					{
 						name: "Steve Freeman",
-						company: "Higher Order Logic",
+						company: "Springer Scientific and Zuhlke Engineering Ltd.",
 						link: {
 							href: "http://twitter.com/sf105",
 							text: "@sf105"
