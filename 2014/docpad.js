@@ -1037,6 +1037,23 @@ module.exports = {
 				}
 			},
 			{
+				anchor: "RicardoFontes",
+				name: "Ricardo Fontes",
+				photo: "themes/craftconf/img/speakers/RicardoFontes.png",
+				bio: "<p><br><b>Ricardo Fontes - Regional Business Director</b><br><br>Ricardo was born in 1974 in Lisbon – Portugal, currently he is a Regional Business Director for Compuware with responsibilities for the APM Business unit in the South East Europe & Middle East Region.<br><br>Ricardo holds a degree in IT Engineering from a Portuguese University.<br><br>He started his career in IT back in 1996 joined a Portuguese consultant company, to open a new group for Internet/Intranet IT Development Consultancy and Research.<br><br>In 1998, Ricardo joined Compuware as a technical consultant in the application quality assurance area. During this period he had the opportunity to develop his skills and knowledge on quality assurance solutions and practices, while helping to develop.<br><br>In beginning of 2003, do to Ricardo’s knowledge and achievements in the Portuguese market, he move into the position of Sales Support Specialist and South EMEA Regional Technical Specialist, where he was involved in several European projects.<br><br>In middle of 2005, Ricardo became QA Architect for Europe Middle East & Africa. In this role, he was responsible for the definition, customization and establishment of Compuware Testing Methodology for Compuware Quality Assurance/Application Performance engagements. As a QA Architect he participated in both client acquisition and consulting services and as a process subject matter expert.<br><br>In the end of 2007 and after reorganization in the EMEA Geography, Ricardo embraced the role of Business Development Manager for the Distributed Business in the Middle East & North Africa, where he worked in helping many organizations restructure their practices in application performance management.<br><br>In 2013, moved in the Regional Business Director for the South East Europe & Middles East in the APM business unit, responsible for the all operations and management of the region.</p>",
+				company: "Compuware APM",
+				link: {
+					// href: "http://twitter.com/",
+					// text: "@"
+				},
+				workshop: {
+					title: "Need for Speed: How to improve slow application performance",
+					description: "In an evolving business world, organisations are focused on delivering fast time-to-value while ensuring an exceptional customer experience. Smartphones, tablets, and multiple browsers, coupled with native mobile applications, cloud computing and virtualisation, are amongst the disruptive technologies making it increasingly difficult to manage web and enterprise application performance. These evolving dynamics are creating a new challenge for both enterprises and service providers as their applications are now being delivered across an ecosystem that relies on many supporting business partners. Compuware will discuss the best practises and approaches for application performance delivery from the customer perspective, from the first to last mile.<br><br>By taking part this workshop you will:<ul><li>Understand why Application Performance is becoming a strategy initiative in leading organizations in the world.<li>Understand the paradigm change of the new Application-Centric IT Model.<li>Learn how to close the visibility gap, between applications complexity and Control.<li>Learn how to fully understand end user experience and gain full control of end user journey within complex infrastructures.<li>Learn how to eliminate the guesswork when resolving problems.<li>Learn in what way DepOps approach increases application performance.<li>Learn how to gain full insight into method performance inside .Net and Java infrastructures.</ul>",
+					day: "Day 1 (Wednesday)",
+					time: "9:30 - 14:30"
+				}
+			},
+			{
 				anchor: "TiberiuCovaci",
 				name: "Tiberiu Covaci",
 				photo: "themes/craftconf/img/speakers/TiberiuCovaci.png",
