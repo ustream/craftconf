@@ -344,7 +344,7 @@ module.exports = {
 				anchor: "BodilStokke",
 				name: "Bodil Stokke",
 				photo: "themes/craftconf/img/speakers/BodilStokke.png",
-				bio: "<p>Bodil is a compulsive conference speaker in the fields of functional programming and internets technologies, and is a co-organiser of multiple developer conferences in Scandinavia and the UK, mostly because she’s still learning how to stop. She is a prolific contributor to the Free Software community, primarily as a Clojure developer, and has recently taken up designing new programming languages as a hobby. In her spare time, she works as a developer for Future Ad Labs.</p>",
+				bio: "<p>Bodil is a compulsive conference speaker in the fields of functional programming and internets technologies, and is a co-organiser of multiple developer conferences in Scandinavia and the UK, mostly because she’s still learning how to stop. She is a prolific contributor to the Free Software community, and has recently taken up designing new programming languages as a hobby. In her spare time, she works as a developer for Future Ad Labs, a London based startup that wants to make advertising a productive member of society. Her favourite pony is Pinkie Pie.</p>",
 				company: "Future Ad Labs",
 				link: {
 					href: "http://twitter.com/bodil",
