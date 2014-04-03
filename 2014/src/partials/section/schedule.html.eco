@@ -72,7 +72,9 @@
 															<% else: %>
 																<%- speaker.name %>
 															<% end %>
-															(<%- speaker.company %>)
+															<% if speaker.company.length: %>
+																(<%- speaker.company %>)
+															<% end %>
 														</span>
 													<% end %>
 												<% end %>
@@ -93,7 +95,9 @@
 																	-
 																<% end %>
 																<%- coSpeaker.name %>
-																(<%- coSpeaker.company %>)
+																<% if coSpeaker.company.length: %>
+																	(<%- coSpeaker.company %>)
+																<% end %>
 															<% end %>
 															<br/>
 														<% else: %>
@@ -107,7 +111,9 @@
 															<% else: %>
 																<%- speaker.name %>
 															<% end %>
-															(<%- speaker.company %>)
+															<% if speaker.company.length: %>
+																(<%- speaker.company %>)
+															<% end %>
 														<% end %>
 													</span>
 												<% end %>
@@ -160,7 +166,9 @@
 														-
 													<% end %>
 													<%- coSpeaker.name %>
-													(<%- coSpeaker.company %>)
+													<% if coSpeaker.company.length: %>
+														(<%- coSpeaker.company %>)
+													<% end %>
 												<% end %>
 												<br/>
 											<% else: %>
@@ -174,7 +182,9 @@
 												<% else: %>
 													<%- speaker.name %>
 												<% end %>
-												(<%- speaker.company %>)
+												<% if speaker.company.length: %>
+													(<%- speaker.company %>)
+												<% end %>
 											<% end %>
 										</span>
 										<% end %>
