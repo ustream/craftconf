@@ -486,8 +486,8 @@ module.exports = {
 					text: "crockford.com"
 				},
 				presentation: {
-					title: "Managing Asynchronicity with RQ",
-					description: "Turn based servers are now joining turn based browsers in providing race-free and deadlock-free interactivity. The event-driven model has long been popular in UI systems, but the nature of work in servers presents some new challenges. Functional programming provides solutions, including monads, arrows, promises, and various flavors of FRP. This is another such solution, intended to enhance ease of use with constructs that support parallel and sequential operations.",
+					title: "The Better Parts",
+					description: "This talk is about using programming languages more effectively, and using the experience to create and select better programming languages. There are bad practices in software development that are so old and well established that it is difficult to recognize the problems they cause. There will be a review of the new good parts in ES6. JSON will also be mentioned.",
 				}
 			},
 			{
