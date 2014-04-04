@@ -1348,6 +1348,11 @@ module.exports = {
 				name: 'Task 8 - Literature',
 				embedUrl: 'https://docs.google.com/forms/d/1M85kbdlMhImhMBlTZ6GzWas5gviu8XbjTPRSKD1hwRs/viewform?embedded=true',
 				height: 900
+			},
+			{
+				name: 'Task 9 - Memeing',
+				embedUrl: 'https://docs.google.com/forms/d/1NrZpfRKS1-FwM_BTATRk_ZKoyvV_2NyRMl8mWJMKuwQ/viewform?embedded=true',
+				height: 610
 			}
 		],
 
