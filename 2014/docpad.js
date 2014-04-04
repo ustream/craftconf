@@ -1208,6 +1208,14 @@ module.exports = {
 					logo: "themes/craftconf/img/sponsors/telekomhu.jpg",
 					url: "http://www.telekom.hu/"
 				}
+			],
+
+			"Media Partner": [
+				{
+					name: 'Hot Topics Tech',
+					logo: "themes/craftconf/img/sponsors/hottopicstech.png",
+					url: "http://www.hottopicstech.com/"
+				},
 			]
 		},
 
