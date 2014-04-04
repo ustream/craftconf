@@ -367,7 +367,7 @@ module.exports = {
 				},
 				presentation: {
 					title: "What Makes a Good Development Process?",
-					// description: "",
+					description: "This is a review and high-level observation of ideas and practices the development community has evolved over the last 20 years or so. My goal is not just to help fill gaps in your knowledge, but perhaps also to reveal patterns of the problems we’ve been solving, which might lead us to additional insights. In particular, how are we creating better communication paths with our stakeholders? And how does our new understanding of development influence our organizational structures (à la <a href=\"http://www.Reinventing-Business.com\">www.Reinventing-Business.com</a>)?",
 				}
 			},
 			{
