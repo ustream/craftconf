@@ -712,7 +712,7 @@ module.exports = {
 				},
 				presentation: {
 					title: "Complex Projects aren't planable but controllable",
-					description: "Science has finally approved it: Forecasting complex projects is a deception. Moreover, forecasts hinder innovations. Daniel Kahneman, Nobel Prize Winner in Economic Sciences and psychologist verified in many cases, that forecasting of complex projects is impossible. Yet still, we keep losing time trying to do exactly that. Beyond Budgeting came empirically to the same findings and offers a concept for controlling corporations without budgets. Additionally Beyond Budgeting provides advice for controlling even long-term complex projects. Agile methodologies generally recommend developing a long-term plan on a coarse-grained level only and coming up with detailed short-term plans iteratively. In this talk I want to provide insights in the latest scientific research and show as well how Beyond Budgeting and Agile principles can be combined so that even complex projects remain controllable.<h4>Learning objectives:</h4><ul><li>Understand why forecasting complex projects is impossible</li><li>Become acquainted with the core ideas of Beyond Budgeting</li><li>Understand how Beyond Budgeting can be applied on Agile projects</li></ul>",
+					description: "Science has finally approved it: Forecasting complex projects is a deception. Moreover, forecasts hinder innovations. Daniel Kahneman, Nobel Prize Winner in Economic Sciences and psychologist verified in many cases, that forecasting of complex projects is impossible. Yet still, we keep losing time trying to do exactly that. Beyond Budgeting came empirically to the same findings and offers a concept for controlling corporations without budgets. Additionally Beyond Budgeting provides advice for controlling even long-term complex projects. Agile methodologies generally recommend developing a long-term plan on a coarse-grained level only and coming up with detailed short-term plans iteratively. In this talk I want to provide insights in the latest scientific research and show as well how Beyonddeudgeting and Agile principles can be combined so that even complex projects remain controllable.<h4>Learning objectives:</h4><ul><li>Understand why forecasting complex projects is impossible</li><li>Become acquainted with the core ideas of Beyond Budgeting</li><li>Understand how Beyond Budgeting can be applied on Agile projects</li></ul>",
 				}
 			},
 			{
@@ -1137,7 +1137,7 @@ module.exports = {
 				{
 					name: 'Deutsche Telekom',
 					logo: "themes/craftconf/img/sponsors/telekom.jpg",
-					url: "http://www.telekom.com/startseite"
+					url: "http://bdi.telekom.net/home"
 				},
 				{
 					name: 'Basho',
