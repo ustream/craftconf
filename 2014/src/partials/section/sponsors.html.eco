@@ -10,7 +10,7 @@
 		<ul class="<%= level %> clear">
 			<% for company in sponsor: %>
 				<li>
-					<a href="<%= company.url %>"><img src="<%= company.logo %>" alt="<%= company.name %>" /></a>
+					<a href="<%= company.url %>" target="_blank"><img src="<%= company.logo %>" alt="<%= company.name %>" /></a>
 				</li>
 			<% end %>
 		</ul>

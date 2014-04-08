@@ -1216,6 +1216,11 @@ module.exports = {
 					logo: "themes/craftconf/img/sponsors/hottopicstech.png",
 					url: "http://www.hottopicstech.com/"
 				},
+				{
+					name: 'infoQ',
+					logo: "themes/craftconf/img/sponsors/qcon.jpg",
+					url: "http://www.infoq.com/"
+				}
 			]
 		},
 
