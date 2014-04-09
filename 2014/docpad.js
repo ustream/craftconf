@@ -3,25 +3,42 @@ var schedule = {
 	breakfast:    "08:00 - 09:00",
 	registration: "08:00 - 08:50",
 	welcome:      "08:50 - 09:00",
-	keynote:      "09:00 - 09:50",
-	sponsorpitch: "09:50 - 10:30",
-	break1:       "10:30 - 10:55",
-	talk1:        "10:55 - 11:35",
-	talk2:        "11:40 - 12:20",
-	lunch:        "12:20 - 13:45",
-	talk3:        "13:45 - 14:25",
-	talk4:        "14:30 - 15:10",
-	talk5:        "15:15 - 15:55",
-	break2:       "15:55 - 16:20",
+	sponsorpitch: "09:00 - 09:30",
+	keynote:      "09:30 - 10:20",
+	break1:       "10:20 - 10:50",
+	talk1:        "10:50 - 11:30",
+	talk2:        "11:35 - 12:15",
+	lunch:        "12:15 - 13:40",
+	talk3:        "13:40 - 14:20",
+	talk4:        "14:25 - 15:05",
+	talk5:        "15:10 - 15:50",
+	break2:       "15:50 - 16:20",
 	talk6:        "16:20 - 17:00",
 	talk7:        "17:05 - 17:45",
 	talk8:        "17:50 - 18:30",
+	dinner:       "18:30 - 23:00",
 	break_title:        "Break",
 	lunch_title:        "Lunch",
+	dinner_title:       "Dinner & Conference Party",
 	welcome_title:      "Welcome",
 	breakfast_title:    "Breakfast",
 	sponsorpitch_title: "Sponsor pitch",
 	registration_title: "Registration & Breakfast"
+}
+
+var schedule2 = {
+	keynote:      "09:00 - 09:50",
+	talk1:        "09:55 - 10:35",
+	break1:       "10:35 - 11:05",
+	talk2:        "11:05 - 11:45",
+	talk3:        "11:50 - 12:30",
+	lunch:        "12:30 - 13:55",
+	talk4:        "13:55 - 14:35",
+	talk5:        "14:40 - 15:20",
+	talk6:        "15:25 - 16:05",
+	break2:       "16:05 - 16:35",
+	talk7:        "16:35 - 17:15",
+	talk8:        "17:20 - 18:00",
 }
 
 module.exports = {
@@ -96,8 +113,8 @@ module.exports = {
 						slots: [
 							{ time: schedule.registration, title: schedule.registration_title },
 							{ time: schedule.welcome,      title: schedule.welcome_title },
-							{ time: schedule.keynote,      speaker: 'BodilStokke', keynote: true },
 							{ time: schedule.sponsorpitch, title: schedule.sponsorpitch_title },
+							{ time: schedule.keynote,      speaker: 'BodilStokke', keynote: true },
 							{ time: schedule.break1,       title: schedule.break_title},
 							{ time: schedule.talk1,        speaker: 'GojkoAdzic' },
 							{ time: schedule.talk2,        speaker: 'JonasBoner' },
@@ -108,7 +125,8 @@ module.exports = {
 							{ time: schedule.break2,       title: schedule.break_title},
 							{ time: schedule.talk6,        speaker: 'AlvaroVidela' },
 							{ time: schedule.talk7,        speaker: 'BruceEckel' },
-							{ time: schedule.talk8,        speaker: 'AmberCase' }
+							{ time: schedule.talk8,        speaker: 'AmberCase' },
+							{ time: schedule.dinner,       title: schedule.dinner_title },
 						]
 					},
 					{
@@ -116,8 +134,8 @@ module.exports = {
 						slots: [
 							{ time: schedule.registration, title: schedule.registration_title },
 							{ time: schedule.welcome,      title: schedule.welcome_title },
-							{ time: schedule.keynote,      title: 'Keynote in the Main room', keynote: true },
 							{ time: schedule.sponsorpitch, title: schedule.sponsorpitch_title },
+							{ time: schedule.keynote,      title: 'Keynote in the Main room', keynote: true },
 							{ time: schedule.break1,       title: schedule.break_title},
 							{ time: schedule.talk1,        speaker: 'ChaitanyaMishra' },
 							{ time: schedule.talk2,        speaker: 'AnnaObukhova' },
@@ -128,7 +146,8 @@ module.exports = {
 							{ time: schedule.break2,       title: schedule.break_title},
 							{ time: schedule.talk6,        speaker: 'DanNorth' },
 							{ time: schedule.talk7,        speaker: 'JohnHughes' },
-							{ time: schedule.talk8,        speaker: 'DouglasCrockford' }
+							{ time: schedule.talk8,        speaker: 'DouglasCrockford' },
+							{ time: schedule.dinner,       title: schedule.dinner_title },
 						]
 					},
 					{
@@ -136,8 +155,8 @@ module.exports = {
 						slots: [
 							{ time: schedule.registration, title: schedule.registration_title },
 							{ time: schedule.welcome,      title: schedule.welcome_title },
-							{ time: schedule.keynote,      title: 'Keynote in the Main room', keynote: true },
 							{ time: schedule.sponsorpitch, title: schedule.sponsorpitch_title },
+							{ time: schedule.keynote,      title: 'Keynote in the Main room', keynote: true },
 							{ time: schedule.break1,       title: schedule.break_title},
 							{ time: schedule.talk1,        speaker: 'RachelLaycock' },
 							{ time: schedule.talk2,        speaker: 'JohnWillis' },
@@ -148,7 +167,8 @@ module.exports = {
 							{ time: schedule.break2,       title: schedule.break_title},
 							{ time: schedule.talk6,        speaker: 'TimFelgentreff' },
 							{ time: schedule.talk7,        speaker: 'AndyPiper' },
-							{ time: schedule.talk8,        speaker: 'MichaelFeathers' }
+							{ time: schedule.talk8,        speaker: 'MichaelFeathers' },
+							{ time: schedule.dinner,       title: schedule.dinner_title },
 						]
 					}
 				]
@@ -161,57 +181,54 @@ module.exports = {
 						name: 'Main room',
 						slots: [
 							{ time: schedule.breakfast,    title: schedule.breakfast_title },
-							{ time: schedule.keynote,      speaker: 'ChadFowler', keynote: true },
-							{ time: schedule.sponsorpitch, title: schedule.sponsorpitch_title },
-							{ time: schedule.break1,       title: schedule.break_title},
-							{ time: schedule.talk1,        speaker: 'TheoSchlossnagle' },
-							{ time: schedule.talk2,        speaker: 'GerardMeszaros' },
-							{ time: schedule.lunch,        title: schedule.lunch_title },
-							{ time: schedule.talk3,        speaker: 'JuttaEckstein' },
-							{ time: schedule.talk4,        speaker: 'JevgeniKabanov' },
-							{ time: schedule.talk5,        speaker: 'StefanTilkov' },
-							{ time: schedule.break2,       title: schedule.break_title},
-							{ time: schedule.talk6,        speaker: 'GarethRushgrove' },
-							{ time: schedule.talk7,        speaker: 'EvanCzaplicki' },
-							{ time: schedule.talk8,        speaker: 'BjornFreemanBenson' }
+							{ time: schedule2.keynote,     speaker: 'ChadFowler', keynote: true },
+							{ time: schedule2.talk1,       speaker: 'TheoSchlossnagle' },
+							{ time: schedule2.break1,      title: schedule.break_title},
+							{ time: schedule2.talk2,       speaker: 'GerardMeszaros' },
+							{ time: schedule2.talk3,       speaker: 'JuttaEckstein' },
+							{ time: schedule2.lunch,       title: schedule.lunch_title },
+							{ time: schedule2.talk4,       speaker: 'JevgeniKabanov' },
+							{ time: schedule2.talk5,       speaker: 'StefanTilkov' },
+							{ time: schedule2.talk6,       speaker: 'GarethRushgrove' },
+							{ time: schedule2.break2,      title: schedule.break_title},
+							{ time: schedule2.talk7,       speaker: 'EvanCzaplicki' },
+							{ time: schedule2.talk8,       speaker: 'BjornFreemanBenson' }
 						]
 					},
 					{
 						name: 'Room1',
 						slots: [
 							{ time: schedule.breakfast,    title: schedule.breakfast_title },
-							{ time: schedule.keynote,      title: 'Keynote in the Main room', keynote: true },
-							{ time: schedule.sponsorpitch, title: schedule.sponsorpitch_title },
-							{ time: schedule.break1,       title: schedule.break_title},
-							{ time: schedule.talk1,        speaker: 'MarkusVolter' },
-							{ time: schedule.talk2,        speaker: 'TomomiImura' },
-							{ time: schedule.lunch,        title: schedule.lunch_title },
-							{ time: schedule.talk3,        speaker: 'IanRobinson' },
-							{ time: schedule.talk4,        speaker: 'ChrisAtherton' },
-							{ time: schedule.talk5,        speaker: 'DominicTarr' },
-							{ time: schedule.break2,       title: schedule.break_title},
-							{ time: schedule.talk6,        speaker: 'FerossAboukhadijeh' },
-							{ time: schedule.talk7,        speaker: 'WimGodden' },
-							{ time: schedule.talk8,        speaker: 'JeffHodges' }
+							{ time: schedule2.keynote,     title: 'Keynote in the Main room', keynote: true },
+							{ time: schedule2.talk1,       speaker: 'MarkusVolter' },
+							{ time: schedule2.break1,      title: schedule.break_title},
+							{ time: schedule2.talk2,       speaker: 'TomomiImura' },
+							{ time: schedule2.talk3,       speaker: 'IanRobinson' },
+							{ time: schedule2.lunch,       title: schedule.lunch_title },
+							{ time: schedule2.talk4,       speaker: 'ChrisAtherton' },
+							{ time: schedule2.talk5,       speaker: 'DominicTarr' },
+							{ time: schedule2.talk6,       speaker: 'FerossAboukhadijeh' },
+							{ time: schedule2.break2,      title: schedule.break_title},
+							{ time: schedule2.talk7,       speaker: 'WimGodden' },
+							{ time: schedule2.talk8,       speaker: 'JeffHodges' }
 						]
 					},
 					{
 						name: 'Room2',
 						slots: [
 							{ time: schedule.breakfast,    title: schedule.breakfast_title },
-							{ time: schedule.keynote,      title: 'Keynote in the Main room', keynote: true },
-							{ time: schedule.sponsorpitch, title: schedule.sponsorpitch_title },
-							{ time: schedule.break1,       title: schedule.break_title},
-							{ time: schedule.talk1,        speaker: 'TorbenHoffmann' },
-							{ time: schedule.talk2,        speaker: 'NatPryceSteveFreeman' },
-							{ time: schedule.lunch,        title: schedule.lunch_title },
-							{ time: schedule.talk3,        speaker: 'StasZvinyatskovsky' },
-							{ time: schedule.talk4,        speaker: 'SimonHildrew' },
-							{ time: schedule.talk5,        speaker: 'StefanEdlich' },
-							{ time: schedule.break2,       title: schedule.break_title},
-							{ time: schedule.talk6,        speaker: 'EndreVarga' },
-							{ time: schedule.talk7,        speaker: 'DiegoOngaro' },
-							{ time: schedule.talk8,        speaker: 'SzabolcsSzabolcsiToth' }
+							{ time: schedule2.keynote,     title: 'Keynote in the Main room', keynote: true },
+							{ time: schedule2.talk1,       speaker: 'TorbenHoffmann' },
+							{ time: schedule2.break1,      title: schedule.break_title},
+							{ time: schedule2.talk2,       speaker: 'NatPryceSteveFreeman' },
+							{ time: schedule2.talk3,       speaker: 'StasZvinyatskovsky' },
+							{ time: schedule2.lunch,       title: schedule.lunch_title },
+							{ time: schedule2.talk4,       speaker: 'SimonHildrew' },
+							{ time: schedule2.talk5,       speaker: 'StefanEdlich' },
+							{ time: schedule2.talk6,       speaker: 'EndreVarga' },
+							{ time: schedule2.break2,      title: schedule.break_title},
+							{ time: schedule2.talk7,       speaker: 'DiegoOngaro' },
+							{ time: schedule2.talk8,       speaker: 'SzabolcsSzabolcsiToth' }
 						]
 					}
 				]
