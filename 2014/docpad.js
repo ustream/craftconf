@@ -163,7 +163,7 @@ module.exports = {
 							{ time: schedule.talk2,        speaker: 'JohnWillis' },
 							{ time: schedule.lunch,        title: schedule.lunch_title },
 							{ time: schedule.talk3,        speaker: 'AndrewGodwin' },
-							{ time: schedule.talk4,        speaker: 'GregYoung' },
+							{ time: schedule.talk4,        speaker: 'SzabolcsSzabolcsiToth' },
 							{ time: schedule.talk5,        speaker: 'EricEvans' },
 							{ time: schedule.break2,       title: schedule.break_title},
 							{ time: schedule.talk6,        speaker: 'TimFelgentreff' },
@@ -221,15 +221,15 @@ module.exports = {
 							{ time: schedule2.keynote,     title: 'Keynote in the Main room', keynote: true },
 							{ time: schedule2.talk1,       speaker: 'TorbenHoffmann' },
 							{ time: schedule2.break1,      title: schedule.break_title},
-							{ time: schedule2.talk2,       speaker: 'NatPryceSteveFreeman' },
-							{ time: schedule2.talk3,       speaker: 'StasZvinyatskovsky' },
+							{ time: schedule2.talk2,       speaker: 'StasZvinyatskovsky' },
+							{ time: schedule2.talk3,       speaker: 'NatPryceSteveFreeman' },
 							{ time: schedule2.lunch,       title: schedule.lunch_title },
 							{ time: schedule2.talk4,       speaker: 'SimonHildrew' },
 							{ time: schedule2.talk5,       speaker: 'StefanEdlich' },
 							{ time: schedule2.talk6,       speaker: 'EndreVarga' },
 							{ time: schedule2.break2,      title: schedule.break_raffle_title},
 							{ time: schedule2.talk7,       speaker: 'DiegoOngaro' },
-							{ time: schedule2.talk8,       speaker: 'SzabolcsSzabolcsiToth' }
+							{ time: schedule2.talk8,       speaker: 'GregYoung' }
 						]
 					}
 				]
