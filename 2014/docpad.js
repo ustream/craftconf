@@ -206,7 +206,7 @@ module.exports = {
 							{ time: schedule.talk2,        speaker: 'NatPryceSteveFreeman' },
 							{ time: schedule.lunch,        title: schedule.lunch_title },
 							{ time: schedule.talk3,        speaker: 'StasZvinyatskovsky' },
-							{ time: schedule.talk4,        speaker: 'MichaelNygard' },
+							{ time: schedule.talk4,        speaker: 'SimonHildrew' },
 							{ time: schedule.talk5,        speaker: 'StefanEdlich' },
 							{ time: schedule.break2,       title: schedule.break_title},
 							{ time: schedule.talk6,        speaker: 'EndreVarga' },
@@ -760,18 +760,18 @@ module.exports = {
 				}
 			},
 			{
-				anchor: "MichaelNygard",
-				name: "Michael Nygard",
-				photo: "themes/craftconf/img/speakers/MichaelNygard.png",
-				bio: "<p>Michael Nygard strives to raise the bar and ease the pain for developers around the world. He shares his passion and energy for improvement with everyone he meets, sometimes even with their permission. Living with systems in production taught Michael about the importance of operations and writing production-ready software. Highly-available, highly-scalable commerce systems are his forte. Michael has written and co-authored several books, including \"97 Things Every Software Architect Should Know\" and the best seller \"Release It!\", a book about building software that survives the real world. Michael works for <a href=\"http://www.cognitect.com/\">Cognitect Inc.</a>, the company behind Clojure, ClojureScript, Pedestal, and Datomic.</p>",
-				company: "Cognitect Inc.",
+				anchor: "SimonHildrew",
+				name: "Simon Hildrew",
+				photo: "themes/craftconf/img/speakers/SimonHildrew.png",
+				bio: "<p>Simon Hildrew started out as a Java developer but was sucked into operations at a startup. Later on, after heading up the operations team at the Guardian for a couple of years, he hired someone else to do that and set about solving some of the challenges of an organisation with an ever increasing desire to adopt a devops culture. To that end he has spent the last two years working with both developers and operations in areas of monitoring, deployment and provisioning and created a handful of tools along the way.</p>",
+				company: "Guardian",
 				link: {
-					href: "http://twitter.com/mtnygard",
-					text: "@mtnygard"
+					href: "http://twitter.com/sihil",
+					text: "@sihil"
 				},
 				presentation: {
-					title: "Cooperating when the fur flies",
-					description: "There's nothing like a crisis to remove artificial barriers. In this session, Michael will present an experience report about development and operations coming together after a failed launch. Aside from the fun of sharing war stories and comparing scars, what can we learn about climbing out of a crater after the worst has already happened? Can we capture the special magic of a firefighting mission during more sedate times? Beyond all of that, come find out how to stay out of the crater to begin with.",
+					title: "Delivering Continuous Delivery Continuously",
+					description: "Over the last few years the Guardian has built up a set of tools (commercial and in house) that allows developers to build fully integrated continuous delivery pipelines in minutes rather than hours or even days. This reflects a change on the ground where developers have geared up to take on far more operational responsibility whilst operations have taken on a consultancy role to the developers.<br><br>At the heart of this has been the creation of an in house deployment tool that streamlines what was previously a set of manual steps (with too many opportunities for humans to type “yes↵”) into a self service web application with an API and easy integration with the build system.<br><br>This talk will go through the tools and processes that have been created to make continuous delivery easy and show that:<ul><li>By providing tools that let developers deploy whilst keeping operations in the loop we reduce time to deploy, can deploy more frequently and allow operations to spend their time more usefully<li>By providing tools that are easy to chain together in different ways, users are able to experiment and try new things</ul>",
 				}
 			},
 			{
