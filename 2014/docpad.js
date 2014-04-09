@@ -1145,7 +1145,7 @@ module.exports = {
 				{
 					name: 'EPAM',
 					logo: "themes/craftconf/img/sponsors/epam.jpg",
-					url: "http://epam.com"
+					url: "http://www.epam.com"
 				},
 				{
 					name: 'JetBrains',
