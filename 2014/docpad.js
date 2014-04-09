@@ -16,8 +16,9 @@ var schedule = {
 	talk6:        "16:20 - 17:00",
 	talk7:        "17:05 - 17:45",
 	talk8:        "17:50 - 18:30",
-	dinner:       "18:30 - 23:00",
+	dinner:       "18:30 - 22:00",
 	break_title:        "Break",
+	break_raffle_title: "Break and Raffle",
 	lunch_title:        "Lunch",
 	dinner_title:       "Dinner & Conference Party",
 	welcome_title:      "Welcome",
@@ -36,9 +37,9 @@ var schedule2 = {
 	talk4:        "13:55 - 14:35",
 	talk5:        "14:40 - 15:20",
 	talk6:        "15:25 - 16:05",
-	break2:       "16:05 - 16:35",
-	talk7:        "16:35 - 17:15",
-	talk8:        "17:20 - 18:00",
+	break2:       "16:05 - 16:45",
+	talk7:        "16:45 - 17:25",
+	talk8:        "17:30 - 18:10",
 }
 
 module.exports = {
@@ -190,7 +191,7 @@ module.exports = {
 							{ time: schedule2.talk4,       speaker: 'JevgeniKabanov' },
 							{ time: schedule2.talk5,       speaker: 'StefanTilkov' },
 							{ time: schedule2.talk6,       speaker: 'GarethRushgrove' },
-							{ time: schedule2.break2,      title: schedule.break_title},
+							{ time: schedule2.break2,      title: schedule.break_raffle_title},
 							{ time: schedule2.talk7,       speaker: 'EvanCzaplicki' },
 							{ time: schedule2.talk8,       speaker: 'BjornFreemanBenson' }
 						]
@@ -208,7 +209,7 @@ module.exports = {
 							{ time: schedule2.talk4,       speaker: 'ChrisAtherton' },
 							{ time: schedule2.talk5,       speaker: 'DominicTarr' },
 							{ time: schedule2.talk6,       speaker: 'FerossAboukhadijeh' },
-							{ time: schedule2.break2,      title: schedule.break_title},
+							{ time: schedule2.break2,      title: schedule.break_raffle_title},
 							{ time: schedule2.talk7,       speaker: 'WimGodden' },
 							{ time: schedule2.talk8,       speaker: 'JeffHodges' }
 						]
@@ -226,7 +227,7 @@ module.exports = {
 							{ time: schedule2.talk4,       speaker: 'SimonHildrew' },
 							{ time: schedule2.talk5,       speaker: 'StefanEdlich' },
 							{ time: schedule2.talk6,       speaker: 'EndreVarga' },
-							{ time: schedule2.break2,      title: schedule.break_title},
+							{ time: schedule2.break2,      title: schedule.break_raffle_title},
 							{ time: schedule2.talk7,       speaker: 'DiegoOngaro' },
 							{ time: schedule2.talk8,       speaker: 'SzabolcsSzabolcsiToth' }
 						]
