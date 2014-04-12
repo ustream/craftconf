@@ -1238,6 +1238,11 @@ module.exports = {
 					name: 'infoQ',
 					logo: "themes/craftconf/img/sponsors/qcon.jpg",
 					url: "http://www.infoq.com/"
+				},
+				{
+					name: 'Kinja',
+					logo: "themes/craftconf/img/sponsors/kinja.png",
+					url: "http://kinja.com/"
 				}
 			]
 		},
