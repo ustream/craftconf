@@ -1162,6 +1162,11 @@ module.exports = {
 					logo: "themes/craftconf/img/sponsors/basho.jpg",
 					url: "http://basho.com/"
 				},
+				{
+					name: 'Misys',
+					logo: "themes/craftconf/img/sponsors/misys.png",
+					url: "http://www.misys.com/"
+				},
 			],
 
 			Silver: [
@@ -1184,11 +1189,6 @@ module.exports = {
 					name: 'Compuware',
 					logo: "themes/craftconf/img/sponsors/compuware.jpg",
 					url: "http://www.compuware.com/en_us.html"
-				},
-				{
-					name: 'Oracle',
-					logo: "themes/craftconf/img/sponsors/oracle.jpg",
-					url: "http://www.oracle.com"
 				},
 			],
 
