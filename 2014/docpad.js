@@ -138,7 +138,7 @@ module.exports = {
 							{ time: schedule.sponsorpitch, title: schedule.sponsorpitch_title },
 							{ time: schedule.keynote,      title: 'Keynote in the Main room', keynote: true },
 							{ time: schedule.break1,       title: schedule.break_title},
-							{ time: schedule.talk1,        speaker: 'ChaitanyaMishra' },
+							{ time: schedule.talk1,        speaker: 'BenMathews' },
 							{ time: schedule.talk2,        speaker: 'JohnWillis' },
 							{ time: schedule.lunch,        title: schedule.lunch_title },
 							{ time: schedule.talk3,        speaker: 'MitchellHashimoto' },
@@ -344,6 +344,21 @@ module.exports = {
 				}
 			},
 			{
+				anchor: "BenMathews",
+				name: "Ben Mathews",
+				photo: "themes/craftconf/img/speakers/BenMathews.png",
+				bio: "<p>Ben Mathews is an engineer in Facebook's London office. His main focus at Facebook is security in the PHP codebase — he builds tools to detect security problems, and tries to make Facebook's codebase safe by default. He also developed the framework that Facebook uses to reliably delete user accounts and all of their data.</p>",
+				company: "Facebook",
+				link: {
+					href: "http://twitter.com/istweetingcool",
+					text: "@istweetingcool"
+				},
+				presentation: {
+					title: "Lessons from Facebook's PHP Codebase",
+					description: "Facebook has a massive PHP codebase, with more than a thousand developers committing changes every week, and new changes rolled out to users twice a day. In this talk, I'll discuss some of the challenges that we face operating at this scale and how we handle them. I'll touch on security, testability, data fetching and other related topics.",
+				}
+			},
+			{
 				anchor: "BjornFreemanBenson",
 				name: "Bjorn Freeman-Benson",
 				photo: "themes/craftconf/img/speakers/BjornFreemanBenson.png",
@@ -401,21 +416,6 @@ module.exports = {
 				presentation: {
 					title: "McDonalds, Six Sigma, and Offshore Outsourcing: Unexpected Sources of Insight",
 					// description: "In the past year, Facebook for Android has moved from a primarily webview based app to an almost entirely native experience. It has transitioned from being built by a small team to a distributed development model where product teams are responsible for their features. And it has grown to be used by well over a hundred million users a day, distributed across devices with orders of magnitude differences in capabilities.<br><br>This talk describes the technical and cultural challenges associated with making these transitions while continuing to ship a fast and lightweight app. We will describe changes we made to each step of the process of committing code, building, testing and releasing our apps to make sure we avoided regressions and measured improvements. We will describe an analytics framework that lets us measure and optimize various performance metrics, and make the costs of features visible to product teams. And we will talk about how we applied these lessons to write a set of core libraries and abstractions that make it easier to distribute development without hurting overall performance of the app. The talk will draw on real examples from a broad set of performance metrics such as startup time, data usage, disk usage, app size, battery consumption etc.",
-				}
-			},
-			{
-				anchor: "ChaitanyaMishra",
-				name: "Chaitanya Mishra",
-				photo: "themes/craftconf/img/speakers/ChaitanyaMishra.png",
-				bio: "<p>Chaitanya is a software engineer at Facebook London, where he focuses on improving the performance of Facebook\’s Android apps. He was previously on the search team, working on Graph Search, and the Search typeahead. In a previous life, he did graduate research on database systems at the University of Toronto.</p>",
-				company: "Facebook",
-				link: {
-					href: "http://twitter.com/istweetingcool",
-					text: "@istweetingcool"
-				},
-				presentation: {
-					title: "Scaling Facebook for Android",
-					description: "In the past year, Facebook for Android has moved from a primarily webview based app to an almost entirely native experience. It has transitioned from being built by a small team to a distributed development model where product teams are responsible for their features. And it has grown to be used by well over a hundred million users a day, distributed across devices with orders of magnitude differences in capabilities.<br><br>This talk describes the technical and cultural challenges associated with making these transitions while continuing to ship a fast and lightweight app. We will describe changes we made to each step of the process of committing code, building, testing and releasing our apps to make sure we avoided regressions and measured improvements. We will describe an analytics framework that lets us measure and optimize various performance metrics, and make the costs of features visible to product teams. And we will talk about how we applied these lessons to write a set of core libraries and abstractions that make it easier to distribute development without hurting overall performance of the app. The talk will draw on real examples from a broad set of performance metrics such as startup time, data usage, disk usage, app size, battery consumption etc.",
 				}
 			},
 			{
