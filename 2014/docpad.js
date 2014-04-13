@@ -86,7 +86,7 @@ module.exports = {
 			'location',
 			'sponsors',
 			'organizers',
-			// 'meetups',
+			'meetups',
 			'contact'
 		],
 
@@ -1269,79 +1269,70 @@ module.exports = {
 
 		meetups: [
 			{
-				name: 'Meetup name',
-				url: '/test',
-				date: '2014.05.12',
+				name: 'Budapest Database Meetup',
+				url: 'http://www.meetup.com/Budapest-Database-Meetup/',
+				date: '2014.04.23',
 				speakers: [
 					{
-						name: 'Hodicska Gergely',
-						title: 'event organizer',
-						photo: "themes/craftconf/img/gergelyhodicska.jpg"
+						name: 'Andrew Godwin',
+						title: 'Wonderful World Of Databases',
+						photo: 'themes/craftconf/img/speakers/AndrewGodwin.png'
 					},
-					{
-						name: 'Hodicska Gergely',
-						title: 'event organizer',
-						photo: "themes/craftconf/img/gergelyhodicska.jpg"
-					},
-					{
-						name: 'Hodicska Gergely',
-						title: 'event organizer',
-						photo: "themes/craftconf/img/gergelyhodicska.jpg"
-					},
-					{
-						name: 'Hodicska Gergely',
-						title: 'event organizer',
-						photo: "themes/craftconf/img/gergelyhodicska.jpg"
-					},
-					{
-						name: 'Hodicska Gergely',
-						title: 'event organizer',
-						photo: "themes/craftconf/img/gergelyhodicska.jpg"
-					},
-					{
-						name: 'Hodicska Gergely',
-						title: 'event organizer',
-						photo: "themes/craftconf/img/gergelyhodicska.jpg"
-					}
 				]
 			},
 			{
-				name: 'Meetup name',
-				url: '/test',
-				date: '2014.05.12',
+				name: 'Frontend Meetup Budapest - Design & Tech',
+				url: 'http://www.meetup.com/Frontend-Meetup-Budapest/',
+				date: '2014.04.23',
 				speakers: [
 					{
-						name: 'Hodicska Gergely',
-						title: 'event organizer',
-						photo: "themes/craftconf/img/gergelyhodicska.jpg"
+						name: 'Zoltán Kollin',
+						title: '',
+						photo: 'themes/craftconf/img/speakers/ZoltanKollin.png'
 					},
-					{
-						name: 'Hodicska Gergely',
-						title: 'event organizer',
-						photo: "themes/craftconf/img/gergelyhodicska.jpg"
-					},
-					{
-						name: 'Hodicska Gergely',
-						title: 'event organizer',
-						photo: "themes/craftconf/img/gergelyhodicska.jpg"
-					},
-					{
-						name: 'Hodicska Gergely',
-						title: 'event organizer',
-						photo: "themes/craftconf/img/gergelyhodicska.jpg"
-					},
-					{
-						name: 'Hodicska Gergely',
-						title: 'event organizer',
-						photo: "themes/craftconf/img/gergelyhodicska.jpg"
-					},
-					{
-						name: 'Hodicska Gergely',
-						title: 'event organizer',
-						photo: "themes/craftconf/img/gergelyhodicska.jpg"
-					}
 				]
-			}
+			},
+			{
+				name: 'Node.js Budapest',
+				url: 'http://www.meetup.com/nodebp/events/172548072/',
+				date: '2014.04.23',
+				speakers: [
+					{
+						name: 'David Judik',
+						title: 'Node.js with Tmux and Vim',
+						photo: 'themes/craftconf/img/speakers/DavidJudik.png'
+					},
+					{
+						name: 'Dominic Tarr',
+						title: 'Evolution of Node Streams',
+						photo: 'themes/craftconf/img/speakers/DominicTarr.png'
+					},
+				]
+			},
+			{
+				name: 'PHP Meetup Budapest',
+				url: 'http://www.meetup.com/phpmeetup/',
+				date: '2014.04.23',
+				speakers: [
+					{
+						name: 'Ricardo Fontes',
+						title: 'Need for Speed: How to improve slow application performance',
+						photo: 'themes/craftconf/img/speakers/RicardoFontes.png'
+					},
+				]
+			},
+			{
+				name: 'Budapest DevOps Meetup',
+				url: 'http://www.meetup.com/devopsbp/',
+				date: '2014.04.23',
+				speakers: [
+					{
+						name: 'Paul Stack',
+						title: 'Vagrant, the ability to think about production deployments from day 1 of development',
+						photo: 'themes/craftconf/img/speakers/PaulStack.png'
+					},
+				]
+			},
 		],
 
 		quizQuestions: [

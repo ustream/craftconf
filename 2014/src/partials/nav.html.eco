@@ -14,7 +14,7 @@
 					<% end %>
 				<% end %>
 				<li class="nav-item">
-					<a href="#CodeOfConduct" title="Code of Conduct" class="nav-link">Code of Conduct</a>
+					<a href="#CodeOfConduct" title="Code of Conduct" class="nav-link">CoC</a>
 				</li>
 			</ul>
 			<div class="share">
