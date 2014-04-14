@@ -1268,18 +1268,18 @@ module.exports = {
 		],
 
 		meetups: [
-			{
-				name: 'Budapest Database Meetup',
-				url: 'http://www.meetup.com/Budapest-Database-Meetup/',
-				date: '2014.04.23',
-				speakers: [
-					{
-						name: 'Andrew Godwin',
-						title: 'Wonderful World Of Databases',
-						photo: 'themes/craftconf/img/speakers/AndrewGodwin.png'
-					},
-				]
-			},
+			// {
+			// 	name: 'Budapest Database Meetup',
+			// 	url: 'http://www.meetup.com/Budapest-Database-Meetup/',
+			// 	date: '2014.04.23',
+			// 	speakers: [
+			// 		{
+			// 			name: 'Andrew Godwin',
+			// 			title: 'Wonderful World Of Databases',
+			// 			photo: 'themes/craftconf/img/speakers/AndrewGodwin.png'
+			// 		},
+			// 	]
+			// },
 			{
 				name: 'Frontend Meetup Budapest - Design & Tech',
 				url: 'http://www.meetup.com/Frontend-Meetup-Budapest/',
@@ -1289,6 +1289,11 @@ module.exports = {
 						name: 'Zoltán Kollin',
 						title: '',
 						photo: 'themes/craftconf/img/speakers/ZoltanKollin.png'
+					},
+					{
+						name: 'Tomomi Imura',
+						title: 'HTML5 Device APIs',
+						photo: 'themes/craftconf/img/speakers/TomomiImura.png'
 					},
 				]
 			},
