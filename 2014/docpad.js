@@ -23,7 +23,7 @@ var schedule = {
 	dinner_title:       "Dinner & Conference Party",
 	welcome_title:      "Welcome",
 	breakfast_title:    "Breakfast",
-	leanpoker_title:    "Introducing Lean Poker",
+	leanpoker_title:    "Lean Poker - A fun way to learn continuous deployment",
 	sponsorpitch_title: "Sponsor pitch",
 	registration_title: "Registration & Breakfast"
 }
