@@ -10,8 +10,8 @@
 		Please note that the list of the meetups and speakers will expand.</p>
 		<div class="inner">
 			<ul class="clr">
-				<% for meetup in @meetups: %>
-					<li class="meetup">
+				<% for meetup,ind in @meetups: %>
+					<li class="meetup meetup-<%- ind %>">
 						<h2><a href="<%= meetup.url %>"><%= meetup.name %></a></h2>
 						<span class="date"><%= meetup.date %></span>
 						<ul class="clr speakers">
