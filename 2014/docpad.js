@@ -1287,7 +1287,7 @@ module.exports = {
 			// 	]
 			// },
 			{
-				name: 'Frontend Meetup Budapest - Design & Tech',
+				name: 'Frontend Meetup Budapest + UX Budapest',
 				url: 'http://www.meetup.com/Frontend-Meetup-Budapest/',
 				date: '2014.04.23',
 				speakers: [
