@@ -356,8 +356,8 @@ module.exports = {
 				bio: "<p>Ben Mathews is an engineer in Facebook's London office. His main focus at Facebook is security in the PHP codebase — he builds tools to detect security problems, and tries to make Facebook's codebase safe by default. He also developed the framework that Facebook uses to reliably delete user accounts and all of their data.</p>",
 				company: "Facebook",
 				link: {
-					href: "http://twitter.com/istweetingcool",
-					text: "@istweetingcool"
+					href: "https://www.facebook.com/benmathews",
+					text: "FB/benmathews"
 				},
 				presentation: {
 					title: "Lessons from Facebook's PHP Codebase",
@@ -1292,14 +1292,19 @@ module.exports = {
 				date: '2014.04.23',
 				speakers: [
 					{
-						name: 'Zoltán Kollin',
-						title: '',
-						photo: 'themes/craftconf/img/speakers/ZoltanKollin.png'
-					},
-					{
 						name: 'Tomomi Imura',
 						title: 'HTML5 Device APIs',
 						photo: 'themes/craftconf/img/speakers/TomomiImura.png'
+					},
+					{
+						name: 'Amber Case',
+						title: 'Designing for Privacy in Mobile and Web Apps',
+						photo: 'themes/craftconf/img/speakers/AmberCase.png'
+					},
+					{
+						name: 'Zoltán Kollin',
+						title: '',
+						photo: 'themes/craftconf/img/speakers/ZoltanKollin.png'
 					},
 				]
 			},
@@ -1309,26 +1314,36 @@ module.exports = {
 				date: '2014.04.23',
 				speakers: [
 					{
-						name: 'David Judik',
-						title: 'Node.js with Tmux and Vim',
-						photo: 'themes/craftconf/img/speakers/DavidJudik.png'
-					},
-					{
 						name: 'Dominic Tarr',
 						title: 'Evolution of Node Streams',
 						photo: 'themes/craftconf/img/speakers/DominicTarr.png'
+					},
+					{
+						name: 'David Judik',
+						title: 'Node.js with Tmux and Vim',
+						photo: 'themes/craftconf/img/speakers/DavidJudik.png'
 					},
 				]
 			},
 			{
 				name: 'PHP Meetup Budapest',
-				url: 'http://www.meetup.com/phpmeetup/',
+				url: 'http://www.meetup.com/phpmeetup/events/177325522/',
 				date: '2014.04.23',
 				speakers: [
+					{
+						name: 'Ben Mathews',
+						title: 'Facebook\'s Approach to Common Web Vulnerabilities',
+						photo: 'themes/craftconf/img/speakers/BenMathews.png'
+					},
 					{
 						name: 'Ricardo Fontes',
 						title: 'Need for Speed: How to improve slow application performance',
 						photo: 'themes/craftconf/img/speakers/RicardoFontes.png'
+					},
+					{
+						name: 'Attila M. Magyar',
+						title: 'Programming in handstand - how to discover different ways of thinking while solving simple problems with unusual constraints',
+						photo: 'themes/craftconf/img/speakers/AttilaMagyar.png'
 					},
 				]
 			},

@@ -4,8 +4,10 @@
 		<div class="gear" data-gear="2"></div>
 	</div>
 
-
 	<div class="block">
+		<p class="text">On April 23 we organise a Meetup Evening as a warmup event for Craft. There will be several meetups in Budapest, you can find the list and the speakers of them below. The meetups are free to visit by anybody, so even those people can meet the Craft speakers who can not attend the conference. The meetups usually will start at 6PM, we provide pizza and drinks, and the talks will start from 6:30PM. You can find the location of the interested meetup by clicking its title. The attendees will get two coupons, which can be redeemed at <a href="http://ankert.hu/">Anker't</a> (<a href="https://www.google.co.uk/maps/place/Paulay+Ede+utca+33/@47.5013408,19.0590815,17z/data=!3m1!4b1!4m2!3m1!1s0x4741dc6bc3b9503f:0x7d3e93d5d01f296d">google maps</a>) on Wednesday from 8PM for beer, wine or <a href="http://en.wikipedia.org/wiki/Spritzer">fröccs</a>.
+		<br><br>
+		Please note that the list of the meetups and speakers will expand.</p>
 		<div class="inner">
 			<ul class="clr">
 				<% for meetup in @meetups: %>
