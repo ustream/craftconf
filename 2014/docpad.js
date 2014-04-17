@@ -1305,7 +1305,7 @@ module.exports = {
 			// },
 			{
 				name: 'Frontend Meetup Budapest + UX Budapest',
-				url: 'http://www.meetup.com/Frontend-Meetup-Budapest/',
+				url: 'http://www.meetup.com/Frontend-Meetup-Budapest/events/177259792/',
 				date: '2014.04.23',
 				speakers: [
 					{
@@ -1317,11 +1317,6 @@ module.exports = {
 						name: 'Amber Case',
 						title: 'Designing for Privacy in Mobile and Web Apps',
 						photo: 'themes/craftconf/img/speakers/AmberCase.png'
-					},
-					{
-						name: 'Zoltán Kollin',
-						title: '',
-						photo: 'themes/craftconf/img/speakers/ZoltanKollin.png'
 					},
 				]
 			},
