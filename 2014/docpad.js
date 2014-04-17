@@ -1074,7 +1074,7 @@ module.exports = {
 					title: "Need for Speed: How to improve slow application performance",
 					description: "In an evolving business world, organisations are focused on delivering fast time-to-value while ensuring an exceptional customer experience. Smartphones, tablets, and multiple browsers, coupled with native mobile applications, cloud computing and virtualisation, are amongst the disruptive technologies making it increasingly difficult to manage web and enterprise application performance. These evolving dynamics are creating a new challenge for both enterprises and service providers as their applications are now being delivered across an ecosystem that relies on many supporting business partners. Compuware will discuss the best practises and approaches for application performance delivery from the customer perspective, from the first to last mile.<br><br>By taking part this workshop you will:<ul><li>Understand why Application Performance is becoming a strategy initiative in leading organizations in the world.<li>Understand the paradigm change of the new Application-Centric IT Model.<li>Learn how to close the visibility gap, between applications complexity and Control.<li>Learn how to fully understand end user experience and gain full control of end user journey within complex infrastructures.<li>Learn how to eliminate the guesswork when resolving problems.<li>Learn in what way DepOps approach increases application performance.<li>Learn how to gain full insight into method performance inside .Net and Java infrastructures.</ul>",
 					day: "Day 1 (Wednesday)",
-					time: "9:30 - 14:30"
+					time: "9:30 - 15:15"
 				}
 			},
 			{
