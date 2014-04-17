@@ -1093,6 +1093,23 @@ module.exports = {
 					day: "Day 1 (Wednesday)",
 					time: "9:00 - 17:00"
 				}
+			},
+			{
+				anchor: "MichaelFeathers",
+				name: "Michael Feathers",
+				photo: "themes/craftconf/img/speakers/MichaelFeathers.png",
+				bio: "<p>Michael Feathers is the founder and Director of R7K Research & Conveyance, a company specializing in software and organization design. Prior to forming R7K, Michael was the Chief Scientist of Obtiva and a consultant with Object Mentor International. Over the years, Michael has spent a great deal of time helping teams after design over time in code bases. Michael is also the author of the book Working Effectively with Legacy Code (Prentice Hall, 2004).</p>",
+				company: "Independent Consultant",
+				link: {
+					href: "http://twitter.com/mfeathers",
+					text: "@mfeathers"
+				},
+				workshop: {
+					title: "Working Effectively with Legacy Code",
+					description: "Test Driven Development and Refactoring are powerful tools. With them you can add new code to systems and make existingcode more maintainable. However, refactoring code without having tests in place can be hazardous. This workshop presents a collection of dependency breaking and test writing techniques that can be used to get existing code safely under test for refactoring. These techniques can be used in conjunction with Test Driven Development to breathe new life into large existing code bases. This workshop is structured as a set of lectures, discussions, and hands-on exercises.<br><br>Prerequisites: participants should have experience in Java, C#, or C++.<br><br>Requirements: a laptop computer with a Java, C#, or C++ programming environment.<br><br><b>Objectives</b><br><br>By the end of this workshop, you will:<ul><li>Understand what legacy code is<li>Understand how to break dependencies in legacy code<li>Learn a variety of techniques for breaking external dependencies<li>Learn a variety of techniques for breaking internal dependencies<li>Understand when to employ each of the techniques<li>Learn a variety of strategies for code refactoring<li>Learn how to identify change points<li>Learn how to find an inflection point<li>Understand the concept of test coverage for inflection points<li>Understand how to write effective tests for legacy code</ul><br><b>Outline</b><br><br>Here is a brief course outline for the workshop:<br>Day 1<ul><li>Introduction / Testing as a Programmer’s tool<li>Seam identification<li>Breaking Dependencies – Sensing and Separation<li>Breaking Hidden and Manifest Dependencies<li>Characterization Testing<li>Refactoring Toward Understandability</ul>Day 2<ul><li>Strategies for Getting Large Methods under Test<li>Dealing with Deeply Nested Conditionals<li>Planning Large-Scale Refactoring and Technical Debt Reduction</ul>",
+					day: "Day 0, Day 1 (Tuesday, Wednesday)",
+					time: "9:00 - 16:30"
+				}
 			}
 		],
 
