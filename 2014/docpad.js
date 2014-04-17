@@ -1366,7 +1366,7 @@ module.exports = {
 				speakers: [
 					{
 						name: 'Paul Stack',
-						title: 'Vagrant, the ability to think about production deployments from day 1 of development',
+						title: 'Vagrant - the essence of DevOps in a tool',
 						photo: 'themes/craftconf/img/speakers/PaulStack.png'
 					},
 				]
