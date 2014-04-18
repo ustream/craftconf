@@ -20,7 +20,9 @@ var schedule = {
 	break_title:        "Break",
 	break_raffle_title: "Break and Raffle",
 	lunch_title:        "Lunch",
-	dinner_title:       "Dinner & Conference Party",
+	dinner_title:       "Dinner & EPAM Party, <br/> <b>Performer:</b> <b>" +
+		"<a target=\"_blank\" href=\"http://www.littlegweevil.net/\">Little G Weevil</a></b>," +
+		"<br/> <b>Concert:</b> 20:30 - 22:00, <b>DJ:</b> until 24:00",
 	welcome_title:      "Welcome",
 	breakfast_title:    "Breakfast",
 	leanpoker_title:    "Lean Poker - A fun way to learn continuous deployment",
@@ -134,7 +136,7 @@ module.exports = {
 						]
 					},
 					{
-						name: 'Room1',
+						name: 'Room I',
 						slots: [
 							{ time: schedule.registration, title: schedule.registration_title },
 							{ time: schedule.welcome,      title: schedule.welcome_title },
@@ -155,7 +157,7 @@ module.exports = {
 						]
 					},
 					{
-						name: 'Room2',
+						name: 'Room III',
 						slots: [
 							{ time: schedule.registration, title: schedule.registration_title },
 							{ time: schedule.welcome,      title: schedule.welcome_title },
