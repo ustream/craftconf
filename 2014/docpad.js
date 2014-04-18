@@ -16,7 +16,7 @@ var schedule = {
 	talk6:        "16:30 - 17:10",
 	talk7:        "17:15 - 17:55",
 	talk8:        "17:55 - 18:40",
-	dinner:       "18:40 - 22:00",
+	dinner:       "18:40 - 24:00",
 	break_title:        "Break",
 	break_raffle_title: "Break and Raffle",
 	lunch_title:        "Lunch",
