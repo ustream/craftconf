@@ -1293,18 +1293,23 @@ module.exports = {
 		],
 
 		meetups: [
-			// {
-			// 	name: 'Budapest Database Meetup',
-			// 	url: 'http://www.meetup.com/Budapest-Database-Meetup/',
-			// 	date: '2014.04.23',
-			// 	speakers: [
-			// 		{
-			// 			name: 'Andrew Godwin',
-			// 			title: 'Wonderful World Of Databases',
-			// 			photo: 'themes/craftconf/img/speakers/AndrewGodwin.png'
-			// 		},
-			// 	]
-			// },
+			{
+				name: 'Budapest Database And Big Data Meetup',
+				url: 'http://www.meetup.com/Budapest-Database-Meetup/',
+				date: '2014.04.23',
+				speakers: [
+					{
+						name: 'Bjorn Freeman-Benson',
+						title: 'How New Relic uses MySQL as a NoSQL data store',
+						photo: 'themes/craftconf/img/speakers/BjornFreemanBenson.png'
+					},
+					{
+						name: 'Diego Ongaro',
+						title: 'RAMCloud',
+						photo: 'themes/craftconf/img/speakers/DiegoOngaro.png'
+					},
+				]
+			},
 			{
 				name: 'Frontend Meetup Budapest + UX Budapest',
 				url: 'http://www.meetup.com/Frontend-Meetup-Budapest/events/177259792/',
@@ -1370,6 +1375,23 @@ module.exports = {
 						name: 'Paul Stack',
 						title: 'Vagrant - the essence of DevOps in a tool',
 						photo: 'themes/craftconf/img/speakers/PaulStack.png'
+					},
+					{
+						name: 'Dan North',
+						title: '',
+						photo: 'themes/craftconf/img/speakers/DanNorth.png'
+					},
+				]
+			},
+			{
+				name: 'Budapest Agile Meetup Group',
+				url: 'http://www.meetup.com/AgileHungary/',
+				date: '2014.04.23',
+				speakers: [
+					{
+						name: 'Bruce Eckel',
+						title: 'Reinventing Business - Discovering Your Best Organizational Structure',
+						photo: 'themes/craftconf/img/speakers/BruceEckel.png'
 					},
 				]
 			},
