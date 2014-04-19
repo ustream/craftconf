@@ -1294,6 +1294,18 @@ module.exports = {
 
 		meetups: [
 			{
+				name: 'Budapest Agile Meetup Group',
+				url: 'http://www.meetup.com/AgileHungary/events/178027882/',
+				date: '2014.04.23',
+				speakers: [
+					{
+						name: 'Bruce Eckel',
+						title: 'Reinventing Business - Discovering Your Best Organizational Structure',
+						photo: 'themes/craftconf/img/speakers/BruceEckel.png'
+					},
+				]
+			},
+			{
 				name: 'Budapest Database And Big Data Meetup',
 				url: 'http://www.meetup.com/Budapest-Database-Meetup/',
 				date: '2014.04.23',
@@ -1380,18 +1392,6 @@ module.exports = {
 						name: 'Dan North',
 						title: '',
 						photo: 'themes/craftconf/img/speakers/DanNorth.png'
-					},
-				]
-			},
-			{
-				name: 'Budapest Agile Meetup Group',
-				url: 'http://www.meetup.com/AgileHungary/',
-				date: '2014.04.23',
-				speakers: [
-					{
-						name: 'Bruce Eckel',
-						title: 'Reinventing Business - Discovering Your Best Organizational Structure',
-						photo: 'themes/craftconf/img/speakers/BruceEckel.png'
 					},
 				]
 			},
