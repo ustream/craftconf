@@ -26,11 +26,6 @@
 		<a href="#speakers/TomomiImura">Tomomi Imura</a>
 	</div>
 	<div class="text">
-		<a id="join-quiz" href="about-quiz.html" class="clr">
-			<img src="themes/craftconf/img/how-crafted-are-you.png" width="100" height="100" />
-			<h1>Join our quiz to win 3 tickets!</h1>
-		</a>
-
 		<h1 class="grey">CRAFT is about software craftsmanship, which tools, methods, practices should be part of the toolbox of a modern developer and company, and it is a compass on new technologies, trends. You can learn from the best speakers and practitioners in our community.</h1>
 		<h1 class="grey">
 			April 23 will be a <a href="#workshops">workshop day</a>.
