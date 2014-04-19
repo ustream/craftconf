@@ -1312,7 +1312,7 @@ module.exports = {
 				speakers: [
 					{
 						name: 'Bjorn Freeman-Benson',
-						title: 'How New Relic uses MySQL as a NoSQL data store',
+						title: 'Using MySQL as a pseudo-NoSQL Database',
 						photo: 'themes/craftconf/img/speakers/BjornFreemanBenson.png'
 					},
 					{
