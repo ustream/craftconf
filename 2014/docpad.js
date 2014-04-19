@@ -1323,6 +1323,45 @@ module.exports = {
 				]
 			},
 			{
+				name: 'Budapest DevOps Meetup',
+				url: 'http://www.meetup.com/devopsbp/events/177860362/',
+				date: '2014.04.23',
+				speakers: [
+					{
+						name: 'Paul Stack',
+						title: 'Vagrant - the essence of DevOps in a tool',
+						photo: 'themes/craftconf/img/speakers/PaulStack.png'
+					},
+					{
+						name: 'Dan North',
+						title: 'Build your own Heroku - an experience report',
+						photo: 'themes/craftconf/img/speakers/DanNorth.png'
+					},
+				]
+			},
+			{
+				name: 'PHP Meetup Budapest',
+				url: 'http://www.meetup.com/phpmeetup/events/177325522/',
+				date: '2014.04.23',
+				speakers: [
+					{
+						name: 'Ben Mathews',
+						title: 'Facebook\'s Approach to Common Web Vulnerabilities',
+						photo: 'themes/craftconf/img/speakers/BenMathews.png'
+					},
+					{
+						name: 'Ricardo Fontes',
+						title: 'Need for Speed: How to improve slow application performance',
+						photo: 'themes/craftconf/img/speakers/RicardoFontes.png'
+					},
+					{
+						name: 'Attila M. Magyar',
+						title: 'Programming in handstand - how to discover different ways of thinking while solving simple problems with unusual constraints',
+						photo: 'themes/craftconf/img/speakers/AttilaMagyar.png'
+					},
+				]
+			},
+			{
 				name: 'Frontend Meetup Budapest + UX Budapest',
 				url: 'http://www.meetup.com/Frontend-Meetup-Budapest/events/177259792/',
 				date: '2014.04.23',
@@ -1353,45 +1392,6 @@ module.exports = {
 						name: 'David Judik',
 						title: 'Node.js with Tmux and Vim',
 						photo: 'themes/craftconf/img/speakers/DavidJudik.png'
-					},
-				]
-			},
-			{
-				name: 'PHP Meetup Budapest',
-				url: 'http://www.meetup.com/phpmeetup/events/177325522/',
-				date: '2014.04.23',
-				speakers: [
-					{
-						name: 'Ben Mathews',
-						title: 'Facebook\'s Approach to Common Web Vulnerabilities',
-						photo: 'themes/craftconf/img/speakers/BenMathews.png'
-					},
-					{
-						name: 'Ricardo Fontes',
-						title: 'Need for Speed: How to improve slow application performance',
-						photo: 'themes/craftconf/img/speakers/RicardoFontes.png'
-					},
-					{
-						name: 'Attila M. Magyar',
-						title: 'Programming in handstand - how to discover different ways of thinking while solving simple problems with unusual constraints',
-						photo: 'themes/craftconf/img/speakers/AttilaMagyar.png'
-					},
-				]
-			},
-			{
-				name: 'Budapest DevOps Meetup',
-				url: 'http://www.meetup.com/devopsbp/events/177860362/',
-				date: '2014.04.23',
-				speakers: [
-					{
-						name: 'Paul Stack',
-						title: 'Vagrant - the essence of DevOps in a tool',
-						photo: 'themes/craftconf/img/speakers/PaulStack.png'
-					},
-					{
-						name: 'Dan North',
-						title: '',
-						photo: 'themes/craftconf/img/speakers/DanNorth.png'
 					},
 				]
 			},
