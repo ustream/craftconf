@@ -1328,14 +1328,14 @@ module.exports = {
 				date: '2014.04.23',
 				speakers: [
 					{
-						name: 'Paul Stack',
-						title: 'Vagrant - the essence of DevOps in a tool',
-						photo: 'themes/craftconf/img/speakers/PaulStack.png'
-					},
-					{
 						name: 'Dan North',
 						title: 'Build your own Heroku - an experience report',
 						photo: 'themes/craftconf/img/speakers/DanNorth.png'
+					},
+					{
+						name: 'Paul Stack',
+						title: 'Vagrant - the essence of DevOps in a tool',
+						photo: 'themes/craftconf/img/speakers/PaulStack.png'
 					},
 				]
 			},
