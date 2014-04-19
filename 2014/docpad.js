@@ -1307,7 +1307,7 @@ module.exports = {
 			},
 			{
 				name: 'Budapest Database And Big Data Meetup',
-				url: 'http://www.meetup.com/Budapest-Database-Meetup/',
+				url: 'http://www.meetup.com/Big-Data-Meetup-Budapest/events/178044592/',
 				date: '2014.04.23',
 				speakers: [
 					{
