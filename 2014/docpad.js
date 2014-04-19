@@ -136,7 +136,7 @@ module.exports = {
 						]
 					},
 					{
-						name: 'Room I',
+						name: 'Room 1',
 						slots: [
 							{ time: schedule.registration, title: schedule.registration_title },
 							{ time: schedule.welcome,      title: schedule.welcome_title },
@@ -157,7 +157,7 @@ module.exports = {
 						]
 					},
 					{
-						name: 'Room III',
+						name: 'Room 2',
 						slots: [
 							{ time: schedule.registration, title: schedule.registration_title },
 							{ time: schedule.welcome,      title: schedule.welcome_title },
@@ -203,7 +203,7 @@ module.exports = {
 						]
 					},
 					{
-						name: 'Room1',
+						name: 'Room 1',
 						slots: [
 							{ time: schedule2.breakfast,   title: schedule.breakfast_title },
 							{ time: schedule2.leanpoker,   title: schedule.leanpoker_title },
@@ -222,7 +222,7 @@ module.exports = {
 						]
 					},
 					{
-						name: 'Room2',
+						name: 'Room 2',
 						slots: [
 							{ time: schedule2.breakfast,   title: schedule.breakfast_title },
 							{ time: schedule2.leanpoker,   title: schedule.leanpoker_title },
