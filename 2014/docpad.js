@@ -1380,7 +1380,7 @@ module.exports = {
 			},
 			{
 				name: 'Budapest DevOps Meetup',
-				url: 'http://www.meetup.com/devopsbp/',
+				url: 'http://www.meetup.com/devopsbp/events/177860362/',
 				date: '2014.04.23',
 				speakers: [
 					{
