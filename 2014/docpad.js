@@ -527,8 +527,8 @@ module.exports = {
 					text: "@ericevans0"
 				},
 				presentation: {
-					title: "Domain Driven Design",
-					// description: "Turn based servers are now joining turn based browsers in providing race-free and deadlock-free interactivity. The event-driven model has long been popular in UI systems, but the nature of work in servers presents some new challenges. Functional programming provides solutions, including monads, arrows, promises, and various flavors of FRP. This is another such solution, intended to enhance ease of use with constructs that support parallel and sequential operations.",
+					title: "Acknowledging CAP at the Root - in the Domain Model",
+					description: "The techniques used to distribute software, scale it through concurrency or make it tolerant of latency are hobbled when, deep inside, the business logic is based on inappropriate assumptions of consistency. Yet it is common to do domain modeling and design business features heedless of these issues, and then patch things up after the fact with technical tricks. In DDD, we consider the the CAP tradeoffs to be central concerns of the design, and we incorporate into our domain models explicit assertions about the boundaries of consistency. When deployment reveals that additional or different CAP tradeoffs must be made, we go back to the root of the problem and modify the  domain model to reflect those tradeoffs explicitly. In this talk, I’ll discuss three DDD patterns that help us address CAP tradeoffs: Aggregates, Domain Events and Bounded Contexts.",
 				}
 			},
 			{
