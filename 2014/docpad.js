@@ -1378,23 +1378,23 @@ module.exports = {
 					},
 				]
 			},
-			{
-				name: 'Node.js Budapest',
-				url: 'http://www.meetup.com/nodebp/events/172548072/',
-				date: '2014.04.23',
-				speakers: [
-					{
-						name: 'Dominic Tarr',
-						title: 'Evolution of Node Streams',
-						photo: 'themes/craftconf/img/speakers/DominicTarr.png'
-					},
-					{
-						name: 'David Judik',
-						title: 'Node.js with Tmux and Vim',
-						photo: 'themes/craftconf/img/speakers/DavidJudik.png'
-					},
-				]
-			},
+			// {
+			// 	name: 'Node.js Budapest',
+			// 	url: 'http://www.meetup.com/nodebp/events/172548072/',
+			// 	date: '2014.04.23',
+			// 	speakers: [
+			// 		{
+			// 			name: 'Dominic Tarr',
+			// 			title: 'Evolution of Node Streams',
+			// 			photo: 'themes/craftconf/img/speakers/DominicTarr.png'
+			// 		},
+			// 		{
+			// 			name: 'David Judik',
+			// 			title: 'Node.js with Tmux and Vim',
+			// 			photo: 'themes/craftconf/img/speakers/DavidJudik.png'
+			// 		},
+			// 	]
+			// },
 		],
 
 		quizQuestions: [
