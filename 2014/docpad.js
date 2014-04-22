@@ -144,7 +144,7 @@ module.exports = {
 							{ time: schedule.keynote,      title: 'Keynote in the Main room', keynote: true },
 							{ time: schedule.break1,       title: schedule.break_title},
 							{ time: schedule.talk1,        speaker: 'BenMathews' },
-							{ time: schedule.talk2,        speaker: 'JohnWillis' },
+							{ time: schedule.talk2,        speaker: 'RachelDavies' },
 							{ time: schedule.lunch,        title: schedule.lunch_title },
 							{ time: schedule.talk3,        speaker: 'MitchellHashimoto' },
 							{ time: schedule.talk4,        speaker: 'AsheDryden' },
@@ -841,6 +841,21 @@ module.exports = {
 				presentation: {
 					title: "Building on SOLID Foundations",
 					description: "Why can’t we just add a feature to our system without tearing the code apart or, worse, patching around it? It ought to take just a few lines. We know the code is supposed to be modular and coherent, but too often it just doesn’t turn out that way.<br><br>We don’t believe it should be this hard to change object-oriented systems. We’ve seen examples where it really is that easy to add a new feature. The difference seems to be in the intermediate level structure. The design principles that most programmers rely on don’t address the middle ground where the complexity lies. We know about principles and patterns at the small scale, such as SOLID, and the large scale, such as REST. We’re less familiar with the structures in the middle.<br><br>This talk is about design principles that we’ve learned help us develop mid-scale code structures that are easy to read and easy to change. At the lowest level, this means well-known patterns such as avoiding globals and following SOLID guidelines. At larger scales, this means assembling those SOLID objects to avoid hidden coupling so that the system as a whole is amenable to change. We focus on how objects fit together and communicate, and on being clear about how capabilities and information flow between objects in the running system.",
+				}
+			},
+			{
+				anchor: "RachelDavies",
+				name: "Rachel Davies",
+				photo: "themes/craftconf/img/speakers/RachelDavies.png",
+				bio: "<p>Rachel Davies is co-author of the first “Agile Coaching” book and works in UK as Agile Coach at Unruly Media, the leading global platform for social video marketing. Internationally recognized and presenting at industry conferences worldwide, Rachel started out working as a software developer and has been an agile practitioner since 2000 applying a range of agile methods including XP, SCRUM, Lean/Kanban, and DSDM. Follow her <a href=\"http://twitter.com/rachelcdavies\">@rachelcdavies</a></p>",
+				company: "Unruly Media",
+				link: {
+					href: "http://twitter.com/rachelcdavies",
+					text: "@rachelcdavies"
+				},
+				presentation: {
+					title: "Coaching teams through Change",
+					description: "When you come to a conference like this, you pick up new ideas that you’d like to try when you get back to work. However, you may feel like you hit a brick wall when it comes persuading your team to try the idea out. Resistance is very common in organisations large and small.<br><br>As an agile coach, Rachel has learned that forcing adoption of new practice results in minimal compliance. Teams who don’t want to be try the new approach often fall back to old ways of doing things.<br><br>Come to this talk to hear some ideas about how to dissolve barriers to adopting new working practices and get your team moving in the right direction.",
 				}
 			},
 			{
