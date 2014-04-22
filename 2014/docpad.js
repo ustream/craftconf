@@ -801,6 +801,21 @@ module.exports = {
 				}
 			},
 			{
+				anchor: "MichaelNygard",
+				name: "Michael Nygard",
+				photo: "themes/craftconf/img/speakers/MichaelNygard.png",
+				bio: "<p>Michael Nygard strives to raise the bar and ease the pain for developers around the world. He shares his passion and energy for improvement with everyone he meets, sometimes even with their permission. Living with systems in production taught Michael about the importance of operations and writing production-ready software. Highly-available, highly-scalable commerce systems are his forte. Michael has written and co-authored several books, including \"97 Things Every Software Architect Should Know\" and the best seller \"Release It!\", a book about building software that survives the real world. Michael works for <a href=\"http://www.cognitect.com/\">Cognitect Inc.</a>, the company behind Clojure, ClojureScript, Pedestal, and Datomic.</p>",
+				company: "Cognitect Inc.",
+				link: {
+					href: "http://twitter.com/mtnygard",
+					text: "@mtnygard"
+				},
+				presentation: {
+					title: "Exploiting Loopholes in CAP",
+					description: "By now, we've all learned the summary version of CAP: choose at most two from \"Consistency\", \"Availability\", and \"Partition-tolerance.\" It's usually framed as a binary choice between C and A, with P as the unavoidable reality. It turns out that the proof of CAP is very, very specific. We'll look at what it really says, and we will find loopholes big enough to drive a truck through. By exploring CAP at a deeper level, you will learn how to engineer practical, real-world systems with desirable features. After this talk, you will combine your theoretical understanding with your domain knowledge to make thoughtful choices in your distributed systems.<br><br>Key messages:<ul><li>Consistency is not just about your database.<li>The C in CAP is not the same as the C in ACID.</ul>",
+				}
+			},
+			{
 				anchor: "MitchellHashimoto",
 				name: "Mitchell Hashimoto",
 				photo: "themes/craftconf/img/speakers/MitchellHashimoto.png",
