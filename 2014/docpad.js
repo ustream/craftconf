@@ -310,15 +310,15 @@ module.exports = {
 				anchor: "AndyPiper",
 				name: "Andy Piper",
 				photo: "themes/craftconf/img/speakers/AndyPiper.png",
-				bio: "<p>Andy Piper is widely known as a Social Bridgebuilder and speaker, and works as Developer Advocate for Cloud Foundry, the Open Source Platform-as-a-Service. His passions span a wide variety of areas: cloud, devops, mobile devices, the Internet of Things, Arduino and similar technologies, social computing, and photography. He is project lead and developer on the Eclipse Paho lightweight messaging project. He works for Pivotal. Andy was previously with IBM Software Group for more than 10 years, as a consultant, strategist, and WebSphere Messaging Community Lead. He holds a Master of Arts (Oxf) in Modern History from Brasenose College, Oxford University.</p>",
-				company: "Pivotal",
+				bio: "<p>Andy Piper is widely known as a Social Bridgebuilder and speaker, and recently became a Developer Advocate at Twitter. He previously spent two years as Developer Advocate for Cloud Foundry, the Open Source Platform-as-a-Service, at Pivotal, and is recognised as a leading commentator on Cloud and PaaS. His passions span a wide variety of areas: cloud, devops, mobile devices, the Internet of Things, Arduino and similar technologies, social computing, and photography. He is project lead and developer on the Eclipse Paho lightweight messaging project. He holds a Master of Arts (Oxf) in Modern History from Brasenose College, Oxford University.</p>",
+				company: "Twitter",
 				link: {
 					href: "http://twitter.com/andypiper",
 					text: "@andypiper"
 				},
 				presentation: {
 					title: "Next-Generation Development Platforms: why data, code and mobile converge in the open cloud",
-					// description: "Getting things done is different at scale. After Case's company Geoloqi joined Esri in 2012, she grew her division from 6-20 people, and successfully launched two major products in the course of a year. She also managed the transition of the company to Github from Enterprise and spearheaded an effort for more open source projects. This speech will cover what Case learned from managing a team of 6 to managing a team of 20 in an international company of 3,000. It will detail hiring, morale, culture, and translating what you need to do into a language the larger team can understand, and what changes from 2 people to 6, to 20 and more.",
+					description: "In this session we'll attempt to come up with a forecast for the cloud in 2014. Why are cloud platforms so important in today's development and deployment environments? There's a \"perfect storm\" of big data, polyglot programming, and mobile devices driving cloud platforms forward, and we'll also look at why Open Source is a key factor in this evolution.",
 				}
 			},
 			{
