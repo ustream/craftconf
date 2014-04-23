@@ -147,10 +147,10 @@ module.exports = {
 							{ time: schedule.talk2,        speaker: 'RachelDavies' },
 							{ time: schedule.lunch,        title: schedule.lunch_title },
 							{ time: schedule.talk3,        speaker: 'MitchellHashimoto' },
-							{ time: schedule.talk4,        speaker: 'AsheDryden' },
+							{ time: schedule.talk4,        speaker: 'AlvaroVidela' },
 							{ time: schedule.talk5,        speaker: 'SzabolcsSzabolcsiToth' },
 							{ time: schedule.break2,       title: schedule.break_title},
-							{ time: schedule.talk6,        speaker: 'AlvaroVidela' },
+							{ time: schedule.talk6,        speaker: 'AsheDryden' },
 							{ time: schedule.talk7,        speaker: 'JohnHughes' },
 							{ time: schedule.talk8,        speaker: 'DouglasCrockford' },
 							{ time: schedule.dinner,       title: schedule.dinner_title },
@@ -558,7 +558,7 @@ module.exports = {
 				},
 				presentation: {
 					title: "Functional Reactive Programming in Elm and JS.",
-					// description: "Turn based servers are now joining turn based browsers in providing race-free and deadlock-free interactivity. The event-driven model has long been popular in UI systems, but the nature of work in servers presents some new challenges. Functional programming provides solutions, including monads, arrows, promises, and various flavors of FRP. This is another such solution, intended to enhance ease of use with constructs that support parallel and sequential operations.",
+					description: "Functional Reactive Programming (FRP) is a simple and elegant way to design and structure interactive code, like games and GUIs. Elm is a young functional language that brings this approach to the web, allowing you to easily create complex interactions. This talk will fully explain the key concepts of Functional Reactive Programming, building up to live-coding to show these ideas in action. It is quite easy to integrate Elm into existing JS projects, but the key insights of FRP will help you write better programs in any language.",
 				}
 			},
 			{
@@ -870,7 +870,7 @@ module.exports = {
 				},
 				presentation: {
 					title: "Coaching teams through Change",
-					description: "When you come to a conference like this, you pick up new ideas that you’d like to try when you get back to work. However, you may feel like you hit a brick wall when it comes persuading your team to try the idea out. Resistance is very common in organisations large and small.<br><br>As an agile coach, Rachel has learned that forcing adoption of new practice results in minimal compliance. Teams who don’t want to be try the new approach often fall back to old ways of doing things.<br><br>Come to this talk to hear some ideas about how to dissolve barriers to adopting new working practices and get your team moving in the right direction.",
+					description: "When you come to a conference like this, you pick up new ideas that you’d like to try when you get back to work. However, you may feel like you hit a brick wall when it comes persuading your team to try the idea out. Resistance is very common in organisations large and small.<br><br>As an agile coach, Rachel has learned that forcing adoption of new practice results in minimal compliance. Teams who don’t want to try the new approach often fall back to old ways of doing things.<br><br>Come to this talk to hear some ideas about how to dissolve barriers to adopting new working practices and get your team moving in the right direction.",
 				}
 			},
 			{
