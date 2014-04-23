@@ -55,7 +55,7 @@ module.exports = {
 	// These are variables will be accessible via our templates
 	templateData: {
 
-		cids: [111,222,333],
+		cids: [17590738,17867926,17867932],
 
 		// Conference info
 		conf: {
@@ -85,7 +85,7 @@ module.exports = {
 		// to deactivate comment out with '//'
 		// you can also change order here and it will reflect on page
 		sections: [
-			//'live',
+			'live',
 			'about',
 			'workshops',
 			'speakers',

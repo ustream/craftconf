@@ -28,7 +28,7 @@
 
 			setInterval($.proxy(function () {
 				this.setCurrentState();
-			}, this), 30000);
+			}, this), 50000);
 		},
 
 		onSelectorClick: function (e) {
@@ -49,7 +49,6 @@
 					next = false;
 
 				$.each(this.data['room_' + i], $.proxy(function (ind, talk) {
-					console.log(new Date(talk.start));
 					if (talk.start < currentTs && currentTs < talk.end) {
 						ongoig = talk;
 					}
