@@ -1,4 +1,8 @@
 ;(function ($, window, document) {
+	if (!window.craft) {
+		window.craft = {};
+	}
+
 	//Shim for requestAnimationFrame
 	window.requestAnimFrame = (function(){
 		return  window.requestAnimationFrame       ||
@@ -10,7 +14,7 @@
 	})();
 
 	//Application object
-	var app = {
+	craft.app = {
 		body: $(document.body),
 		htmlBody: $('html, body'),
 
@@ -327,11 +331,13 @@
 			this.handleInitialHash();
 			this.handleDiscountCode();
 			this.handleCurrentQuiz();
+
+			craft.live && craft.live.init();
 		}
 	};
 
 	//Let's rock!
 	$(function () {
-		app.init();
+		craft.app.init();
 	});
 } (jQuery, window, document));

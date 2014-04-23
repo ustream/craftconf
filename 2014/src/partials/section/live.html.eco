@@ -1,0 +1,57 @@
+<div class="block no-padding live clr">
+	<div class="live-viewer">
+		<iframe id="UstreamIframe" class="embed" src="http://ustream.tv/embed/3064708"></iframe>
+		<img src="http://static-cdn1.ustream.tv/images/placeholder_16x9:1396887665.gif" width="100%">
+	</div>
+	<div class="channels">
+		<ul>
+			<li class="room0 active" data-cid="<%= @cids[0] %>">
+				<h4>Main stage</h4>
+				<div class="live">
+					<h5></h5>
+					<span class="speaker"></span>
+				</div>
+				<div class="next clr">
+					<p>
+						next:
+					</p>
+					<div class="talk">
+						<h5><span class="time"></span><span class="title"></span></h5>
+						<span class="speaker"></span>
+					</div>
+				</div>
+			</li>
+			<li class="room1" data-cid="<%= @cids[1] %>">
+				<h4>Room1</h4>
+				<div class="live">
+					<h5></h5>
+				</div>
+				<div class="next clr">
+					<p>
+						next:
+					</p>
+					<div class="talk">
+						<h5><span class="time"></span><span class="title"></span></h5>
+						<span class="speaker"></span>
+					</div>
+				</div>
+			</li>
+			<li class="room2" data-cid="<%= @cids[2] %>">
+				<h4>Room2</h4>
+				<div class="live">
+					<h5></h5>
+					<span class="speaker"></span>
+				</div>
+				<div class="next clr">
+					<p>
+						next:
+					</p>
+					<div class="talk">
+						<h5><span class="time"></span><span class="title"></span></h5>
+						<span class="speaker"></span>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>

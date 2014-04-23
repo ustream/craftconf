@@ -46,7 +46,9 @@
 								<% if not slot.speaker: %>
 									<% if j == 0 and not slot.keynote: %>
 										<td class="schedule-slot" colspan="3">
-											<%- slot.title %>
+											<span class="talk-title">
+												<%- slot.title %>
+											</span>
 										</td>
 									<% end %>
 								<% else: %>
@@ -55,12 +57,12 @@
 											<td class="schedule-slot" colspan="3">
 												<%  @speaker = (speaker for speaker in @speakers when speaker.anchor == slot.speaker) %>
 												<% if @speaker: %>
-
 												<%- slot.title %>
-
 												<% for speaker,index in @speaker: %>
-													Keynote:
-													<%- speaker.presentation.title %>
+													<span class="talk-title">
+														Keynote:
+														<%- speaker.presentation.title %>
+													</span>
 														<span class="schedule-speaker">
 										                    <% if speaker.presentation.speakers: %>
 										                      <% for names, sindex in speaker.presentation.speakers: %>
@@ -88,7 +90,9 @@
 											<%- slot.title %>
 
 											<% for speaker,index in @speaker: %>
+												<span class="talk-title">
 												<%- speaker.presentation.title %>
+												</span>
 													<span class="schedule-speaker">
 														<% if speaker.coSpeakers: %>
 															<% for coSpeaker, coInd in speaker.coSpeakers: %>
@@ -151,15 +155,19 @@
 							<td class="schedule-time"><%- slot.time %></td>
 							<td class="schedule-slot">
 								<% if not slot.speaker: %>
-									<%- slot.title %>
+									<span class="talk-title">
+										<%- slot.title %>
+									</span>
 								<% else: %>
 									<%  @speaker = (speaker for speaker in @speakers when speaker.anchor == slot.speaker) %>
 									<% if @speaker: %>
 										<% for speaker,index in @speaker: %>
-										<% if (slot.keynote): %>
-											Keynote:
-										<% end %>
-										<%- speaker.presentation.title %>
+										<span class="talk-title">
+											<% if (slot.keynote): %>
+												Keynote:
+											<% end %>
+											<%- speaker.presentation.title %>
+										</span>
 										<span class="schedule-speaker">
 						                   <% if speaker.coSpeakers: %>
 												<% for coSpeaker, coInd in speaker.coSpeakers: %>
