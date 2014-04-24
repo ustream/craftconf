@@ -5,8 +5,8 @@
 
 	craft.live = {
 		days: {
-			day0: '2014-04-23',
-			day1: '2014-04-24'
+			day0: '2014-04-24',
+			day1: '2014-04-25'
 		},
 
 		data: {
@@ -34,7 +34,7 @@
 		onSelectorClick: function (e) {
 			var target = $(e.target).closest('li');
 
-			this.viewer.callMethod('load', 'channel', target.data('cid'));
+			this.viewer.callMethod('load', 'channel', target.data('cid'), true);
 
 			target
 				.addClass('active')

@@ -1,6 +1,6 @@
 <div class="block no-padding live clr">
 	<div class="live-viewer">
-		<iframe id="UstreamIframe" class="embed" src="http://ustream.tv/embed/3064708"></iframe>
+		<iframe id="UstreamIframe" class="embed" src="//www.ustream.tv/embed/<%= @cids[0] %>"></iframe>
 		<img src="http://static-cdn1.ustream.tv/images/placeholder_16x9:1396887665.gif" width="100%">
 	</div>
 	<div class="channels">
