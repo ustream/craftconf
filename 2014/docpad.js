@@ -85,7 +85,7 @@ module.exports = {
 		// to deactivate comment out with '//'
 		// you can also change order here and it will reflect on page
 		sections: [
-			'live',
+			//'live',
 			'about',
 			'workshops',
 			'speakers',
@@ -154,7 +154,7 @@ module.exports = {
 							{ time: schedule.talk4,        speaker: 'AlvaroVidela' },
 							{ time: schedule.talk5,        speaker: 'RachelDavies' },
 							{ time: schedule.break2,       title: schedule.break_title},
-							{ time: schedule.talk6,        speaker: 'AsheDryden' },
+							{ time: schedule.talk6,        speaker: 'TheoSchlossnagle2' },
 							{ time: schedule.talk7,        speaker: 'JohnHughes' },
 							{ time: schedule.talk8,        speaker: 'DouglasCrockford' },
 							{ time: schedule.dinner,       title: schedule.dinner_title },
@@ -220,6 +220,7 @@ module.exports = {
 							{ time: schedule2.talk4,       speaker: 'ChrisAtherton' },
 							{ time: schedule2.talk5,       speaker: 'DominicTarr' },
 							{ time: schedule2.talk6,       speaker: 'FerossAboukhadijeh' },
+							// Ide valahogy be kéne majd operálni AsheDryden-t
 							{ time: schedule2.break2,      title: schedule.break_raffle_title},
 							{ time: schedule2.talk7,       speaker: 'WimGodden' },
 							{ time: schedule2.talk8,       speaker: 'JeffHodges' }
@@ -561,7 +562,7 @@ module.exports = {
 					text: "@czaplic"
 				},
 				presentation: {
-					title: "Functional Reactive Programming in Elm and JS.",
+					title: "Functional Reactive Programming in Elm and JS",
 					description: "Functional Reactive Programming (FRP) is a simple and elegant way to design and structure interactive code, like games and GUIs. Elm is a young functional language that brings this approach to the web, allowing you to easily create complex interactions. This talk will fully explain the key concepts of Functional Reactive Programming, building up to live-coding to show these ideas in action. It is quite easy to integrate Elm into existing JS projects, but the key insights of FRP will help you write better programs in any language.",
 				}
 			},
@@ -980,6 +981,21 @@ module.exports = {
 				presentation: {
 					title: "Responsibly maximizing craftsmanship in software engineering",
 					description: "Craftsmanship in software tends to erode as team sizes increase.  This can be due to a large variety of reasons, but is often dependent on code base size, team size, and autonomy.  In this session I'll talk about some of the challenges companies face as these things change and how to manipulate teams, architectures and how people work to maintain software craftsmanship will still delivering product.",
+				}
+			},
+			{
+				anchor: "TheoSchlossnagle2",
+				name: "Theo Schlossnagle",
+				photo: "themes/craftconf/img/speakers/TheoSchlossnagle.png",
+				bio: "<p>Theo Schlossnagle is a Founder and Principal at OmniTI where he designs and implements scalable solutions for highly trafficked sites and other clients in need of sound, scalable architectural engineering. He is the architect of the highly scalable Ecelerity mail transport agent. Theo is a participant in various open source communities including OpenSolaris, Linux, Apache, PostgreSQL, perl, and many others. He is a published author in the area of scalability and distributed systems as well as a veteran speaker in the open source conference circuit. Theo founded several successful startups as engineering focused organizations including: OmniTI, Circonus, Message Systems and Fontdeck.</p>",
+				company: "Circonus",
+				link: {
+					href: "http://twitter.com/postwait",
+					text: "@postwait"
+				},
+				presentation: {
+					title: "A Career in Web Operations",
+					description: "Angry Theo will tell you to do better.",
 				}
 			},
 			{
