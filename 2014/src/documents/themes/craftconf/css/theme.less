@@ -1031,15 +1031,6 @@ td[colspan] {
 	.speakers-list {
 		padding: 0;
 	}
-
-	.block.live .live-viewer {
-		width: 100% !important;
-	}
-
-	.block.live .channels {
-		width: 100% !important;
-		height: auto;
-	}
 }
 
 @media (max-width: 768px) {
@@ -1441,14 +1432,14 @@ td[colspan] {
 
 /* LIVE section */
 
-.block.live {
-	margin-bottom: 30px;
+#content .block.live {
+	margin-bottom: 30px !important;
 
 	.live-viewer {
 		float: left;
 		position: relative;
-		width: 645px;
-		background: #000;
+		width: 100%;
+		height: 390px;
 
 		.embed {
 			position: absolute;
@@ -1465,20 +1456,24 @@ td[colspan] {
 	}
 
 	.channels {
-		float: left;
-		width: 315px;
-		height: 395px;
+		width: 100%;
+		height: 50px;
+		text-align: center;
 		font-size: 13px;
 		overflow: auto;
 		background: #FAF9F1;
 
 		li {
+			float: left;
+			width: 33.33%;
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
 			cursor: pointer;
 			padding: 10px;
-			border-bottom: 1px solid #e8e7df;
+			border-right: 1px solid #e8e7df;
 
 			&:last-child {
-				border-bottom: 0;
+				border-right: 0;
 			}
 
 			&:hover {
@@ -1490,50 +1485,9 @@ td[colspan] {
 			}
 
 			h4 {
+				line-height: 30px;
 				color: @brown;
 				text-transform: uppercase;
-				margin-bottom: 5px;
-			}
-
-			.live {
-				h5 {
-					color: @orange;
-					font-size: 14px;
-					line-height: 18px;
-				}
-
-				.speaker {
-					font-size: 12px;
-				}
-			}
-
-			.next {
-				color: #919191;
-				font-size: 12px;
-
-				& > p {
-					text-transform: uppercase;
-					margin-top: 0;
-					float: left;
-					font-weight: bold;
-					width: 35px;
-					line-height: 17px;
-				}
-
-				.talk {
-					width: 250px;
-					margin-left: 10px;
-					margin-top: 3px;
-					float: left;
-					line-height: 16px;
-				}
-
-				h5 {
-					display: block;
-					overflow: hidden;
-					white-space: nowrap;
-					text-overflow: ellipsis;
-				}
 			}
 		}
 	}

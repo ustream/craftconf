@@ -7,7 +7,7 @@
 					<a href="/2014/about.html" title="About" class="nav-link">About</a>
 				</li>
 				<% for section in @sections : %>
-					<% if section != 'about': %>
+					<% if section != 'about' && section != 'live': %>
 					<li class="nav-item">
 						<a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
 					</li>
