@@ -86,8 +86,8 @@
 					var time = $.trim(e.parent().find('.schedule-time').text()).split('-');
 
 					var item = {
-						start: new Date(this.days[dayKey] + ' ' + time[0]).getTime(),
-						end: new Date(this.days[dayKey] + ' ' + time[1]).getTime(),
+						start: new Date((this.days[dayKey] + ' ' + time[0]).replace(/-/g, '/')).getTime(),
+						end: new Date((this.days[dayKey] + ' ' + time[1]).replace(/-/g, '/')).getTime(),
 						time: time.join('-'),
 						title: $.trim(e.find('.talk-title').text()),
 						speaker: e.find('.schedule-speaker').text()

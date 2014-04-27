@@ -22,7 +22,7 @@
 				</div>
 			</li>
 			<li class="room1" data-cid="<%= @cids[1] %>">
-				<h4>Room1</h4>
+				<h4>Room I</h4>
 				<div class="live">
 					<h5></h5>
 				</div>
@@ -37,7 +37,7 @@
 				</div>
 			</li>
 			<li class="room2" data-cid="<%= @cids[2] %>">
-				<h4>Room2</h4>
+				<h4>Room III</h4>
 				<div class="live">
 					<h5></h5>
 					<span class="speaker"></span>
