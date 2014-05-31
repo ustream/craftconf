@@ -79,6 +79,9 @@
 									                            (<%- speaker.company %>)
 															<% end %>
 														</span>
+														<% if speaker.presentation.slides: %>
+															<a href="<%= speaker.presentation.slides %>" target="_blank">Download slides</a>
+														<% end %>
 													<% end %>
 												<% end %>
 											</td>
@@ -121,6 +124,9 @@
 															<% end %>
 														<% end %>
 													</span>
+													<% if speaker.presentation.slides: %>
+														<a href="<%= speaker.presentation.slides %>" target="_blank">Download slides</a>
+													<% end %>
 												<% end %>
 											<% end %>
 										</td>
@@ -196,6 +202,9 @@
 												<% end %>
 											<% end %>
 										</span>
+										<% if speaker.presentation.slides: %>
+											<a href="<%= speaker.presentation.slides %>" target="_blank">Download slides</a>
+										<% end %>
 										<% end %>
 									<% end %>
 								<% end %>

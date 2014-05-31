@@ -264,6 +264,7 @@ module.exports = {
 				presentation: {
 					title: "Functional Examples from Category Theory",
 					description: "Many concepts from Category Theory appear in functional programming languages, for example the functor, monoid, monad, and natural transformation. Although each of these concepts carries with it a distinct structure, each provides us with a way to unite the similarities in a piece of code, or even across and entire project, while still maintaining the crucial differences. Category Theory gives us the means to abstract over concepts such as types, type constructors, and operations, to name a few. In other words, Category Theory is the programmer's library of abstractions.<br><br>Functional languages, by their very nature, often direct the programmer to think abstractly in terms of categories. From a meta perspective, learning Category Theory helps us to become aware of the types of thoughts we have when we program in a functional language, versus say an imperative one. Programming in a different language inherently changes how we approach a problem, given the tools available in that language. By becoming aware of those differences in approach, we can make more informed choices in our programs.<br><br>In this talk we will discuss via example how we can understand various functional programs using a categorical approach. Additionally, we will discuss how we can use Category Theory to write cleaner and more maintainable code.",
+					slides: "http://alissapajer.github.io/conferenceslides/craftconf2014/#/"
 				}
 			},
 			{
@@ -279,6 +280,7 @@ module.exports = {
 				presentation: {
 					title: "Building a Distributed Data Ingestion System with RabbitMQ",
 					description: "Your company has servers distributed around the world and you need to process data in a centralised location. The data is produced by applications using different technology stacks and comes from various sources, from web servers to sensors. How could you solve this problem? Enter RabbitMQ.<br/><br/>In this talk we are going to show how to build a system that can ingest data produced at separate geo located areas (think AWS and it's many regions) and replicate it to a central cluster where it can be further processed and analysed.<br/><br/>We will present an example of how to build a system like this one by using RabbitMQ Federation to replicate data across AWS Regions and RabbitMQ support for many protocols to produce/consume data.<br/><br/>To help with scalability we are going to show an interesting way to implement sharded queues with RabbitMQ by using the Consistent Hash Exchange.<br/><br/>If you want to learn what else has RabbitMQ to offer beyond simple messaging and queueing, then this is the talk for you. <h4>Talk objective:</h4> Our goal is to show that over the years RabbitMQ has gone way beyond a \"simple\" AMQP server to be able to have federated brokers, HA queues and support for many protocols and languages. <h4>Target Audience:</h4><ul><li>Developers interested in building a data ingestion platform that span many locations across the world.</li><li>Developers that have built these kind of solutions already but are interested in learning about alternatives.</li><li>Developers interested in RabbitMQ and Messaging in general.</li></ul>",
+					slides: "http://www.slideshare.net/old_sound/rabbitmq-data-ingestion-at-craft-conf"
 				}
 			},
 			{
@@ -294,6 +296,7 @@ module.exports = {
 				presentation: {
 					title: "Getting Things Done at Scale",
 					description: "Getting things done is different at scale. After Case's company Geoloqi joined Esri in 2012, she grew her division from 6-20 people, and successfully launched two major products in the course of a year. She also managed the transition of the company to Github from Enterprise and spearheaded an effort for more open source projects. This speech will cover what Case learned from managing a team of 6 to managing a team of 20 in an international company of 3,000. It will detail hiring, morale, culture, and translating what you need to do into a language the larger team can understand, and what changes from 2 people to 6, to 20 and more.",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuRXNkakI4djVJQnc/edit?usp=sharing"
 				}
 			},
 		    {
@@ -309,6 +312,7 @@ module.exports = {
 			    presentation: {
 				    title: "Databases & Schemas in an Agile World",
 				    description: "Strict database schemas are a wonderful thing for data integrity, but they can get in the way of new features and fast, iterative development. Learn how you can change your database schema in a fast and downtime-free way, how PostgreSQL is enabling more and more lock-free schema changes, how the Django web framework and its community are adapting to support better schema workflows, and how, sometimes, you can use schemaless data in a relational database and get the best of both worlds - flexible storage, and fast query times.",
+				    slides: "https://speakerdeck.com/andrewgodwin/schemas-and-databases-in-an-agile-world"
 			    }
 		    },
 			{
@@ -324,6 +328,7 @@ module.exports = {
 				presentation: {
 					title: "Next-Generation Development Platforms: why data, code and mobile converge in the open cloud",
 					description: "In this session we'll attempt to come up with a forecast for the cloud in 2014. Why are cloud platforms so important in today's development and deployment environments? There's a \"perfect storm\" of big data, polyglot programming, and mobile devices driving cloud platforms forward, and we'll also look at why Open Source is a key factor in this evolution.",
+					slides: "http://www.slideshare.net/andypiper/craftconf-cloud2014"
 				}
 			},
 			{
@@ -339,6 +344,7 @@ module.exports = {
 				presentation: {
 					title: "The SCRUM and the willpower: how to boost your productivity",
 					description: "Willpower is the force that is between the brain activity (I want to do this or I need to do this) and the action itself (start coding). If there is not enough willpower, people find it difficult to start any activity (especially that involves concentration an decision making). The willpower is not endless (so-called muscle theory of willpower), it can be saved, it can be trained, there are approaches how to keep the willpower level high. To keep the willpower (and thus, productivity) on the high level, people should know and use different approaches that lay in the field on the social and cognitive science. There are a lot of evidences that SCRUM improves the developer’s productivity in terms of speed of development, code quality, and accuracy of design. Unfortunately mainly all recommendations from SCRUM coaches look like “believe me, if you do this, you will have better velocity”. Yes, it works. But why does it work? Sometimes SCRUM does not give such great results even when main elements are in place. The question “Why” and “What makes the difference” is here again. I will describe the model of relationship between the willpower related brain metabolism on very low level (specific amino acid cycle) and the SCRUM practices. I can prove that SCRUM addresses the productivity of the people’s brain using 3 different flows simultaneously. There are several tips that make these productivity flows working or not. You can make Agile productive, you can have non-productive Agile. I will show you where the difference is. Overall there are 10 productivity tips that can be put into 3 flows. As the outcome of this session, Agile coaches, and all people who can change the process (in fact that is any team member) will review their SCRUM: does the way they have it improve the productivity or they are losing all the power? The changes are cheap, the outcome can be huge.",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuLW5lWE5lS09wZXc/edit?usp=sharing"
 				}
 			},
 			{
@@ -354,6 +360,7 @@ module.exports = {
 				presentation: {
 					title: "Open source isn't for everyone, but it could be",
 					description: "The state of diversity in open source contributions is abysmal. With the number of female OSS contributors at a shockingly low 1.5% and other groups not even documented, we need to ask what we can be doing better as a community. We’ll discuss the barriers that people face contributing to our open source projects and what we can do to increase participation.",
+					slides: "https://speakerdeck.com/ashedryden/craft-conf-open-source-isnt-for-everyone-but-it-could-be"
 				}
 			},
 			{
@@ -384,6 +391,7 @@ module.exports = {
 				presentation: {
 					title: "Software Psychology: The Art of Listening to Code",
 					description: "Writing code is fun, it's necessary, it's hard, and it's incredibly satisfying both as a hobby and a profession. But once your project gets too large to hold entirely in your head, its elegance and simplicity starts to deteriorate - and that's where software psychology comes in. When we listen to the code, and the design, and the devops, we can hear the code calling for help and it can lead us to the right place to refactor, to redesign, and to robust-ize. A simple case of listening is mapping defect rates to modules and then refactor the modules with the worst rates. A more challenging case of listening is when a complex multi-service architecture'd app suffers a performance brown-out: what do you listen for and how do you counsel the code through it's difficulties?<br><br>I'll present a number of situations where listening to the code (or the design or the devops) is a good idea and various strategies (and tools) you can use to do so. I've got a wealth of examples from my years as a practicing software psychologist, so sit back and prepare to learn the art of listening.",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuMWUwc3l4Q2l2bW8/edit?usp=sharing"
 				}
 			},
 			{
@@ -399,6 +407,7 @@ module.exports = {
 				presentation: {
 					title: "Programming, Only Better",
 					description: "The programming paradigms that served us so well through the 80s and 90s are failing us. Building systems the way we're used to building them always seems to end in the inevitable death march towards exponential complexity. But once you stop to ask the right question- \"what's really causing all this complexity?\" - you realise the answers have really been staring you in the face all along. Debugging is only hard when you can't reason about your code. Concurrency is only hard when you can't predict the state of your code. Reusability is only hard when your components aren't naturally composable.<br><br>Fortunately, languages addressing these issues specifically are popping up all over the place. In many cases, it turns out we've had the solutions to our problems for a long time, we've just forgotten about them, or never really bothered to look. Let's take a moment to explore some of these languages, not as exercises in syntactic details, but looking at the inherent properties in their design that enable us to defy decades of OO tradition and write honest-to-Dijkstra bug free, fault tolerant software without even trying. After half a century in the wilderness, functional programming seems to finally be gaining some ground on the barbarians. Let's examine why.",
+					slides: "http://bodil.org/only-better/"
 				}
 			},
 			{
@@ -414,6 +423,7 @@ module.exports = {
 				presentation: {
 					title: "What Makes a Good Development Process?",
 					description: "This is a review and high-level observation of ideas and practices the development community has evolved over the last 20 years or so. My goal is not just to help fill gaps in your knowledge, but perhaps also to reveal patterns of the problems we’ve been solving, which might lead us to additional insights. In particular, how are we creating better communication paths with our stakeholders? And how does our new understanding of development influence our organizational structures (à la <a href=\"http://www.Reinventing-Business.com\">www.Reinventing-Business.com</a>)?",
+					slides: "http://prezi.com/n0bv35lp-zzw/what-makes-a-good-development-process/"
 				}
 			},
 			{
@@ -444,6 +454,7 @@ module.exports = {
 				presentation: {
 					title: "Uncomfortable UX: making life difficult and improving your product",
 					description: "No wireframe survives contact with the user. This is great for UX people, because it means our lives are never dull — but it also makes things complicated for developers who just want to get on and build something. While it can be uncomfortable to challenge a team’s assumptions about what you are building and who it’s for, it is absolutely worthwhile.<br><br>In this session I will talk about:<ul><li>getting over the fear of putting something half-finished in front of users<li>how to get fast feedback from your users<li>different ways to involve your team in research<li>quick methods for communicating research findings<li>some surprising ways that continuous feedback from users benefits everyone</ul>",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuYkNtNXlTYnVabGs/edit?usp=sharing"
 				}
 			},
 			{
@@ -459,6 +470,7 @@ module.exports = {
 				presentation: {
 					title: "Jackstones: the journey to mastery",
 					description: "It takes time to become really good at something. Time, commitment and a genuine passion. If you're not having fun the learning is a chore, if you are then it hardly feels like learning at all, at least not like the thing they made you do in school. Craftsmanship is about making that commitment and then figuring out how to see it through.<br><br>Using examples of mastery from various fields and a thirty year paper-folding habit, Dan describes some of the many facets of craftsmanship and tries to figure out exactly what the craft is that we programmers do.",
+					slides: "https://speakerdeck.com/tastapod/jackstones-the-journey-to-mastery"
 				}
 			},
 			{
@@ -474,6 +486,7 @@ module.exports = {
 				presentation: {
 					title: "Browser Cryptography: Pros, Cons, and a way forward",
 					// description: "",
+					slides: "https://docs.google.com/a/ustream.tv/presentation/d/1lFvGT0kleekbuuT0iwbcrH4qzYBNOBTEXvLHwaBaOsU/edit#slide=id.g2727923dd_010"
 				}
 			},
 			{
@@ -489,6 +502,7 @@ module.exports = {
 				presentation: {
 					title: "Using Raft for Small-Scale Coordination and Large-Scale Replication",
 					// description: "",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuNDE3R3pOOFFxbEk/edit?usp=sharing"
 				}
 			},
 			{
@@ -519,6 +533,7 @@ module.exports = {
 				presentation: {
 					title: "The Better Parts",
 					description: "This talk is about using programming languages more effectively, and using the experience to create and select better programming languages. There are bad practices in software development that are so old and well established that it is difficult to recognize the problems they cause. There will be a review of the new good parts in ES6. JSON will also be mentioned.",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuUi02S1dYNmRfZlk/edit?usp=sharing"
 				}
 			},
 			{
@@ -564,6 +579,7 @@ module.exports = {
 				presentation: {
 					title: "Functional Reactive Programming in Elm and JS",
 					description: "Functional Reactive Programming (FRP) is a simple and elegant way to design and structure interactive code, like games and GUIs. Elm is a young functional language that brings this approach to the web, allowing you to easily create complex interactions. This talk will fully explain the key concepts of Functional Reactive Programming, building up to live-coding to show these ideas in action. It is quite easy to integrate Elm into existing JS projects, but the key insights of FRP will help you write better programs in any language.",
+					slides: "http://prezi.com/zj2ilzunvsck/philly-ete-craft-2014/"
 				}
 			},
 			{
@@ -579,6 +595,7 @@ module.exports = {
 				presentation: {
 					title: "WebTorrent: Using WebRTC and Mad Science to Bring BitTorrent to the Web",
 					description: "WebRTC changes everything! For the first time, we can do peer-to-peer, or client-to-client, communication in the browser without plugins, extensions, or a software installation. This enables an entirely new class of applications to be built for the web! This talk will look at WebTorrent, a BitTorrent client for the browser that fully-interoperates with the regular BitTorrent network. WebTorrent uses WebRTC Data Channels and special \"hybrid clients\" to connect to the wider BitTorrent network. By making BitTorrent easier, we're making it accessible to new swathes of users who were previously intimidated, confused, or unwilling to install a program on their computer to participate.",
+					slides: "https://speakerdeck.com/feross/webtorrent-bringing-bittorrent-to-the-web-with-webrtc-and-mad-science"
 				}
 			},
 			{
@@ -594,6 +611,7 @@ module.exports = {
 				presentation: {
 					title: "Continuous integration for Infrastructure",
 					description: "Continuous integration is the practice of merging code from individual working copies with a shared mainline on every commit. It's main aim is to prevent integration problems from many people working on the same codebase and it is now common practices amongst high performing software teams.<br><br>Continuous integration maps well to infrastructure practices too, where you generally have only one production infrastructure but many people working on it. But what does unit testing or integration testing mean in the context of infrastructure as code? And do other common software checks like linting, code coverage or static analysis have equivalents for infrastructure pipelines?<br><br>This talk will explore what is possible when you treat your infrastructure as code, looking across Infrastructure as a Service, Platform as a Service and container based deployments to identify useful patterns and practices.",
+					slides: "https://speakerdeck.com/garethr/continuous-integration-for-infrastructure"
 				}
 			},
 			{
@@ -609,6 +627,7 @@ module.exports = {
 				presentation: {
 					title: "Find the Right Abstraction Level for Your Tests",
 					description: "For automated tests to provide true return on investment, they must do more than verify that the desired behavior has been achieved; they must also provide a clear and concise human-readable description of that behaviour. Furthermore, they must be reliable and robust in the face of constantly evolving system functionality. Achieving all of these goals requires close attention to the craftsmanship of our test code as well as finding the right vocabulary (and therefore abstraction level) for describing the functionality. Gerard will demonstrate how to apply these ideas to both unit tests and component or even system-level tests using a variety of test automation tools.",
+					slides: "http://craft2014slides.testautomationpatterns.com/"
 				}
 			},
 			{
@@ -623,7 +642,8 @@ module.exports = {
 				},
 				presentation: {
 					title: "How I Learned to Stop Worrying and Love Flexible Scope",
-					description: "Not fixing scope too far in the future is one of the cornerstones of agile delivery, but it is at the same time the thing that enterprise stakeholders fear the most. Ironically, being able to change decisions after delivery starts is one of the biggest benefits that companies can get from agile delivery, so it's necessary to stop worrying and embrace flexible scope to get the full benefits of an iterative process. In this talk, Gojko Adzic will show you how to convince people to embrace flexible scope, not only for startup environments but for big enterprise projects as well."
+					description: "Not fixing scope too far in the future is one of the cornerstones of agile delivery, but it is at the same time the thing that enterprise stakeholders fear the most. Ironically, being able to change decisions after delivery starts is one of the biggest benefits that companies can get from agile delivery, so it's necessary to stop worrying and embrace flexible scope to get the full benefits of an iterative process. In this talk, Gojko Adzic will show you how to convince people to embrace flexible scope, not only for startup environments but for big enterprise projects as well.",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuRHd5VDBEU2p6SE0/edit?usp=sharing"
 				}
 			},
 			{
@@ -654,6 +674,7 @@ module.exports = {
 				presentation: {
 					title: "Graph Search: The Power of Connected Data",
 					description: "Today's complex data is big, variably-structured and densely connected. In this talk I'll look at how size, structure and connectedness have converged to change the way we work with data. I'll then look at some of the new opportunities for creating end-user value that have emerged in a world of connected data, illustrated with graph search examples implemented using the Neo4j graph database.",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuRDUtdWxvOGlzTUU/edit?usp=sharing"
 				}
 			},
 			{
@@ -684,6 +705,7 @@ module.exports = {
 				presentation: {
 					title: "Data-Driven Software Engineering",
 					description: "Did you know that only about 60% of releases are delivered on time and only half of those are without critical bugs? Delivering quality software on time is an enormous challenge due to all the inherent complexities. There are multiple practices, tools and methodologies that promise improvement, but do they deliver?<br>It is time to stop basing our decisions on anecdotes. We need a simple and solid model of software delivery and a measurement system that allows to test their validity. We started such a model and surveyed a 1000 organisations against it. We will show you quantified results on the improvements you can expect with particular tools and practices as well as discuss the model itself and how it can be applied in your environment.<br><br>You will walk out with a quantified data on how to answer questions like \"Should we use pair programming?\", \"How much automated tests is enough?\" and \"What can we do to improve?\"",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuUjVpaEpoMVBzemM/edit?usp=sharing"
 				}
 			},
 			{
@@ -699,6 +721,7 @@ module.exports = {
 				presentation: {
 					title: "Testing the Hard Stuff and Staying Sane",
 					description: "Even the best test suites can't entirely prevent nasty surprises: race conditions, unexpected interactions, faults in distributed protocols and so on, still slip past them into production. Yet writing even more tests of the same kind quickly runs into diminishing returns. I'll talk about new automated techniques that can dramatically improve your testing, letting you focus on what your code should do, rather than which cases should be tested--with plenty of war stories from the likes of Ericsson, Klarna and Volvo Cars, to show how these new techniques really enable us to nail the hard stuff.",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuR2J6cmMwcXRjNEU/edit?usp=sharing"
 				}
 			},
 			{
@@ -729,6 +752,7 @@ module.exports = {
 				presentation: {
 					title: "Going Reactive: Event-Driven, Scalable, Resilient & Responsive Systems",
 					description: "The demands and expectations for applications have changed dramatically in recent years. Applications today are deployed on a wide range of infrastructure; from mobile devices up to thousands of nodes running in the cloud—all powered by multi-core processors. They need to be rich and collaborative, have a real-time feel with millisecond response time and should never stop running. Additionally, modern applications are a mashup of external services that need﻿ to be consumed and composed to provide the features at hand.<br><br>We are seeing a new type of applications emerging to address these new challenges—these are being called Reactive Applications. In this talk we will discuss four key traits of Reactive; Event-Driven, Scalable, Resilient and Responsive—how they impact application design, how they interact, their supporting technologies and techniques, how to think when designing and building them—all to make it easier for you and your team to Go Reactive.",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuR0dQYU03UlBhWmc/edit?usp=sharing"
 				}
 			},
 			{
@@ -744,6 +768,7 @@ module.exports = {
 				presentation: {
 					title: "Complex Projects aren't planable but controllable",
 					description: "Science has finally approved it: Forecasting complex projects is a deception. Moreover, forecasts hinder innovations. Daniel Kahneman, Nobel Prize Winner in Economic Sciences and psychologist verified in many cases, that forecasting of complex projects is impossible. Yet still, we keep losing time trying to do exactly that. Beyond Budgeting came empirically to the same findings and offers a concept for controlling corporations without budgets. Additionally Beyond Budgeting provides advice for controlling even long-term complex projects. Agile methodologies generally recommend developing a long-term plan on a coarse-grained level only and coming up with detailed short-term plans iteratively. In this talk I want to provide insights in the latest scientific research and show as well how Beyonddeudgeting and Agile principles can be combined so that even complex projects remain controllable.<h4>Learning objectives:</h4><ul><li>Understand why forecasting complex projects is impossible</li><li>Become acquainted with the core ideas of Beyond Budgeting</li><li>Understand how Beyond Budgeting can be applied on Agile projects</li></ul>",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuT3FwVzBPVllrZDA/edit?usp=sharing"
 				}
 			},
 			{
@@ -759,6 +784,7 @@ module.exports = {
 				presentation: {
 					title: "The art of building tools - A language engineering perspective",
 					description: "Developing software often requires using a number of tools and languages. In embedded software, for example, it is common to use C and its IDE, Matlab/Simulink, a number of custom XML files, a requirements management tool such as DOORS and possibly a UML tool and a variant management tool. The integration of such a zoo of tools is often a major source of (accidental) complexity in development projects.<br><br>Contrast that with the \"good old days\" when everything was text files and command line executables running on the unix shell. This approach had two important properties: the infrastructure was extremely generic (unix shell, pipes, text editors) and the actual contents were easily extensible and composable (new text file formats/languages and new command line tools); a productive environment for a given project or domain could easily be built from the generic infrastructure plus a few custom extensions.<br><br>In this talk I want to propose that creating (domain-specific) development environments based on language workbenches results in many of the same advantages that we all valued in the unix shell-world. A language workbench is an extremely generic infrastructure that is easily extensible with new languages. It is easy to create domain-specific development tools that can address different aspects of the system with suitable abstractions, but are nonetheless very well integrated in terms of syntax, semantics and tooling.<br><br>In the talk, I illustrate the approach with examples from two domains. One is mbeddr, an open source environment optimized for embedded software development. A second example is taken from the business/insurance domain.",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuQkpIME1sMHVMbFE/edit?usp=sharing"
 				}
 			},
 			{
@@ -774,6 +800,7 @@ module.exports = {
 				presentation: {
 					title: "It's never too late to fight your legacy!",
 					description: "Every frontend developer reaches the point where continuous feature development and rapid changes makes it hard to maintain a codebase in large scale, and the complexity starts to climb up to the sky. Instability and slower development is not an option for us, so we had to experiment with new methods and technologies. Unit testing was not a common technique on client-side in recent years, but over a certain amount of complexity it's essential. <br /><br />At Ustream we feel the need of full coverage including unit testing and end-to-end testing and bringing our structured framework into play with continuous integration on the frontend side. My presentation provides insight into our first problems, tells where we are on this bumpy road, and what is our plan to maintain this state in the future.",
+					slides: "https://speakerdeck.com/matenadasdi/its-never-too-late-to-fight-your-legacy"
 				}
 			},
 			{
@@ -788,6 +815,7 @@ module.exports = {
 				},
 				presentation: {
 					title: "Conway's Law and You: How to Organize your Organization for Optimal Development",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuZm1NS3hsdnM2MEk/edit?usp=sharing"
 				}
 			},
 			{
@@ -803,6 +831,7 @@ module.exports = {
 				presentation: {
 					title: "Delivering Continuous Delivery Continuously",
 					description: "Over the last few years the Guardian has built up a set of tools (commercial and in house) that allows developers to build fully integrated continuous delivery pipelines in minutes rather than hours or even days. This reflects a change on the ground where developers have geared up to take on far more operational responsibility whilst operations have taken on a consultancy role to the developers.<br><br>At the heart of this has been the creation of an in house deployment tool that streamlines what was previously a set of manual steps (with too many opportunities for humans to type “yes↵”) into a self service web application with an API and easy integration with the build system.<br><br>This talk will go through the tools and processes that have been created to make continuous delivery easy and show that:<ul><li>By providing tools that let developers deploy whilst keeping operations in the loop we reduce time to deploy, can deploy more frequently and allow operations to spend their time more usefully<li>By providing tools that are easy to chain together in different ways, users are able to experiment and try new things</ul>",
+					slides: "http://www.slideshare.net/sihil/delivering-continuous-delivery-continuously"
 				}
 			},
 			{
@@ -861,6 +890,7 @@ module.exports = {
 				presentation: {
 					title: "Building on SOLID Foundations",
 					description: "Why can’t we just add a feature to our system without tearing the code apart or, worse, patching around it? It ought to take just a few lines. We know the code is supposed to be modular and coherent, but too often it just doesn’t turn out that way.<br><br>We don’t believe it should be this hard to change object-oriented systems. We’ve seen examples where it really is that easy to add a new feature. The difference seems to be in the intermediate level structure. The design principles that most programmers rely on don’t address the middle ground where the complexity lies. We know about principles and patterns at the small scale, such as SOLID, and the large scale, such as REST. We’re less familiar with the structures in the middle.<br><br>This talk is about design principles that we’ve learned help us develop mid-scale code structures that are easy to read and easy to change. At the lowest level, this means well-known patterns such as avoiding globals and following SOLID guidelines. At larger scales, this means assembling those SOLID objects to avoid hidden coupling so that the system as a whole is amenable to change. We focus on how objects fit together and communicate, and on being clear about how capabilities and information flow between objects in the running system.",
+					slides: "http://www.higherorderlogic.com/building-on-solid-foundations-slides.pdf"
 				}
 			},
 			{
@@ -876,6 +906,7 @@ module.exports = {
 				presentation: {
 					title: "Coaching teams through Change",
 					description: "When you come to a conference like this, you pick up new ideas that you’d like to try when you get back to work. However, you may feel like you hit a brick wall when it comes persuading your team to try the idea out. Resistance is very common in organisations large and small.<br><br>As an agile coach, Rachel has learned that forcing adoption of new practice results in minimal compliance. Teams who don’t want to try the new approach often fall back to old ways of doing things.<br><br>Come to this talk to hear some ideas about how to dissolve barriers to adopting new working practices and get your team moving in the right direction.",
+					slides: "http://www.slideshare.net/RachelDavies/craft-coaching-teams"
 				}
 			},
 			{
@@ -906,6 +937,7 @@ module.exports = {
 				presentation: {
 					title: "Agility and the essence of software architecture",
 					description: "On one hand the software development industry is pushing forward, reinventing the way that we build software, striving for agility and craftsmanship at every turn. On the other though, we're continually forgetting the good of the past and software teams are still failing on an alarmingly regular basis. Software architecture plays a pivotal role in the delivery of successful software yet it’s often neglected. Whether performed by one person or shared amongst the team, the software architecture role exists on even the most agile of teams yet the balance of up front and evolutionary thinking often reflects aspiration rather than reality. By steering away from big up front design and ivory tower architects, many teams now struggle to create a consistent, shared technical vision to work from. This can result in chaos, big balls of mud or software that still fails to meet its goals, despite continuous user involvement.<br><br>This talk will explore the importance of software architecture and the consequences of not thinking about it, before introducing some lightweight techniques to bring the essence of software architecture back into an agile environment. We'll look at creating a shared vision within the development team, effectively communicating that vision and managing technical risk. I'll also share the strategies that I've used to introduce these techniques into agile teams, even those that didn't think that they needed them. Expect collaboration, sketching and plenty of gamestorming.",
+					slides: "http://static.codingthearchitecture.com/presentations/craftconf2014-agility-and-the-essence-of-software-architecture.pdf"
 				}
 			},
 			{
@@ -921,6 +953,7 @@ module.exports = {
 				presentation: {
 					title: "Continuous Delivery Cookbook: practical recipes from Yahoo",
 					description: "In today’s world commit to production latency is measured in minutes. Companies have to implement Continuous Delivery to stay competitive. As we implemented Continuous Delivery at Yahoo, we have tried many approaches. In this talk I will share some of the best practices covering such topics as:<ul><li>CD Pipeline design and implementation<li>UI testing<li>Certifying distributed systems<li>Production roll outs<li>Massively multi-programmer software systems</ul>",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuS040YU9sbk9vQ28/edit?usp=sharing"
 				}
 			},
 			{
@@ -936,6 +969,7 @@ module.exports = {
 				presentation: {
 					title: "Persistence: A view from Stratosphere",
 					description: "This talk is on one hand a presentation of the latest big data systems and approaches as Google Spanner, Presto, etc. and on the other hand a venture prediction of the future of persistence and data analytics. It covers data formats - the next wave after JSON? -, and  general directions of the NoSQL / NewSQL space. It briefly includes the earlier diverge and todays convergence of the database world. This leads to public guidelines how to avoid drowning in tons of persistence solutions all promising adventures in Alice wonderland. But you should take a step back and have a look at architectures that are able to handle big data, fast data streaming, analytics, semistructured / unstructured data and many more requirements. Decent out of the box solutions are still missing. And finally it's no secret that big data analytic questions are often severe in terms of scaling. But the shapes of the next generation systems in this space are visible and will be illustrated.",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuRmEyanZLbnY1VWs/edit?usp=sharing"
 				}
 			},
 			{
@@ -951,6 +985,7 @@ module.exports = {
 				presentation: {
 					title: "Architecture War Stories",
 					description: "In this session, I will talk about entertaining examples of architectural disasters in software projects. We will see how excellent ideas can turn into nightmares, how one can slowly but thoroughly introduce incredible complexity, and how a merge between organizational and technical failures can grind productivity to a halt. Names and irrelevant details have been changed to protect the somewhat innocent, but everything is based on actual things I had to experience – and sometimes helped create – in the real world.",
+					slides: "https://speakerdeck.com/stilkov/architecture-war-stories"
 				}
 			},
 			{
@@ -966,6 +1001,7 @@ module.exports = {
 				presentation: {
 					title: "JavaScript Module Server",
 					// description: "",
+					slides: "http://necccc.github.io/craft-jms"
 				}
 			},
 			{
@@ -981,6 +1017,7 @@ module.exports = {
 				presentation: {
 					title: "Responsibly maximizing craftsmanship in software engineering",
 					description: "Craftsmanship in software tends to erode as team sizes increase.  This can be due to a large variety of reasons, but is often dependent on code base size, team size, and autonomy.  In this session I'll talk about some of the challenges companies face as these things change and how to manipulate teams, architectures and how people work to maintain software craftsmanship will still delivering product.",
+					slides: "https://speakerdeck.com/postwait/the-paradox-of-software-craftsmanship"
 				}
 			},
 			{
@@ -1011,6 +1048,7 @@ module.exports = {
 				presentation: {
 					title: "Babelsberg - Modularizing Constraint Satisfaction in Imperative Programs",
 					description: "Constraints are relations between objects that we want to hold. This could be that all parts in an electrical circuit simulation obey the laws of physics, that the rows in a Sudoku add up to 9, or that a streamed video play smoothly in the presence of changing CPU or network load.<br><br>Babelsberg presents an integration of constraint satisfaction with objects and their methods in Ruby and JavaScript, building on earlier work on constraint-imperative programming. In Babelsberg, constraints are assertions that the system tries to satisfy automatically. In my talk, I will discuss the motivations for creating a new language in general and for Babelsberg in particular, and present examples of how we applied Babelsberg to existing problems.",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuZHRrc25XUlY1TXM/edit?usp=sharing"
 				}
 			},
 			{
@@ -1026,6 +1064,7 @@ module.exports = {
 				presentation: {
 					title: "The State of Mobile HTML5",
 					description: "\"Mobile web is dead\" - We have seen this sensational title on tech articles and blogs numerous times. And we, web developers have been trying to defend the web for past years without much success.<br><br>In the beginning of last year, I showcased the capabilities of the Web platform and the real-life use cases of HTML5 in mobile by writing a camera application using W3C HTML5 standards and JavaScript. Although some of the obscure APIs may have surprised web developers how much HTML5 can do, the web app was still nowhere close to be perfect, or cross-browser compatible. Now, one year has passed since, and how have browsers been improved? New proposals? What are still missing, and what do we need to do to stop the obnoxious tech writes from writing the obituaries of HTML5?",
+					slides: "https://speakerdeck.com/girlie_mac/the-state-of-mobile-html5-2013-2014"
 				}
 			},
 			{
@@ -1041,6 +1080,7 @@ module.exports = {
 				presentation: {
 					title: "Erlang Patterns Matching Business Needs",
 					description: "In this talk we will present a number of common patterns from Erlang systems and how these patterns relates to business needs.<br><br>Most of the patterns revolve around the notion of how failure is handled and we will discuss how active treatment of failure leads to better options for the product owner when it comes to prioritising fixes and new features.<br><br>By modelling the patterns using OPM (Object-Process Methodology) we get a new way of talking about Erlang systems and architectures, which will make our thoughts and insights easier to share.",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpudFpBOWp5Q3ZQQjQ/edit?usp=sharing"
 				}
 			},
 			{
@@ -1056,6 +1096,7 @@ module.exports = {
 				presentation: {
 					title: "When dynamic becomes static: the next step in web caching techniques",
 					description: "Tools like Varnish can improve scalability for static sites, but when user-specific content is needed, a hit to the backend is still needed, causing scalability issues. We'll look at a new Nginx module which implements a fast and scalable solution to this problem, changing the way developers think about designing sites with user-specific content. We'll go into how the module works and we'll put the old and new setups head-to-head to showcase the performance and scalability differences.",
+					slides: "https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuOUF6OHhSNW1FWUU/edit?usp=sharing"
 				}
 			},
 		],

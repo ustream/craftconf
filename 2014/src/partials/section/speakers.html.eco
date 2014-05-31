@@ -60,8 +60,8 @@
 			    <% if speaker.presentation.title || speaker.presentation.time: %>
 		            <div class="speech-info">
 						<h3 class="speech-title">
-							<% if time: %>
-								<span class="speech-time"><%= dayTitle %> &mdash; <%= time %></span>
+							<% if speaker.presentation.slides: %>
+								<a class="speech-time" href="<%= speaker.presentation.slides %>" target="_blank">Download slides</a>
 							<% end %>
 						<span class="title"> <%= speaker.presentation.title %></span>
 						</h3>
