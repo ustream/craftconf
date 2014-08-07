@@ -862,6 +862,7 @@ module.exports = {
 				presentation: {
 					title: "Vagrant, Packer, Consul: Maximum Potency DevOps",
 					description: "In 2013, we saw the introduction of many new DevOps tools and existing tools such as Vagrant saw some huge improvements and features added. With all this change, its hard to keep up with not only what has changed, but how to use these changes and what benefits they have.<br><br>This talk begins by briefly introducing a handful of my own tools: Vagrant, Packer, and Consul. I talk about what their purpose is, some of their latest features, and who is using these tools. I then continue to show how these tools can be used along with other software such as Docker to create some truly amazing development and production stacks. For production stacks, I discuss the benefits of using some of these tools over existing options, and for development stacks, I show how Vagrant improves process and workflow to help streamline the entire process from development through to production.",
+					slides: "https://docs.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuXy1sR3RFZjI1RTJ3U2FOeGRaRWNnWHdMVVk4/edit"
 				}
 			},
 			{
